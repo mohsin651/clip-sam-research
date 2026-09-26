@@ -1,0 +1,19 @@
+﻿# Frozen RefCOCO+ evaluation protocol
+
+Evaluation-only UNC testA and testB, combined expression-weighted aggregate and split-specific results. No training, tuning, recalibration, prompt alternatives or negative points. Exact positive-only infer_one imported from run_refcoco_frozen.py; its recorded source hash and original frozen COCO integrity are verified. Same CLIP/SAM weights, top-three spatial positive prompts, original geometry, features, smart ranker and density fallback. Existing center-point control reused unchanged.
+
+Original RefCOCO+ expressions verbatim, normal tokenizer, no filtering. Decode every target and verify complete competitor annotations against official COCO IDs before inference. All valid samples retained, including targets outside the CLIP crop. Archive source, hashes, split sizes and image verification recorded. COCO train2014 images reused by exact filename/dimensions/hash or downloaded from official host.
+
+Before inference audit overlap with original COCO development, COCO heldout, RefCOCO negative-point VAL development, and all RefCOCO testA/testB images. Standard tests retain overlaps; strict cohort excludes their union. Report combined and per-split strict sizes. If strict is empty, explicitly report not estimable, never substitute another split or label overlapping samples strict. If small, report its counts and uncertainty without overclaiming.
+
+Exactly 20 sorted expressions for technical smoke, no aggregate GT scoring. Reuse those predictions in full inference. Separate evaluator waits for full completion and hash verification before loading GT. All earlier outputs remain unchanged. Imported inference function and original sources stay untouched; only dataset-specific adapters, reporting and audit are new.
+
+Primary: original-image instance foreground IoU averaged across expressions. Existing CLIP binary crop mask lifted and zero outside crop; SAM mask at original resolution. Secondary unchanged CLIP crop retained. Existing metric function and expression lexicons imported unchanged. Correct-instance, wrong-instance and tie are strict IoU comparisons to other non-crowd same-category instances. Report ambiguous-only metrics separately if single-instance cases occur; empty groups explicit.
+
+Exactly five methods: clip_baseline, sam_score, smart, frozen_final, center_score. Dice, precision, recall, pixel accuracy, P@0.5/P@0.7. Harm relative to CLIP, full positive/negative/unchanged distributions, median, conditional means, worst-decile. Direct smart/final versus naive contrasts. Paired 2,000 whole-image resamples seed 2026, preserving expression weighting; no multiplicity adjustment. Primary comparisons: naive-CLIP, smart-naive, final-naive, final-CLIP; also final-smart to isolate fallback. Metrics: IoU, harm, correct-instance and P@0.5.
+
+Post-hoc candidate oracle, no candidate at IoU0.5, selector regret, combined candidate/fallback oracle, fallback-prevents-harm/rejects-useful/accepts-harm. Report standard/strict and splits. Group analyses use exact previous short<=3, medium4-6, long>=7 and spatial/attribute/color/clothing regexes. No lexical changes based on outcomes.
+
+After complete scoring, save three median-final-IoU panels per nonempty requested group, stable sentence-ID ties and distinct images within group. Groups: CLIP poor/SAM improves; naive wrong/smart fixes; fallback prevents harm; smart failure; wrong/correct same-category instance; long success/failure; attribute-or-color success/failure. Outcome-selected panels are examples, not frequency estimates.
+
+RefCOCO vs RefCOCO+ cohort score differences are descriptive, not a controlled causal test of language distribution. Overlap is disclosed even though model components were never fitted to these test images. Stop after RefCOCO+; no RefCOCOg inference.

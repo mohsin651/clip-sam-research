@@ -18,7 +18,14 @@ outputs/**
 outputs/refined_all/checkpoints/**
 !outputs/smart_sam/heldout/examples/*.png
 data/coco/
+data/refcoco/
 .env
 .env.*
 *.pem
 *.key
+data/refcocoplus/
+
+# Representative panels for the three referring-expression studies.
+!outputs/refcoco_frozen/examples/*.png
+!outputs/refcoco_negative_points/development/examples/*.png
+!outputs/refcocoplus_frozen/examples/*.png

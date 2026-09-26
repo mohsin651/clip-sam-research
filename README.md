@@ -1,5 +1,11 @@
 # CDA-CLIP localization reproduction
 
+Latest development result: [CLIP-derived negative points on RefCOCO VAL ? STOP](NEGATIVE_POINTS_RESULTS.md). All six fixed negative rules degraded candidate-oracle quality; no reliable instance-disambiguation gain. Preserve the frozen positive-only method.
+
+Latest completed evaluation: [frozen RefCOCO+ results](REFCOCOPLUS_RESULTS.md) and [reproduction notes](REFCOCOPLUS_REPRODUCTION.md). Final instance mIoU 0.3216 on 10,615 expressions; all images overlap prior RefCOCO tests, so strict non-overlap scores are not estimable. No fitting or negative points. RefCOCOg remains unrun.
+
+Earlier completed experiment: [frozen RefCOCO generalization results](REFCOCO_RESULTS.md), [reproduction notes](REFCOCO_REPRODUCTION.md), and [research handoff](START_HERE.md). The unchanged final method reaches instance mIoU 0.3071 on 10,752 test expressions; improvements and remaining instance-disambiguation failures are documented.
+
 The newer source-informed refinement is described in [REFINEMENT_PLAN.md](REFINEMENT_PLAN.md)
 and [REFINEMENT_RESULTS.md](REFINEMENT_RESULTS.md). Run it with
 `python scripts/run_refinement.py --num-samples 20`, then `--num-samples 500`.

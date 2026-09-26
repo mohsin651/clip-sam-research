@@ -2,8 +2,17 @@
 
 This repository contains the completed CLIP attribution + SAM research project. Continue from the saved experiments; do not restart or silently replace them.
 
+## Latest completed frozen evaluation
+
+RefCOCO+ is complete: read `REFCOCOPLUS_RESULTS.md` and `REFCOCOPLUS_REPRODUCTION.md`; full tables and 30 panels are in `outputs/refcocoplus_frozen/`. 1,500 images / 10,615 expressions. Final full-image instance mIoU 0.3216, naive SAM 0.3016, smart 0.3224. Final-minus-naive +0.0200 [0.0154, 0.0244]; harm 44.63% to 33.08%. Correct-instance 54.72%, without an established improvement over naive. All 1,500 images overlap prior RefCOCO tests: strict non-overlap is empty and cannot be scored. This is not image-disjoint generalization. Positive-only frozen inference is unchanged. No RefCOCOg was run; stop for user review. These reports, code and representative panels are included in this repository update; raw arrays remain local.
+
+## Latest completed development experiment
+
+Read `NEGATIVE_POINTS_RESULTS.md`, `NEGATIVE_POINTS_PLAN.md` and `NEGATIVE_POINTS_REPRODUCTION.md`. RefCOCO VAL negative-point development is complete: 500 images, 3,689 expressions, 1,296 targets. Recommendation **STOP**. All six negative variants lowered mean final mIoU and every variant lowered candidate-oracle mIoU with paired intervals excluding zero. No reliable correct-instance improvement. POS3/final mIoU 0.2950; best negative final row 0.2936. All original frozen components and experiments preserved; no new test predictions and no negative method frozen. Do not retry formulas or refit on these results automatically. New local artifacts are under `outputs/refcoco_negative_points/development/`; 24 panels and all 22 systems are retained.
+
 ## Read in order
 
+0. `REFCOCO_RESULTS.md` and `REFCOCO_REPRODUCTION.md`: earlier completed frozen generalization experiment; full tables and 30 panels are in `outputs/refcoco_frozen/`. Reports, metrics, code and representative panels are included in this repository update.
 1. `SMART_SAM_RESULTS.md`: current result and its limitations.
 2. `SMART_SAM_REPRODUCTION.md`: implementation changes, commands and environment details.
 3. `outputs/smart_sam/frozen/FROZEN_METHOD.md` and `model_files/models.json`: frozen method and fitted parameters.
@@ -12,6 +21,8 @@ This repository contains the completed CLIP attribution + SAM research project. 
 6. `SAM_DIAGNOSTIC_RESULTS.md`, `COCO_SAM_RESULTS.md`, `REFINEMENT_RESULTS.md`, `REPRODUCTION_NOTES.md`: earlier findings and mathematical ambiguities.
 
 ## Current scientific state
+
+RefCOCO UNC testA + testB is now complete: 1,500 images / 10,752 expressions / 3,785 referred instances, zero overlap with either prior cohort. Full-image instance mIoU: CLIP 0.2034, naive SAM 0.2872, smart 0.3081, final 0.3071. Final versus naive gain +0.0199 [0.0155, 0.0244]; harm falls 46.30% to 34.11%. Correct-instance selection is 51.15%, without an established gain over naive. Fallback reduces harm but its IoU change versus smart is -0.0010 [-0.0025, +0.0005]. All frozen components remain unchanged. All 46 tests passed; the final audit verified previous outputs and prediction hashes. RefCOCO is now inspected test data: do not tune on it while claiming untouched test evidence. RefCOCO+ has since been evaluated as described above; RefCOCOg has not been run.
 
 The original 500 COCO images / 1,000 target pairs are DEVELOPMENT ONLY. They informed diagnostics, feature design, fitting and calibration. Five outer image folds and four inner folds cross-fit the selector for gate training.
 
@@ -23,7 +34,7 @@ The heldout cohort has now been evaluated and inspected. Never tune on it and st
 
 ## What this Git snapshot contains
 
-Code, tests, configurations, all root research notes, structured experiment reports/metrics/manifests, frozen fitted models, hashes and 24 current heldout example panels. Most older galleries retain their index/manifest but their large image collections are not included. Full ImageNet per-image checkpoint metadata is omitted; aggregate and per-image metric tables are retained.
+Code, tests, configurations, all root research notes, structured experiment reports/metrics/manifests, frozen fitted models, hashes, 24 COCO heldout panels and 84 referring-expression study panels. Most older galleries retain their index/manifest but their large image collections are not included. Full ImageNet per-image checkpoint metadata is omitted; aggregate and per-image metric tables are retained.
 
 Datasets, downloaded archives, CLIP/SAM weight files, saved attribution tensors, SAM candidate arrays and most generated images are excluded from Git. Therefore a clone is sufficient to understand the study, inspect fitted models and analyze saved CSVs, but is NOT a complete raw-artifact backup. See `ARTIFACTS.md`. Do not claim all original integrity checks can run from a clone without restoring excluded artifacts.
 
@@ -43,4 +54,4 @@ At handoff, 41 tests passed. Previous output files and all frozen source hashes 
 
 ## Prompt for a new Codex session
 
-> Read START_HERE.md, SMART_SAM_RESULTS.md, SMART_SAM_REPRODUCTION.md and the frozen method before doing anything. This is an existing completed research project. Preserve the frozen experiments and negative findings. Explain the current state and identify which raw artifacts are available locally. Wait for my next research instruction; do not retrain, retune on the evaluated heldout cohort, or regenerate existing results automatically.
+> Read START_HERE.md, REFCOCOPLUS_RESULTS.md, REFCOCOPLUS_REPRODUCTION.md, NEGATIVE_POINTS_RESULTS.md, REFCOCO_RESULTS.md, REFCOCO_REPRODUCTION.md, SMART_SAM_RESULTS.md, SMART_SAM_REPRODUCTION.md and the frozen method before doing anything. Preserve completed experiments and negative findings. Explain the current state and identify which raw artifacts are available locally. Wait for my next research instruction; do not retrain, tune on inspected COCO/RefCOCO test data, regenerate existing results automatically, or start RefCOCOg without instruction.

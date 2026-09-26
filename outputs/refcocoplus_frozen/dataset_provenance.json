@@ -1,0 +1,62 @@
+{
+  "dataset": "RefCOCO+",
+  "splitBy": "unc",
+  "evaluated_splits": [
+    "testA",
+    "testB"
+  ],
+  "source_repository": "https://github.com/lichengunc/refer",
+  "archive_source": {
+    "requested_url": "https://web.archive.org/web/20220413011718id_/https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco%2B.zip",
+    "resolved_url": "https://web.archive.org/web/20220413011656id_/http://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco+.zip",
+    "sha256": "5f1238112d63199e68da54a28f201471909b21ded7ed79a57d51b4c1443c6b45",
+    "bytes": 45613210,
+    "source_repository": "https://github.com/lichengunc/refer",
+    "errors_before_success": [
+      "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'bvisionweb1.cs.unc.edu\\', port=443): Max retries exceeded with url: /licheng/referit/data/refcoco+.zip (Caused by NameResolutionError(\"HTTPSConnection(host=\\'bvisionweb1.cs.unc.edu\\', port=443): Failed to resolve \\'bvisionweb1.cs.unc.edu\\' ([Errno 11001] getaddrinfo failed)\"))'))"
+    ]
+  },
+  "archive_sha256": "5f1238112d63199e68da54a28f201471909b21ded7ed79a57d51b4c1443c6b45",
+  "annotation_sha256": "35cfcbe8cd12a7927e7940453ed7d7ea05c5000b0ab1106d1e08eed1b934e441",
+  "refs_sha256": "7de24c182449758b9d9ae87d968b1f25831236a54d38d45408e2e0fdd318e802",
+  "original_annotation_url": "https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco+.zip",
+  "fallback_source_documentation": "https://github.com/lichengunc/refer/issues/14#issuecomment-1258318183",
+  "image_source": "http://images.cocodataset.org/train2014/",
+  "split_counts": {
+    "testA": {
+      "images": 750,
+      "target_instances": 1975,
+      "references": 1975,
+      "expressions": 5726
+    },
+    "testB": {
+      "images": 750,
+      "target_instances": 1798,
+      "references": 1798,
+      "expressions": 4889
+    },
+    "train": {
+      "images": 16992,
+      "target_instances": 42278,
+      "references": 42278,
+      "expressions": 120191
+    },
+    "val": {
+      "images": 1500,
+      "target_instances": 3805,
+      "references": 3805,
+      "expressions": 10758
+    }
+  },
+  "full_dataset_images": 19992,
+  "full_dataset_references": 49856,
+  "test_counts": {
+    "images": 1500,
+    "expressions": 10615,
+    "target_instances": 3773,
+    "references": 3773
+  },
+  "same_category_annotation_coverage_verified": true,
+  "freeze_sha256": "876063bb65cbccf9399051472dec1907e4f2eefa0f294a472ff6454c24b7227b",
+  "seconds": 22.9206049000004
+}

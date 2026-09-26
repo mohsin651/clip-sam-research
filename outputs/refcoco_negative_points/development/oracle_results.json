@@ -1,0 +1,137 @@
+[
+  {
+    "oracle": "POS3",
+    "iou": 0.36282637120044436,
+    "ci_low": 0.34696035470493425,
+    "ci_high": 0.3795695647788885,
+    "delta_vs_matched_pos3": 0.0,
+    "delta_ci_low": 0.0,
+    "delta_ci_high": 0.0
+  },
+  {
+    "oracle": "NEG_LOW1",
+    "iou": 0.3518792173324009,
+    "ci_low": 0.33673786417497625,
+    "ci_high": 0.36829658867930143,
+    "delta_vs_matched_pos3": -0.010947153868043485,
+    "delta_ci_low": -0.01424414546263862,
+    "delta_ci_high": -0.007699826760566988
+  },
+  {
+    "oracle": "NEG_LOW2",
+    "iou": 0.33720569132584505,
+    "ci_low": 0.32295430428162214,
+    "ci_high": 0.35280448088504923,
+    "delta_vs_matched_pos3": -0.025620679874599286,
+    "delta_ci_low": -0.03064047474151964,
+    "delta_ci_high": -0.020884366831047104
+  },
+  {
+    "oracle": "NEG_CONTRAST1",
+    "iou": 0.35232042256357277,
+    "ci_low": 0.33698771589415577,
+    "ci_high": 0.36873633354647706,
+    "delta_vs_matched_pos3": -0.010505948636871626,
+    "delta_ci_low": -0.013527265439306308,
+    "delta_ci_high": -0.0076556245748310115
+  },
+  {
+    "oracle": "NEG_CONTRAST2",
+    "iou": 0.34054147550316793,
+    "ci_low": 0.3263810259120769,
+    "ci_high": 0.35657955973446104,
+    "delta_vs_matched_pos3": -0.022284895697276434,
+    "delta_ci_low": -0.026723443823023406,
+    "delta_ci_high": -0.01796447863834003
+  },
+  {
+    "oracle": "NEG_REGION1",
+    "iou": 0.35795172219010757,
+    "ci_low": 0.3418780528765801,
+    "ci_high": 0.37453644581224005,
+    "delta_vs_matched_pos3": -0.004874649010336724,
+    "delta_ci_low": -0.006980362455937436,
+    "delta_ci_high": -0.0029216517560726653
+  },
+  {
+    "oracle": "NEG_REGION2",
+    "iou": 0.3540796569354899,
+    "ci_low": 0.33874300238409993,
+    "ci_high": 0.37054708634051314,
+    "delta_vs_matched_pos3": -0.008746714264954485,
+    "delta_ci_low": -0.011437920464253603,
+    "delta_ci_high": -0.006011572508821125
+  },
+  {
+    "oracle": "combined_prompt_candidate_oracle",
+    "iou": 0.39617321222159574,
+    "ci_low": 0.3804607687727623,
+    "ci_high": 0.4129026474136416,
+    "delta_vs_matched_pos3": 0.033346841021151395,
+    "delta_ci_low": 0.030663295699576463,
+    "delta_ci_high": 0.03620091623825034
+  },
+  {
+    "oracle": "combined_with_clip_oracle",
+    "iou": 0.4227335060246372,
+    "ci_low": 0.40750256872736607,
+    "ci_high": 0.43881782059120483,
+    "delta_vs_matched_pos3": 0.059907134824192916,
+    "delta_ci_low": 0.0561434735477477,
+    "delta_ci_high": 0.06373489018255639
+  },
+  {
+    "oracle": "negative_strategy_oracle_sam_score",
+    "iou": 0.3330283054527286,
+    "ci_low": 0.31847001908116246,
+    "ci_high": 0.348703286913595,
+    "delta_vs_matched_pos3": 0.050962007820844965,
+    "delta_ci_low": 0.046346573872797364,
+    "delta_ci_high": 0.05556848813390483
+  },
+  {
+    "oracle": "negative_strategy_oracle_smart",
+    "iou": 0.33797681454986656,
+    "ci_low": 0.3238672737470872,
+    "ci_high": 0.3536916739718499,
+    "delta_vs_matched_pos3": 0.0425001122723568,
+    "delta_ci_low": 0.03874048815027973,
+    "delta_ci_high": 0.04637249630983076
+  },
+  {
+    "oracle": "negative_strategy_oracle_final",
+    "iou": 0.33728615697527997,
+    "ci_low": 0.32343620095997067,
+    "ci_high": 0.3529267841991657,
+    "delta_vs_matched_pos3": 0.04227715958832626,
+    "delta_ci_low": 0.038509763168717216,
+    "delta_ci_high": 0.04609299615432824
+  },
+  {
+    "oracle": "strategy_oracle_including_pos3_sam_score",
+    "iou": 0.33462227508989456,
+    "ci_low": 0.31996702780641745,
+    "ci_high": 0.3501520537540806,
+    "delta_vs_matched_pos3": 0.05255597745801099,
+    "delta_ci_low": 0.048009576520247725,
+    "delta_ci_high": 0.05711649612733111
+  },
+  {
+    "oracle": "strategy_oracle_including_pos3_smart",
+    "iou": 0.3390750934868533,
+    "ci_low": 0.32494864928641476,
+    "ci_high": 0.3549481503191102,
+    "delta_vs_matched_pos3": 0.04359839120934348,
+    "delta_ci_low": 0.039954949680781525,
+    "delta_ci_high": 0.04753255562593376
+  },
+  {
+    "oracle": "strategy_oracle_including_pos3_final",
+    "iou": 0.33827132153690176,
+    "ci_low": 0.324318190058856,
+    "ci_high": 0.3538327218292173,
+    "delta_vs_matched_pos3": 0.04326232414994803,
+    "delta_ci_low": 0.03951450642920884,
+    "delta_ci_high": 0.04704163461325626
+  }
+]

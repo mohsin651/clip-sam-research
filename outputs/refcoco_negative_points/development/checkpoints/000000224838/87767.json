@@ -1,0 +1,633 @@
+{
+  "image_id": 224838,
+  "sent_id": 87767,
+  "category": "person",
+  "expression": "red hair",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000224838.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 396,
+    "rw": 362,
+    "rh": 224,
+    "left": 69,
+    "top": 0
+  },
+  "positive_points": [
+    [
+      249.66574585635357,
+      71.09821428571428
+    ],
+    [
+      193.09116022099445,
+      69.33035714285714
+    ],
+    [
+      304.47237569060775,
+      99.38392857142857
+    ]
+  ],
+  "strategies": {
+    "POS3": {
+      "no_negative_available": false,
+      "crop_negative_points": [],
+      "found_before_fallback": 0,
+      "negative_points": [],
+      "features": [
+        {
+          "density_inside": 0.009044038213170484,
+          "density_outside": 0.0017401478834283483,
+          "density_ratio": 5.197281388611128,
+          "log_density_ratio": 1.648135679102738,
+          "coverage": 0.5182538039428055,
+          "area_fraction": 0.17149226641414142,
+          "sam_score": 0.9343621134757996,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.18267700161412587,
+          "agreement_min": 0.17658283139454686,
+          "agreement_max": 0.18877117183370487,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.017149925231933594
+        },
+        {
+          "density_inside": 0.04176892695920533,
+          "density_outside": 0.0016857019144891434,
+          "density_ratio": 24.778358839964394,
+          "log_density_ratio": 3.2099706448131387,
+          "coverage": 0.4550970672875582,
+          "area_fraction": 0.03260732323232323,
+          "sam_score": 0.9706248044967651,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.5609957964176993,
+          "agreement_min": 0.18877117183370487,
+          "agreement_max": 0.9332204210016937,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.017149925231933594
+        },
+        {
+          "density_inside": 0.04308789158876051,
+          "density_outside": 0.0017336763746267643,
+          "density_ratio": 24.85348026570601,
+          "log_density_ratio": 3.2129977936934733,
+          "coverage": 0.438336738886576,
+          "area_fraction": 0.030445075757575758,
+          "sam_score": 0.9534748792648315,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.5549016261981202,
+          "agreement_min": 0.17658283139454686,
+          "agreement_max": 0.9332204210016937,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.017149925231933594
+        }
+      ],
+      "sam_score": 1,
+      "smart": 1,
+      "final_use_sam": true,
+      "rank_scores": [
+        0.7085466827023198,
+        3.2735541816059976,
+        3.1233448521749367
+      ]
+    },
+    "NEG_LOW1": {
+      "no_negative_available": false,
+      "found_before_fallback": 1,
+      "crop_negative_points": [
+        [
+          193,
+          25
+        ]
+      ],
+      "negative_points": [
+        [
+          463.58839779005524,
+          44.58035714285714
+        ]
+      ],
+      "features": [
+        {
+          "density_inside": 0.010361157423276205,
+          "density_outside": 0.0017391016943795364,
+          "density_ratio": 5.957763971367423,
+          "log_density_ratio": 1.784695238189571,
+          "coverage": 0.5033781829546335,
+          "area_fraction": 0.14539535984848484,
+          "sam_score": 0.9298272132873535,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.20869937513391063,
+          "agreement_min": 0.19953948259515103,
+          "agreement_max": 0.21785926767267025,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.008796930313110352
+        },
+        {
+          "density_inside": 0.04195693825743069,
+          "density_outside": 0.00169233868969274,
+          "density_ratio": 24.79228211715474,
+          "log_density_ratio": 3.2105323998070223,
+          "coverage": 0.45277546200357915,
+          "area_fraction": 0.032295612373737376,
+          "sam_score": 0.9670447111129761,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.5629308555834335,
+          "agreement_min": 0.21785926767267025,
+          "agreement_max": 0.9080024434941967,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.008796930313110352
+        },
+        {
+          "density_inside": 0.04370401056725993,
+          "density_outside": 0.0017628038862223475,
+          "density_ratio": 24.792327089841173,
+          "log_density_ratio": 3.2105342137837187,
+          "coverage": 0.42824017064549547,
+          "area_fraction": 0.02932449494949495,
+          "sam_score": 0.9582477807998657,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.5537709630446739,
+          "agreement_min": 0.19953948259515103,
+          "agreement_max": 0.9080024434941967,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.008796930313110352
+        }
+      ],
+      "sam_score": 1,
+      "smart": 1,
+      "final_use_sam": true,
+      "rank_scores": [
+        0.9201544709339247,
+        3.273412660232838,
+        3.0760820227068826
+      ]
+    },
+    "NEG_LOW2": {
+      "no_negative_available": false,
+      "found_before_fallback": 2,
+      "crop_negative_points": [
+        [
+          193,
+          25
+        ],
+        [
+          170,
+          123
+        ]
+      ],
+      "negative_points": [
+        [
+          463.58839779005524,
+          44.58035714285714
+        ],
+        [
+          422.92541436464086,
+          217.83035714285714
+        ]
+      ],
+      "features": [
+        {
+          "density_inside": 0.018767805710769157,
+          "density_outside": 0.00167851050085391,
+          "density_ratio": 11.181226265811366,
+          "log_density_ratio": 2.414236145648347,
+          "coverage": 0.4822650038055958,
+          "area_fraction": 0.07690183080808081,
+          "sam_score": 0.9264446496963501,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.39372440122380353,
+          "agreement_min": 0.3803831417624521,
+          "agreement_max": 0.407065660685155,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.008509576320648193
+        },
+        {
+          "density_inside": 0.04209293027511417,
+          "density_outside": 0.0016999878021604134,
+          "density_ratio": 24.760724869237322,
+          "log_density_ratio": 3.209258723228963,
+          "coverage": 0.45013623207270737,
+          "area_fraction": 0.03200363005050505,
+          "sam_score": 0.9573273062705994,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.6677789159053934,
+          "agreement_min": 0.407065660685155,
+          "agreement_max": 0.9284921711256319,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.008509576320648193
+        },
+        {
+          "density_inside": 0.0434542870181293,
+          "density_outside": 0.001753566682976757,
+          "density_ratio": 24.780515856735605,
+          "log_density_ratio": 3.210057693470428,
+          "coverage": 0.43146511340950877,
+          "area_fraction": 0.02971511994949495,
+          "sam_score": 0.9488177299499512,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.654437656444042,
+          "agreement_min": 0.3803831417624521,
+          "agreement_max": 0.9284921711256319,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.008509576320648193
+        }
+      ],
+      "sam_score": 1,
+      "smart": 1,
+      "final_use_sam": true,
+      "rank_scores": [
+        2.1547648214141857,
+        3.474115031209143,
+        3.306578780949244
+      ]
+    },
+    "NEG_CONTRAST1": {
+      "no_negative_available": false,
+      "found_before_fallback": 1,
+      "crop_negative_points": [
+        [
+          188,
+          70
+        ]
+      ],
+      "negative_points": [
+        [
+          454.7486187845304,
+          124.13392857142857
+        ]
+      ],
+      "features": [
+        {
+          "density_inside": 0.0418762143108531,
+          "density_outside": 0.0016947050532091707,
+          "density_ratio": 24.71003093242943,
+          "log_density_ratio": 3.2072092718418843,
+          "coverage": 0.4520147575547834,
+          "area_fraction": 0.03230350378787879,
+          "sam_score": 0.9413487911224365,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.9190327932112465,
+          "agreement_min": 0.8616321559074299,
+          "agreement_max": 0.9764334305150631,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.012832701206207275
+        },
+        {
+          "density_inside": 0.04220928770976103,
+          "density_outside": 0.001700764161689557,
+          "density_ratio": 24.817836967479398,
+          "log_density_ratio": 3.2115626272304953,
+          "coverage": 0.44982233138414407,
+          "area_fraction": 0.03189315025252525,
+          "sam_score": 0.9647684693336487,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.9268761265857532,
+          "agreement_min": 0.8773188226564432,
+          "agreement_max": 0.9764334305150631,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.012832701206207275
+        },
+        {
+          "density_inside": 0.04441051389944615,
+          "density_outside": 0.001799485464710967,
+          "density_ratio": 24.67956243364255,
+          "log_density_ratio": 3.2059754693094438,
+          "coverage": 0.4155478252895858,
+          "area_fraction": 0.02800268308080808,
+          "sam_score": 0.9519357681274414,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.8694754892819365,
+          "agreement_min": 0.8616321559074299,
+          "agreement_max": 0.8773188226564432,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.012832701206207275
+        }
+      ],
+      "sam_score": 1,
+      "smart": 1,
+      "final_use_sam": true,
+      "rank_scores": [
+        4.0235418909057366,
+        4.076123944658932,
+        3.747958776244869
+      ]
+    },
+    "NEG_CONTRAST2": {
+      "no_negative_available": false,
+      "found_before_fallback": 2,
+      "crop_negative_points": [
+        [
+          188,
+          70
+        ],
+        [
+          60,
+          97
+        ]
+      ],
+      "negative_points": [
+        [
+          454.7486187845304,
+          124.13392857142857
+        ],
+        [
+          228.45027624309392,
+          171.86607142857142
+        ]
+      ],
+      "features": [
+        {
+          "density_inside": 0.04171149084023159,
+          "density_outside": 0.0016845359763254764,
+          "density_ratio": 24.761412876711944,
+          "log_density_ratio": 3.209286509084395,
+          "coverage": 0.4555161548893868,
+          "area_fraction": 0.03268229166666667,
+          "sam_score": 0.9380115866661072,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.9203401313511761,
+          "agreement_min": 0.867100820067535,
+          "agreement_max": 0.9735794426348172,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.01034325361251831
+        },
+        {
+          "density_inside": 0.04224890789513879,
+          "density_outside": 0.0017006157578802197,
+          "density_ratio": 24.8433002425885,
+          "log_density_ratio": 3.2125881082714267,
+          "coverage": 0.4498546431913602,
+          "area_fraction": 0.031865530303030305,
+          "sam_score": 0.9600886702537537,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.9319078997606706,
+          "agreement_min": 0.8902363568865239,
+          "agreement_max": 0.9735794426348172,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.01034325361251831
+        },
+        {
+          "density_inside": 0.044277774965138815,
+          "density_outside": 0.0017857154698187091,
+          "density_ratio": 24.795537524709065,
+          "log_density_ratio": 3.2106636984828474,
+          "coverage": 0.42026030580759965,
+          "area_fraction": 0.028405145202020202,
+          "sam_score": 0.9497454166412354,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.8786685884770294,
+          "agreement_min": 0.867100820067535,
+          "agreement_max": 0.8902363568865239,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.01034325361251831
+        }
+      ],
+      "sam_score": 1,
+      "smart": 1,
+      "final_use_sam": true,
+      "rank_scores": [
+        4.0479700126077,
+        4.083100169546934,
+        3.79486924320699
+      ]
+    },
+    "NEG_REGION1": {
+      "no_negative_available": false,
+      "found_before_fallback": 1,
+      "crop_negative_points": [
+        [
+          61,
+          130
+        ]
+      ],
+      "negative_points": [
+        [
+          230.21823204419888,
+          230.20535714285714
+        ]
+      ],
+      "features": [
+        {
+          "density_inside": 0.012916846269039241,
+          "density_outside": 0.0017312382255289269,
+          "density_ratio": 7.461044974114899,
+          "log_density_ratio": 2.0096954814423285,
+          "coverage": 0.4867539848979832,
+          "area_fraction": 0.11277619949494949,
+          "sam_score": 0.9272242784500122,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.2760227830816939,
+          "agreement_min": 0.26790950984499373,
+          "agreement_max": 0.2841360563183941,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.006251275539398193
+        },
+        {
+          "density_inside": 0.041785585397152436,
+          "density_outside": 0.0016849768600803435,
+          "density_ratio": 24.798907547229522,
+          "log_density_ratio": 3.210799601709677,
+          "coverage": 0.4553336625754774,
+          "area_fraction": 0.032611268939393936,
+          "sam_score": 0.9652153849601746,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.6100656083164868,
+          "agreement_min": 0.2841360563183941,
+          "agreement_max": 0.9359951603145795,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.006251275539398193
+        },
+        {
+          "density_inside": 0.04303902543569802,
+          "density_outside": 0.0017318487456740761,
+          "density_ratio": 24.851492093840292,
+          "log_density_ratio": 3.2129177947810206,
+          "coverage": 0.43897450696534907,
+          "area_fraction": 0.030523989898989898,
+          "sam_score": 0.9589641094207764,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.6019523350797866,
+          "agreement_min": 0.26790950984499373,
+          "agreement_max": 0.9359951603145795,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.006251275539398193
+        }
+      ],
+      "sam_score": 1,
+      "smart": 1,
+      "final_use_sam": true,
+      "rank_scores": [
+        1.3343312132378278,
+        3.3817304418043848,
+        3.2477278951564985
+      ]
+    },
+    "NEG_REGION2": {
+      "no_negative_available": true,
+      "found_before_fallback": 1,
+      "crop_negative_points": [],
+      "negative_points": [],
+      "features": [
+        {
+          "density_inside": 0.009044038213170484,
+          "density_outside": 0.0017401478834283483,
+          "density_ratio": 5.197281388611128,
+          "log_density_ratio": 1.648135679102738,
+          "coverage": 0.5182538039428055,
+          "area_fraction": 0.17149226641414142,
+          "sam_score": 0.9343621134757996,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.18267700161412587,
+          "agreement_min": 0.17658283139454686,
+          "agreement_max": 0.18877117183370487,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.017149925231933594
+        },
+        {
+          "density_inside": 0.04176892695920533,
+          "density_outside": 0.0016857019144891434,
+          "density_ratio": 24.778358839964394,
+          "log_density_ratio": 3.2099706448131387,
+          "coverage": 0.4550970672875582,
+          "area_fraction": 0.03260732323232323,
+          "sam_score": 0.9706248044967651,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.5609957964176993,
+          "agreement_min": 0.18877117183370487,
+          "agreement_max": 0.9332204210016937,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.017149925231933594
+        },
+        {
+          "density_inside": 0.04308789158876051,
+          "density_outside": 0.0017336763746267643,
+          "density_ratio": 24.85348026570601,
+          "log_density_ratio": 3.2129977936934733,
+          "coverage": 0.438336738886576,
+          "area_fraction": 0.030445075757575758,
+          "sam_score": 0.9534748792648315,
+          "points_inside": 2,
+          "points_fraction": 0.6666666666666666,
+          "top1_inside": 1.0,
+          "agreement_mean": 0.5549016261981202,
+          "agreement_min": 0.17658283139454686,
+          "agreement_max": 0.9332204210016937,
+          "spread_mean": 0.10348137408464786,
+          "spread_max": 0.15328682568232835,
+          "entropy": 0.8842863002244677,
+          "top10_mass": 0.6675331741114154,
+          "score_margin": 0.017149925231933594
+        }
+      ],
+      "sam_score": 1,
+      "smart": 1,
+      "final_use_sam": true,
+      "rank_scores": [
+        0.7085466827023198,
+        3.2735541816059976,
+        3.1233448521749367
+      ]
+    }
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "prediction_sha256": "fc1e4307e2508b12286887a4a283801cb888e9ecb0e5c01047c4d94efeed63e9"
+}
