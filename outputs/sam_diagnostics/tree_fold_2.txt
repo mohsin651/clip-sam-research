@@ -1,0 +1,22 @@
+|--- consistency_log_density_ratio <= 1.33
+|   |--- consistency_log_density_ratio <= 0.46
+|   |   |--- switch_pearson <= -0.06
+|   |   |   |--- class: 0
+|   |   |--- switch_pearson >  -0.06
+|   |   |   |--- class: 0
+|   |--- consistency_log_density_ratio >  0.46
+|   |   |--- area_selected <= 22787.00
+|   |   |   |--- class: 0
+|   |   |--- area_selected >  22787.00
+|   |   |   |--- class: 0
+|--- consistency_log_density_ratio >  1.33
+|   |--- clip_max <= 0.02
+|   |   |--- consistency_selected_coverage <= 0.40
+|   |   |   |--- class: 0
+|   |   |--- consistency_selected_coverage >  0.40
+|   |   |   |--- class: 1
+|   |--- clip_max >  0.02
+|   |   |--- agreement_max <= 0.70
+|   |   |   |--- class: 1
+|   |   |--- agreement_max >  0.70
+|   |   |   |--- class: 1

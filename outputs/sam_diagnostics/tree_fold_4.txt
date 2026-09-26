@@ -1,0 +1,22 @@
+|--- consistency_log_density_ratio <= 1.33
+|   |--- consistency_log_density_ratio <= 0.85
+|   |   |--- clip_entropy <= 0.95
+|   |   |   |--- class: 0
+|   |   |--- clip_entropy >  0.95
+|   |   |   |--- class: 0
+|   |--- consistency_log_density_ratio >  0.85
+|   |   |--- connected_count <= 11.50
+|   |   |   |--- class: 0
+|   |   |--- connected_count >  11.50
+|   |   |   |--- class: 1
+|--- consistency_log_density_ratio >  1.33
+|   |--- clip_max <= 0.02
+|   |   |--- consistency_selected_coverage <= 0.40
+|   |   |   |--- class: 0
+|   |   |--- consistency_selected_coverage >  0.40
+|   |   |   |--- class: 1
+|   |--- clip_max >  0.02
+|   |   |--- agreement_max <= 0.65
+|   |   |   |--- class: 1
+|   |   |--- agreement_max >  0.65
+|   |   |   |--- class: 1

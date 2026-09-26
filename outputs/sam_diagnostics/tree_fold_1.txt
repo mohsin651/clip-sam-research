@@ -1,0 +1,22 @@
+|--- consistency_log_density_ratio <= 1.30
+|   |--- clip_top10pct_mass <= 0.37
+|   |   |--- consistency_coverage_candidate_2 <= 0.40
+|   |   |   |--- class: 0
+|   |   |--- consistency_coverage_candidate_2 >  0.40
+|   |   |   |--- class: 1
+|   |--- clip_top10pct_mass >  0.37
+|   |   |--- area_candidate_0_fraction <= 0.24
+|   |   |   |--- class: 0
+|   |   |--- area_candidate_0_fraction >  0.24
+|   |   |   |--- class: 0
+|--- consistency_log_density_ratio >  1.30
+|   |--- agreement_iou_12 <= 0.72
+|   |   |--- clip_max <= 0.03
+|   |   |   |--- class: 0
+|   |   |--- clip_max >  0.03
+|   |   |   |--- class: 1
+|   |--- agreement_iou_12 >  0.72
+|   |   |--- clip_std <= 0.00
+|   |   |   |--- class: 1
+|   |   |--- clip_std >  0.00
+|   |   |   |--- class: 1

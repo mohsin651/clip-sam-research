@@ -1,0 +1,48 @@
+{
+  "oracles": [
+    {
+      "oracle": "candidate_oracle",
+      "iou": 0.4878387850022983,
+      "ci_low": 0.4672293839057318,
+      "ci_high": 0.509683180781558
+    },
+    {
+      "oracle": "selected_sam_or_clip_oracle",
+      "iou": 0.4681439100702812,
+      "ci_low": 0.4497352712858459,
+      "ci_high": 0.4873419626171029
+    },
+    {
+      "oracle": "naive_sam_or_clip_oracle",
+      "iou": 0.4526251490872087,
+      "ci_low": 0.433956837562795,
+      "ci_high": 0.4725665624234464
+    },
+    {
+      "oracle": "candidate_plus_fallback_oracle",
+      "iou": 0.5180748888058653,
+      "ci_low": 0.49844510030488925,
+      "ci_high": 0.5376921626365704
+    }
+  ],
+  "selection_accuracy": [
+    {
+      "selector": "sam_score",
+      "best_candidate_accuracy": 0.439
+    },
+    {
+      "selector": "coverage",
+      "best_candidate_accuracy": 0.503
+    },
+    {
+      "selector": "density",
+      "best_candidate_accuracy": 0.538
+    },
+    {
+      "selector": "smart",
+      "best_candidate_accuracy": 0.581
+    }
+  ],
+  "fraction_best_candidate_below_0_5": 0.492,
+  "fraction_best_candidate_not_better_than_clip": 0.27
+}

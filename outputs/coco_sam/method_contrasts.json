@@ -1,0 +1,114 @@
+{
+  "sam_top1_point: coverage minus score": {
+    "iou": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.08606846585733487,
+      "ci_low": 0.06679605775615462,
+      "ci_high": 0.10547523134751231
+    },
+    "semantic_success": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": -0.046,
+      "ci_low": -0.066,
+      "ci_high": -0.026975000000000138
+    }
+  },
+  "sam_topk_points: coverage minus score": {
+    "iou": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": -0.00575984954559271,
+      "ci_low": -0.020483421395940612,
+      "ci_high": 0.009327417049128595
+    },
+    "semantic_success": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": -0.043,
+      "ci_low": -0.061,
+      "ci_high": -0.025
+    }
+  },
+  "sam_attribution_box: coverage minus score": {
+    "iou": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.023914177224506793,
+      "ci_low": 0.015867653689746318,
+      "ci_high": 0.03165923278599852
+    },
+    "semantic_success": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.015,
+      "ci_low": 0.0,
+      "ci_high": 0.031
+    }
+  },
+  "sam_point_box: coverage minus score": {
+    "iou": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.0097325064453516,
+      "ci_low": 0.0012560850866942792,
+      "ci_high": 0.018143574735376113
+    },
+    "semantic_success": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": -0.001,
+      "ci_low": -0.015,
+      "ci_high": 0.012024999999999864
+    }
+  },
+  "center_point_sam: coverage minus score": {
+    "iou": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.06748403244641397,
+      "ci_low": 0.056351918811437106,
+      "ci_high": 0.07802331376340044
+    },
+    "semantic_success": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.028,
+      "ci_low": 0.015,
+      "ci_high": 0.041
+    }
+  },
+  "top1 minus center: sam_score": {
+    "iou": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.19562754961796802,
+      "ci_low": 0.17119845278314913,
+      "ci_high": 0.2201398290208092
+    },
+    "semantic_success": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.406,
+      "ci_low": 0.379,
+      "ci_high": 0.435
+    }
+  },
+  "top1 minus center: attribution_coverage": {
+    "iou": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.21421198302888894,
+      "ci_low": 0.19098574348649097,
+      "ci_high": 0.23771988404121738
+    },
+    "semantic_success": {
+      "n_pairs": 1000,
+      "n_images": 500,
+      "mean": 0.332,
+      "ci_low": 0.302,
+      "ci_high": 0.3600249999999999
+    }
+  }
+}

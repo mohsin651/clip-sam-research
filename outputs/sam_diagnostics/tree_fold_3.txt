@@ -1,0 +1,22 @@
+|--- consistency_log_density_ratio <= 1.28
+|   |--- consistency_log_density_ratio <= 0.48
+|   |   |--- spatial_crop_spread_mean_norm <= 0.44
+|   |   |   |--- class: 0
+|   |   |--- spatial_crop_spread_mean_norm >  0.44
+|   |   |   |--- class: 0
+|   |--- consistency_log_density_ratio >  0.48
+|   |   |--- consistency_top1_inside <= 0.50
+|   |   |   |--- class: 0
+|   |   |--- consistency_top1_inside >  0.50
+|   |   |   |--- class: 0
+|--- consistency_log_density_ratio >  1.28
+|   |--- clip_max <= 0.03
+|   |   |--- consistency_selected_coverage <= 0.40
+|   |   |   |--- class: 0
+|   |   |--- consistency_selected_coverage >  0.40
+|   |   |   |--- class: 1
+|   |--- clip_max >  0.03
+|   |   |--- sam_score_candidate_1 <= 0.92
+|   |   |   |--- class: 1
+|   |   |--- sam_score_candidate_1 >  0.92
+|   |   |   |--- class: 1

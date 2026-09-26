@@ -1,0 +1,10 @@
+seed: 42
+bootstrap_seed: 2026
+bootstrap_replicates: 2000
+model: ViT-B/16
+prompt_template: a photo of a {class_name}
+attention_mode: full
+threshold: 0.5
+dataset_root: data/ImageNetS919
+checkpoint_dir: data/checkpoints
+device: cuda

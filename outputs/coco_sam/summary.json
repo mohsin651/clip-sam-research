@@ -1,0 +1,2732 @@
+{
+  "images": 500,
+  "target_pairs": 1000,
+  "statistics": {
+    "clip_crop/clip_baseline": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.284644308382605,
+        "ci_low": 0.27315763308657126,
+        "ci_high": 0.29645598437543613
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.7430073740433673,
+        "ci_low": 0.7362457205636159,
+        "ci_high": 0.7498004374601401
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4086828755197886,
+        "ci_low": 0.3949266159323399,
+        "ci_high": 0.42316399133730814
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3601887937527523,
+        "ci_low": 0.34397118752478195,
+        "ci_high": 0.3768774402683892
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.7769732702234301,
+        "ci_low": 0.7641143985635398,
+        "ci_high": 0.7895277571531926
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.685,
+        "ci_low": 0.658975,
+        "ci_high": 0.711
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.013,
+        "ci_low": 0.006,
+        "ci_high": 0.02
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.616,
+        "ci_low": 0.5899749999999999,
+        "ci_high": 0.643
+      }
+    },
+    "clip_crop/sam_top1_point/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.30043861431575875,
+        "ci_low": 0.2777933025935489,
+        "ci_high": 0.32382950033024593
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.015794305933153747,
+        "ci_low": -0.008071257055731588,
+        "ci_high": 0.04012966511410457
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8254808474170918,
+        "ci_low": 0.8118997304488202,
+        "ci_high": 0.8386732083067602
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.36369532477270766,
+        "ci_low": 0.3393490527980765,
+        "ci_high": 0.3885073165135744
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.6865546004800742,
+        "ci_low": 0.6584753271965945,
+        "ci_high": 0.712926164453141
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3239941063713088,
+        "ci_low": 0.2994473098523839,
+        "ci_high": 0.3485354569481962
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.766,
+        "ci_low": 0.742,
+        "ci_high": 0.791
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.046,
+        "ci_low": 0.033,
+        "ci_high": 0.06
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.387,
+        "ci_low": 0.355,
+        "ci_high": 0.419
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.613,
+        "ci_low": 0.581,
+        "ci_high": 0.645
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.787,
+        "ci_low": 0.764,
+        "ci_high": 0.811
+      }
+    },
+    "clip_crop/sam_top1_point/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.38650708017309365,
+        "ci_low": 0.3655638449658303,
+        "ci_high": 0.40883070981047087
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.10186277179048861,
+        "ci_low": 0.08280603982874676,
+        "ci_high": 0.12248900539062571
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8202855947066326,
+        "ci_low": 0.8074373664700253,
+        "ci_high": 0.8339172114158163
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.47050519332464835,
+        "ci_low": 0.4476829028014385,
+        "ci_high": 0.4948312470293508
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.583155940118548,
+        "ci_low": 0.5577540343262654,
+        "ci_high": 0.6094844071253098
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5089273242285062,
+        "ci_low": 0.48352295074738916,
+        "ci_high": 0.5343801111367942
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.72,
+        "ci_low": 0.6939749999999999,
+        "ci_high": 0.747
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.077,
+        "ci_low": 0.06,
+        "ci_high": 0.093
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.538,
+        "ci_low": 0.506,
+        "ci_high": 0.569
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.462,
+        "ci_low": 0.431,
+        "ci_high": 0.494
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.721,
+        "ci_low": 0.695,
+        "ci_high": 0.747
+      }
+    },
+    "clip_crop/sam_topk_points/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4004824074280719,
+        "ci_low": 0.37895170223192504,
+        "ci_high": 0.4216603875266134
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.11583809904546691,
+        "ci_low": 0.09831352498239831,
+        "ci_high": 0.13394188738806115
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8006814014668368,
+        "ci_low": 0.7863436493542729,
+        "ci_high": 0.8144967638911031
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.48750398606519707,
+        "ci_low": 0.4644251797343533,
+        "ci_high": 0.5097212716999714
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5818742110821686,
+        "ci_low": 0.55574216100321,
+        "ci_high": 0.6088985175331113
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5469125104043039,
+        "ci_low": 0.5231086464597355,
+        "ci_high": 0.5702046914720565
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.758,
+        "ci_low": 0.732,
+        "ci_high": 0.784
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.071,
+        "ci_low": 0.055,
+        "ci_high": 0.086
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.56,
+        "ci_low": 0.53,
+        "ci_high": 0.59
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.44,
+        "ci_low": 0.41,
+        "ci_high": 0.47
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.752,
+        "ci_low": 0.726,
+        "ci_high": 0.778
+      }
+    },
+    "clip_crop/sam_topk_points/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.39472255788247923,
+        "ci_low": 0.37569955408461586,
+        "ci_high": 0.41444097394098184
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.1100782494998742,
+        "ci_low": 0.09649076589809483,
+        "ci_high": 0.12461648206563482
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.7833775111607143,
+        "ci_low": 0.7693016302614795,
+        "ci_high": 0.7970059281329719
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.48806401528523774,
+        "ci_low": 0.46769617948507203,
+        "ci_high": 0.5090378373878763
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.49772655937193144,
+        "ci_low": 0.47536997422838156,
+        "ci_high": 0.5215043501025348
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.6435837333985063,
+        "ci_low": 0.6207556840641526,
+        "ci_high": 0.6667571143037335
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.715,
+        "ci_low": 0.69,
+        "ci_high": 0.741
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.104,
+        "ci_low": 0.084,
+        "ci_high": 0.123
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.59,
+        "ci_low": 0.559,
+        "ci_high": 0.6210249999999998
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.41,
+        "ci_low": 0.378975,
+        "ci_high": 0.441
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.691,
+        "ci_low": 0.666,
+        "ci_high": 0.717
+      }
+    },
+    "clip_crop/sam_attribution_box/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3272891522520175,
+        "ci_low": 0.30635263309673827,
+        "ci_high": 0.34884348874415794
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.04264484386941247,
+        "ci_low": 0.023972783261564955,
+        "ci_high": 0.06126328577168821
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8387867107780612,
+        "ci_low": 0.8274662722217794,
+        "ci_high": 0.8491458316725125
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4069554951634107,
+        "ci_low": 0.38383134576711964,
+        "ci_high": 0.43010409724876225
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5356728752314539,
+        "ci_low": 0.5113048817196649,
+        "ci_high": 0.5609914700042987
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4359991879591895,
+        "ci_low": 0.4099018957127265,
+        "ci_high": 0.461740666331571
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.682,
+        "ci_low": 0.655,
+        "ci_high": 0.71
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.058,
+        "ci_low": 0.044,
+        "ci_high": 0.073
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.468,
+        "ci_low": 0.435,
+        "ci_high": 0.501
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.532,
+        "ci_low": 0.499,
+        "ci_high": 0.565
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.675,
+        "ci_low": 0.649,
+        "ci_high": 0.703
+      }
+    },
+    "clip_crop/sam_attribution_box/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.35120332947652433,
+        "ci_low": 0.3316513104608321,
+        "ci_high": 0.3728958846997974
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.06655902109391927,
+        "ci_low": 0.04894109641903434,
+        "ci_high": 0.0835813060650649
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8414092992665817,
+        "ci_low": 0.8298365657884248,
+        "ci_high": 0.8519726183832907
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4401706692189781,
+        "ci_low": 0.4185296887986772,
+        "ci_high": 0.46330609552966995
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5495085579435219,
+        "ci_low": 0.5256997700505232,
+        "ci_high": 0.5749541965649156
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.47814090580233665,
+        "ci_low": 0.45384432062948626,
+        "ci_high": 0.5041072840669736
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.697,
+        "ci_low": 0.67,
+        "ci_high": 0.7240249999999998
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.062,
+        "ci_low": 0.048,
+        "ci_high": 0.078
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.514,
+        "ci_low": 0.483,
+        "ci_high": 0.545
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.486,
+        "ci_low": 0.455,
+        "ci_high": 0.517
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.69,
+        "ci_low": 0.664,
+        "ci_high": 0.7160249999999998
+      }
+    },
+    "clip_crop/sam_point_box/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.36446886938557815,
+        "ci_low": 0.34326103548573,
+        "ci_high": 0.3867225123917084
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.07982456100297317,
+        "ci_low": 0.06130659866453076,
+        "ci_high": 0.09846980974633625
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8426764987244899,
+        "ci_low": 0.8317550945671237,
+        "ci_high": 0.8527888492506379
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4527814681905127,
+        "ci_low": 0.4306379413231373,
+        "ci_high": 0.4761147985023183
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5635924180823544,
+        "ci_low": 0.5384173104042017,
+        "ci_high": 0.5894675218595679
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5138100358239033,
+        "ci_low": 0.4902242920254257,
+        "ci_high": 0.5397163107761372
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.712,
+        "ci_low": 0.685,
+        "ci_high": 0.739
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.059,
+        "ci_low": 0.045,
+        "ci_high": 0.075
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.546,
+        "ci_low": 0.515975,
+        "ci_high": 0.5770249999999998
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.454,
+        "ci_low": 0.422975,
+        "ci_high": 0.48402499999999987
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.699,
+        "ci_low": 0.673,
+        "ci_high": 0.726
+      }
+    },
+    "clip_crop/sam_point_box/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3742013758309298,
+        "ci_low": 0.35484673524696453,
+        "ci_high": 0.39615716237783094
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.08955706744832477,
+        "ci_low": 0.07307434559876648,
+        "ci_high": 0.10624100086565726
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8432433434311224,
+        "ci_low": 0.8324719058912625,
+        "ci_high": 0.8535545001594388
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.46870318913083286,
+        "ci_low": 0.44776584851535384,
+        "ci_high": 0.49114175477784205
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5528353465626925,
+        "ci_low": 0.5293962022683916,
+        "ci_high": 0.5769182311098001
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5493273851734272,
+        "ci_low": 0.52561253315907,
+        "ci_high": 0.5733258358937158
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.711,
+        "ci_low": 0.684,
+        "ci_high": 0.738
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.067,
+        "ci_low": 0.051,
+        "ci_high": 0.084
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.586,
+        "ci_low": 0.555,
+        "ci_high": 0.617
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.414,
+        "ci_low": 0.383,
+        "ci_high": 0.445
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.692,
+        "ci_low": 0.666,
+        "ci_high": 0.718
+      }
+    },
+    "clip_crop/center_point_sam/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.10481106469779075,
+        "ci_low": 0.09147378643998419,
+        "ci_high": 0.11922894006511368
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.17983324368481424,
+        "ci_low": -0.1946612253630903,
+        "ci_high": -0.16469122226042363
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.7585633370535715,
+        "ci_low": 0.7430880296356824,
+        "ci_high": 0.7730176488759566
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.13327466498579055,
+        "ci_low": 0.11764020665959297,
+        "ci_high": 0.15027331298936228
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.29462425904375095,
+        "ci_low": 0.27052624905643907,
+        "ci_high": 0.31763983079231645
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.12862005599260085,
+        "ci_low": 0.11124407648471044,
+        "ci_high": 0.14673039901595555
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.36,
+        "ci_low": 0.341,
+        "ci_high": 0.379
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.116,
+        "ci_low": 0.095,
+        "ci_high": 0.138
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.12,
+        "ci_low": 0.101,
+        "ci_high": 0.14
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.88,
+        "ci_low": 0.86,
+        "ci_high": 0.899
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.386,
+        "ci_low": 0.365,
+        "ci_high": 0.407
+      }
+    },
+    "clip_crop/center_point_sam/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.1722950971442047,
+        "ci_low": 0.1558416221368457,
+        "ci_high": 0.1888687860855334
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.11234921123840029,
+        "ci_low": -0.12819954755731083,
+        "ci_high": -0.09713727194584976
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.7245350366709183,
+        "ci_low": 0.7091468894491391,
+        "ci_high": 0.7393847955197704
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.21267150406890728,
+        "ci_low": 0.1936582260514956,
+        "ci_high": 0.23184170282967287
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.2839913281650195,
+        "ci_low": 0.2618616781619849,
+        "ci_high": 0.30606174989273993
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.2400734076852285,
+        "ci_low": 0.21717765041055825,
+        "ci_high": 0.26443133653260836
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.388,
+        "ci_low": 0.37,
+        "ci_high": 0.406
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.224,
+        "ci_low": 0.198,
+        "ci_high": 0.251
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.211,
+        "ci_low": 0.188,
+        "ci_high": 0.234
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.789,
+        "ci_low": 0.766,
+        "ci_high": 0.812
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.406,
+        "ci_low": 0.386,
+        "ci_high": 0.425
+      }
+    },
+    "original/clip_baseline": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.2608965048446371,
+        "ci_low": 0.25035558685164244,
+        "ci_high": 0.2716489003552875
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.7871172546360462,
+        "ci_low": 0.7804514093590534,
+        "ci_high": 0.7936783837023736
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3841786155950795,
+        "ci_low": 0.37114979046695096,
+        "ci_high": 0.3974524513242022
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3601205988285657,
+        "ci_low": 0.34389222910307576,
+        "ci_high": 0.37677846036911555
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.6825103018908897,
+        "ci_low": 0.6670799275047161,
+        "ci_high": 0.6979188019351251
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.692,
+        "ci_low": 0.665975,
+        "ci_high": 0.718
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.008,
+        "ci_low": 0.003,
+        "ci_high": 0.014
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.616,
+        "ci_low": 0.59,
+        "ci_high": 0.6420249999999998
+      }
+    },
+    "original/sam_top1_point/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.29140828662358786,
+        "ci_low": 0.2693242567779765,
+        "ci_high": 0.31412787392045266
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.030511781778950763,
+        "ci_low": 0.0072651953102819125,
+        "ci_high": 0.054048916054011006
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8401265584265286,
+        "ci_low": 0.8268909702743172,
+        "ci_high": 0.8532425127551897
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.35396341335890374,
+        "ci_low": 0.33007354474371964,
+        "ci_high": 0.37822490670110254
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.6851053084865388,
+        "ci_low": 0.6573393830203539,
+        "ci_high": 0.7118759889558262
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.31520077035764493,
+        "ci_low": 0.2914087943541027,
+        "ci_high": 0.3398494736121133
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.768,
+        "ci_low": 0.743,
+        "ci_high": 0.794
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.046,
+        "ci_low": 0.033975000000000005,
+        "ci_high": 0.06
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.386,
+        "ci_low": 0.354,
+        "ci_high": 0.418
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.614,
+        "ci_low": 0.582,
+        "ci_high": 0.646
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.789,
+        "ci_low": 0.765,
+        "ci_high": 0.813
+      }
+    },
+    "original/sam_top1_point/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.37539647869603415,
+        "ci_low": 0.3550499557118013,
+        "ci_high": 0.3977425691181953
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.11449997385139701,
+        "ci_low": 0.09606815679083278,
+        "ci_high": 0.13469782252370813
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8332450741813827,
+        "ci_low": 0.8206425986528322,
+        "ci_high": 0.8469375598579583
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.46046575849237814,
+        "ci_low": 0.4379470529163837,
+        "ci_high": 0.48460456086434517
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5802669496685698,
+        "ci_low": 0.5545857672960457,
+        "ci_high": 0.6064469652674056
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.498029657354695,
+        "ci_low": 0.47291565706076605,
+        "ci_high": 0.5238878021895643
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.729,
+        "ci_low": 0.704,
+        "ci_high": 0.7550249999999998
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.077,
+        "ci_low": 0.06,
+        "ci_high": 0.093
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.553,
+        "ci_low": 0.521,
+        "ci_high": 0.585
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.447,
+        "ci_low": 0.415,
+        "ci_high": 0.479
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.724,
+        "ci_low": 0.698,
+        "ci_high": 0.7480249999999998
+      }
+    },
+    "original/sam_topk_points/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3883792747962078,
+        "ci_low": 0.36666081927340854,
+        "ci_high": 0.40927283543018367
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.1274827699515707,
+        "ci_low": 0.10974774026701409,
+        "ci_high": 0.14516669506191587
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8158182423674148,
+        "ci_low": 0.8020655411643217,
+        "ci_high": 0.8289917879284429
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4758393120237009,
+        "ci_low": 0.45288507439727993,
+        "ci_high": 0.4980809113138722
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.578921161231755,
+        "ci_low": 0.5527037709014189,
+        "ci_high": 0.6059175603330815
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5287693137649293,
+        "ci_low": 0.5050334838655535,
+        "ci_high": 0.551752526840027
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.758,
+        "ci_low": 0.731,
+        "ci_high": 0.785
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.067,
+        "ci_low": 0.051,
+        "ci_high": 0.083
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.563,
+        "ci_low": 0.532,
+        "ci_high": 0.594
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.437,
+        "ci_low": 0.406,
+        "ci_high": 0.468
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.751,
+        "ci_low": 0.725,
+        "ci_high": 0.777
+      }
+    },
+    "original/sam_topk_points/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.38262454697119935,
+        "ci_low": 0.3639528333146721,
+        "ci_high": 0.4018983551547095
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.12172804212656224,
+        "ci_low": 0.10814625364463143,
+        "ci_high": 0.13665562230522685
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.7993202727980605,
+        "ci_low": 0.7850593836195082,
+        "ci_high": 0.8130703887372626
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4771219265795383,
+        "ci_low": 0.45658068555452996,
+        "ci_high": 0.49796235573107783
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4923960199543771,
+        "ci_low": 0.47031264122363314,
+        "ci_high": 0.5153743960509874
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.6263853832018823,
+        "ci_low": 0.6036117300708213,
+        "ci_high": 0.6491767303592051
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.721,
+        "ci_low": 0.695,
+        "ci_high": 0.747
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.095,
+        "ci_low": 0.076,
+        "ci_high": 0.114
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.598,
+        "ci_low": 0.5669749999999999,
+        "ci_high": 0.629
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.402,
+        "ci_low": 0.371,
+        "ci_high": 0.4330249999999999
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.69,
+        "ci_low": 0.664975,
+        "ci_high": 0.716
+      }
+    },
+    "original/sam_attribution_box/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3011336355134812,
+        "ci_low": 0.28165102038514883,
+        "ci_high": 0.32124694596793624
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.04023713066884414,
+        "ci_low": 0.02300373530550055,
+        "ci_high": 0.05753246067113609
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8558683439064828,
+        "ci_low": 0.8453143769265035,
+        "ci_high": 0.8656216464126635
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3822894517724958,
+        "ci_low": 0.3605279708307668,
+        "ci_high": 0.40462079628184505
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5356649029855114,
+        "ci_low": 0.5113145351124886,
+        "ci_high": 0.5610157104661208
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.40175459882995734,
+        "ci_low": 0.37780043249284284,
+        "ci_high": 0.4259493608278811
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.69,
+        "ci_low": 0.664,
+        "ci_high": 0.717
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.05,
+        "ci_low": 0.037,
+        "ci_high": 0.064
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.462,
+        "ci_low": 0.43,
+        "ci_high": 0.494
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.538,
+        "ci_low": 0.506,
+        "ci_high": 0.57
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.68,
+        "ci_low": 0.654,
+        "ci_high": 0.708
+      }
+    },
+    "original/sam_attribution_box/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3219735837735826,
+        "ci_low": 0.3027387132638112,
+        "ci_high": 0.3419668056829429
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.06107707892894553,
+        "ci_low": 0.04504592397980052,
+        "ci_high": 0.07763174743076745
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8579621584685062,
+        "ci_low": 0.8477133054008051,
+        "ci_high": 0.8674072733496428
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.41285900193670966,
+        "ci_low": 0.3919517472314666,
+        "ci_high": 0.4354355692169693
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.549703309771658,
+        "ci_low": 0.5256739216475936,
+        "ci_high": 0.5752514624349246
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.43887613070133763,
+        "ci_low": 0.4156687510030357,
+        "ci_high": 0.46304367738126134
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.704,
+        "ci_low": 0.677,
+        "ci_high": 0.7310249999999998
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.054,
+        "ci_low": 0.04,
+        "ci_high": 0.069
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.507,
+        "ci_low": 0.476,
+        "ci_high": 0.538
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.493,
+        "ci_low": 0.462,
+        "ci_high": 0.524
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.692,
+        "ci_low": 0.666,
+        "ci_high": 0.719
+      }
+    },
+    "original/sam_point_box/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.33858043784746167,
+        "ci_low": 0.318184740730866,
+        "ci_high": 0.3596330931083754
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.07768393300282449,
+        "ci_low": 0.060488637138018594,
+        "ci_high": 0.0948391671203524
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8594702758756391,
+        "ci_low": 0.8493808516049961,
+        "ci_high": 0.8691179420383294
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4284955253541489,
+        "ci_low": 0.4065530253208193,
+        "ci_high": 0.45121723063074104
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5641697102019277,
+        "ci_low": 0.5388743774762145,
+        "ci_high": 0.5903165284614529
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4750250094033078,
+        "ci_low": 0.45233269502928075,
+        "ci_high": 0.4990119827884879
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.717,
+        "ci_low": 0.691,
+        "ci_high": 0.744
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.054,
+        "ci_low": 0.04,
+        "ci_high": 0.069
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.546,
+        "ci_low": 0.516,
+        "ci_high": 0.578
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.454,
+        "ci_low": 0.422,
+        "ci_high": 0.484
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.704,
+        "ci_low": 0.677,
+        "ci_high": 0.73
+      }
+    },
+    "original/sam_point_box/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.3462758760284065,
+        "ci_low": 0.32794920703335695,
+        "ci_high": 0.3664923464097708
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.08537937118376934,
+        "ci_low": 0.06991458941539437,
+        "ci_high": 0.10095407125316162
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.8598923369025224,
+        "ci_low": 0.8500800283341349,
+        "ci_high": 0.8694921891672303
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.4430441834657043,
+        "ci_low": 0.42264748804941177,
+        "ci_high": 0.4646847067288531
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5535453057462169,
+        "ci_low": 0.5300381853035714,
+        "ci_high": 0.5780074969012307
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.5066203122274912,
+        "ci_low": 0.483479673465069,
+        "ci_high": 0.5301291964084365
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.719,
+        "ci_low": 0.692,
+        "ci_high": 0.745
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.056,
+        "ci_low": 0.042,
+        "ci_high": 0.07102499999999985
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.584,
+        "ci_low": 0.553,
+        "ci_high": 0.615
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.416,
+        "ci_low": 0.385,
+        "ci_high": 0.447
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.696,
+        "ci_low": 0.669,
+        "ci_high": 0.721
+      }
+    },
+    "original/center_point_sam/sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.10044275951736815,
+        "ci_low": 0.08709669803100559,
+        "ci_high": 0.11464155164620056
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.16045374532726897,
+        "ci_low": -0.17416326303990942,
+        "ci_high": -0.14632324550087547
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.784095754552929,
+        "ci_low": 0.7688545769117036,
+        "ci_high": 0.7985492168365781
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.12822356534612622,
+        "ci_low": 0.11293420464466718,
+        "ci_high": 0.1447300885730174
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.2936949319003545,
+        "ci_low": 0.26929657515644434,
+        "ci_high": 0.3167969897735053
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.12444614714890988,
+        "ci_low": 0.10728928334373836,
+        "ci_high": 0.14243097411273423
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.361,
+        "ci_low": 0.342,
+        "ci_high": 0.38
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.108,
+        "ci_low": 0.088,
+        "ci_high": 0.129
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.125,
+        "ci_low": 0.105,
+        "ci_high": 0.146
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.875,
+        "ci_low": 0.854,
+        "ci_high": 0.895
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.389,
+        "ci_low": 0.368,
+        "ci_high": 0.411
+      }
+    },
+    "original/center_point_sam/attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.16468711677676504,
+        "ci_low": 0.14902368301880656,
+        "ci_high": 0.18093601008554963
+      },
+      "delta_iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.09620938806787209,
+        "ci_low": -0.11130654318433487,
+        "ci_high": -0.08182632173143026
+      },
+      "pacc": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.7527283176241972,
+        "ci_low": 0.7374282882661688,
+        "ci_high": 0.767641502972646
+      },
+      "dice": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.2051042687902055,
+        "ci_low": 0.18679718212677388,
+        "ci_high": 0.22381646736743457
+      },
+      "precision": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.2824503032215461,
+        "ci_low": 0.26048773277552506,
+        "ci_high": 0.30417623197151394
+      },
+      "recall": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.23216352079914207,
+        "ci_low": 0.20949077812084707,
+        "ci_high": 0.25584707851963256
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.395,
+        "ci_low": 0.377,
+        "ci_high": 0.413
+      },
+      "precise_wrong_object": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.213,
+        "ci_low": 0.187,
+        "ci_high": 0.23902499999999985
+      },
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.214,
+        "ci_low": 0.191,
+        "ci_high": 0.237
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.786,
+        "ci_low": 0.763,
+        "ci_high": 0.809
+      },
+      "target_overlap_preferred": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.409,
+        "ci_low": 0.39,
+        "ci_high": 0.427
+      }
+    }
+  },
+  "paired_comparisons": {
+    "clip_crop/clip_baseline": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "median_delta": 0.0,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      }
+    },
+    "clip_crop/sam_top1_point/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.015794305933153747,
+        "ci_low": -0.008071257055731588,
+        "ci_high": 0.04012966511410457
+      },
+      "median_delta": -0.0549012488252004,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.387,
+        "ci_low": 0.355,
+        "ci_high": 0.419
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.613,
+        "ci_low": 0.581,
+        "ci_high": 0.645
+      }
+    },
+    "clip_crop/sam_top1_point/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.10186277179048861,
+        "ci_low": 0.08280603982874676,
+        "ci_high": 0.12248900539062571
+      },
+      "median_delta": 0.034591853049219995,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.538,
+        "ci_low": 0.506,
+        "ci_high": 0.569
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.462,
+        "ci_low": 0.431,
+        "ci_high": 0.494
+      }
+    },
+    "clip_crop/sam_topk_points/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.11583809904546691,
+        "ci_low": 0.09831352498239831,
+        "ci_high": 0.13394188738806115
+      },
+      "median_delta": 0.0466071078556073,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.56,
+        "ci_low": 0.53,
+        "ci_high": 0.59
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.44,
+        "ci_low": 0.41,
+        "ci_high": 0.47
+      }
+    },
+    "clip_crop/sam_topk_points/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.1100782494998742,
+        "ci_low": 0.09649076589809483,
+        "ci_high": 0.12461648206563482
+      },
+      "median_delta": 0.057821177116702,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.59,
+        "ci_low": 0.559,
+        "ci_high": 0.6210249999999998
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.41,
+        "ci_low": 0.378975,
+        "ci_high": 0.441
+      }
+    },
+    "clip_crop/sam_attribution_box/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.04264484386941247,
+        "ci_low": 0.023972783261564955,
+        "ci_high": 0.06126328577168821
+      },
+      "median_delta": -0.022293880533834298,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.468,
+        "ci_low": 0.435,
+        "ci_high": 0.501
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.532,
+        "ci_low": 0.499,
+        "ci_high": 0.565
+      }
+    },
+    "clip_crop/sam_attribution_box/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.06655902109391927,
+        "ci_low": 0.04894109641903434,
+        "ci_high": 0.0835813060650649
+      },
+      "median_delta": 0.0125370186736279,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.514,
+        "ci_low": 0.483,
+        "ci_high": 0.545
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.486,
+        "ci_low": 0.455,
+        "ci_high": 0.517
+      }
+    },
+    "clip_crop/sam_point_box/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.07982456100297317,
+        "ci_low": 0.06130659866453076,
+        "ci_high": 0.09846980974633625
+      },
+      "median_delta": 0.030490888241218,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.546,
+        "ci_low": 0.515975,
+        "ci_high": 0.5770249999999998
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.454,
+        "ci_low": 0.422975,
+        "ci_high": 0.48402499999999987
+      }
+    },
+    "clip_crop/sam_point_box/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.08955706744832477,
+        "ci_low": 0.07307434559876648,
+        "ci_high": 0.10624100086565726
+      },
+      "median_delta": 0.0539779971294537,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.586,
+        "ci_low": 0.555,
+        "ci_high": 0.617
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.414,
+        "ci_low": 0.383,
+        "ci_high": 0.445
+      }
+    },
+    "clip_crop/center_point_sam/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.17983324368481424,
+        "ci_low": -0.1946612253630903,
+        "ci_high": -0.16469122226042363
+      },
+      "median_delta": -0.17134964878776787,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.12,
+        "ci_low": 0.101,
+        "ci_high": 0.14
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.88,
+        "ci_low": 0.86,
+        "ci_high": 0.899
+      }
+    },
+    "clip_crop/center_point_sam/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.11234921123840029,
+        "ci_low": -0.12819954755731083,
+        "ci_high": -0.09713727194584976
+      },
+      "median_delta": -0.11494239794445091,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.211,
+        "ci_low": 0.188,
+        "ci_high": 0.234
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.789,
+        "ci_low": 0.766,
+        "ci_high": 0.812
+      }
+    },
+    "original/clip_baseline": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "median_delta": 0.0,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      }
+    },
+    "original/sam_top1_point/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.030511781778950763,
+        "ci_low": 0.0072651953102819125,
+        "ci_high": 0.054048916054011006
+      },
+      "median_delta": -0.052310861621959595,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.386,
+        "ci_low": 0.354,
+        "ci_high": 0.418
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.614,
+        "ci_low": 0.582,
+        "ci_high": 0.646
+      }
+    },
+    "original/sam_top1_point/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.11449997385139701,
+        "ci_low": 0.09606815679083278,
+        "ci_high": 0.13469782252370813
+      },
+      "median_delta": 0.0511477306982045,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.553,
+        "ci_low": 0.521,
+        "ci_high": 0.585
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.447,
+        "ci_low": 0.415,
+        "ci_high": 0.479
+      }
+    },
+    "original/sam_topk_points/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.1274827699515707,
+        "ci_low": 0.10974774026701409,
+        "ci_high": 0.14516669506191587
+      },
+      "median_delta": 0.0629812407432337,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.563,
+        "ci_low": 0.532,
+        "ci_high": 0.594
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.437,
+        "ci_low": 0.406,
+        "ci_high": 0.468
+      }
+    },
+    "original/sam_topk_points/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.12172804212656224,
+        "ci_low": 0.10814625364463143,
+        "ci_high": 0.13665562230522685
+      },
+      "median_delta": 0.07302901896917705,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.598,
+        "ci_low": 0.5669749999999999,
+        "ci_high": 0.629
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.402,
+        "ci_low": 0.371,
+        "ci_high": 0.4330249999999999
+      }
+    },
+    "original/sam_attribution_box/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.04023713066884414,
+        "ci_low": 0.02300373530550055,
+        "ci_high": 0.05753246067113609
+      },
+      "median_delta": -0.022380713888289397,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.462,
+        "ci_low": 0.43,
+        "ci_high": 0.494
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.538,
+        "ci_low": 0.506,
+        "ci_high": 0.57
+      }
+    },
+    "original/sam_attribution_box/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.06107707892894553,
+        "ci_low": 0.04504592397980052,
+        "ci_high": 0.07763174743076745
+      },
+      "median_delta": 0.0072823396560433,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.507,
+        "ci_low": 0.476,
+        "ci_high": 0.538
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.493,
+        "ci_low": 0.462,
+        "ci_high": 0.524
+      }
+    },
+    "original/sam_point_box/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.07768393300282449,
+        "ci_low": 0.060488637138018594,
+        "ci_high": 0.0948391671203524
+      },
+      "median_delta": 0.027755404869701447,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.546,
+        "ci_low": 0.516,
+        "ci_high": 0.578
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.454,
+        "ci_low": 0.422,
+        "ci_high": 0.484
+      }
+    },
+    "original/sam_point_box/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.08537937118376934,
+        "ci_low": 0.06991458941539437,
+        "ci_high": 0.10095407125316162
+      },
+      "median_delta": 0.04651540517385,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.584,
+        "ci_low": 0.553,
+        "ci_high": 0.615
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.416,
+        "ci_low": 0.385,
+        "ci_high": 0.447
+      }
+    },
+    "original/center_point_sam/sam_score": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.16045374532726897,
+        "ci_low": -0.17416326303990942,
+        "ci_high": -0.14632324550087547
+      },
+      "median_delta": -0.16348189793988332,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.125,
+        "ci_low": 0.105,
+        "ci_high": 0.146
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.875,
+        "ci_low": 0.854,
+        "ci_high": 0.895
+      }
+    },
+    "original/center_point_sam/attribution_coverage": {
+      "mean_delta": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.09620938806787209,
+        "ci_low": -0.11130654318433487,
+        "ci_high": -0.08182632173143026
+      },
+      "median_delta": -0.10722503357207724,
+      "improved": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.214,
+        "ci_low": 0.191,
+        "ci_high": 0.237
+      },
+      "unchanged": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "worsened": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.786,
+        "ci_low": 0.763,
+        "ci_high": 0.809
+      }
+    }
+  },
+  "method_contrasts": {
+    "sam_top1_point: coverage minus score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.08606846585733487,
+        "ci_low": 0.06679605775615462,
+        "ci_high": 0.10547523134751231
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.046,
+        "ci_low": -0.066,
+        "ci_high": -0.026975000000000138
+      }
+    },
+    "sam_topk_points: coverage minus score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.00575984954559271,
+        "ci_low": -0.020483421395940612,
+        "ci_high": 0.009327417049128595
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.043,
+        "ci_low": -0.061,
+        "ci_high": -0.025
+      }
+    },
+    "sam_attribution_box: coverage minus score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.023914177224506793,
+        "ci_low": 0.015867653689746318,
+        "ci_high": 0.03165923278599852
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.015,
+        "ci_low": 0.0,
+        "ci_high": 0.031
+      }
+    },
+    "sam_point_box: coverage minus score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.0097325064453516,
+        "ci_low": 0.0012560850866942792,
+        "ci_high": 0.018143574735376113
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": -0.001,
+        "ci_low": -0.015,
+        "ci_high": 0.012024999999999864
+      }
+    },
+    "center_point_sam: coverage minus score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.06748403244641397,
+        "ci_low": 0.056351918811437106,
+        "ci_high": 0.07802331376340044
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.028,
+        "ci_low": 0.015,
+        "ci_high": 0.041
+      }
+    },
+    "top1 minus center: sam_score": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.19562754961796802,
+        "ci_low": 0.17119845278314913,
+        "ci_high": 0.2201398290208092
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.406,
+        "ci_low": 0.379,
+        "ci_high": 0.435
+      }
+    },
+    "top1 minus center: attribution_coverage": {
+      "iou": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.21421198302888894,
+        "ci_low": 0.19098574348649097,
+        "ci_high": 0.23771988404121738
+      },
+      "semantic_success": {
+        "n_pairs": 1000,
+        "n_images": 500,
+        "mean": 0.332,
+        "ci_low": 0.302,
+        "ci_high": 0.3600249999999999
+      }
+    }
+  },
+  "candidate_selector_agreement": {
+    "sam_top1_point": 0.196,
+    "sam_topk_points": 0.38,
+    "sam_attribution_box": 0.611,
+    "sam_point_box": 0.663,
+    "center_point_sam": 0.203
+  },
+  "bootstrap": {
+    "unit": "whole image with both targets; subgroup sums/counts preserve pair weighting",
+    "seed": 2026,
+    "replicates": 2000
+  },
+  "semantic_success_definition": "target category-union IoU > maximum other category-union IoU",
+  "precise_wrong_definition": "maximum other-category IoU >= 0.5 and > target IoU",
+  "runtime": {
+    "preparation_seconds": 22.062607500000013,
+    "inference_seconds_including_smoke": 213.50300220000054,
+    "technical_restart_attempt_seconds": 14.081009899999572,
+    "evaluation_seconds": 49.015955900000336,
+    "report_and_panels_seconds": 20.240368700000545,
+    "total_pipeline_seconds": 318.902944200001
+  },
+  "audit": {
+    "images": 500,
+    "pairs": 1000,
+    "rows": 22000,
+    "candidate_masks": 15000,
+    "empty_candidate_masks": 0,
+    "baseline_files_unchanged": true,
+    "baseline_scores_reproduced": true,
+    "all_candidate_hashes_verified": true,
+    "gt_loaded_only_after_complete_inference": true,
+    "evaluation_seconds": 49.015955900000336
+  },
+  "peak_cuda_gb": 2.731041431427002,
+  "example_panels": 50
+}

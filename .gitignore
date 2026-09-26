@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/ImageNetS919/
+data/downloads/
+data/checkpoints/
+data/ImageNet-S-source/
+data/Grad-Eclip-source/
+# Keep research records; omit large generated arrays and image collections.
+outputs/**
+!outputs/**/
+!outputs/**/*.md
+!outputs/**/*.json
+!outputs/**/*.csv
+!outputs/**/*.yaml
+!outputs/**/*.txt
+!outputs/**/*.html
+outputs/refined_all/checkpoints/**
+!outputs/smart_sam/heldout/examples/*.png
+data/coco/
+.env
+.env.*
+*.pem
+*.key

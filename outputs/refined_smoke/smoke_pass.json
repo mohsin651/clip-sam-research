@@ -1,0 +1,32 @@
+{
+  "config": {
+    "seed": 42,
+    "bootstrap_seed": 2026,
+    "bootstrap_replicates": 2000,
+    "model": "ViT-B/16",
+    "prompt_template": "a photo of a {class_name}",
+    "attention_mode": "full",
+    "spatial_prior": "minmax_raw_qk_cosine",
+    "semantic_constraint": "relu_raw_query_gradient_key_cosine",
+    "threshold": "mean",
+    "foreground": "target",
+    "dataset_root": "data/ImageNetS919",
+    "checkpoint_dir": "data/checkpoints",
+    "device": "cuda"
+  },
+  "plan_sha256": "12413665e5c4135743f2531dd1b9ab937ff57513f6449c787d4dbdef4dde16e6",
+  "source_hashes": {
+    "src\\__init__.py": "98341aee61ec0c28df927ffee067879a67261b37227e69d9d003a64ef4d4d1a0",
+    "src\\cda_clip.py": "8e93970729f283723463aeee15ce27dfe8988a20624f2259e8cfbb10c59c38e7",
+    "src\\dashboard.py": "308753eb1d743fb434abe7211d50b980cb30bfd4bd79ae63adc2db87e94eff37",
+    "src\\dataset.py": "197003eeebd566d128f49621ece66bb9792f060bf1935f100e986f59ad8b8cf3",
+    "src\\experiment.py": "da8eb8de74f1fb01009c337007a16d21b46374a7bb6eb4cfe9dbc251ebf83a2e",
+    "src\\hooks.py": "935af216e046a4fc4e7823809c5aa75c0a56c7efc3e207000e8535da6e2242ad",
+    "src\\metrics.py": "2432c124f6a6756551c2d328fa73be96ef3b23c3b78fe539ecbc07c760888a06",
+    "src\\model.py": "f1ad3469e21c0a0e04ead1a97d061d9df5600d3e685992581c29663e85c223a8",
+    "src\\refinement.py": "3063f2e602bcacd0d28583be361431c5e6da8a723c38985e1ca9d3214c84d1a4",
+    "src\\utils.py": "5c12409f144b4cdafce1c3bf60ae6d511767c359dca6e947ca69e8ec5a51d042",
+    "src\\visualization.py": "be89a0b7b03749c630bb8001577e8cb2153c058e9d31784f26f76ab93020f9af",
+    "C:\\CREMI\\trdp\\code\\cda_clip_reproduction\\scripts\\run_refinement.py": "25344c3841845fea2e938ed1d9f1c0150127204dde8db446df57a716aec9080b"
+  }
+}

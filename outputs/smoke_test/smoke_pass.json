@@ -1,0 +1,45 @@
+{
+  "signature": {
+    "config": {
+      "seed": 42,
+      "bootstrap_seed": 2026,
+      "bootstrap_replicates": 2000,
+      "model": "ViT-B/16",
+      "prompt_template": "a photo of a {class_name}",
+      "attention_mode": "full",
+      "threshold": 0.5,
+      "dataset_root": "data/ImageNetS919",
+      "checkpoint_dir": "data/checkpoints",
+      "device": "cuda"
+    },
+    "source_hashes": {
+      "src\\__init__.py": "98341aee61ec0c28df927ffee067879a67261b37227e69d9d003a64ef4d4d1a0",
+      "src\\cda_clip.py": "8e93970729f283723463aeee15ce27dfe8988a20624f2259e8cfbb10c59c38e7",
+      "src\\dashboard.py": "308753eb1d743fb434abe7211d50b980cb30bfd4bd79ae63adc2db87e94eff37",
+      "src\\dataset.py": "197003eeebd566d128f49621ece66bb9792f060bf1935f100e986f59ad8b8cf3",
+      "src\\experiment.py": "da8eb8de74f1fb01009c337007a16d21b46374a7bb6eb4cfe9dbc251ebf83a2e",
+      "src\\hooks.py": "935af216e046a4fc4e7823809c5aa75c0a56c7efc3e207000e8535da6e2242ad",
+      "src\\metrics.py": "2432c124f6a6756551c2d328fa73be96ef3b23c3b78fe539ecbc07c760888a06",
+      "src\\model.py": "f1ad3469e21c0a0e04ead1a97d061d9df5600d3e685992581c29663e85c223a8",
+      "src\\utils.py": "5c12409f144b4cdafce1c3bf60ae6d511767c359dca6e947ca69e8ec5a51d042",
+      "src\\visualization.py": "be89a0b7b03749c630bb8001577e8cb2153c058e9d31784f26f76ab93020f9af"
+    },
+    "clip_commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "metadata_hashes": {
+      "data\\metadata\\categories.txt": "b2ee89cf2d5def583dcea806b8cc99def3d9bb7355ae981fc4c986c6d8dec1da",
+      "data\\metadata\\class_names.json": "41d3b77d762c2ed86cd99afe6d3ef15c015ce36d44a1947a4d51253e9a833f9b",
+      "data\\metadata\\imagenet_class_index.json": "a1e7a966a1f601d39e4b43e119b3e7dd4a2ad3ea08cf69847cbaf021013767bc",
+      "data\\metadata\\imagenet_classes.txt": "1f386e0d1cb6e28b9c2dac651c3dea6801e98ad1b41a14ce6bb1a093d72069f5",
+      "data\\metadata\\mapping_validation.txt": "52de0512c75cd04289f1b5be7fe2aad932a6f6e47288947d63e724985c5904b3",
+      "data\\metadata\\sources.json": "3064568125c95108a8f4c3872ca03002d60c286e822cdf0600fe9ed0ef10df9f",
+      "data\\metadata\\validation.txt": "76b5e5ca74b4270568d8197a6aa7bf1c658859da84966d9308d11263fda9a83c"
+    }
+  },
+  "n": 20,
+  "variants": [
+    "baseline",
+    "gcls",
+    "full"
+  ],
+  "checkpoint_sha256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f"
+}

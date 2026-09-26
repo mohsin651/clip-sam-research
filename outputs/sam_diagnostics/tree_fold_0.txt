@@ -1,0 +1,22 @@
+|--- consistency_log_density_ratio <= 1.52
+|   |--- consistency_log_density_ratio <= 0.34
+|   |   |--- connected_positive_fraction <= 0.37
+|   |   |   |--- class: 0
+|   |   |--- connected_positive_fraction >  0.37
+|   |   |   |--- class: 0
+|   |--- consistency_log_density_ratio >  0.34
+|   |   |--- agreement_iou_12 <= 0.62
+|   |   |   |--- class: 0
+|   |   |--- agreement_iou_12 >  0.62
+|   |   |   |--- class: 0
+|--- consistency_log_density_ratio >  1.52
+|   |--- clip_max <= 0.02
+|   |   |--- area_selected_fraction <= 0.10
+|   |   |   |--- class: 0
+|   |   |--- area_selected_fraction >  0.10
+|   |   |   |--- class: 1
+|   |--- clip_max >  0.02
+|   |   |--- sam_score_candidate_1 <= 0.94
+|   |   |   |--- class: 1
+|   |   |--- sam_score_candidate_1 >  0.94
+|   |   |   |--- class: 1

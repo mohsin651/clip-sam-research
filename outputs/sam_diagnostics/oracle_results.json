@@ -1,0 +1,70 @@
+{
+  "definition": "GT oracles, analysis only, unattainable at inference; top-3 prompt strategy candidates, common CLIP crop",
+  "images": 500,
+  "pairs": 1000,
+  "estimates": {
+    "baseline": {
+      "mean": 0.284644308382605,
+      "ci_low": 0.27315763308657126,
+      "ci_high": 0.2964559843754362
+    },
+    "always_sam_score": {
+      "mean": 0.40048240742807195,
+      "ci_low": 0.3789517022319252,
+      "ci_high": 0.42166038752661344
+    },
+    "always_attribution_coverage": {
+      "mean": 0.39472255788247923,
+      "ci_low": 0.3756995540846162,
+      "ci_high": 0.4144409739409819
+    },
+    "oracle_sam_or_clip": {
+      "mean": 0.4664669737902019,
+      "ci_low": 0.4483361415358827,
+      "ci_high": 0.48543428723745424
+    },
+    "oracle_candidate_selection": {
+      "mean": 0.5020937743045132,
+      "ci_low": 0.4819760945911814,
+      "ci_high": 0.5239698409958977
+    },
+    "oracle_candidate_or_clip": {
+      "mean": 0.5323800983398239,
+      "ci_low": 0.5145486379572969,
+      "ci_high": 0.5522785453734255
+    }
+  },
+  "paired_headroom": {
+    "oracle_sam_or_clip minus always_sam_score": {
+      "mean": 0.06598456636212993,
+      "ci_low": 0.059186119358584297,
+      "ci_high": 0.07301623644459089
+    },
+    "oracle_candidate_selection minus always_sam_score": {
+      "mean": 0.10161136687644126,
+      "ci_low": 0.09017178968246438,
+      "ci_high": 0.11303374608555594
+    },
+    "oracle_candidate_or_clip minus always_sam_score": {
+      "mean": 0.13189769091175188,
+      "ci_low": 0.12070680803162034,
+      "ci_high": 0.14327749044494117
+    },
+    "oracle_candidate_or_clip minus oracle_sam_or_clip": {
+      "mean": 0.06591312454962193,
+      "ci_low": 0.05762939471890422,
+      "ci_high": 0.07461804415487185
+    },
+    "oracle_candidate_or_clip minus oracle_candidate_selection": {
+      "mean": 0.03028632403531061,
+      "ci_low": 0.025904284303400846,
+      "ci_high": 0.03497767219469313
+    }
+  },
+  "candidate_oracle_below_0_5_count": 472,
+  "candidate_oracle_below_0_5_fraction": 0.472,
+  "candidate_oracle_not_better_than_baseline_count": 272,
+  "no_masks_selected_or_written": true,
+  "runtime_seconds": 3.2155847000003632,
+  "source_sha256": "98cb254f3336ddff7a48c1139a0dcba7f3fad1d3807d38c6b075553072a3ef69"
+}

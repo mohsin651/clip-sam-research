@@ -1,0 +1,17 @@
+comparison,metric,difference,ci_low,ci_high
+smart minus sam_score,iou,0.04141565625086313,0.029862369148228388,0.0527033369106107
+smart minus sam_score,semantic_success,0.012,-0.002,0.026
+smart minus sam_score,precise_wrong_object,0.004,-0.008,0.015
+smart minus sam_score,worsened,-0.082,-0.105,-0.06
+smart+density_threshold minus smart,iou,0.004609674704224318,-0.0001261595194961029,0.009146691717649012
+smart+density_threshold minus smart,semantic_success,0.001,-0.011,0.013
+smart+density_threshold minus smart,precise_wrong_object,-0.013,-0.02,-0.007
+smart+density_threshold minus smart,worsened,-0.098,-0.117,-0.079
+smart+logistic minus smart,iou,-0.003567539920003558,-0.012122456945724077,0.00500794794889124
+smart+logistic minus smart,semantic_success,-0.007,-0.027,0.013
+smart+logistic minus smart,precise_wrong_object,-0.029,-0.041,-0.018
+smart+logistic minus smart,worsened,-0.254,-0.282,-0.226
+sam_score+logistic minus sam_score,iou,0.010938438898874341,0.00018520311910000722,0.021544349058289974
+sam_score+logistic minus sam_score,semantic_success,-0.006,-0.029,0.015
+sam_score+logistic minus sam_score,precise_wrong_object,-0.03,-0.042,-0.019
+sam_score+logistic minus sam_score,worsened,-0.309,-0.338,-0.278

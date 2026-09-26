@@ -1,0 +1,13 @@
+seed: 42
+bootstrap_seed: 2026
+bootstrap_replicates: 2000
+model: ViT-B/16
+prompt_template: a photo of a {class_name}
+attention_mode: full
+spatial_prior: minmax_raw_qk_cosine
+semantic_constraint: relu_raw_query_gradient_key_cosine
+threshold: mean
+foreground: target
+dataset_root: data/ImageNetS919
+checkpoint_dir: data/checkpoints
+device: cuda
