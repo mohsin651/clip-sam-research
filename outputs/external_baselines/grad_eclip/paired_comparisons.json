@@ -1,0 +1,372 @@
+{
+  "resamples": 2000,
+  "seed": 2026,
+  "unit": "whole image, both targets grouped",
+  "multiplicity_adjusted": false,
+  "comparisons": [
+    {
+      "comparison": "GE_MAP minus clip_baseline",
+      "metric": "iou",
+      "difference": -0.0016059482957232814,
+      "ci_low": -0.005474092325560427,
+      "ci_high": 0.0020032487666017946
+    },
+    {
+      "comparison": "GE_MAP minus clip_baseline",
+      "metric": "dice",
+      "difference": -0.003458046413826032,
+      "ci_low": -0.007880861798094002,
+      "ci_high": 0.0006447830025998684
+    },
+    {
+      "comparison": "GE_MAP minus clip_baseline",
+      "metric": "own_baseline_harm",
+      "difference": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "comparison": "GE_MAP minus clip_baseline",
+      "metric": "semantic_success",
+      "difference": -0.009,
+      "ci_low": -0.025,
+      "ci_high": 0.008
+    },
+    {
+      "comparison": "GE_MAP minus clip_baseline",
+      "metric": "precise_wrong_object",
+      "difference": 0.008,
+      "ci_low": 0.0,
+      "ci_high": 0.016
+    },
+    {
+      "comparison": "GE_MAP minus CS_MAP",
+      "metric": "iou",
+      "difference": -0.03140213521541069,
+      "ci_low": -0.038512164775845244,
+      "ci_high": -0.024094695649183838
+    },
+    {
+      "comparison": "GE_MAP minus CS_MAP",
+      "metric": "dice",
+      "difference": -0.023797604600786188,
+      "ci_low": -0.031344269927237614,
+      "ci_high": -0.016114172400381346
+    },
+    {
+      "comparison": "GE_MAP minus CS_MAP",
+      "metric": "own_baseline_harm",
+      "difference": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "comparison": "GE_MAP minus CS_MAP",
+      "metric": "semantic_success",
+      "difference": -0.009,
+      "ci_low": -0.027,
+      "ci_high": 0.01
+    },
+    {
+      "comparison": "GE_MAP minus CS_MAP",
+      "metric": "precise_wrong_object",
+      "difference": -0.023,
+      "ci_low": -0.036,
+      "ci_high": -0.011
+    },
+    {
+      "comparison": "GE_POS3_SAM minus GE_MAP",
+      "metric": "iou",
+      "difference": 0.12898346951596038,
+      "ci_low": 0.11021671000853266,
+      "ci_high": 0.14797458619867684
+    },
+    {
+      "comparison": "GE_POS3_SAM minus GE_MAP",
+      "metric": "dice",
+      "difference": 0.10017130037840477,
+      "ci_low": 0.08116624055171662,
+      "ci_high": 0.12013134135957428
+    },
+    {
+      "comparison": "GE_POS3_SAM minus GE_MAP",
+      "metric": "own_baseline_harm",
+      "difference": 0.412,
+      "ci_low": 0.38,
+      "ci_high": 0.442
+    },
+    {
+      "comparison": "GE_POS3_SAM minus GE_MAP",
+      "metric": "semantic_success",
+      "difference": 0.111,
+      "ci_low": 0.083,
+      "ci_high": 0.13802499999999987
+    },
+    {
+      "comparison": "GE_POS3_SAM minus GE_MAP",
+      "metric": "precise_wrong_object",
+      "difference": 0.061,
+      "ci_low": 0.043,
+      "ci_high": 0.08
+    },
+    {
+      "comparison": "GE_POS3_SAM minus sam_score",
+      "metric": "iou",
+      "difference": 0.002331081838295452,
+      "ci_low": -0.015388484646750128,
+      "ci_high": 0.020397098597851788
+    },
+    {
+      "comparison": "GE_POS3_SAM minus sam_score",
+      "metric": "dice",
+      "difference": 0.001660043170051955,
+      "ci_low": -0.017069307040279383,
+      "ci_high": 0.021077154219439564
+    },
+    {
+      "comparison": "GE_POS3_SAM minus sam_score",
+      "metric": "own_baseline_harm",
+      "difference": 0.001,
+      "ci_low": -0.033,
+      "ci_high": 0.034
+    },
+    {
+      "comparison": "GE_POS3_SAM minus sam_score",
+      "metric": "semantic_success",
+      "difference": 0.01,
+      "ci_low": -0.017,
+      "ci_high": 0.037
+    },
+    {
+      "comparison": "GE_POS3_SAM minus sam_score",
+      "metric": "precise_wrong_object",
+      "difference": 0.006,
+      "ci_low": -0.012,
+      "ci_high": 0.026
+    },
+    {
+      "comparison": "GE_POS3_SAM minus CS_POS3_SAM",
+      "metric": "iou",
+      "difference": -0.032296407367291745,
+      "ci_low": -0.051105458474232826,
+      "ci_high": -0.01144031322667783
+    },
+    {
+      "comparison": "GE_POS3_SAM minus CS_POS3_SAM",
+      "metric": "dice",
+      "difference": -0.03981047850475335,
+      "ci_low": -0.06012961068750558,
+      "ci_high": -0.017642510726351448
+    },
+    {
+      "comparison": "GE_POS3_SAM minus CS_POS3_SAM",
+      "metric": "own_baseline_harm",
+      "difference": 0.006,
+      "ci_low": -0.031024999999999997,
+      "ci_high": 0.041
+    },
+    {
+      "comparison": "GE_POS3_SAM minus CS_POS3_SAM",
+      "metric": "semantic_success",
+      "difference": -0.081,
+      "ci_low": -0.108025,
+      "ci_high": -0.052
+    },
+    {
+      "comparison": "GE_POS3_SAM minus CS_POS3_SAM",
+      "metric": "precise_wrong_object",
+      "difference": 0.037,
+      "ci_low": 0.017,
+      "ci_high": 0.056
+    },
+    {
+      "comparison": "GE_POS3_SMART minus GE_POS3_SAM",
+      "metric": "iou",
+      "difference": 0.03928199782753926,
+      "ci_low": 0.02833761920785663,
+      "ci_high": 0.050152670412477854
+    },
+    {
+      "comparison": "GE_POS3_SMART minus GE_POS3_SAM",
+      "metric": "dice",
+      "difference": 0.04282783495008601,
+      "ci_low": 0.032161456614947806,
+      "ci_high": 0.05367968583310289
+    },
+    {
+      "comparison": "GE_POS3_SMART minus GE_POS3_SAM",
+      "metric": "own_baseline_harm",
+      "difference": -0.09,
+      "ci_low": -0.111,
+      "ci_high": -0.068
+    },
+    {
+      "comparison": "GE_POS3_SMART minus GE_POS3_SAM",
+      "metric": "semantic_success",
+      "difference": 0.005,
+      "ci_low": -0.01,
+      "ci_high": 0.02
+    },
+    {
+      "comparison": "GE_POS3_SMART minus GE_POS3_SAM",
+      "metric": "precise_wrong_object",
+      "difference": -0.004,
+      "ci_low": -0.019,
+      "ci_high": 0.01
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SMART",
+      "metric": "iou",
+      "difference": 0.004571655860091449,
+      "ci_low": 0.0010937717857102188,
+      "ci_high": 0.007710656929155837
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SMART",
+      "metric": "dice",
+      "difference": 0.009072250905446673,
+      "ci_low": 0.004758924873752179,
+      "ci_high": 0.013248674293758428
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SMART",
+      "metric": "own_baseline_harm",
+      "difference": -0.057,
+      "ci_low": -0.071,
+      "ci_high": -0.043
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SMART",
+      "metric": "semantic_success",
+      "difference": 0.007,
+      "ci_low": -0.001,
+      "ci_high": 0.014
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SMART",
+      "metric": "precise_wrong_object",
+      "difference": -0.006,
+      "ci_low": -0.011,
+      "ci_high": -0.002
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SAM",
+      "metric": "iou",
+      "difference": 0.043853653687630695,
+      "ci_low": 0.03233259311054148,
+      "ci_high": 0.054427418669008264
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SAM",
+      "metric": "dice",
+      "difference": 0.05190008585553269,
+      "ci_low": 0.04019485884665492,
+      "ci_high": 0.06322796271707488
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SAM",
+      "metric": "own_baseline_harm",
+      "difference": -0.147,
+      "ci_low": -0.171,
+      "ci_high": -0.122
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SAM",
+      "metric": "semantic_success",
+      "difference": 0.012,
+      "ci_low": -0.005,
+      "ci_high": 0.028024999999999863
+    },
+    {
+      "comparison": "GE_POS3_CASR minus GE_POS3_SAM",
+      "metric": "precise_wrong_object",
+      "difference": -0.01,
+      "ci_low": -0.025,
+      "ci_high": 0.004
+    },
+    {
+      "comparison": "GE_POS3_CASR minus frozen_final",
+      "metric": "iou",
+      "difference": 0.007618404958417912,
+      "ci_low": -0.00760925322651151,
+      "ci_high": 0.02361436563519507
+    },
+    {
+      "comparison": "GE_POS3_CASR minus frozen_final",
+      "metric": "dice",
+      "difference": 0.0072431479041099155,
+      "ci_low": -0.009067972297698035,
+      "ci_high": 0.024051040266650246
+    },
+    {
+      "comparison": "GE_POS3_CASR minus frozen_final",
+      "metric": "own_baseline_harm",
+      "difference": 0.003,
+      "ci_low": -0.029,
+      "ci_high": 0.033
+    },
+    {
+      "comparison": "GE_POS3_CASR minus frozen_final",
+      "metric": "semantic_success",
+      "difference": 0.017,
+      "ci_low": -0.008,
+      "ci_high": 0.04202499999999987
+    },
+    {
+      "comparison": "GE_POS3_CASR minus frozen_final",
+      "metric": "precise_wrong_object",
+      "difference": 0.0,
+      "ci_low": -0.016,
+      "ci_high": 0.016
+    },
+    {
+      "comparison": "GE_POS3_CASR minus CS_POS3_CASR",
+      "metric": "iou",
+      "difference": -0.027252929547539977,
+      "ci_low": -0.04356106854933592,
+      "ci_high": -0.008996197195906594
+    },
+    {
+      "comparison": "GE_POS3_CASR minus CS_POS3_CASR",
+      "metric": "dice",
+      "difference": -0.03621541373624395,
+      "ci_low": -0.05320125917403744,
+      "ci_high": -0.017673962299017704
+    },
+    {
+      "comparison": "GE_POS3_CASR minus CS_POS3_CASR",
+      "metric": "own_baseline_harm",
+      "difference": 0.119,
+      "ci_low": 0.087,
+      "ci_high": 0.15
+    },
+    {
+      "comparison": "GE_POS3_CASR minus CS_POS3_CASR",
+      "metric": "semantic_success",
+      "difference": -0.036,
+      "ci_low": -0.061,
+      "ci_high": -0.010975000000000136
+    },
+    {
+      "comparison": "GE_POS3_CASR minus CS_POS3_CASR",
+      "metric": "precise_wrong_object",
+      "difference": 0.029,
+      "ci_low": 0.012,
+      "ci_high": 0.045
+    },
+    {
+      "comparison": "GE_POS3_SMART minus GE_POS3_SAM",
+      "metric": "best_candidate_accuracy",
+      "difference": 0.133,
+      "ci_low": 0.096,
+      "ci_high": 0.17
+    },
+    {
+      "comparison": "GE_POS3_SMART minus GE_POS3_SAM",
+      "metric": "selector_regret",
+      "difference": -0.03928199782753925,
+      "ci_low": -0.05015267041247786,
+      "ci_high": -0.02833761920785663
+    }
+  ]
+}

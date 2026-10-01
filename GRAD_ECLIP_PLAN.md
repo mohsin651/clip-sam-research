@@ -1,0 +1,29 @@
+# Frozen Grad-ECLIP external baseline and CASR transfer protocol
+
+Before any COCO prediction or GT performance evaluation: use official Cyang-Zhao/Grad-Eclip commit e370e6cb194faf2020f5d1ed268f9d57e91a38e6, identical to remote HEAD checked 2026-10-01. Execute original grad_eclip_image.ipynb definitions verbatim (cells 3, 4, 9), using original demo cells 5, 6, 7, 10 for technical sanity. No attribution reimplementation. The historical untracked chefer_segmentation_reference.py in the checkout is not official and is excluded from imports/source inventory. No license or requirements file is present. No official SAM integration is supplied in this release.
+
+## Configuration fixed without outcomes
+
+Original OpenAI CLIP ViT-B/16 and original checkpoint, native CUDA half precision; final attention layer n=1 as in official image demo, full-channel single-head attention for that layer as authored. Use official imgprocess: full RGB image resized bicubically to nearest patch-compatible dimensions, scale_factor=1, CLIP normalization, interpolated positional embeddings. Preserve all original saved strings verbatim: a photo of a CATEGORY; no prompt ensemble. Gradients enabled through original dense forward; text embeddings may be cached without gradients because the image-attribution derivative is unchanged.
+
+Official grad_eclip returns nonnegative ReLU-weighted maps (projected Q/K cosine min-max spatial weights and gradient-times-value channel contributions). Save these native raw patch maps, not a CDA map or replacement normalization. For the common protocol, use official torchvision Resize bilinear/antialias behavior on the raw map into original resized image coordinates, then exact saved 224 center crop. Keep native map dtype through resize, cast only for NumPy storage. No min-max normalization for candidate features; display normalization is visualization-only. Mean binary threshold uses unchanged threshold_for and binary_mask. EPG uses raw nonnegative map energy; its scale/zero convention differs from CLIP Surgery's bounded similarities.
+
+Full-image Grad-ECLIP input differs from original CDA center crop and CS 512 warp. Cross-source comparisons are descriptive package comparisons, not causal isolation of attribution equations. Controlled GE naive/smart/CASR rows share identical maps, positive-three points, candidates and downstream geometry.
+
+## Cohort, frozen components and technical validation
+
+Exactly the existing dense COCO heldout inference_manifest.json: 500 images, 1,000 targets, original order and same target masks. This cohort is already inspected; no tuning or new untouched-test claim. No development images or new subsets. Preserve previous outputs by hashes. Separate output directory outputs/external_baselines/grad_eclip. Original prediction rows reused; never rerun previous methods.
+
+All unchanged candidate_features semantics apply: density inside/outside and ratios on raw nonnegative attribution, coverage, area, SAM score, point containment, agreements, point spread, entropy and concentration. Zero maps use existing definitions and remain; nonfinite maps cause a documented stop rather than a repair. Existing feature function, ranker coefficients/scaler and log-density threshold 0.72536122868084263 unchanged. No fitting, recalibration or feature changes. POS3 k=3, minimum distance32, original inverse coordinates, SAM ViT-B original RGB preprocessing, multimask3. GE_POS3_SAM selects SAM score; GE_POS3_SMART frozen ranker; GE_POS3_CASR fixed density fallback to GE_MAP binary mask.
+
+Official demo must pass finite/nonconstant maps and prompt sensitivity first. Then 20-pair technical smoke, without aggregate GT scores, reuse in full inference. Record model/source/config and image hashes; signature-matched resume only. No GT reads until all1,000 predictions complete and hash checks pass. All outcomes retained, including empty candidates or poor maps.
+
+## Metrics, comparisons and examples
+
+Exact existing category-union masks/crop and localization_metrics/mask_metrics. Map PG/EPG/pixel AP/PAcc/IoU; binary Dice/precision/recall too. No continuous SAM metrics. Harm against GE_MAP only: improved/worsened/unchanged fractions, mean/median/conditional IoU deltas and worst-decile mean. Semantic success and precise wrong object use unchanged category-overlap proxies. No manual identity claims.
+
+2,000 whole-image paired bootstrap resamples, seed2026; retain both prompts, pair-macro weighting, no multiplicity adjustment. Compare GE_MAP to both previous maps; GE naive to original naive and CS naive; GE smart to GE naive; GE CASR to GE smart, GE naive, original CASR and CS CASR. Report IoU, Dice, own-baseline harm and semantic proxies. Primary selector contrast additionally reports paired best-candidate accuracy and regret differences. Best-candidate accuracy accepts ties within1e-8; strict index-argmax accuracy also retained. Candidate oracle, no candidate with IoU>=.5, selected IoU and regret are GT-only post-hoc diagnostics. Cross-source harm uses different own baselines and is labeled accordingly.
+
+Three distinct images per example group where available, nearest median GE final IoU with stable image/category tie breaks: GE map succeeds (IoU>=.5); fails (<.2); naive semantic proxy fails, smart succeeds with IoU>=.5; fallback prevents harm; smart lowers IoU; fallback rejects useful SAM; all three map masks agree (all IoU>=.5 or all<.2); largest max-minus-min map IoU disagreement (sort descending). Selection is illustrative, not prevalence evidence. Show all three maps, RGB, target text/GT, GE points and all candidates, naive/smart/fallback decisions.
+
+Keep official CS ViT-H result separate context, not a controlled comparator. No official GE SAM method invented. Report all negative findings, stop after this study, no new dataset/method/paper experiment or push.

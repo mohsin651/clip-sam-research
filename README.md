@@ -1,8 +1,14 @@
 # CDA-CLIP localization reproduction
 
+Latest external baseline: [official Grad-ECLIP and frozen CASR transfer](GRAD_ECLIP_BASELINE_REPORT.md), [reproduction notes](GRAD_ECLIP_REPRODUCTION.md), [24 paired examples](outputs/external_baselines/grad_eclip/examples.html), and [handoff](START_HERE.md). Same 500 dense COCO images: GE naive mIoU **0.3972**, frozen smart **0.4365**, final CASR **0.4411**. Selector gain **+0.0393 [0.0283, 0.0502]**; fallback gain **+0.0046 [0.0011, 0.0077]**. Own-map harm **41.2% -> 32.2% -> 26.5%**. Candidate accuracy **44.0% -> 57.3%**. No established semantic-success change, no fitting/tuning. Stop external runs for review; further experiments and push are not automatic. New artifacts remain local.
+
+Earlier external baseline: [official CLIP Surgery and frozen selector transfer](CLIP_SURGERY_BASELINE_REPORT.md), [reproduction notes](CLIP_SURGERY_REPRODUCTION.md), [22 paired examples](outputs/external_baselines/clip_surgery/examples.html). Official CS/Text2Points/SAM ViT-H mIoU **0.5000**, with different backbone/prompting; common CS naive/smart/final **0.4295/0.4648/0.4684**. Selector gain **+0.0352 [0.0238, 0.0479]**; fallback lowers own-map harm **33.4% -> 14.6%**, without an established additional IoU gain. Semantic-success proxy decreases. All earlier results remain intact.
+
+Earlier evaluation: [frozen CASR on RefCOCOg UMD test](REFCOCOG_RESULTS.md) and [reproduction notes](REFCOCOG_REPRODUCTION.md). Final mIoU 0.3472 versus naive SAM 0.3183 across 9,602 expressions; strict non-overlap final 0.3492 versus 0.3199. No tuning or negative points. RefCOCOg artifacts are local and not yet pushed.
+
 Latest development result: [CLIP-derived negative points on RefCOCO VAL ? STOP](NEGATIVE_POINTS_RESULTS.md). All six fixed negative rules degraded candidate-oracle quality; no reliable instance-disambiguation gain. Preserve the frozen positive-only method.
 
-Latest completed evaluation: [frozen RefCOCO+ results](REFCOCOPLUS_RESULTS.md) and [reproduction notes](REFCOCOPLUS_REPRODUCTION.md). Final instance mIoU 0.3216 on 10,615 expressions; all images overlap prior RefCOCO tests, so strict non-overlap scores are not estimable. No fitting or negative points. RefCOCOg remains unrun.
+Earlier evaluation: [frozen RefCOCO+ results](REFCOCOPLUS_RESULTS.md) and [reproduction notes](REFCOCOPLUS_REPRODUCTION.md). Final instance mIoU 0.3216 on 10,615 expressions; all images overlap prior RefCOCO tests, so strict non-overlap scores are not estimable. No fitting or negative points. RefCOCOg has since been evaluated above.
 
 Earlier completed experiment: [frozen RefCOCO generalization results](REFCOCO_RESULTS.md), [reproduction notes](REFCOCO_REPRODUCTION.md), and [research handoff](START_HERE.md). The unchanged final method reaches instance mIoU 0.3071 on 10,752 test expressions; improvements and remaining instance-disambiguation failures are documented.
 
@@ -181,3 +187,6 @@ Exact commands and environment notes are in
 [SMART_SAM_REPRODUCTION.md](SMART_SAM_REPRODUCTION.md). Fitted parameters and
 source hashes are under `outputs/smart_sam/frozen/`; the full heldout report and
 24 representative panels are under `outputs/smart_sam/heldout/`.
+
+
+Publication update: the user authorized backing up all new studies on 2026-10-01. See BACKUP_STATUS.md and ARTIFACTS.md for the current Git/archive scope; earlier local-only statements describe the time of those studies. No new research run is authorized by this backup task.

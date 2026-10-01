@@ -1,0 +1,60 @@
+{
+  "oracles": [
+    {
+      "protocol": "common",
+      "candidate_oracle": 0.5272852055859916,
+      "no_candidate_at_05": 0.435,
+      "candidate_plus_fallback_oracle": 0.5759076602762241,
+      "ci_low": 0.5076677266394461,
+      "ci_high": 0.5466780478762557
+    },
+    {
+      "protocol": "official",
+      "candidate_oracle": 0.570771470878841,
+      "no_candidate_at_05": 0.368,
+      "candidate_plus_fallback_oracle": 0.5928245635846154,
+      "ci_low": 0.5503911212437749,
+      "ci_high": 0.5899858357372909
+    }
+  ],
+  "selectors": [
+    {
+      "method": "CS_POS3_SAM",
+      "selected_iou": 0.4295406088608586,
+      "candidate_oracle": 0.5272852055859916,
+      "selector_regret": 0.09774459672513294,
+      "best_candidate_accuracy": 0.478,
+      "strict_argmax_accuracy": 0.461,
+      "selector_regret_ci_low": 0.08798325148858412,
+      "selector_regret_ci_high": 0.10830566352689598,
+      "best_candidate_accuracy_ci_low": 0.447,
+      "best_candidate_accuracy_ci_high": 0.507
+    },
+    {
+      "method": "CS_POS3_SMART",
+      "selected_iou": 0.4647655311353175,
+      "candidate_oracle": 0.5272852055859916,
+      "selector_regret": 0.06251967445067405,
+      "best_candidate_accuracy": 0.544,
+      "strict_argmax_accuracy": 0.528,
+      "selector_regret_ci_low": 0.05395134040099806,
+      "selector_regret_ci_high": 0.07143472741874754,
+      "best_candidate_accuracy_ci_low": 0.513,
+      "best_candidate_accuracy_ci_high": 0.575
+    },
+    {
+      "method": "CS_OFFICIAL_SAM",
+      "selected_iou": 0.4999558996984946,
+      "candidate_oracle": 0.570771470878841,
+      "selector_regret": 0.07081557118034647,
+      "best_candidate_accuracy": 0.495,
+      "strict_argmax_accuracy": 0.474,
+      "selector_regret_ci_low": 0.06171475752090946,
+      "selector_regret_ci_high": 0.08050213535384974,
+      "best_candidate_accuracy_ci_low": 0.465,
+      "best_candidate_accuracy_ci_high": 0.5260249999999999
+    }
+  ],
+  "GT_use": "post-inference diagnostics only",
+  "tied_optima_tolerance": 1e-08
+}

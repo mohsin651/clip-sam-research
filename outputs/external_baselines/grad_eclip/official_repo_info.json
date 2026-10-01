@@ -1,0 +1,43 @@
+{
+  "repository": "https://github.com/Cyang-Zhao/Grad-Eclip",
+  "commit": "e370e6cb194faf2020f5d1ed268f9d57e91a38e6",
+  "license": "No license file/declaration found in inspected release.",
+  "requirements_file": false,
+  "supported_openai_backbones_in_code": [
+    "ViT-B/16",
+    "ViT-B/32"
+  ],
+  "selected_backbone": "OpenAI CLIP ViT-B/16",
+  "layers": "n=1, official image demo default",
+  "preprocessing": "Official imgprocess full image nearest patch-compatible dimensions, bicubic, scale_factor=1, CLIP normalization",
+  "text": "Verbatim saved a photo of a CATEGORY, no ensemble",
+  "native_map": "Official nonnegative ReLU gradient/value/spatial-weight output; native half precision",
+  "normalization": "Official projected Q/K cosine min-max weights. No additional map normalization except binary evaluation and display.",
+  "official_sam_integration": false,
+  "source_hashes": {
+    ".gitignore": "51aca0bb5cfbcf6837d5375e04964028b9986a49f35a24a6679577165099455f",
+    "README.md": "7170b5f20f887a5265b18c150bfcaa63040a1ca618440a38c0e2dd004b2cc782",
+    "clip_utils.py": "31c33504815b62b21f76f77a2119954c4632159835b578256e8aa3df6b1db248",
+    "compare_visualize.ipynb": "39b992cafe0548a82054f5ee516c5ea83526c69ce3a6cbe51ee2e6611d31e526",
+    "dog_and_car.png": "8dd334085cabbd20bc5df8e3912118c29aefe6d01ad92a1e47ed9e130e229e3f",
+    "generate_emap.py": "6e323dd8f6065112d4363fb5d5113a40eb4adf5761b6a194fd7bdb0a153d8c12",
+    "grad_eclip_image.ipynb": "3ad5f48d3db1537d36d4b2f3e5fe8067a824e78494380053da6a1f57ad8a2cdd",
+    "grad_eclip_text.ipynb": "ac4fe98c26c62bcfa178362e55a49d50f1517711a7509f3c8fb34755ac8e2a52",
+    "gradeclip_adaptation_blip.ipynb": "5e6f242eff71ccdf146f6588f05cb6848fec1a43260d881e4448adef15c49394",
+    "gradeclip_adaptation_vit.ipynb": "ebc982753cf170f450f66ed96a09bf106cb873e7a5ca480bdedc5a76d93db72e",
+    "imagenet_eval_deletion.py": "b9b659650c9b34bb2ae600a8649aa8f670baa7c66f1fe60603755d4395716e5d",
+    "imagenet_eval_insertion.py": "b7092bab468b81485bd8911821136b6a57b662110aad3146967f4492800a1ada",
+    "imagenet_metadata.py": "6e43b4db5effd9bcc3f465382eeb69c0e4a78076a4b5857c5c451265cf512abf",
+    "images/examples.jpg": "4b90f958d306f1c50625bced0db861f3b5541cab3ab05f1854caac6c30cc3db0",
+    "images/examples_img_text.jpg": "847b74049dd88b221182543e5328d587711fad7c89ee170b903a49f2c76863b4",
+    "images/framework.png": "a67582b90b6d6ad38080248031918ff1c14ae41d0fe9c1d7a97cddf7a53c20d3",
+    "whippet.png": "a8eb7bff0db240ec59e7a0ce5ad52a2909fa8e83eb550668d39ad3b5bc47111b"
+  },
+  "checkpoint_hashes": {
+    "data\\checkpoints\\ViT-B-16.pt": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f",
+    "data\\checkpoints\\sam_vit_b_01ec64.pth": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+  },
+  "dependencies": "torch torchvision OpenAI clip numpy Pillow ftfy regex tqdm; cv2/matplotlib for official demo only; scipy/pandas/sklearn/segment-anything/pycocotools for unchanged common pipeline/evaluation",
+  "unused_import_omitted": "Notebook startup imports unused open_clip; adapter provides needed imports and executes method cells verbatim.",
+  "sanity_sha256": "5b2b8f56f967c20416baccdadaceb7a600d198cabd131b2de56a9fff08cc8f6d"
+}

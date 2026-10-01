@@ -18,3 +18,7 @@ Source integrity records contain original Windows paths and environment-specific
 The repository inventory is in `REPOSITORY_SNAPSHOT.json`. Git does not contain the paper PDF from the parent workspace. The research notes preserve the interpretation, equations, unresolved ambiguities and source references used in the experiments.
 
 The RefCOCO, RefCOCO+ and negative-point development reports, scripts, per-expression metrics, JSON checkpoint metadata, integrity records and 84 representative PNG panels are included. Referring-expression annotations/images under data/refcoco/ and data/refcocoplus/, NPZ candidate masks and attribution arrays remain excluded. Reproduction notes retain historical publication status; this repository update includes their research records.
+
+## October 2026 backup update
+
+RefCOCOg, CLIP Surgery and Grad-ECLIP code, full-precision CSV/JSON records, provenance and representative/demo panels are included in the Git snapshot. Historical output files are preserved byte-for-byte. All outputs are also being archived separately, including every raw map, candidate mask and older gallery, under C:/CREMI/trdp/research-backup-2026-10-01. Release upload requires a working GitHub CLI login; local archives alone are not an off-machine backup. Archive and per-file SHA256 manifests accompany the archives. Public datasets, checkpoints, environments and third-party source checkouts are excluded; retain the original workspace and use recorded sources/hashes for restoration. See BACKUP_STATUS.md for publication status.
