@@ -1,0 +1,139 @@
+{
+  "image_id": 569851,
+  "sent_id": 52615,
+  "expression": "An apple sits under a bunch of grapes and beside a pile of kiwis, with another apple beneath it.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000569851.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "2beda5c30f864ddfa214c12612c530d48e7beb2a01f593db217f758fe2213266",
+  "naive_candidate": 2,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.023651532878859585,
+      "density_outside": 0.009454825403031141,
+      "density_ratio": 2.501530368691479,
+      "log_density_ratio": 0.9169026921071878,
+      "coverage": 0.4878315067239929,
+      "area_fraction": 0.27576112412177983,
+      "sam_score": 0.8020858764648438,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2960853347969331,
+      "agreement_min": 0.2547433738613914,
+      "agreement_max": 0.3374272957324748,
+      "spread_mean": 0.36077164286097646,
+      "spread_max": 0.5011408186315228,
+      "entropy": 0.9730296852898702,
+      "top10_mass": 0.26135530779162697,
+      "score_margin": 0.02241969108581543
+    },
+    {
+      "density_inside": 0.029389467571267976,
+      "density_outside": 0.011715008513324413,
+      "density_ratio": 2.50870219473868,
+      "log_density_ratio": 0.9197655655702889,
+      "coverage": 0.20580067872701008,
+      "area_fraction": 0.0936219262295082,
+      "sam_score": 0.9167423248291016,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5447975475615737,
+      "agreement_min": 0.3374272957324748,
+      "agreement_max": 0.7521677993906726,
+      "spread_mean": 0.36077164286097646,
+      "spread_max": 0.5011408186315228,
+      "entropy": 0.9730296852898702,
+      "top10_mass": 0.26135530779162697,
+      "score_margin": 0.02241969108581543
+    },
+    {
+      "density_inside": 0.030599928654144824,
+      "density_outside": 0.012062295916784621,
+      "density_ratio": 2.53682456994181,
+      "log_density_ratio": 0.9309131296353023,
+      "coverage": 0.1614217055358102,
+      "area_fraction": 0.07052839578454333,
+      "sam_score": 0.939162015914917,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.503455586626032,
+      "agreement_min": 0.2547433738613914,
+      "agreement_max": 0.7521677993906726,
+      "spread_mean": 0.36077164286097646,
+      "spread_max": 0.5011408186315228,
+      "entropy": 0.9730296852898702,
+      "top10_mass": 0.26135530779162697,
+      "score_margin": 0.02241969108581543
+    }
+  ],
+  "rank_scores": [
+    -0.948653627594142,
+    -1.5958697420761623,
+    -1.8516944667772137
+  ],
+  "points": [
+    [
+      246.90298507462686,
+      402.671875
+    ],
+    [
+      422.6641791044776,
+      70.984375
+    ],
+    [
+      487.6194029850746,
+      101.484375
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        73.0,
+        211.0
+      ],
+      [
+        165.0,
+        37.0
+      ],
+      [
+        199.0,
+        53.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      23,
+      220,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000569851\\52615.map.npz": "7c4b573669acc80865bd01717637772803d8403ea5184139876f36c730ff4610",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000569851\\52615.map.json": "fd5bc178d754d281536c6f41ddb1e756bfa5cceb7c2819538b2ccd056b89a7ab",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000569851\\52615.npz": "fde3d9e437384974a680be462b955a36887e4c4da8a7731a4f99c3e5117dbbb2"
+  }
+}

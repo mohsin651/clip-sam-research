@@ -1,0 +1,139 @@
+{
+  "image_id": 502148,
+  "sent_id": 19777,
+  "expression": "bed next to the window",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000502148.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "42436bde9def153a06049c32289d3a10f61fa984767630213ffdeeda5ef15170",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": false,
+  "features": [
+    {
+      "density_inside": 0.46698134595796864,
+      "density_outside": 0.5001160986420516,
+      "density_ratio": 0.9337458786570031,
+      "log_density_ratio": -0.06855095629692291,
+      "coverage": 0.29424166686787584,
+      "area_fraction": 0.3086751302083333,
+      "sam_score": 0.7198765277862549,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3470944125862158,
+      "agreement_min": 0.28130625915846763,
+      "agreement_max": 0.412882566013964,
+      "spread_mean": 0.20710768779902558,
+      "spread_max": 0.23010666846121858,
+      "entropy": 0.9933469075793359,
+      "top10_mass": 0.1363360319132621,
+      "score_margin": 0.00834435224533081
+    },
+    {
+      "density_inside": 0.7101923424363931,
+      "density_outside": 0.457150054885628,
+      "density_ratio": 1.5535212887867178,
+      "log_density_ratio": 0.44052415351561797,
+      "coverage": 0.18756002190597412,
+      "area_fraction": 0.12937825520833332,
+      "sam_score": 0.9325137734413147,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5422695891562832,
+      "agreement_min": 0.412882566013964,
+      "agreement_max": 0.6716566122986023,
+      "spread_mean": 0.20710768779902558,
+      "spread_max": 0.23010666846121858,
+      "entropy": 0.9933469075793359,
+      "top10_mass": 0.1363360319132621,
+      "score_margin": 0.00834435224533081
+    },
+    {
+      "density_inside": 0.7999272080510503,
+      "density_outside": 0.45929448258902095,
+      "density_ratio": 1.7416434082555432,
+      "log_density_ratio": 0.5548291549831984,
+      "coverage": 0.1466559536064657,
+      "area_fraction": 0.089814453125,
+      "sam_score": 0.9408581256866455,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.47648143572853496,
+      "agreement_min": 0.28130625915846763,
+      "agreement_max": 0.6716566122986023,
+      "spread_mean": 0.20710768779902558,
+      "spread_max": 0.23010666846121858,
+      "entropy": 0.9933469075793359,
+      "top10_mass": 0.1363360319132621,
+      "score_margin": 0.00834435224533081
+    }
+  ],
+  "rank_scores": [
+    -3.7316850196692672,
+    -2.3920823098176776,
+    -2.5091718925930704
+  ],
+  "points": [
+    [
+      82.0,
+      288.3590604026846
+    ],
+    [
+      232.0,
+      269.0302013422819
+    ],
+    [
+      112.0,
+      129.43288590604027
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        38.0,
+        97.0
+      ],
+      [
+        108.0,
+        88.0
+      ],
+      [
+        52.0,
+        23.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      6,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000502148\\19777.map.npz": "29765bb098eb2054cf8f80e288b0dff9e39fb9d3805596d3618867dcaf4dd723",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000502148\\19777.map.json": "d72617fd0bcd70076b2e886c4a9ebc165c974d75519c77b2ce54722a7fa45d2f",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000502148\\19777.npz": "e76c3e98178737537b715ad1960e1bf209094669b7b6267fbba037b8acdd22b4"
+  }
+}

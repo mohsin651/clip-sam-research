@@ -1,0 +1,139 @@
+{
+  "image_id": 173882,
+  "sent_id": 99720,
+  "expression": "complete side of broccoli is visible",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000173882.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "2e896f7eccaf9ace6650ea7593af7ee85db6fdd018031157cd6911a81c62e2a8",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.023678928198506033,
+      "density_outside": 0.009827322447667677,
+      "density_ratio": 2.4094994666340948,
+      "log_density_ratio": 0.8794190357808785,
+      "coverage": 0.6946927012711365,
+      "area_fraction": 0.4856868489583333,
+      "sam_score": 0.8882350921630859,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.37453551934949,
+      "agreement_min": 0.31070095368303946,
+      "agreement_max": 0.4383700850159405,
+      "spread_mean": 0.269828369145007,
+      "spread_max": 0.39860734871670866,
+      "entropy": 0.9655063918273641,
+      "top10_mass": 0.26494157632229376,
+      "score_margin": 0.04503464698791504
+    },
+    {
+      "density_inside": 0.03763757467463669,
+      "density_outside": 0.010633929144318627,
+      "density_ratio": 3.5393855046707614,
+      "log_density_ratio": 1.263953125853218,
+      "coverage": 0.49849861226013825,
+      "area_fraction": 0.21926432291666667,
+      "sam_score": 0.9027746915817261,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5613004385153157,
+      "agreement_min": 0.4383700850159405,
+      "agreement_max": 0.6842307920146911,
+      "spread_mean": 0.269828369145007,
+      "spread_max": 0.39860734871670866,
+      "entropy": 0.9655063918273641,
+      "top10_mass": 0.26494157632229376,
+      "score_margin": 0.04503464698791504
+    },
+    {
+      "density_inside": 0.03798686215257067,
+      "density_outside": 0.012744907697197619,
+      "density_ratio": 2.980552158721617,
+      "log_density_ratio": 1.092108571541523,
+      "coverage": 0.3463418117662285,
+      "area_fraction": 0.1509375,
+      "sam_score": 0.9478093385696411,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.49746587284886523,
+      "agreement_min": 0.31070095368303946,
+      "agreement_max": 0.6842307920146911,
+      "spread_mean": 0.269828369145007,
+      "spread_max": 0.39860734871670866,
+      "entropy": 0.9655063918273641,
+      "top10_mass": 0.26494157632229376,
+      "score_margin": 0.04503464698791504
+    }
+  ],
+  "rank_scores": [
+    -0.17893174621017796,
+    0.3912285310897595,
+    -0.6287238362937222
+  ],
+  "points": [
+    [
+      200.30536912751677,
+      167.71428571428572
+    ],
+    [
+      455.8758389261745,
+      358.42857142857144
+    ],
+    [
+      327.01677852348996,
+      311.2857142857143
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        56.0,
+        78.0
+      ],
+      [
+        175.0,
+        167.0
+      ],
+      [
+        115.0,
+        145.0
+      ]
+    ],
+    "crop_box": [
+      42,
+      36,
+      180,
+      151
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000173882\\99720.map.npz": "5377a8baf5f03695c97b8c84deb6ffae6a79ed61a0e4ecab20a7b906e078f034",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000173882\\99720.map.json": "45a07aa66ad8a3b397959567972d457225805267f3aa441bb584817f3627e266",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000173882\\99720.npz": "f1e6fbf7ec52d9df547d220e8b192bf487abcb888c16287777e4c993dc47348a"
+  }
+}

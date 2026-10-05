@@ -1,0 +1,139 @@
+{
+  "image_id": 345062,
+  "sent_id": 78905,
+  "expression": "the pizza in the left",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000345062.jpg",
+  "geometry": {
+    "width": 612,
+    "height": 612,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "1f1f69224e28d8ee529c552024c0d65d7733af3121151ec95f4cb6cd28a6e366",
+  "naive_candidate": 2,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.7062417518444994,
+      "density_outside": 0.2888112037480172,
+      "density_ratio": 2.4453405639285304,
+      "log_density_ratio": 0.8941844031786261,
+      "coverage": 0.42091837787851566,
+      "area_fraction": 0.22913729762057328,
+      "sam_score": 0.9731168746948242,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7647824336396893,
+      "agreement_min": 0.5392445411291167,
+      "agreement_max": 0.9903203261502621,
+      "spread_mean": 0.14330868772122693,
+      "spread_max": 0.15625,
+      "entropy": 0.9853645589200829,
+      "top10_mass": 0.2221466933228911,
+      "score_margin": 0.017932593822479248
+    },
+    {
+      "density_inside": 0.7061853923302756,
+      "density_outside": 0.2899452461815518,
+      "density_ratio": 2.4355818956440336,
+      "log_density_ratio": 0.8901856995038815,
+      "coverage": 0.41708406403114373,
+      "area_fraction": 0.2270681148276304,
+      "sam_score": 0.9732487797737122,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7611924489424935,
+      "agreement_min": 0.5320645717347248,
+      "agreement_max": 0.9903203261502621,
+      "spread_mean": 0.14330868772122693,
+      "spread_max": 0.15625,
+      "entropy": 0.9853645589200829,
+      "top10_mass": 0.2221466933228911,
+      "score_margin": 0.017932593822479248
+    },
+    {
+      "density_inside": 0.6973557193064196,
+      "density_outside": 0.3401150081469658,
+      "density_ratio": 2.0503526824756806,
+      "log_density_ratio": 0.7180118185865664,
+      "coverage": 0.2251582194260297,
+      "area_fraction": 0.1241322781836046,
+      "sam_score": 0.9911813735961914,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5356545564319207,
+      "agreement_min": 0.5320645717347248,
+      "agreement_max": 0.5392445411291167,
+      "spread_mean": 0.14330868772122693,
+      "spread_max": 0.15625,
+      "entropy": 0.9853645589200829,
+      "top10_mass": 0.2221466933228911,
+      "score_margin": 0.017932593822479248
+    }
+  ],
+  "rank_scores": [
+    -0.23105063743833631,
+    -0.26218098514557153,
+    -1.559569778319243
+  ],
+  "points": [
+    [
+      238.5625,
+      257.6875
+    ],
+    [
+      372.4375,
+      257.6875
+    ],
+    [
+      276.8125,
+      353.3125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 612,
+      "height": 612,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        87.0,
+        94.0
+      ],
+      [
+        136.0,
+        94.0
+      ],
+      [
+        101.0,
+        129.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      65,
+      224,
+      163
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000345062\\78905.map.npz": "36d1aaa4d2d2f6632402af2ecade0b05bd06fc97c44316cd39576b8b415548a0",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000345062\\78905.map.json": "5ecb9256e7961d72b96271dfb2e00430ef74a957c0096b8a9c3461088a3952fe",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000345062\\78905.npz": "ce78e3d3c672ce8c6b35dc0277269311a9f0f39a860ad5fd7321ef610febd489"
+  }
+}

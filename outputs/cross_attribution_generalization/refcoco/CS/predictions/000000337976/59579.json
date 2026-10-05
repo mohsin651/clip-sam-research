@@ -1,0 +1,139 @@
+{
+  "image_id": 337976,
+  "sent_id": 59579,
+  "expression": "baby in white coat man holding",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000337976.jpg",
+  "geometry": {
+    "width": 630,
+    "height": 640,
+    "rw": 224,
+    "rh": 227,
+    "left": 0,
+    "top": 2
+  },
+  "image_sha256": "77cf13e91fd90d1c380928d709824fa78aa3e28fbd2760a84ada3ce356f9acfa",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5638213594280541,
+      "density_outside": 0.23356134561864195,
+      "density_ratio": 2.414018286854047,
+      "log_density_ratio": 0.8812926979814973,
+      "coverage": 0.17394466115961327,
+      "area_fraction": 0.08023065476190476,
+      "sam_score": 0.9003552794456482,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.743075620511142,
+      "agreement_min": 0.7000863504595078,
+      "agreement_max": 0.786064890562776,
+      "spread_mean": 0.14129126673850093,
+      "spread_max": 0.17707033828560861,
+      "entropy": 0.9881158742749697,
+      "top10_mass": 0.2268050106755051,
+      "score_margin": 0.0188484787940979
+    },
+    {
+      "density_inside": 0.5986584628840422,
+      "density_outside": 0.23719140764423444,
+      "density_ratio": 2.52394666749249,
+      "log_density_ratio": 0.9258238143038622,
+      "coverage": 0.14562878552449135,
+      "area_fraction": 0.06326140873015873,
+      "sam_score": 0.9127867817878723,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.813904398594124,
+      "agreement_min": 0.786064890562776,
+      "agreement_max": 0.841743906625472,
+      "spread_mean": 0.14129126673850093,
+      "spread_max": 0.17707033828560861,
+      "entropy": 0.9881158742749697,
+      "top10_mass": 0.2268050106755051,
+      "score_margin": 0.0188484787940979
+    },
+    {
+      "density_inside": 0.6156323509988673,
+      "density_outside": 0.23876811028043832,
+      "density_ratio": 2.578369239816889,
+      "log_density_ratio": 0.9471571214995409,
+      "coverage": 0.13373520307508038,
+      "area_fraction": 0.05649305555555555,
+      "sam_score": 0.9316352605819702,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.77091512854249,
+      "agreement_min": 0.7000863504595078,
+      "agreement_max": 0.841743906625472,
+      "spread_mean": 0.14129126673850093,
+      "spread_max": 0.17707033828560861,
+      "entropy": 0.9881158742749697,
+      "top10_mass": 0.2268050106755051,
+      "score_margin": 0.0188484787940979
+    }
+  ],
+  "rank_scores": [
+    -1.3865333249895848,
+    -1.301161419784586,
+    -1.3977639534521555
+  ],
+  "points": [
+    [
+      540.90625,
+      350.5132158590309
+    ],
+    [
+      462.15625,
+      488.66299559471366
+    ],
+    [
+      580.28125,
+      432.2753303964758
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 630,
+      "height": 640,
+      "rw": 224,
+      "rh": 227,
+      "left": 0,
+      "top": 2
+    },
+    "crop_points": [
+      [
+        192.0,
+        122.0
+      ],
+      [
+        164.0,
+        171.0
+      ],
+      [
+        206.0,
+        151.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      97,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000337976\\59579.map.npz": "940f6ce794e26223b09d586744e8e82a7ede41379a4d273d98fab18b73b4c506",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000337976\\59579.map.json": "a03d04061587316ce8cebff47ed09bb2f5549bc87c6a5a8dc0400007902e7b17",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000337976\\59579.npz": "7c3c5f65538c95dd212addd682998f3a41ba7ac3324decad4432b59cc05f1165"
+  }
+}

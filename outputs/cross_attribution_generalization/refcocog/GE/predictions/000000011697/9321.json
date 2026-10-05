@@ -1,0 +1,139 @@
+{
+  "image_id": 11697,
+  "sent_id": 9321,
+  "expression": "The left front fender of a black truck.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000011697.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "fdb32dcfd30ba0b9131ab4582c7e5acbed477340cf2973bff78e8449178ab591",
+  "naive_candidate": 0,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.008686085130166167,
+      "density_outside": 0.0023254552439442226,
+      "density_ratio": 3.735219221720394,
+      "log_density_ratio": 1.3178065108785302,
+      "coverage": 0.3773751121344106,
+      "area_fraction": 0.13961263020833334,
+      "sam_score": 0.8948659300804138,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.44382872201106355,
+      "agreement_min": 0.37520153164046754,
+      "agreement_max": 0.5124559123816596,
+      "spread_mean": 0.3949323536186067,
+      "spread_max": 0.43210705760498436,
+      "entropy": 0.9083713677691388,
+      "top10_mass": 0.5463765335754432,
+      "score_margin": 0.039295196533203125
+    },
+    {
+      "density_inside": 0.01093590291895741,
+      "density_outside": 0.002104132041993606,
+      "density_ratio": 5.197346314539558,
+      "log_density_ratio": 1.64814817129214,
+      "coverage": 0.42746337911676396,
+      "area_fraction": 0.12560872395833333,
+      "sam_score": 0.8555707335472107,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.54119497225785,
+      "agreement_min": 0.5124559123816596,
+      "agreement_max": 0.5699340321340403,
+      "spread_mean": 0.3949323536186067,
+      "spread_max": 0.43210705760498436,
+      "entropy": 0.9083713677691388,
+      "top10_mass": 0.5463765335754432,
+      "score_margin": 0.039295196533203125
+    },
+    {
+      "density_inside": 0.012561724012103601,
+      "density_outside": 0.001854274792895878,
+      "density_ratio": 6.774467330007276,
+      "log_density_ratio": 1.9131607408772764,
+      "coverage": 0.49621805540834074,
+      "area_fraction": 0.12694010416666668,
+      "sam_score": 0.7410780191421509,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4725677818872539,
+      "agreement_min": 0.37520153164046754,
+      "agreement_max": 0.5699340321340403,
+      "spread_mean": 0.3949323536186067,
+      "spread_max": 0.43210705760498436,
+      "entropy": 0.9083713677691388,
+      "top10_mass": 0.5463765335754432,
+      "score_margin": 0.039295196533203125
+    }
+  ],
+  "rank_scores": [
+    -0.4232433969961669,
+    0.7094241831298955,
+    1.1408369565489893
+  ],
+  "points": [
+    [
+      407.7142857142857,
+      503.1241610738255
+    ],
+    [
+      247.0,
+      215.33892617449663
+    ],
+    [
+      71.28571428571428,
+      423.66107382550337
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        190.0,
+        197.0
+      ],
+      [
+        115.0,
+        63.0
+      ],
+      [
+        33.0,
+        160.0
+      ]
+    ],
+    "crop_box": [
+      167,
+      173,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011697\\9321.map.npz": "672e2b7de34887ad95d936abc45bb07403719b77bca5a463872316f53dc72996",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011697\\9321.map.json": "f9448a6071c097eb506b0af80571bf7c692db82df5cce0c1f8a2c4f769758b8c",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011697\\9321.npz": "d254e0caf070ad0b38cee588b2625788c27db68fbd0164d54d68fa334787ded6"
+  }
+}

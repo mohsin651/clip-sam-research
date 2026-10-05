@@ -1,0 +1,139 @@
+{
+  "image_id": 76245,
+  "sent_id": 123227,
+  "expression": "car left side",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000076245.jpg",
+  "geometry": {
+    "width": 425,
+    "height": 640,
+    "rw": 224,
+    "rh": 337,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "b802ead0da7b7699e8bee6eade1e85c3fd5a451234089b2639d12f2fa8dddc6a",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.7599775440189712,
+      "density_outside": 0.13159768365928962,
+      "density_ratio": 5.775006997697627,
+      "log_density_ratio": 1.7535394681309717,
+      "coverage": 0.4608360360637641,
+      "area_fraction": 0.12892279411764707,
+      "sam_score": 0.8761634826660156,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6448349294869717,
+      "agreement_min": 0.4643233243204782,
+      "agreement_max": 0.8253465346534653,
+      "spread_mean": 0.282199311491026,
+      "spread_max": 0.4181329427891931,
+      "entropy": 0.972018708711147,
+      "top10_mass": 0.2850704244254577,
+      "score_margin": 0.02466505765914917
+    },
+    {
+      "density_inside": 0.7683640526597326,
+      "density_outside": 0.1451083729812966,
+      "density_ratio": 5.295104871401693,
+      "log_density_ratio": 1.666782784600125,
+      "coverage": 0.39141016310356325,
+      "area_fraction": 0.10830514705882353,
+      "sam_score": 0.9008285403251648,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6239157423469027,
+      "agreement_min": 0.4224849500403401,
+      "agreement_max": 0.8253465346534653,
+      "spread_mean": 0.282199311491026,
+      "spread_max": 0.4181329427891931,
+      "entropy": 0.972018708711147,
+      "top10_mass": 0.2850704244254577,
+      "score_margin": 0.02466505765914917
+    },
+    {
+      "density_inside": 0.7697107545679458,
+      "density_outside": 0.1769068099164677,
+      "density_ratio": 4.350939090061252,
+      "log_density_ratio": 1.470391704575261,
+      "coverage": 0.21804269205802282,
+      "area_fraction": 0.06022794117647059,
+      "sam_score": 0.7707021236419678,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.44340413718040916,
+      "agreement_min": 0.4224849500403401,
+      "agreement_max": 0.4643233243204782,
+      "spread_mean": 0.282199311491026,
+      "spread_max": 0.4181329427891931,
+      "entropy": 0.972018708711147,
+      "top10_mass": 0.2850704244254577,
+      "score_margin": 0.02466505765914917
+    }
+  ],
+  "rank_scores": [
+    1.1807703868076769,
+    0.6711495423128543,
+    -1.014204591906453
+  ],
+  "points": [
+    [
+      59.265625,
+      328.99554896142433
+    ],
+    [
+      125.671875,
+      308.10534124629083
+    ],
+    [
+      378.015625,
+      368.87685459940656
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 425,
+      "height": 640,
+      "rw": 224,
+      "rh": 337,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        31.0,
+        117.0
+      ],
+      [
+        66.0,
+        106.0
+      ],
+      [
+        199.0,
+        138.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      88,
+      86,
+      183
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000076245\\123227.map.npz": "ff9f2d81798b6fdde7b8a76a57d79b12222d90fead6bf7f18ee254f232df90a0",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000076245\\123227.map.json": "d6a41acba13f1f33276e7647352af4c48cbaca7e61bc733c0fbf45f780c5a108",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000076245\\123227.npz": "32170399793f8608c30e0f9a0c62cf5bfdf6c989c72de9f5a729fae5131da248"
+  }
+}

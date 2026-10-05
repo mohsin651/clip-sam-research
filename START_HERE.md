@@ -1,3 +1,15 @@
+# Current state: all six external-source inference and evaluation cells complete
+
+RefCOCO, RefCOCO+ and RefCOCOg CS/GE predictions have all been evaluated from saved arrays. No inference rerun or tuning was performed for evaluation. RefCOCO/RefCOCO+ results are in REFCOCO_AND_REFCOCOPLUS_SHARE_SUMMARY.txt; RefCOCOg full and predefined strict-subset statistics are in outputs/cross_attribution_generalization/refcocog_saved_source_statistics.json and companion CSV files. The frozen smart selector has positive paired IoU intervals for both sources on all three datasets. Preserve source-specific fallback tradeoffs. The broader matrix report/final replay audit has not been run; do not imply it has.
+
+The user authorized GitHub backup on October 5, 2026. Publication requires restored GitHub authentication; consult BACKUP_STATUS.md. New raw cross-attribution outputs are archived separately at C:/CREMI/trdp/research-backup-2026-10-05. Do not restart inference.
+
+# Earlier authorized work: frozen cross-product evaluation
+
+The user authorized CS and GE on the exact existing RefCOCO, RefCOCO+ and RefCOCOg manifests. See CROSS_ATTRIBUTION_PLAN.md, CROSS_ATTRIBUTION_REPRODUCTION.md and outputs/cross_attribution_generalization/. Inference is in progress via scripts/run_cross_attribution_matrix.py. Never restart or overwrite completed cells; inspect each run.json and resume only with identical signatures. No GT scoring until all six inference cells terminate. Existing CDA/dense results are reused. The earlier STOP statements below predate this explicit authorization. Stop after the final matrix and audit.
+
+The earlier Git backup commit is b418a6a4; remote push/release upload has not yet been confirmed. Local verified output archives are in C:/CREMI/trdp/research-backup-2026-10-01; see BACKUP_STATUS.md.
+
 # Research handoff: start here
 
 This repository contains the completed CLIP attribution + SAM research project. Continue from the saved experiments; do not restart or silently replace them.

@@ -1,0 +1,139 @@
+{
+  "image_id": 145192,
+  "sent_id": 42556,
+  "expression": "The stool the cat is lying on.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000145192.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 360,
+    "rw": 398,
+    "rh": 224,
+    "left": 87,
+    "top": 0
+  },
+  "image_sha256": "60dbde05ce80bdda2dcbbf6aaa0487856a014a905dc52701cc6f8ae482fa1725",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5700071830972283,
+      "density_outside": 0.2761372350388376,
+      "density_ratio": 2.0642170296772724,
+      "log_density_ratio": 0.724750992130631,
+      "coverage": 0.07896653319698375,
+      "area_fraction": 0.039878472222222225,
+      "sam_score": 0.6759562492370605,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.27029646434598753,
+      "agreement_min": 0.11971887874626383,
+      "agreement_max": 0.4208740499457112,
+      "spread_mean": 0.20187138840255492,
+      "spread_max": 0.26979161769528637,
+      "entropy": 0.9937604303101012,
+      "top10_mass": 0.16635735013406927,
+      "score_margin": 0.11885577440261841
+    },
+    {
+      "density_inside": 0.5751278028234522,
+      "density_outside": 0.2724186798652326,
+      "density_ratio": 2.111190771153655,
+      "log_density_ratio": 0.7472521348244243,
+      "coverage": 0.10189291483696629,
+      "area_fraction": 0.05099826388888889,
+      "sam_score": 0.794812023639679,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.2631022558249218,
+      "agreement_min": 0.10533046170413245,
+      "agreement_max": 0.4208740499457112,
+      "spread_mean": 0.20187138840255492,
+      "spread_max": 0.26979161769528637,
+      "entropy": 0.9937604303101012,
+      "top10_mass": 0.16635735013406927,
+      "score_margin": 0.11885577440261841
+    },
+    {
+      "density_inside": 0.7632162686068267,
+      "density_outside": 0.2780154186805698,
+      "density_ratio": 2.7452300028042362,
+      "log_density_ratio": 1.0098648611809602,
+      "coverage": 0.053775586665407056,
+      "area_fraction": 0.020282118055555555,
+      "sam_score": 0.6314370632171631,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.11252467022519813,
+      "agreement_min": 0.10533046170413245,
+      "agreement_max": 0.11971887874626383,
+      "spread_mean": 0.20187138840255492,
+      "spread_max": 0.26979161769528637,
+      "entropy": 0.9937604303101012,
+      "top10_mass": 0.16635735013406927,
+      "score_margin": 0.11885577440261841
+    }
+  ],
+  "rank_scores": [
+    -3.369697612316611,
+    -3.2234393029626993,
+    -3.346361561866732
+  ],
+  "points": [
+    [
+      389.4497487437186,
+      207.625
+    ],
+    [
+      428.0427135678392,
+      140.125
+    ],
+    [
+      230.25376884422113,
+      151.375
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 360,
+      "rw": 398,
+      "rh": 224,
+      "left": 87,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        155.0,
+        129.0
+      ],
+      [
+        179.0,
+        87.0
+      ],
+      [
+        56.0,
+        94.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      49,
+      224,
+      210
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000145192\\42556.map.npz": "1001fa1e4732ef77060c2f92e963d84ff8e4bd5eae4b3ff17ae424753afc0a74",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000145192\\42556.map.json": "18063f11b33965f9228ac1335224c7a8a7e4061f9ded751dde407b4b3a4a0f46",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000145192\\42556.npz": "3b68a9a6605e04a1e23163fc4cf24e8d1220499dccf8c9618bfa2687e5b02b3a"
+  }
+}

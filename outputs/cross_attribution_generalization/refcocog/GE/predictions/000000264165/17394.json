@@ -1,0 +1,139 @@
+{
+  "image_id": 264165,
+  "sent_id": 17394,
+  "expression": "The doctor is covering a small child with a sheet.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000264165.jpg",
+  "geometry": {
+    "width": 440,
+    "height": 640,
+    "rw": 224,
+    "rh": 325,
+    "left": 0,
+    "top": 50
+  },
+  "image_sha256": "806d3a724d0a158d089d6649a8383b4c720f6d875cb61cddaf3ba8e94485c7ae",
+  "naive_candidate": 2,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.017862236729689902,
+      "density_outside": 0.004208609996303329,
+      "density_ratio": 4.244212873403605,
+      "log_density_ratio": 1.445556378221731,
+      "coverage": 0.6430440920052333,
+      "area_fraction": 0.29797585227272727,
+      "sam_score": 0.5737287998199463,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2152187793410346,
+      "agreement_min": 0.15936900549260702,
+      "agreement_max": 0.27106855318946216,
+      "spread_mean": 0.21626275170796258,
+      "spread_max": 0.32184145003120096,
+      "entropy": 0.9610248815280611,
+      "top10_mass": 0.2791858742937443,
+      "score_margin": 0.014486491680145264
+    },
+    {
+      "density_inside": 0.022354502704164968,
+      "density_outside": 0.007036025014740616,
+      "density_ratio": 3.1771494066827044,
+      "log_density_ratio": 1.1559843818255644,
+      "coverage": 0.21880520093748634,
+      "area_fraction": 0.081015625,
+      "sam_score": 0.724395215511322,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.42238781853301877,
+      "agreement_min": 0.27106855318946216,
+      "agreement_max": 0.5737070838765754,
+      "spread_mean": 0.21626275170796258,
+      "spread_max": 0.32184145003120096,
+      "entropy": 0.9610248815280611,
+      "top10_mass": 0.2791858742937443,
+      "score_margin": 0.014486491680145264
+    },
+    {
+      "density_inside": 0.02585834924232145,
+      "density_outside": 0.0073988586606343115,
+      "density_ratio": 3.4949105564627283,
+      "log_density_ratio": 1.2513077835408108,
+      "coverage": 0.1486276272799653,
+      "area_fraction": 0.047574573863636366,
+      "sam_score": 0.7388817071914673,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3665380446845912,
+      "agreement_min": 0.15936900549260702,
+      "agreement_max": 0.5737070838765754,
+      "spread_mean": 0.21626275170796258,
+      "spread_max": 0.32184145003120096,
+      "entropy": 0.9610248815280611,
+      "top10_mass": 0.2791858742937443,
+      "score_margin": 0.014486491680145264
+    }
+  ],
+  "rank_scores": [
+    0.12918151990564508,
+    -1.686337508956502,
+    -1.9920430283630843
+  ],
+  "points": [
+    [
+      273.5178571428571,
+      295.8692307692308
+    ],
+    [
+      181.19642857142856,
+      280.11538461538464
+    ],
+    [
+      24.053571428571427,
+      311.62307692307695
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 440,
+      "height": 640,
+      "rw": 224,
+      "rh": 325,
+      "left": 0,
+      "top": 50
+    },
+    "crop_points": [
+      [
+        139.0,
+        100.0
+      ],
+      [
+        92.0,
+        92.0
+      ],
+      [
+        12.0,
+        108.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      215,
+      203
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000264165\\17394.map.npz": "ca05e3ae9a536266012b8fcc807152952268863a89a25322f7e5a4c7e960ff75",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000264165\\17394.map.json": "d51521d7285e3466382a306b6241c9d5ea90fe300d580bfed2ec0246fd672c23",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000264165\\17394.npz": "14b56b3cf1e20a8fb4efb611ba89acf0b177e5bf6078b6f7c9ea2e9cb4b3271e"
+  }
+}

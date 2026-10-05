@@ -1,0 +1,139 @@
+{
+  "image_id": 101530,
+  "sent_id": 21000,
+  "expression": "Blue leather chair behind lady in red.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000101530.jpg",
+  "geometry": {
+    "width": 500,
+    "height": 375,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "d38bda13809d931d4aaa7380960bd5bd81d2f6084c0bff1190bbf2ff5d3c965a",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.4599701514085878,
+      "density_outside": 0.28226050582838824,
+      "density_ratio": 1.6295944416914487,
+      "log_density_ratio": 0.48833117508455337,
+      "coverage": 0.31664317564808697,
+      "area_fraction": 0.221392,
+      "sam_score": 0.8363205194473267,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.35622902305226145,
+      "agreement_min": 0.31143966260902906,
+      "agreement_max": 0.4010183834954938,
+      "spread_mean": 0.3940118078930365,
+      "spread_max": 0.5040159260740857,
+      "entropy": 0.9921574027927497,
+      "top10_mass": 0.1821217124227265,
+      "score_margin": 0.011991441249847412
+    },
+    {
+      "density_inside": 0.6233398351845563,
+      "density_outside": 0.29133391307779977,
+      "density_ratio": 2.139606160495142,
+      "log_density_ratio": 0.7606217749466472,
+      "coverage": 0.17671412864672573,
+      "area_fraction": 0.09117333333333333,
+      "sam_score": 0.8243290781974792,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5800136309051773,
+      "agreement_min": 0.4010183834954938,
+      "agreement_max": 0.759008878314861,
+      "spread_mean": 0.3940118078930365,
+      "spread_max": 0.5040159260740857,
+      "entropy": 0.9921574027927497,
+      "top10_mass": 0.1821217124227265,
+      "score_margin": 0.011991441249847412
+    },
+    {
+      "density_inside": 0.6678584774287877,
+      "density_outside": 0.29534315985499787,
+      "density_ratio": 2.2612965804063965,
+      "log_density_ratio": 0.815938356922514,
+      "coverage": 0.14639541570152748,
+      "area_fraction": 0.070496,
+      "sam_score": 0.7892903089523315,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.535224270461945,
+      "agreement_min": 0.31143966260902906,
+      "agreement_max": 0.759008878314861,
+      "spread_mean": 0.3940118078930365,
+      "spread_max": 0.5040159260740857,
+      "entropy": 0.9921574027927497,
+      "top10_mass": 0.1821217124227265,
+      "score_margin": 0.011991441249847412
+    }
+  ],
+  "rank_scores": [
+    -2.2735126987869565,
+    -2.070884487752068,
+    -2.29619231660576
+  ],
+  "points": [
+    [
+      116.11073825503355,
+      251.453125
+    ],
+    [
+      397.98993288590606,
+      110.828125
+    ],
+    [
+      428.19127516778525,
+      216.296875
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 500,
+      "height": 375,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        32.0,
+        150.0
+      ],
+      [
+        200.0,
+        66.0
+      ],
+      [
+        218.0,
+        129.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      71,
+      60,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000101530\\21000.map.npz": "ff1cfd6246d020bc3ec8135aa32194491847927915d847e5649d2057014046b2",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000101530\\21000.map.json": "95f736a7c2ccdc95ef0bc743277ca71681b062f0e1dd7e9ce44e0cd403d7a659",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000101530\\21000.npz": "3b72b5ec75bb6d6987d5077f72b5ca7571f165794d44f3ff26a144cf174acdc4"
+  }
+}

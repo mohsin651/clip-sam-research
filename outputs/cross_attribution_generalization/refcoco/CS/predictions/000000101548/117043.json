@@ -1,0 +1,139 @@
+{
+  "image_id": 101548,
+  "sent_id": 117043,
+  "expression": "right bed",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000101548.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "958fdb6bcb69191adaa486a57895ad6702eb67211d9b6054ddbf2f4bf04ab9ef",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5133462883472261,
+      "density_outside": 0.13250168243392735,
+      "density_ratio": 3.874262416247692,
+      "log_density_ratio": 1.354355300495359,
+      "coverage": 0.5708240223619677,
+      "area_fraction": 0.25556640625,
+      "sam_score": 0.8949479460716248,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.47878888605931924,
+      "agreement_min": 0.36862203240798896,
+      "agreement_max": 0.5889557397106495,
+      "spread_mean": 0.21826528533603565,
+      "spread_max": 0.3270216683174709,
+      "entropy": 0.9784385594421535,
+      "top10_mass": 0.2639510223964372,
+      "score_margin": 0.003182649612426758
+    },
+    {
+      "density_inside": 0.5630656875288197,
+      "density_outside": 0.16893798726817869,
+      "density_ratio": 3.3329726287768215,
+      "log_density_ratio": 1.203864587105486,
+      "coverage": 0.37852122422725665,
+      "area_fraction": 0.15450520833333334,
+      "sam_score": 0.8981305956840515,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6070899938488163,
+      "agreement_min": 0.5889557397106495,
+      "agreement_max": 0.6252242479869832,
+      "spread_mean": 0.21826528533603565,
+      "spread_max": 0.3270216683174709,
+      "entropy": 0.9784385594421535,
+      "top10_mass": 0.2639510223964372,
+      "score_margin": 0.003182649612426758
+    },
+    {
+      "density_inside": 0.576428871814477,
+      "density_outside": 0.19170336624833606,
+      "density_ratio": 3.0068792379198683,
+      "log_density_ratio": 1.1009027428823808,
+      "coverage": 0.24856661968577978,
+      "area_fraction": 0.09910807291666666,
+      "sam_score": 0.7640904188156128,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.49692314019748607,
+      "agreement_min": 0.36862203240798896,
+      "agreement_max": 0.6252242479869832,
+      "spread_mean": 0.21826528533603565,
+      "spread_max": 0.3270216683174709,
+      "entropy": 0.9784385594421535,
+      "top10_mass": 0.2639510223964372,
+      "score_margin": 0.003182649612426758
+    }
+  ],
+  "rank_scores": [
+    0.7011328831146542,
+    -0.10475547593921218,
+    -1.4066735081335748
+  ],
+  "points": [
+    [
+      427.9563758389262,
+      262.0
+    ],
+    [
+      290.50671140939596,
+      247.0
+    ],
+    [
+      548.2248322147651,
+      292.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        162.0,
+        122.0
+      ],
+      [
+        98.0,
+        115.0
+      ],
+      [
+        218.0,
+        136.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      80,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000101548\\117043.map.npz": "6935845c66a38984beff5d7443d3afbcc12e76c32e3e99ae310d190b3273361e",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000101548\\117043.map.json": "6c965e35b3b909e3eb9811cde23634aa67f3128492fa744aed3c7459c0af2e1e",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000101548\\117043.npz": "67172a1d465ed5f0e712d4371085fe48200571ca60d2bfbf0504c9c388909766"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 221654,
+  "sent_id": 19033,
+  "expression": "A skier with a yellow helmet is the only skier on the snow covered ground",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000221654.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 426,
+    "rw": 336,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "63389f759e738bda85e9bde2c4b973a62f294886dcf005cd2c5844b669676e87",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.003341924240482179,
+      "density_outside": 0.013066544329858962,
+      "density_ratio": 0.25576190275416827,
+      "log_density_ratio": -1.3635083343508936,
+      "coverage": 0.18696636488630378,
+      "area_fraction": 0.4734411678403756,
+      "sam_score": 0.7167508006095886,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.00036261071283292395,
+      "agreement_min": 6.718573870719708e-05,
+      "agreement_max": 0.0006580356869586508,
+      "spread_mean": 0.31030190039912997,
+      "spread_max": 0.456294964626297,
+      "entropy": 0.9315421974872032,
+      "top10_mass": 0.3993015096446179,
+      "score_margin": 0.03652060031890869
+    },
+    {
+      "density_inside": 0.034440639561720936,
+      "density_outside": 0.007988358688933276,
+      "density_ratio": 4.311353670826292,
+      "log_density_ratio": 1.461251931590752,
+      "coverage": 0.07294992309334729,
+      "area_fraction": 0.017924735915492956,
+      "sam_score": 0.7532714009284973,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.1562711377079347,
+      "agreement_min": 6.718573870719708e-05,
+      "agreement_max": 0.3124750896771622,
+      "spread_mean": 0.31030190039912997,
+      "spread_max": 0.456294964626297,
+      "entropy": 0.9315421974872032,
+      "top10_mass": 0.3993015096446179,
+      "score_margin": 0.03652060031890869
+    },
+    {
+      "density_inside": 0.051347451868762765,
+      "density_outside": 0.008193588599920476,
+      "density_ratio": 6.266784234565345,
+      "log_density_ratio": 1.8352633418461821,
+      "coverage": 0.03781147045418076,
+      "area_fraction": 0.006231660798122066,
+      "sam_score": 0.6201075315475464,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.15656656268206043,
+      "agreement_min": 0.0006580356869586508,
+      "agreement_max": 0.3124750896771622,
+      "spread_mean": 0.31030190039912997,
+      "spread_max": 0.456294964626297,
+      "entropy": 0.9315421974872032,
+      "top10_mass": 0.3993015096446179,
+      "score_margin": 0.03652060031890869
+    }
+  ],
+  "rank_scores": [
+    -7.517251296030155,
+    -2.448590816952766,
+    -2.427474648407891
+  ],
+  "points": [
+    [
+      120.45238095238095,
+      198.23660714285714
+    ],
+    [
+      171.88095238095238,
+      164.00446428571428
+    ],
+    [
+      470.9285714285714,
+      213.45089285714283
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 426,
+      "rw": 336,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        7.0,
+        104.0
+      ],
+      [
+        34.0,
+        86.0
+      ],
+      [
+        191.0,
+        112.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      96,
+      97,
+      144
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000221654\\19033.map.npz": "a02845072a29d746cec7646188c9bcf6722a8e550f2f8eea7c82670e731a0871",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000221654\\19033.map.json": "d70020eea5f964bbda137986489c25b6712cf41e6c34fd2df1df52c13d65b96b",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000221654\\19033.npz": "4c24978dff76cd95cb8e1a8aed1107a9f0cc22b01719d95e5062ea657eead518"
+  }
+}

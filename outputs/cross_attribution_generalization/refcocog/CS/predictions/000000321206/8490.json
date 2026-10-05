@@ -1,0 +1,139 @@
+{
+  "image_id": 321206,
+  "sent_id": 8490,
+  "expression": "The giraffe whose head is not visible.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000321206.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "cfaeeeb923b40745809cf5c8530f1e920ce080b6f355b49b9e87caf248083f87",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.35817102771807,
+      "density_outside": 0.20489739789921646,
+      "density_ratio": 1.748050640899289,
+      "log_density_ratio": 0.5585012475826747,
+      "coverage": 0.2840179924190526,
+      "area_fraction": 0.18495682084309134,
+      "sam_score": 0.8049657344818115,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6947241000328055,
+      "agreement_min": 0.5047057893071812,
+      "agreement_max": 0.8847424107584297,
+      "spread_mean": 0.13695612435930948,
+      "spread_max": 0.17345530801302841,
+      "entropy": 0.9798186114071715,
+      "top10_mass": 0.2445918460902709,
+      "score_margin": 0.037843167781829834
+    },
+    {
+      "density_inside": 0.38642164070934854,
+      "density_outside": 0.20324651410957986,
+      "density_ratio": 1.9012460922164156,
+      "log_density_ratio": 0.6425095092158598,
+      "coverage": 0.2713311204122911,
+      "area_fraction": 0.16377707845433256,
+      "sam_score": 0.9388636946678162,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7217846001959839,
+      "agreement_min": 0.558826789633538,
+      "agreement_max": 0.8847424107584297,
+      "spread_mean": 0.13695612435930948,
+      "spread_max": 0.17345530801302841,
+      "entropy": 0.9798186114071715,
+      "top10_mass": 0.2445918460902709,
+      "score_margin": 0.037843167781829834
+    },
+    {
+      "density_inside": 0.6689973428583613,
+      "density_outside": 0.1882910001318436,
+      "density_ratio": 3.552996916402634,
+      "log_density_ratio": 1.2677914491544562,
+      "coverage": 0.26823254186137924,
+      "area_fraction": 0.09351946721311476,
+      "sam_score": 0.9010205268859863,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5317662894703596,
+      "agreement_min": 0.5047057893071812,
+      "agreement_max": 0.558826789633538,
+      "spread_mean": 0.13695612435930948,
+      "spread_max": 0.17345530801302841,
+      "entropy": 0.9798186114071715,
+      "top10_mass": 0.2445918460902709,
+      "score_margin": 0.037843167781829834
+    }
+  ],
+  "rank_scores": [
+    -1.8138185740606272,
+    -1.4021263398671016,
+    -0.6683065664309865
+  ],
+  "points": [
+    [
+      449.410447761194,
+      179.640625
+    ],
+    [
+      394.0074626865672,
+      152.953125
+    ],
+    [
+      451.32089552238807,
+      46.203125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        179.0,
+        94.0
+      ],
+      [
+        150.0,
+        80.0
+      ],
+      [
+        180.0,
+        24.0
+      ]
+    ],
+    "crop_box": [
+      58,
+      58,
+      224,
+      177
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000321206\\8490.map.npz": "c836640e468af5ba541f1d8547bef8b1f955dd4e756d833e7a208928a3e8046f",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000321206\\8490.map.json": "b9c41abe766a35fff6f87e4d3706e63d1a1b38573fed702cc646d7c3eaf34f63",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000321206\\8490.npz": "a989a11968ca470caed100a41c2c9adf40f6c2bbe42c9b61581758e162466613"
+  }
+}

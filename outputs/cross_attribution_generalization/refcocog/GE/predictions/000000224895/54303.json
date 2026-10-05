@@ -1,0 +1,139 @@
+{
+  "image_id": 224895,
+  "sent_id": 54303,
+  "expression": "A pedestal sink between the toilet and the tub.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000224895.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "d0526016a65b6ebe0f7e88db9e11c0a410bda01f1d0eb88dccf1767f7e0b06d2",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.0454645415721204,
+      "density_outside": 0.006578591847902442,
+      "density_ratio": 6.9109837813856165,
+      "log_density_ratio": 1.9331119983459226,
+      "coverage": 0.4108014026407558,
+      "area_fraction": 0.091640625,
+      "sam_score": 0.8202590942382812,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7187193850963423,
+      "agreement_min": 0.5154496867589282,
+      "agreement_max": 0.9219890834337563,
+      "spread_mean": 0.1839367612451693,
+      "spread_max": 0.20067116992781284,
+      "entropy": 0.9258203971381959,
+      "top10_mass": 0.4408595013196709,
+      "score_margin": 0.03678387403488159
+    },
+    {
+      "density_inside": 0.04679103597020195,
+      "density_outside": 0.006742852501160687,
+      "density_ratio": 6.939353330835603,
+      "log_density_ratio": 1.9372085902036895,
+      "coverage": 0.39159471818146413,
+      "area_fraction": 0.08487955729166667,
+      "sam_score": 0.9238724112510681,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.725615412587749,
+      "agreement_min": 0.5292417417417418,
+      "agreement_max": 0.9219890834337563,
+      "spread_mean": 0.1839367612451693,
+      "spread_max": 0.20067116992781284,
+      "entropy": 0.9258203971381959,
+      "top10_mass": 0.4408595013196709,
+      "score_margin": 0.03678387403488159
+    },
+    {
+      "density_inside": 0.047145923829132845,
+      "density_outside": 0.008287229077041491,
+      "density_ratio": 5.688985230787752,
+      "log_density_ratio": 1.7385318896864657,
+      "coverage": 0.22189445505868433,
+      "area_fraction": 0.047734375,
+      "sam_score": 0.8870885372161865,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5223457142503349,
+      "agreement_min": 0.5154496867589282,
+      "agreement_max": 0.5292417417417418,
+      "spread_mean": 0.1839367612451693,
+      "spread_max": 0.20067116992781284,
+      "entropy": 0.9258203971381959,
+      "top10_mass": 0.4408595013196709,
+      "score_margin": 0.03678387403488159
+    }
+  ],
+  "rank_scores": [
+    1.2251944402341652,
+    1.327757997961207,
+    -0.21585743448713499
+  ],
+  "points": [
+    [
+      150.57142857142856,
+      518.1577181208054
+    ],
+    [
+      249.14285714285714,
+      391.4463087248322
+    ],
+    [
+      103.42857142857143,
+      391.4463087248322
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        70.0,
+        204.0
+      ],
+      [
+        116.0,
+        145.0
+      ],
+      [
+        48.0,
+        145.0
+      ]
+    ],
+    "crop_box": [
+      23,
+      132,
+      91,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000224895\\54303.map.npz": "61c5de9eefa7a81586a3cc5cb48eb464346bc1d48fb5fa3de25390e61f6e7415",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000224895\\54303.map.json": "a876ee63ef5d345ea9492cca1438a7e9ed368771ebf4ab5106ed5049ba2cf8b0",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000224895\\54303.npz": "85216fea997bd36ec62019350630d1507ac76b87519ba1f5578ce0d200a5de23"
+  }
+}

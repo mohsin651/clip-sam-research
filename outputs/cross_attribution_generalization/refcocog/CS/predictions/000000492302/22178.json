@@ -1,0 +1,139 @@
+{
+  "image_id": 492302,
+  "sent_id": 22178,
+  "expression": "the green plant in a pot on the floor",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000492302.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 640,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "ff42c3f2a4a683c7228eeda410bee7fc19966f8e56e40b541106c4c0c13b59f4",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.674463973680731,
+      "density_outside": 0.27243032756486907,
+      "density_ratio": 2.4757301424807667,
+      "log_density_ratio": 0.906535359579045,
+      "coverage": 0.3286816762656718,
+      "area_fraction": 0.16510986328125,
+      "sam_score": 0.9715465307235718,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7484737711758598,
+      "agreement_min": 0.7227116443106527,
+      "agreement_max": 0.7742358980410667,
+      "spread_mean": 0.27967216726070143,
+      "spread_max": 0.39156137769192706,
+      "entropy": 0.9807671474814798,
+      "top10_mass": 0.23647211271271773,
+      "score_margin": 0.00680464506149292
+    },
+    {
+      "density_inside": 0.7381748175499333,
+      "density_outside": 0.2799038842407508,
+      "density_ratio": 2.6372439223186253,
+      "log_density_ratio": 0.9697344030258688,
+      "coverage": 0.2800537365059524,
+      "area_fraction": 0.1285400390625,
+      "sam_score": 0.9647418856620789,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8530240198660477,
+      "agreement_min": 0.7742358980410667,
+      "agreement_max": 0.9318121416910286,
+      "spread_mean": 0.27967216726070143,
+      "spread_max": 0.39156137769192706,
+      "entropy": 0.9807671474814798,
+      "top10_mass": 0.23647211271271773,
+      "score_margin": 0.00680464506149292
+    },
+    {
+      "density_inside": 0.7406039636069542,
+      "density_outside": 0.28406809849799447,
+      "density_ratio": 2.607135287349332,
+      "log_density_ratio": 0.9582520274878743,
+      "coverage": 0.26210488090665907,
+      "area_fraction": 0.1199072265625,
+      "sam_score": 0.811721920967102,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8272618930008406,
+      "agreement_min": 0.7227116443106527,
+      "agreement_max": 0.9318121416910286,
+      "spread_mean": 0.27967216726070143,
+      "spread_max": 0.39156137769192706,
+      "entropy": 0.9807671474814798,
+      "top10_mass": 0.23647211271271773,
+      "score_margin": 0.00680464506149292
+    }
+  ],
+  "rank_scores": [
+    -0.48965883070981986,
+    -0.45748623723090015,
+    -0.8971619704831063
+  ],
+  "points": [
+    [
+      249.5,
+      289.5
+    ],
+    [
+      329.5,
+      169.5
+    ],
+    [
+      589.5,
+      189.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 640,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        87.0,
+        101.0
+      ],
+      [
+        115.0,
+        59.0
+      ],
+      [
+        206.0,
+        66.0
+      ]
+    ],
+    "crop_box": [
+      61,
+      0,
+      224,
+      211
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000492302\\22178.map.npz": "1951699591e916be7130e77f5eaedd2c2cf5de3beac509c978ed4ba31f24c00f",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000492302\\22178.map.json": "cb5ff93fd6c6f821a2ec03985bd2030ffa6b4e182354a8b4921a2affa3ecfe9a",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000492302\\22178.npz": "a74875565c81296d91b8f941f7dc3942cc2e5865cf7409797413a8a10db9fb95"
+  }
+}

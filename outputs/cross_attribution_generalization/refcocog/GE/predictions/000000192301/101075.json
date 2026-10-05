@@ -1,0 +1,139 @@
+{
+  "image_id": 192301,
+  "sent_id": 101075,
+  "expression": "Green apples are in a white bin next to a bin or oranges and plums.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000192301.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "01c233c53bc81f975c5e18b7ff55ace56cb70303da2585c8cec22a7892aaf89d",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.018952798870900137,
+      "density_outside": 0.010978092037771768,
+      "density_ratio": 1.7264201105222816,
+      "log_density_ratio": 0.5460499643263206,
+      "coverage": 0.24080829172788648,
+      "area_fraction": 0.15521077283372364,
+      "sam_score": 0.8174938559532166,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.41085784895410704,
+      "agreement_min": 0.3546632124352332,
+      "agreement_max": 0.4670524854729809,
+      "spread_mean": 0.19399066981754534,
+      "spread_max": 0.22140731723200793,
+      "entropy": 0.964611230873766,
+      "top10_mass": 0.2610916131278719,
+      "score_margin": 0.06789213418960571
+    },
+    {
+      "density_inside": 0.023918989481967776,
+      "density_outside": 0.011294517284901778,
+      "density_ratio": 2.117752257710413,
+      "log_density_ratio": 0.7503552704599673,
+      "coverage": 0.14289711671069263,
+      "area_fraction": 0.07298009367681499,
+      "sam_score": 0.9340514540672302,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5181020206635109,
+      "agreement_min": 0.4670524854729809,
+      "agreement_max": 0.5691515558540408,
+      "spread_mean": 0.19399066981754534,
+      "spread_max": 0.22140731723200793,
+      "entropy": 0.964611230873766,
+      "top10_mass": 0.2610916131278719,
+      "score_margin": 0.06789213418960571
+    },
+    {
+      "density_inside": 0.0320951183125392,
+      "density_outside": 0.011052942691416982,
+      "density_ratio": 2.9037623016500826,
+      "log_density_ratio": 1.0660072415947757,
+      "coverage": 0.14520132384664308,
+      "area_fraction": 0.05526566159250586,
+      "sam_score": 0.8661593198776245,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.46190738414463695,
+      "agreement_min": 0.3546632124352332,
+      "agreement_max": 0.5691515558540408,
+      "spread_mean": 0.19399066981754534,
+      "spread_max": 0.22140731723200793,
+      "entropy": 0.964611230873766,
+      "top10_mass": 0.2610916131278719,
+      "score_margin": 0.06789213418960571
+    }
+  ],
+  "rank_scores": [
+    -2.3926202055933317,
+    -2.071412021153099,
+    -1.8488306955586584
+  ],
+  "points": [
+    [
+      118.90298507462687,
+      276.859375
+    ],
+    [
+      118.90298507462687,
+      116.734375
+    ],
+    [
+      231.61940298507463,
+      244.453125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        6.0,
+        145.0
+      ],
+      [
+        6.0,
+        61.0
+      ],
+      [
+        65.0,
+        128.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      7,
+      189,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000192301\\101075.map.npz": "aadf512917a99b7832eecd562670082d030f11457c8b2dc02e47f7fdaa0b7c06",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000192301\\101075.map.json": "a0a78eee31763280e3780a8efa5646daa5afc3b42bd7f7051af97a774caa062d",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000192301\\101075.npz": "b8494a9bc316b86b54278cfb896f6e348471fdc3826f83a519cdb5e776ca82b1"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 368647,
+  "sent_id": 72490,
+  "expression": "The chair farther away from the armoire.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000368647.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "0f4a634aba65333a24ca814ae25dbc69585e1ff9ec997afbc3b7756d99a3f902",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.027421615243477134,
+      "density_outside": 0.003271493969329544,
+      "density_ratio": 8.381985567503552,
+      "log_density_ratio": 2.12608482769386,
+      "coverage": 0.24988631582294657,
+      "area_fraction": 0.03822453161592506,
+      "sam_score": 0.8554306626319885,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.68331898715949,
+      "agreement_min": 0.5808760377898654,
+      "agreement_max": 0.7857619365291146,
+      "spread_mean": 0.10551898465118444,
+      "spread_max": 0.13051517359593748,
+      "entropy": 0.9516618865438817,
+      "top10_mass": 0.3799356338853517,
+      "score_margin": 0.08242064714431763
+    },
+    {
+      "density_inside": 0.03032283583543413,
+      "density_outside": 0.0033770173895448234,
+      "density_ratio": 8.979176690156773,
+      "log_density_ratio": 2.1949081955333747,
+      "coverage": 0.2193453983873506,
+      "area_fraction": 0.030342505854800937,
+      "sam_score": 0.9668113589286804,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7599246453190633,
+      "agreement_min": 0.7340873541090122,
+      "agreement_max": 0.7857619365291146,
+      "spread_mean": 0.10551898465118444,
+      "spread_max": 0.13051517359593748,
+      "entropy": 0.9516618865438817,
+      "top10_mass": 0.3799356338853517,
+      "score_margin": 0.08242064714431763
+    },
+    {
+      "density_inside": 0.03165203130977484,
+      "density_outside": 0.00356563709818948,
+      "density_ratio": 8.87696375970785,
+      "log_density_ratio": 2.183459579616241,
+      "coverage": 0.16898666243090957,
+      "area_fraction": 0.022394613583138174,
+      "sam_score": 0.8843907117843628,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6574816959494387,
+      "agreement_min": 0.5808760377898654,
+      "agreement_max": 0.7340873541090122,
+      "spread_mean": 0.10551898465118444,
+      "spread_max": 0.13051517359593748,
+      "entropy": 0.9516618865438817,
+      "top10_mass": 0.3799356338853517,
+      "score_margin": 0.08242064714431763
+    }
+  ],
+  "rank_scores": [
+    0.6274087513805593,
+    0.946896820221464,
+    0.2532987748060139
+  ],
+  "points": [
+    [
+      392.0970149253731,
+      166.296875
+    ],
+    [
+      390.1865671641791,
+      244.453125
+    ],
+    [
+      455.1417910447761,
+      244.453125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        149.0,
+        87.0
+      ],
+      [
+        148.0,
+        128.0
+      ],
+      [
+        182.0,
+        128.0
+      ]
+    ],
+    "crop_box": [
+      86,
+      46,
+      224,
+      167
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000368647\\72490.map.npz": "63c3419717b5b72ee142618c38e32e6d4a12267243bf1fc131415d0b2058f566",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000368647\\72490.map.json": "adf8e21375765258300ad54936b71b5ea051c2a88b67ac0b38fba0d3d39a2d24",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000368647\\72490.npz": "0b44e3bb3d742afdfd109fe0d59f4d0db9b7eae37569bb553bf452a3be0cfae2"
+  }
+}

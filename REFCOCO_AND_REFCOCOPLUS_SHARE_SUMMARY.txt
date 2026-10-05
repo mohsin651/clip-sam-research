@@ -1,0 +1,123 @@
+NEW CS/GE RefCOCO and RefCOCO+ evaluation
+
+
+
+Saved inference was reused. No inference, training, tuning or prediction changes.
+
+Evaluation scope: four completed cells, explicitly requested by the user; RefCOCOg was not started.
+
+The separate wrapper changes only the original six-cell scheduling barrier and its audit label.
+
+Metrics and prediction/source/annotation hash verification reuse the existing evaluator.
+
+
+
+Saved prediction counts: RefCOCO CS=10,752; GE=10,752. RefCOCO+ CS=10,615; GE=10,615.
+
+
+
+RefCOCO / CS paired mIoU differences
+
+| comparison | difference | ci_low | ci_high |
+| --- | --- | --- | --- |
+| SMART minus NAIVE | 0.0276 | 0.0231 | 0.0319 |
+| FINAL minus SMART | -0.0170 | -0.0206 | -0.0134 |
+| FINAL minus NAIVE | 0.0106 | 0.0051 | 0.0163 |
+
+
+RefCOCO / GE paired mIoU differences
+
+| comparison | difference | ci_low | ci_high |
+| --- | --- | --- | --- |
+| SMART minus NAIVE | 0.0204 | 0.0162 | 0.0245 |
+| FINAL minus SMART | -0.0016 | -0.0030 | -0.0003 |
+| FINAL minus NAIVE | 0.0187 | 0.0145 | 0.0231 |
+
+
+RefCOCO three-source full-image mIoU and harm table
+
+| Source | MAP mIoU | NAIVE mIoU | SMART mIoU | FINAL mIoU | Naive harm % | Final harm % |
+| --- | --- | --- | --- | --- | --- | --- |
+| CDA | 0.2034 | 0.2872 | 0.3081 | 0.3071 | 46.2984 | 34.1146 |
+| CS | 0.2189 | 0.2937 | 0.3213 | 0.3043 | 47.8516 | 20.9170 |
+| GE | 0.2078 | 0.2769 | 0.2973 | 0.2957 | 48.9862 | 37.9557 |
+
+
+RefCOCO+ / CS paired mIoU differences
+
+| comparison | difference | ci_low | ci_high |
+| --- | --- | --- | --- |
+| SMART minus NAIVE | 0.0272 | 0.0226 | 0.0317 |
+| FINAL minus SMART | -0.0230 | -0.0270 | -0.0191 |
+| FINAL minus NAIVE | 0.0042 | -0.0019 | 0.0102 |
+
+
+RefCOCO+ / GE paired mIoU differences
+
+| comparison | difference | ci_low | ci_high |
+| --- | --- | --- | --- |
+| SMART minus NAIVE | 0.0201 | 0.0157 | 0.0242 |
+| FINAL minus SMART | -0.0022 | -0.0034 | -0.0010 |
+| FINAL minus NAIVE | 0.0179 | 0.0134 | 0.0223 |
+
+
+RefCOCO+ three-source full-image mIoU and harm table
+
+| Source | MAP mIoU | NAIVE mIoU | SMART mIoU | FINAL mIoU | Naive harm % | Final harm % |
+| --- | --- | --- | --- | --- | --- | --- |
+| CDA | 0.2079 | 0.3016 | 0.3224 | 0.3216 | 44.6255 | 33.0758 |
+| CS | 0.2198 | 0.3108 | 0.3380 | 0.3150 | 45.1908 | 20.6312 |
+| GE | 0.2100 | 0.2888 | 0.3089 | 0.3067 | 46.8582 | 37.3340 |
+
+
+Harm against each source's own MAP baseline (%)
+
+| Experiment | NAIVE harm % | SMART harm % | FINAL harm % | Naive to final reduction pp |
+| --- | --- | --- | --- | --- |
+| RefCOCO / CS | 47.8516 | 40.2251 | 20.9170 | 26.9345 |
+| RefCOCO / GE | 48.9862 | 41.8713 | 37.9557 | 11.0305 |
+| RefCOCO+ / CS | 45.1908 | 37.5035 | 20.6312 | 24.5596 |
+| RefCOCO+ / GE | 46.8582 | 40.1507 | 37.3340 | 9.5243 |
+
+
+Candidate selection (accuracy and no-good rates are fractions; oracle/regret are IoU)
+
+| Experiment | naive_accuracy | smart_accuracy | candidate_oracle | naive_regret | smart_regret | no_candidate_at_05 |
+| --- | --- | --- | --- | --- | --- | --- |
+| RefCOCO / CS | 0.4380 | 0.5151 | 0.3976 | 0.1039 | 0.0763 | 0.6033 |
+| RefCOCO / GE | 0.4501 | 0.5295 | 0.3753 | 0.0984 | 0.0780 | 0.6383 |
+| RefCOCO+ / CS | 0.4303 | 0.5069 | 0.4232 | 0.1123 | 0.0852 | 0.5712 |
+| RefCOCO+ / GE | 0.4538 | 0.5146 | 0.3934 | 0.1047 | 0.0846 | 0.6107 |
+
+
+Correct-instance overlap proxy (%) and paired differences (percentage points)
+
+| Experiment | NAIVE correct % | SMART correct % | FINAL correct % | SMART minus NAIVE pp [95% CI] | FINAL minus NAIVE pp [95% CI] |
+| --- | --- | --- | --- | --- | --- |
+| RefCOCO / CS | 54.0179 | 54.1946 | 52.7437 | +0.1767 [-0.3492, +0.7523] | -1.2742 [-2.0743, -0.3901] |
+| RefCOCO / GE | 49.7675 | 50.2976 | 50.4185 | +0.5301 [+0.0000, +1.0783] | +0.6510 [+0.0725, +1.2410] |
+| RefCOCO+ / CS | 57.4376 | 57.4470 | 55.5535 | +0.0094 [-0.5212, +0.5535] | -1.8841 [-2.7361, -1.0321] |
+| RefCOCO+ / GE | 52.3222 | 52.9251 | 53.0758 | +0.6029 [+0.0190, +1.1938] | +0.7537 [+0.1245, +1.3883] |
+
+
+Smart-selection transfer verdicts
+
+| Experiment | Smart transfer |
+| --- | --- |
+| RefCOCO / CS | YES |
+| RefCOCO / GE | YES |
+| RefCOCO+ / CS | YES |
+| RefCOCO+ / GE | YES |
+
+
+Protocol: full-original-image expression-macro referred-instance IoU. 2,000 paired whole-image bootstrap resamples, seed 2026; all expressions from a sampled image stay grouped. No multiplicity adjustment. Harm uses tolerance 1e-8 against each source's own MAP. Best-candidate accuracy accepts any tied optimum within 1e-8; no-good means candidate oracle IoU < 0.5.
+
+Correct-instance means target IoU exceeds every other same-category instance IoU; it is an overlap proxy. Oracles use GT after inference and are not deployable.
+
+RefCOCO+ overlaps all 1,500 prior RefCOCO test images; no strict non-overlap cohort exists. These are inspected cohorts. MAP/fallback is crop-limited even though primary scoring uses the full original image.
+
+Artifacts: outputs/cross_attribution_generalization/{refcoco,refcocoplus}/{CS,GE}/per_expression_results.csv, candidate_metrics.csv, candidate_analysis_per_expression.csv, evaluation_audit.json.
+
+Paired statistics for this report: outputs/cross_attribution_generalization/completed_refcoco_paired_comparisons.csv.
+
+CDA comparison rows reuse outputs/refcoco_frozen and outputs/refcocoplus_frozen. No RefCOCOg work is included.

@@ -1,0 +1,139 @@
+{
+  "image_id": 204800,
+  "sent_id": 92498,
+  "expression": "sad dog",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000204800.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "81ebad46ad809dae52612533116eb0819fd03a9149fb975a41d0708f6524a02e",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.4748701426518032,
+      "density_outside": 0.15665119634776664,
+      "density_ratio": 3.0313853562570765,
+      "log_density_ratio": 1.1090197283194012,
+      "coverage": 0.46695829357805235,
+      "area_fraction": 0.22419596354166665,
+      "sam_score": 0.9573623538017273,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4066205891440159,
+      "agreement_min": 0.1610174410168606,
+      "agreement_max": 0.6522237372711712,
+      "spread_mean": 0.341620234231019,
+      "spread_max": 0.4883038747798746,
+      "entropy": 0.9801202918263072,
+      "top10_mass": 0.2552372749466377,
+      "score_margin": 0.004554927349090576
+    },
+    {
+      "density_inside": 0.608616713503126,
+      "density_outside": 0.1626228110981076,
+      "density_ratio": 3.742505183557645,
+      "log_density_ratio": 1.319755222364473,
+      "coverage": 0.39127379294830705,
+      "area_fraction": 0.14657552083333333,
+      "sam_score": 0.9619172811508179,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4476539391884117,
+      "agreement_min": 0.24308414110565219,
+      "agreement_max": 0.6522237372711712,
+      "spread_mean": 0.341620234231019,
+      "spread_max": 0.4883038747798746,
+      "entropy": 0.9801202918263072,
+      "top10_mass": 0.2552372749466377,
+      "score_margin": 0.004554927349090576
+    },
+    {
+      "density_inside": 0.6699577138172919,
+      "density_outside": 0.21136153104959013,
+      "density_ratio": 3.169723981876982,
+      "log_density_ratio": 1.153644512136601,
+      "coverage": 0.10657731488700353,
+      "area_fraction": 0.03626953125,
+      "sam_score": 0.6103492975234985,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2020507910612564,
+      "agreement_min": 0.1610174410168606,
+      "agreement_max": 0.24308414110565219,
+      "spread_mean": 0.341620234231019,
+      "spread_max": 0.4883038747798746,
+      "entropy": 0.9801202918263072,
+      "top10_mass": 0.2552372749466377,
+      "score_margin": 0.004554927349090576
+    }
+  ],
+  "rank_scores": [
+    -0.2915922347754632,
+    -0.12131259792538437,
+    -2.804527286864137
+  ],
+  "points": [
+    [
+      322.0,
+      129.43288590604027
+    ],
+    [
+      255.57142857142856,
+      150.90939597315437
+    ],
+    [
+      232.0,
+      509.56711409395973
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        150.0,
+        23.0
+      ],
+      [
+        119.0,
+        33.0
+      ],
+      [
+        108.0,
+        200.0
+      ]
+    ],
+    "crop_box": [
+      55,
+      0,
+      205,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000204800\\92498.map.npz": "488a40e2925272c96cf06aa9637e948f5f03cbd5aad3c58434977e0273d192f1",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000204800\\92498.map.json": "533b2a75d54a3d4cd3e6870b277d80dc01fca10d933635913673ff47efc5406f",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000204800\\92498.npz": "a481420d459cd6918bd6bbffdf288ed7a750fa5367cf032eb68c90d10962ec63"
+  }
+}

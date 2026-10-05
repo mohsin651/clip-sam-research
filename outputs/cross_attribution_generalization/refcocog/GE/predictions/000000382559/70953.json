@@ -1,0 +1,139 @@
+{
+  "image_id": 382559,
+  "sent_id": 70953,
+  "expression": "The white chair is pushed out.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000382559.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 426,
+    "rw": 336,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "2729b8992fa1f53cf1f7f454b34a7e2be144e6890671554ef73c31bac12b83e3",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.010324613920044204,
+      "density_outside": 0.005070737104939781,
+      "density_ratio": 2.0361169795117386,
+      "log_density_ratio": 0.7110445526904889,
+      "coverage": 0.2880383362131589,
+      "area_fraction": 0.1657607100938967,
+      "sam_score": 0.8044784069061279,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.32932087499078766,
+      "agreement_min": 0.04527282312626307,
+      "agreement_max": 0.6133689268553123,
+      "spread_mean": 0.14021117144120834,
+      "spread_max": 0.20778739766833854,
+      "entropy": 0.9711302479811812,
+      "top10_mass": 0.2761433826128859,
+      "score_margin": 0.13741934299468994
+    },
+    {
+      "density_inside": 0.015517544301317526,
+      "density_outside": 0.0047419803663337505,
+      "density_ratio": 3.2723763278763838,
+      "log_density_ratio": 1.1855164268234148,
+      "coverage": 0.29075682466906916,
+      "area_fraction": 0.1113299589201878,
+      "sam_score": 0.9418977499008179,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.34086064613564965,
+      "agreement_min": 0.06835236541598695,
+      "agreement_max": 0.6133689268553123,
+      "spread_mean": 0.14021117144120834,
+      "spread_max": 0.20778739766833854,
+      "entropy": 0.9711302479811812,
+      "top10_mass": 0.2761433826128859,
+      "score_margin": 0.13741934299468994
+    },
+    {
+      "density_inside": 0.028990920365984274,
+      "density_outside": 0.0057376111485759815,
+      "density_ratio": 5.052785838950893,
+      "log_density_ratio": 1.6199397424955366,
+      "coverage": 0.04280834911515862,
+      "area_fraction": 0.008773474178403755,
+      "sam_score": 0.6943314075469971,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.05681259427112501,
+      "agreement_min": 0.04527282312626307,
+      "agreement_max": 0.06835236541598695,
+      "spread_mean": 0.14021117144120834,
+      "spread_max": 0.20778739766833854,
+      "entropy": 0.9711302479811812,
+      "top10_mass": 0.2761433826128859,
+      "score_margin": 0.13741934299468994
+    }
+  ],
+  "rank_scores": [
+    -2.2157194689819293,
+    -1.1043282174964484,
+    -2.6156701010207053
+  ],
+  "points": [
+    [
+      470.9285714285714,
+      418.84375
+    ],
+    [
+      470.9285714285714,
+      259.09375
+    ],
+    [
+      488.07142857142856,
+      359.88839285714283
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 426,
+      "rw": 336,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        191.0,
+        220.0
+      ],
+      [
+        191.0,
+        136.0
+      ],
+      [
+        200.0,
+        189.0
+      ]
+    ],
+    "crop_box": [
+      14,
+      90,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000382559\\70953.map.npz": "075397d47494c66a04eacbe6cdf580d272ccdc6f3d01160343cbccbed1269426",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000382559\\70953.map.json": "7f6616a675d22aa83f02856c84a04dbca8b003f364dad762e32c98be78dc5a84",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000382559\\70953.npz": "353e207cc1901b1abb9ec589b3eaac04b60be6052b06d26801f0c1839d015d6a"
+  }
+}

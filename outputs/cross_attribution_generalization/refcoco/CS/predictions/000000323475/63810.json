@@ -1,0 +1,139 @@
+{
+  "image_id": 323475,
+  "sent_id": 63810,
+  "expression": "apple upper left",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000323475.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "9420f89afce86f48f60212acf34ef13ce11177ca8bbb587039cded197b74652b",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5273041169540374,
+      "density_outside": 0.24883964480991363,
+      "density_ratio": 2.1190518791920043,
+      "log_density_ratio": 0.7509687618538626,
+      "coverage": 0.4434470202464699,
+      "area_fraction": 0.27325846354166666,
+      "sam_score": 0.7685830593109131,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4758827127470488,
+      "agreement_min": 0.37099377997246097,
+      "agreement_max": 0.5807716455216366,
+      "spread_mean": 0.21984033631293157,
+      "spread_max": 0.3072800028966611,
+      "entropy": 0.992358894531613,
+      "top10_mass": 0.17818538695107694,
+      "score_margin": 0.019744396209716797
+    },
+    {
+      "density_inside": 0.5900916443716726,
+      "density_outside": 0.27400084863850166,
+      "density_ratio": 2.153612469821385,
+      "log_density_ratio": 0.7671466506748714,
+      "coverage": 0.29261840299972985,
+      "area_fraction": 0.16112955729166667,
+      "sam_score": 0.9335067272186279,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6075246472390923,
+      "agreement_min": 0.5807716455216366,
+      "agreement_max": 0.634277648956548,
+      "spread_mean": 0.21984033631293157,
+      "spread_max": 0.3072800028966611,
+      "entropy": 0.992358894531613,
+      "top10_mass": 0.17818538695107694,
+      "score_margin": 0.019744396209716797
+    },
+    {
+      "density_inside": 0.6627769446805007,
+      "density_outside": 0.286259738231289,
+      "density_ratio": 2.3152992061450233,
+      "log_density_ratio": 0.839538925902982,
+      "coverage": 0.20950471216833746,
+      "area_fraction": 0.10271158854166666,
+      "sam_score": 0.9532511234283447,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5026357144645045,
+      "agreement_min": 0.37099377997246097,
+      "agreement_max": 0.634277648956548,
+      "spread_mean": 0.21984033631293157,
+      "spread_max": 0.3072800028966611,
+      "entropy": 0.992358894531613,
+      "top10_mass": 0.17818538695107694,
+      "score_margin": 0.019744396209716797
+    }
+  ],
+  "rank_scores": [
+    -1.2382893816874383,
+    -1.212082611948166,
+    -1.6675413075250367
+  ],
+  "points": [
+    [
+      22.0,
+      389.2986577181208
+    ],
+    [
+      112.0,
+      309.83557046979865
+    ],
+    [
+      82.0,
+      150.90939597315437
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        10.0,
+        144.0
+      ],
+      [
+        52.0,
+        107.0
+      ],
+      [
+        38.0,
+        33.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      7,
+      224,
+      223
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000323475\\63810.map.npz": "494189130b705935110b90995b2441df934488d04b441f172a92013ba30c9caf",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000323475\\63810.map.json": "00d5e87e75c41261f6dd3fd4ef054bc710b6063d8dc6aba6ada4abc548b9c77e",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000323475\\63810.npz": "ad89ab27ee2af84beb7a4ef27f9cf34a8d69af4dd2f6ef30cbcb88236b48fbc8"
+  }
+}

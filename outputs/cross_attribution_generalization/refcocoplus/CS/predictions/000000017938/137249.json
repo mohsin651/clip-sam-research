@@ -1,0 +1,139 @@
+{
+  "image_id": 17938,
+  "sent_id": 137249,
+  "expression": "black shirt",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000017938.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 640,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "3f9309e0266136cf1b39a5d297f90279a2b7612fc084adb4355614bb840a116f",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.4148479798963212,
+      "density_outside": 0.1610640321830429,
+      "density_ratio": 2.575671143153098,
+      "log_density_ratio": 0.9461101382756045,
+      "coverage": 0.07933547740644112,
+      "area_fraction": 0.032373046875,
+      "sam_score": 0.8938286304473877,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5280015614618276,
+      "agreement_min": 0.42140845070422533,
+      "agreement_max": 0.6345946722194299,
+      "spread_mean": 0.11408137900130029,
+      "spread_max": 0.13878831747062334,
+      "entropy": 0.9915392818642167,
+      "top10_mass": 0.20751372650804772,
+      "score_margin": 0.014827370643615723
+    },
+    {
+      "density_inside": 0.4856464415020469,
+      "density_outside": 0.16176391432628623,
+      "density_ratio": 3.0021926924905546,
+      "log_density_ratio": 1.0993429191915247,
+      "coverage": 0.06657440103848217,
+      "area_fraction": 0.02320556640625,
+      "sam_score": 0.8556049466133118,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6427093136016764,
+      "agreement_min": 0.6345946722194299,
+      "agreement_max": 0.6508239549839229,
+      "spread_mean": 0.11408137900130029,
+      "spread_max": 0.13878831747062334,
+      "entropy": 0.9915392818642167,
+      "top10_mass": 0.20751372650804772,
+      "score_margin": 0.014827370643615723
+    },
+    {
+      "density_inside": 0.5419398417630718,
+      "density_outside": 0.16287191504953097,
+      "density_ratio": 3.3273989662056533,
+      "log_density_ratio": 1.2021909075539676,
+      "coverage": 0.05411816658763745,
+      "area_fraction": 0.016904296875,
+      "sam_score": 0.9086560010910034,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5361162028440741,
+      "agreement_min": 0.42140845070422533,
+      "agreement_max": 0.6508239549839229,
+      "spread_mean": 0.11408137900130029,
+      "spread_max": 0.13878831747062334,
+      "entropy": 0.9915392818642167,
+      "top10_mass": 0.20751372650804772,
+      "score_margin": 0.014827370643615723
+    }
+  ],
+  "rank_scores": [
+    -2.1924402868149535,
+    -1.8607240915556087,
+    -1.953911520349838
+  ],
+  "points": [
+    [
+      169.5,
+      229.5
+    ],
+    [
+      209.5,
+      312.3571428571429
+    ],
+    [
+      289.5,
+      266.64285714285717
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 640,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        59.0,
+        80.0
+      ],
+      [
+        73.0,
+        109.0
+      ],
+      [
+        101.0,
+        93.0
+      ]
+    ],
+    "crop_box": [
+      27,
+      0,
+      224,
+      170
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000017938\\137249.map.npz": "e3fce0f0160e034b2806bbdc74b4dc1bcc7c9a9cb44d1e341a1ec6e1c8312537",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000017938\\137249.map.json": "e6a376da97238db894c6adaabc09796da4beac86b5a516470878b3738bc0c372",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000017938\\137249.npz": "cb1be729a98c9a8d97984ea996205006470678e947f719d5085c33550814e5c1"
+  }
+}

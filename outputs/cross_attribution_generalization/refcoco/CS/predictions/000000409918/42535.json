@@ -1,0 +1,139 @@
+{
+  "image_id": 409918,
+  "sent_id": 42535,
+  "expression": "bear center frame",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000409918.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 428,
+    "rw": 334,
+    "rh": 224,
+    "left": 55,
+    "top": 0
+  },
+  "image_sha256": "1955b635248b8c7ccee984fc211e618a8a6f20d894e5c0372d6e32ead25129bd",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.575830276664029,
+      "density_outside": 0.15186418631128018,
+      "density_ratio": 3.791745049619152,
+      "log_density_ratio": 1.3328263483839984,
+      "coverage": 0.49464471590117587,
+      "area_fraction": 0.20517669392523363,
+      "sam_score": 0.9521923065185547,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7766895779501344,
+      "agreement_min": 0.7646370231106224,
+      "agreement_max": 0.7887421327896463,
+      "spread_mean": 0.262880230133188,
+      "spread_max": 0.36589342585698686,
+      "entropy": 0.9809168367224387,
+      "top10_mass": 0.25440021323709305,
+      "score_margin": 0.007656753063201904
+    },
+    {
+      "density_inside": 0.671480067203332,
+      "density_outside": 0.1545037820900577,
+      "density_ratio": 4.346042913095754,
+      "log_density_ratio": 1.4692657559461482,
+      "coverage": 0.4586802312216509,
+      "area_fraction": 0.1631571261682243,
+      "sam_score": 0.9780012965202332,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8772564251096611,
+      "agreement_min": 0.7887421327896463,
+      "agreement_max": 0.9657707174296758,
+      "spread_mean": 0.262880230133188,
+      "spread_max": 0.36589342585698686,
+      "entropy": 0.9809168367224387,
+      "top10_mass": 0.25440021323709305,
+      "score_margin": 0.007656753063201904
+    },
+    {
+      "density_inside": 0.6906478217073416,
+      "density_outside": 0.15404863167272356,
+      "density_ratio": 4.483310330014096,
+      "log_density_ratio": 1.500361686516149,
+      "coverage": 0.4569738405956032,
+      "area_fraction": 0.15803884345794392,
+      "sam_score": 0.9703445434570312,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8652038702701491,
+      "agreement_min": 0.7646370231106224,
+      "agreement_max": 0.9657707174296758,
+      "spread_mean": 0.262880230133188,
+      "spread_max": 0.36589342585698686,
+      "entropy": 0.9809168367224387,
+      "top10_mass": 0.25440021323709305,
+      "score_margin": 0.007656753063201904
+    }
+  ],
+  "rank_scores": [
+    1.0462629763915239,
+    1.3176946181621472,
+    1.3234895548612857
+  ],
+  "points": [
+    [
+      128.84131736526948,
+      139.9375
+    ],
+    [
+      289.79940119760477,
+      287.0625
+    ],
+    [
+      389.44011976047904,
+      246.9375
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 428,
+      "rw": 334,
+      "rh": 224,
+      "left": 55,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        12.0,
+        73.0
+      ],
+      [
+        96.0,
+        150.0
+      ],
+      [
+        148.0,
+        129.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      31,
+      43,
+      168
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000409918\\42535.map.npz": "990c672990df3c4940fec6408331a94f397a2c972b57d4e75721c35fb4d27ce4",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000409918\\42535.map.json": "eb1a87fc0d4aa04a7af14da266c13a8501bd6abb817662847386949545378606",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000409918\\42535.npz": "ec5b5c8087900196383d3a7a1e79fa1fc41d049b88927b8616d8c1a9cd6477c6"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 112577,
+  "sent_id": 35835,
+  "expression": "The banana with the most brown spots.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000112577.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "e9bff299bda7ce6b96096ad3f9e6467e660c1bf6a119e9c08b4eada9dc94f2bd",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.8340021949759667,
+      "density_outside": 0.133335629660493,
+      "density_ratio": 6.254908737396726,
+      "log_density_ratio": 1.833366553469385,
+      "coverage": 0.5823705772910088,
+      "area_fraction": 0.18229817708333335,
+      "sam_score": 0.9203774333000183,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8113606691867213,
+      "agreement_min": 0.6724858091464068,
+      "agreement_max": 0.9502355292270359,
+      "spread_mean": 0.2247751728381351,
+      "spread_max": 0.330984352153272,
+      "entropy": 0.9649835931558303,
+      "top10_mass": 0.27446639748762514,
+      "score_margin": 0.051942527294158936
+    },
+    {
+      "density_inside": 0.8606172229037902,
+      "density_outside": 0.13521351970397083,
+      "density_ratio": 6.364875530062482,
+      "log_density_ratio": 1.8507946764481498,
+      "coverage": 0.5719281745487543,
+      "area_fraction": 0.17349283854166667,
+      "sam_score": 0.9776178002357483,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.82859579710517,
+      "agreement_min": 0.706956064983304,
+      "agreement_max": 0.9502355292270359,
+      "spread_mean": 0.2247751728381351,
+      "spread_max": 0.330984352153272,
+      "entropy": 0.9649835931558303,
+      "top10_mass": 0.27446639748762514,
+      "score_margin": 0.051942527294158936
+    },
+    {
+      "density_inside": 0.8838185978388352,
+      "density_outside": 0.17396561188086185,
+      "density_ratio": 5.080421287162355,
+      "log_density_ratio": 1.6253941886967451,
+      "coverage": 0.4153976704053957,
+      "area_fraction": 0.12270182291666666,
+      "sam_score": 0.9256752729415894,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6897209370648554,
+      "agreement_min": 0.6724858091464068,
+      "agreement_max": 0.706956064983304,
+      "spread_mean": 0.2247751728381351,
+      "spread_max": 0.330984352153272,
+      "entropy": 0.9649835931558303,
+      "top10_mass": 0.27446639748762514,
+      "score_margin": 0.051942527294158936
+    }
+  ],
+  "rank_scores": [
+    2.297476845620685,
+    2.428026157198692,
+    1.0031614270986524
+  ],
+  "points": [
+    [
+      249.7013422818792,
+      337.0
+    ],
+    [
+      290.50671140939596,
+      202.0
+    ],
+    [
+      389.2986577181208,
+      112.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        79.0,
+        157.0
+      ],
+      [
+        98.0,
+        94.0
+      ],
+      [
+        144.0,
+        52.0
+      ]
+    ],
+    "crop_box": [
+      44,
+      6,
+      179,
+      212
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000112577\\35835.map.npz": "e14757db037ed59232a52b702166d8ffe456b8ecda82ec55b2a00c378b25f293",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000112577\\35835.map.json": "31fd8e65c1d04ce266385d7a60981612a6cd745fc241ce9083ce5c8079b20fab",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000112577\\35835.npz": "7b18b64a3a0eef7a64385493a5c9ec6685fb44e331ca675e6a1324320c70d6ce"
+  }
+}

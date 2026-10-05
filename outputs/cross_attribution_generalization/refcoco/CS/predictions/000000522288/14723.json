@@ -1,0 +1,139 @@
+{
+  "image_id": 522288,
+  "sent_id": 14723,
+  "expression": "jeans behind dog",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000522288.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 501,
+    "rw": 286,
+    "rh": 224,
+    "left": 31,
+    "top": 0
+  },
+  "image_sha256": "eb939f2ee047840193cc394b7ea444fe14aa1eda3436d973b4e2a6313bee40bc",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5534657885061603,
+      "density_outside": 0.1933455972111971,
+      "density_ratio": 2.862572494468187,
+      "log_density_ratio": 1.0517206941398836,
+      "coverage": 0.8854906904710472,
+      "area_fraction": 0.7298309630738523,
+      "sam_score": 0.9549804925918579,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6376263749286994,
+      "agreement_min": 0.5409490737785495,
+      "agreement_max": 0.7343036760788493,
+      "spread_mean": 0.3509129674355205,
+      "spread_max": 0.4189358141026969,
+      "entropy": 0.9870622288405649,
+      "top10_mass": 0.16432479236942063,
+      "score_margin": 0.04751133918762207
+    },
+    {
+      "density_inside": 0.6518860681051828,
+      "density_outside": 0.22713474307953443,
+      "density_ratio": 2.870041189048941,
+      "log_density_ratio": 1.0543263812550776,
+      "coverage": 0.7705749799323354,
+      "area_fraction": 0.5392277944111776,
+      "sam_score": 0.9074691534042358,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.734827470084165,
+      "agreement_min": 0.7343036760788493,
+      "agreement_max": 0.7353512640894808,
+      "spread_mean": 0.3509129674355205,
+      "spread_max": 0.4189358141026969,
+      "entropy": 0.9870622288405649,
+      "top10_mass": 0.16432479236942063,
+      "score_margin": 0.04751133918762207
+    },
+    {
+      "density_inside": 0.7266681002678511,
+      "density_outside": 0.27623070190598503,
+      "density_ratio": 2.630656531845405,
+      "log_density_ratio": 0.967233446918578,
+      "coverage": 0.636362465585066,
+      "area_fraction": 0.3994822854291417,
+      "sam_score": 0.8954722881317139,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6381501689340152,
+      "agreement_min": 0.5409490737785495,
+      "agreement_max": 0.7353512640894808,
+      "spread_mean": 0.3509129674355205,
+      "spread_max": 0.4189358141026969,
+      "entropy": 0.9870622288405649,
+      "top10_mass": 0.16432479236942063,
+      "score_margin": 0.04751133918762207
+    }
+  ],
+  "rank_scores": [
+    0.8658817085834686,
+    1.0398941070664571,
+    0.3484572962003447
+  ],
+  "points": [
+    [
+      528.7307692307693,
+      210.859375
+    ],
+    [
+      228.8706293706294,
+      367.421875
+    ],
+    [
+      188.5909090909091,
+      195.203125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 501,
+      "rw": 286,
+      "rh": 224,
+      "left": 31,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        205.0,
+        94.0
+      ],
+      [
+        71.0,
+        164.0
+      ],
+      [
+        53.0,
+        87.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      12,
+      221,
+      213
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000522288\\14723.map.npz": "376b55c577956c8503b54941c45c510f683df209b2cf8aaeb215c061085e2e87",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000522288\\14723.map.json": "4c556303c69dfe80b22903119ce750a81b02ea5f4159fc0e715a927d8c267e85",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000522288\\14723.npz": "2cc903bc240edc1d3b04d0ef39614e41245b2ce760a156e646cace53a4404b56"
+  }
+}

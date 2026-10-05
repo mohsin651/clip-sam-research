@@ -1,0 +1,139 @@
+{
+  "image_id": 321206,
+  "sent_id": 68110,
+  "expression": "A woman wearing a blue shirt feeding a giraffe in a zoo.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000321206.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "cfaeeeb923b40745809cf5c8530f1e920ce080b6f355b49b9e87caf248083f87",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.029865282195464644,
+      "density_outside": 0.008288707843238775,
+      "density_ratio": 3.6031288298118844,
+      "log_density_ratio": 1.2818025874221717,
+      "coverage": 0.4396437223218375,
+      "area_fraction": 0.17881293911007026,
+      "sam_score": 0.9339221715927124,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8274575737878577,
+      "agreement_min": 0.7415383356852159,
+      "agreement_max": 0.9133768118904995,
+      "spread_mean": 0.19569128419208784,
+      "spread_max": 0.24407314988930656,
+      "entropy": 0.9410075115092892,
+      "top10_mass": 0.4229285652054145,
+      "score_margin": 0.03189879655838013
+    },
+    {
+      "density_inside": 0.03194216082558825,
+      "density_outside": 0.008273427211126233,
+      "density_ratio": 3.8608136636255312,
+      "log_density_ratio": 1.3508779549795495,
+      "coverage": 0.43035086773241177,
+      "area_fraction": 0.16365266393442623,
+      "sam_score": 0.9658209681510925,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8620841456801567,
+      "agreement_min": 0.8107914794698138,
+      "agreement_max": 0.9133768118904995,
+      "spread_mean": 0.19569128419208784,
+      "spread_max": 0.24407314988930656,
+      "entropy": 0.9410075115092892,
+      "top10_mass": 0.4229285652054145,
+      "score_margin": 0.03189879655838013
+    },
+    {
+      "density_inside": 0.038364673826802954,
+      "density_outside": 0.008132178355717466,
+      "density_ratio": 4.7176380231641595,
+      "log_density_ratio": 1.5513082555510915,
+      "coverage": 0.41941691479345433,
+      "area_fraction": 0.1327942037470726,
+      "sam_score": 0.8448739051818848,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7761649075775148,
+      "agreement_min": 0.7415383356852159,
+      "agreement_max": 0.8107914794698138,
+      "spread_mean": 0.19569128419208784,
+      "spread_max": 0.24407314988930656,
+      "entropy": 0.9410075115092892,
+      "top10_mass": 0.4229285652054145,
+      "score_margin": 0.03189879655838013
+    }
+  ],
+  "rank_scores": [
+    0.7215076531077361,
+    0.9467919553546241,
+    0.8916484565016776
+  ],
+  "points": [
+    [
+      424.57462686567163,
+      181.546875
+    ],
+    [
+      455.1417910447761,
+      0.453125
+    ],
+    [
+      374.9029850746269,
+      0.453125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        166.0,
+        95.0
+      ],
+      [
+        182.0,
+        0.0
+      ],
+      [
+        140.0,
+        0.0
+      ]
+    ],
+    "crop_box": [
+      125,
+      35,
+      224,
+      174
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000321206\\68110.map.npz": "e7d65cbc10a1b6f01027716e22e0cd6aef226e3393f720eb7ec39788c39bbb0b",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000321206\\68110.map.json": "67f755234dda712d0461d2f452d6da0b756b24596261ab03c329f7f1dfb2f6f8",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000321206\\68110.npz": "d060d931dbc6f84783e7a0f0a0543647d727a1c7560dba531192dc53094c3b6d"
+  }
+}

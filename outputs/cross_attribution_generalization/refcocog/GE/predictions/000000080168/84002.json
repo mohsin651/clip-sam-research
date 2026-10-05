@@ -1,0 +1,139 @@
+{
+  "image_id": 80168,
+  "sent_id": 84002,
+  "expression": "A bambo stool with a white cushion on top",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000080168.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "3ff2412d74cab6e2e9fe3320503176dc9a4128be17ce3a3b904ea6c80ebad605",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.04619089979375492,
+      "density_outside": 0.0067152645479925084,
+      "density_ratio": 6.878492940488092,
+      "log_density_ratio": 1.9283995786244281,
+      "coverage": 0.20334873757368552,
+      "area_fraction": 0.03578125,
+      "sam_score": 0.8462287187576294,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6498240560164263,
+      "agreement_min": 0.5791867552078596,
+      "agreement_max": 0.7204613568249932,
+      "spread_mean": 0.11652524136002258,
+      "spread_max": 0.17403846294487157,
+      "entropy": 0.9514911650104675,
+      "top10_mass": 0.3699095793721593,
+      "score_margin": 0.035051167011260986
+    },
+    {
+      "density_inside": 0.05375446700433623,
+      "density_outside": 0.006915300787795531,
+      "density_ratio": 7.773265205098748,
+      "log_density_ratio": 2.05069030844173,
+      "coverage": 0.17119822987696934,
+      "area_fraction": 0.025885416666666668,
+      "sam_score": 0.9671571850776672,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7595022182266137,
+      "agreement_min": 0.7204613568249932,
+      "agreement_max": 0.7985430796282341,
+      "spread_mean": 0.11652524136002258,
+      "spread_max": 0.17403846294487157,
+      "entropy": 0.9514911650104675,
+      "top10_mass": 0.3699095793721593,
+      "score_margin": 0.035051167011260986
+    },
+    {
+      "density_inside": 0.05206278721297665,
+      "density_outside": 0.007197737018643241,
+      "density_ratio": 7.233216088736341,
+      "log_density_ratio": 1.9786837628356857,
+      "coverage": 0.13278187832487293,
+      "area_fraction": 0.020729166666666667,
+      "sam_score": 0.9321060180664062,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.6888649174180468,
+      "agreement_min": 0.5791867552078596,
+      "agreement_max": 0.7985430796282341,
+      "spread_mean": 0.11652524136002258,
+      "spread_max": 0.17403846294487157,
+      "entropy": 0.9514911650104675,
+      "top10_mass": 0.3699095793721593,
+      "score_margin": 0.035051167011260986
+    }
+  ],
+  "rank_scores": [
+    0.014323784303483165,
+    0.4105962843738236,
+    -0.34749344010819644
+  ],
+  "points": [
+    [
+      391.4463087248322,
+      103.42857142857143
+    ],
+    [
+      329.16442953020135,
+      71.28571428571428
+    ],
+    [
+      260.43959731543623,
+      56.285714285714285
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        145.0,
+        48.0
+      ],
+      [
+        116.0,
+        33.0
+      ],
+      [
+        84.0,
+        26.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      186,
+      201
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000080168\\84002.map.npz": "c56cbbd2e2597af30e89c63253aaef8eca3502b6286c8e1efa803d6413ac4bcb",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000080168\\84002.map.json": "fcf60f521d634d29caa9e73d12ed2732dc4f81ce5f26652f1bbcd24cac984f7d",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000080168\\84002.npz": "6248857aad45b02bdc05bb2eabf27f119b64dc8ca759b6f1437b4a64f997c612"
+  }
+}

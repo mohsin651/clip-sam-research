@@ -1,0 +1,139 @@
+{
+  "image_id": 101522,
+  "sent_id": 72580,
+  "expression": "A piece of broccoli is mixed into a dish that contains carrots and rice",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000101522.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 513,
+    "rw": 279,
+    "rh": 224,
+    "left": 28,
+    "top": 0
+  },
+  "image_sha256": "5b8d58e067f3c5c72e9f4c91dae6b586275d9769c41990e3f8fcb29c5388f43f",
+  "naive_candidate": 2,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.031155447180607917,
+      "density_outside": 0.012568052329064144,
+      "density_ratio": 2.4789399632018325,
+      "log_density_ratio": 0.9078310346401448,
+      "coverage": 0.5232942394856478,
+      "area_fraction": 0.30691398635477585,
+      "sam_score": 0.7870839834213257,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.12154443699875214,
+      "agreement_min": 0.09791958093990892,
+      "agreement_max": 0.14516929305759535,
+      "spread_mean": 0.12569764598736172,
+      "spread_max": 0.18223587198510297,
+      "entropy": 0.9644269710133251,
+      "top10_mass": 0.3435250387853703,
+      "score_margin": 0.019447147846221924
+    },
+    {
+      "density_inside": 0.07330517504914869,
+      "density_outside": 0.0157052429457727,
+      "density_ratio": 4.66756071826398,
+      "log_density_ratio": 1.5406366050963485,
+      "coverage": 0.17882379513474972,
+      "area_fraction": 0.04457541423001949,
+      "sam_score": 0.8949008584022522,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.39489177167123346,
+      "agreement_min": 0.14516929305759535,
+      "agreement_max": 0.6446142502848716,
+      "spread_mean": 0.12569764598736172,
+      "spread_max": 0.18223587198510297,
+      "entropy": 0.9644269710133251,
+      "top10_mass": 0.3435250387853703,
+      "score_margin": 0.019447147846221924
+    },
+    {
+      "density_inside": 0.09225947970673568,
+      "density_outside": 0.015972222956898333,
+      "density_ratio": 5.776245419934673,
+      "log_density_ratio": 1.753753890299585,
+      "coverage": 0.15226076491934143,
+      "area_fraction": 0.030156554580896687,
+      "sam_score": 0.9143480062484741,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3712669156123903,
+      "agreement_min": 0.09791958093990892,
+      "agreement_max": 0.6446142502848716,
+      "spread_mean": 0.12569764598736172,
+      "spread_max": 0.18223587198510297,
+      "entropy": 0.9644269710133251,
+      "top10_mass": 0.3435250387853703,
+      "score_margin": 0.019447147846221924
+    }
+  ],
+  "rank_scores": [
+    -1.167933105677918,
+    -1.1421258263925937,
+    -1.0271740605437902
+  ],
+  "points": [
+    [
+      184.1594982078853,
+      87.67187500000001
+    ],
+    [
+      310.3243727598566,
+      167.828125
+    ],
+    [
+      232.331541218638,
+      151.796875
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 513,
+      "rw": 279,
+      "rh": 224,
+      "left": 28,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        52.0,
+        38.0
+      ],
+      [
+        107.0,
+        73.0
+      ],
+      [
+        73.0,
+        66.0
+      ]
+    ],
+    "crop_box": [
+      7,
+      0,
+      131,
+      109
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000101522\\72580.map.npz": "fa40444f0a9c52a178103ffd9044718c21fb52a81d374a01dfd812eee2a67b0f",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000101522\\72580.map.json": "6c40b97bc33af8b0a44c21bfdc991f7bacab4bc498394eaa2db9156d3a9ee7b6",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000101522\\72580.npz": "355d2cf9ac719f92d2958d93bafae1ec750dbcb2bd4172d4300259476e9a148d"
+  }
+}

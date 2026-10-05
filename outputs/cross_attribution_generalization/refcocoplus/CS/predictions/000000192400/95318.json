@@ -1,0 +1,139 @@
+{
+  "image_id": 192400,
+  "sent_id": 95318,
+  "expression": "face mask and glove",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000192400.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 426,
+    "rw": 336,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "d6c5e3a76143dae0342c6127bd714688cce7f8ad9953dd5470b525d4691c7a15",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.23023342218754747,
+      "density_outside": 0.1751828977765752,
+      "density_ratio": 1.3142459972312386,
+      "log_density_ratio": 0.273263115049436,
+      "coverage": 0.07158545744211227,
+      "area_fraction": 0.05541740023474179,
+      "sam_score": 0.4993109107017517,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.012019934322749039,
+      "agreement_min": 0.007469811850603763,
+      "agreement_max": 0.016570056794894313,
+      "spread_mean": 0.22550136400268686,
+      "spread_max": 0.3360286316679675,
+      "entropy": 0.9898413937560744,
+      "top10_mass": 0.18336802635459842,
+      "score_margin": 0.03297501802444458
+    },
+    {
+      "density_inside": 0.5762154220028284,
+      "density_outside": 0.17406076918392815,
+      "density_ratio": 3.310426724534563,
+      "log_density_ratio": 1.1970771008802255,
+      "coverage": 0.03354582982920538,
+      "area_fraction": 0.010376320422535211,
+      "sam_score": 0.7217239737510681,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.17845609551637995,
+      "agreement_min": 0.007469811850603763,
+      "agreement_max": 0.34944237918215615,
+      "spread_mean": 0.22550136400268686,
+      "spread_max": 0.3360286316679675,
+      "entropy": 0.9898413937560744,
+      "top10_mass": 0.18336802635459842,
+      "score_margin": 0.03297501802444458
+    },
+    {
+      "density_inside": 0.4842209258855474,
+      "density_outside": 0.17568401541905013,
+      "density_ratio": 2.7562036576167936,
+      "log_density_ratio": 1.0138542465106666,
+      "coverage": 0.022450471166361834,
+      "area_fraction": 0.008263644366197182,
+      "sam_score": 0.6887489557266235,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.18300621798852523,
+      "agreement_min": 0.016570056794894313,
+      "agreement_max": 0.34944237918215615,
+      "spread_mean": 0.22550136400268686,
+      "spread_max": 0.3360286316679675,
+      "entropy": 0.9898413937560744,
+      "top10_mass": 0.18336802635459842,
+      "score_margin": 0.03297501802444458
+    }
+  ],
+  "rank_scores": [
+    -4.653502813028044,
+    -3.2334275845618663,
+    -3.5744114480246747
+  ],
+  "points": [
+    [
+      169.97619047619045,
+      152.59375
+    ],
+    [
+      369.9761904761905,
+      139.28125
+    ],
+    [
+      114.73809523809523,
+      179.21875
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 426,
+      "rw": 336,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        33.0,
+        80.0
+      ],
+      [
+        138.0,
+        73.0
+      ],
+      [
+        4.0,
+        94.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      26,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000192400\\95318.map.npz": "590a08f1ff9844d3b89f2df8ce61484b845f7afd07f25faad73ec089189404d9",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000192400\\95318.map.json": "e8ba0d3cf289fa3a46ee869b2ae6cb3e3c5f5d66c1584b7552033f821f28dae6",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000192400\\95318.npz": "b72172c723e0fc52d5f2c2fa4c065cdb4842335a3163b38cd3d2a6ea8e5abdc1"
+  }
+}

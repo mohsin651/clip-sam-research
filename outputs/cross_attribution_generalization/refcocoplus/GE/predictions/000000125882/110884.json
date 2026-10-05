@@ -1,0 +1,139 @@
+{
+  "image_id": 125882,
+  "sent_id": 110884,
+  "expression": "Boy with striped shirt",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000125882.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "2c6508200cf63b39e994ae98e280809f46493fafb31ef34e77ec9efa425bf572",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.00807613446388106,
+      "density_outside": 0.0020358736418254106,
+      "density_ratio": 3.966913414465596,
+      "log_density_ratio": 1.3779883149659857,
+      "coverage": 0.35434316891229234,
+      "area_fraction": 0.121533203125,
+      "sam_score": 0.8035851120948792,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5360664456639427,
+      "agreement_min": 0.5320638476617194,
+      "agreement_max": 0.5400690436661659,
+      "spread_mean": 0.18969463139864762,
+      "spread_max": 0.2820708412971163,
+      "entropy": 0.9155988821127031,
+      "top10_mass": 0.500052842275815,
+      "score_margin": 0.046649038791656494
+    },
+    {
+      "density_inside": 0.012589943318015204,
+      "density_outside": 0.0019809943785451885,
+      "density_ratio": 6.355365491196243,
+      "log_density_ratio": 1.8492994154504308,
+      "coverage": 0.338016822811274,
+      "area_fraction": 0.07436848958333334,
+      "sam_score": 0.9102591872215271,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7267733770091407,
+      "agreement_min": 0.5320638476617194,
+      "agreement_max": 0.921482906356562,
+      "spread_mean": 0.18969463139864762,
+      "spread_max": 0.2820708412971163,
+      "entropy": 0.9155988821127031,
+      "top10_mass": 0.500052842275815,
+      "score_margin": 0.046649038791656494
+    },
+    {
+      "density_inside": 0.012513320636088794,
+      "density_outside": 0.0020511698085766347,
+      "density_ratio": 6.100577620470909,
+      "log_density_ratio": 1.8083834586566643,
+      "coverage": 0.3103722429120142,
+      "area_fraction": 0.06870442708333334,
+      "sam_score": 0.9569082260131836,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.730775975011364,
+      "agreement_min": 0.5400690436661659,
+      "agreement_max": 0.921482906356562,
+      "spread_mean": 0.18969463139864762,
+      "spread_max": 0.2820708412971163,
+      "entropy": 0.9155988821127031,
+      "top10_mass": 0.500052842275815,
+      "score_margin": 0.046649038791656494
+    }
+  ],
+  "rank_scores": [
+    -0.17135464542795567,
+    0.8680293569062063,
+    0.7745004454216582
+  ],
+  "points": [
+    [
+      135.8758389261745,
+      311.2857142857143
+    ],
+    [
+      215.33892617449663,
+      279.1428571428571
+    ],
+    [
+      359.2315436241611,
+      279.1428571428571
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        26.0,
+        145.0
+      ],
+      [
+        63.0,
+        130.0
+      ],
+      [
+        130.0,
+        130.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      85,
+      92,
+      175
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000125882\\110884.map.npz": "0ff0824526cb186b74e3348873423e9cfbc3efce9b2d1b55cd416981f69eda96",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000125882\\110884.map.json": "78f5133d3a66c7f8248d5785d5686e4176924e5d1dbceff9f018cbf61a3bd75e",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000125882\\110884.npz": "d8f78c73165a04a3078cd852cf42c7e52696d24e033474c9b7ad82f4241fb379"
+  }
+}

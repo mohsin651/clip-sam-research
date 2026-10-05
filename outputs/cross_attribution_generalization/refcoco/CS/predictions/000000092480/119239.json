@@ -1,0 +1,139 @@
+{
+  "image_id": 92480,
+  "sent_id": 119239,
+  "expression": "left cat",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000092480.jpg",
+  "geometry": {
+    "width": 500,
+    "height": 375,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "f23be36d29078d468236083aaba9e2810664ff35ac02616d59d05c24025dc2bd",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.7401843158536692,
+      "density_outside": 0.11023887411687427,
+      "density_ratio": 6.714367520319719,
+      "log_density_ratio": 1.9042496364592785,
+      "coverage": 0.6864893655510923,
+      "area_fraction": 0.24592,
+      "sam_score": 0.9191448092460632,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7422871750478581,
+      "agreement_min": 0.5321025374330971,
+      "agreement_max": 0.9524718126626193,
+      "spread_mean": 0.21215233941278525,
+      "spread_max": 0.3144502368721725,
+      "entropy": 0.9659016237266156,
+      "top10_mass": 0.25719619733252563,
+      "score_margin": 0.02323693037033081
+    },
+    {
+      "density_inside": 0.7670204084931399,
+      "density_outside": 0.11155619528166201,
+      "density_ratio": 6.875641523535804,
+      "log_density_ratio": 1.9279849517148955,
+      "coverage": 0.677869380947882,
+      "area_fraction": 0.234336,
+      "sam_score": 0.9597740769386292,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7538535707437819,
+      "agreement_min": 0.5552353288249444,
+      "agreement_max": 0.9524718126626193,
+      "spread_mean": 0.21215233941278525,
+      "spread_max": 0.3144502368721725,
+      "entropy": 0.9659016237266156,
+      "top10_mass": 0.25719619733252563,
+      "score_margin": 0.02323693037033081
+    },
+    {
+      "density_inside": 0.7983798829138485,
+      "density_outside": 0.1846500720980414,
+      "density_ratio": 4.323745308291127,
+      "log_density_ratio": 1.4641219961681131,
+      "coverage": 0.39496192014667375,
+      "area_fraction": 0.13117333333333334,
+      "sam_score": 0.9365371465682983,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.5436689331290208,
+      "agreement_min": 0.5321025374330971,
+      "agreement_max": 0.5552353288249444,
+      "spread_mean": 0.21215233941278525,
+      "spread_max": 0.3144502368721725,
+      "entropy": 0.9659016237266156,
+      "top10_mass": 0.25719619733252563,
+      "score_margin": 0.02323693037033081
+    }
+  ],
+  "rank_scores": [
+    2.669882814946617,
+    2.7896610399813784,
+    0.20204984453906386
+  ],
+  "points": [
+    [
+      257.0503355704698,
+      181.140625
+    ],
+    [
+      163.09060402684565,
+      263.171875
+    ],
+    [
+      287.251677852349,
+      110.828125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 500,
+      "height": 375,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        116.0,
+        108.0
+      ],
+      [
+        60.0,
+        157.0
+      ],
+      [
+        134.0,
+        66.0
+      ]
+    ],
+    "crop_box": [
+      17,
+      34,
+      216,
+      169
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000092480\\119239.map.npz": "637c84dac4d61ed0d8bc419efabf819467470eaa8feb0c9070bcee15dca95edd",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000092480\\119239.map.json": "ea4f196a794680ce77831f92ca7e96a4e18d2fc1b4de7ed71033c3a86b9638be",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000092480\\119239.npz": "b2ff62aa993f704fba1ab1031e8a393c0f0dd0c3bad3c1b2eab203c27cd17722"
+  }
+}

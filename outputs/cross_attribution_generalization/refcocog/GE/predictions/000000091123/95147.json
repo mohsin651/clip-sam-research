@@ -1,0 +1,139 @@
+{
+  "image_id": 91123,
+  "sent_id": 95147,
+  "expression": "A snowboarder that is upright, wearing black, and has snow on his rear.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000091123.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "4463666af329ae7f4a2a8db846e68c98ca105e545bfe4aeecd999110cd827c53",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.00796915302635251,
+      "density_outside": 0.023566593035487797,
+      "density_ratio": 0.3381546502718485,
+      "log_density_ratio": -1.0842519428325303,
+      "coverage": 0.728686754044099,
+      "area_fraction": 0.888173828125,
+      "sam_score": 0.9448347091674805,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.0009716094000300733,
+      "agreement_min": 0.0004930858407661458,
+      "agreement_max": 0.0014501329592940008,
+      "spread_mean": 0.11992988645900499,
+      "spread_max": 0.17988571542636003,
+      "entropy": 0.9317633823641082,
+      "top10_mass": 0.4431157957719091,
+      "score_margin": 0.07454222440719604
+    },
+    {
+      "density_inside": 0.11677032386338584,
+      "density_outside": 0.009252062492978906,
+      "density_ratio": 12.62100466132585,
+      "log_density_ratio": 2.5353624626159337,
+      "coverage": 0.051577159503961245,
+      "area_fraction": 0.0042903645833333335,
+      "sam_score": 0.8702924847602844,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.33708870284328335,
+      "agreement_min": 0.0014501329592940008,
+      "agreement_max": 0.6727272727272727,
+      "spread_mean": 0.11992988645900499,
+      "spread_max": 0.17988571542636003,
+      "entropy": 0.9317633823641082,
+      "top10_mass": 0.4431157957719091,
+      "score_margin": 0.07454222440719604
+    },
+    {
+      "density_inside": 0.11579887327535192,
+      "density_outside": 0.00934116891878373,
+      "density_ratio": 12.396614842292449,
+      "log_density_ratio": 2.517423438759956,
+      "coverage": 0.041679081606054685,
+      "area_fraction": 0.00349609375,
+      "sam_score": 0.8361631631851196,
+      "points_inside": 0,
+      "points_fraction": 0.0,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.33661017928401943,
+      "agreement_min": 0.0004930858407661458,
+      "agreement_max": 0.6727272727272727,
+      "spread_mean": 0.11992988645900499,
+      "spread_max": 0.17988571542636003,
+      "entropy": 0.9317633823641082,
+      "top10_mass": 0.4431157957719091,
+      "score_margin": 0.07454222440719604
+    }
+  ],
+  "rank_scores": [
+    -4.608976659526883,
+    -0.7822261806399006,
+    -1.1237798784307926
+  ],
+  "points": [
+    [
+      247.55369127516778,
+      281.2857142857143
+    ],
+    [
+      391.4463087248322,
+      279.1428571428571
+    ],
+    [
+      322.72147651006713,
+      279.1428571428571
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        78.0,
+        131.0
+      ],
+      [
+        145.0,
+        130.0
+      ],
+      [
+        113.0,
+        130.0
+      ]
+    ],
+    "crop_box": [
+      22,
+      42,
+      164,
+      179
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000091123\\95147.map.npz": "993e9d671099852b8ce885e6d01efc931526968e91142575967f4187d307eada",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000091123\\95147.map.json": "838c2666f32270e3ba7702a94f35cb8e2620a3014a43f8738601fe265423cb14",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000091123\\95147.npz": "a700825c3aa13e5831c162f15c301bda5fa1ba60496852eed4fbe40a2f5929bd"
+  }
+}

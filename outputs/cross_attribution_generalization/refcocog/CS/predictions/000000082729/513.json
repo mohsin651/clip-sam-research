@@ -1,0 +1,139 @@
+{
+  "image_id": 82729,
+  "sent_id": 513,
+  "expression": "A pan with food cooking on the gas.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000082729.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "f90188475816002086c34d330b4dba10e78e97637cfa0fa20dbea83734283ca9",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.6241098985649807,
+      "density_outside": 0.27301823462613256,
+      "density_ratio": 2.285964156999778,
+      "log_density_ratio": 0.8267878858986208,
+      "coverage": 0.17286555313147176,
+      "area_fraction": 0.08376627604166667,
+      "sam_score": 0.7556312680244446,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.36170422112966993,
+      "agreement_min": 0.2118291687716162,
+      "agreement_max": 0.5115792734877237,
+      "spread_mean": 0.10998136459554854,
+      "spread_max": 0.1500240210185451,
+      "entropy": 0.9866297858033102,
+      "top10_mass": 0.21153705818735963,
+      "score_margin": 0.09202247858047485
+    },
+    {
+      "density_inside": 0.8521823876154532,
+      "density_outside": 0.27755152208528855,
+      "density_ratio": 3.070357464480114,
+      "log_density_ratio": 1.1217939927633136,
+      "coverage": 0.12198558400831355,
+      "area_fraction": 0.043291015625,
+      "sam_score": 0.9403446316719055,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4597770212899308,
+      "agreement_min": 0.40797476909213787,
+      "agreement_max": 0.5115792734877237,
+      "spread_mean": 0.10998136459554854,
+      "spread_max": 0.1500240210185451,
+      "entropy": 0.9866297858033102,
+      "top10_mass": 0.21153705818735963,
+      "score_margin": 0.09202247858047485
+    },
+    {
+      "density_inside": 0.8924996145404472,
+      "density_outside": 0.29176841701687933,
+      "density_ratio": 3.0589315446221024,
+      "log_density_ratio": 1.1180656865677723,
+      "coverage": 0.05236500974965865,
+      "area_fraction": 0.017744140625,
+      "sam_score": 0.8483221530914307,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.30990196893187705,
+      "agreement_min": 0.2118291687716162,
+      "agreement_max": 0.40797476909213787,
+      "spread_mean": 0.10998136459554854,
+      "spread_max": 0.1500240210185451,
+      "entropy": 0.9866297858033102,
+      "top10_mass": 0.21153705818735963,
+      "score_margin": 0.09202247858047485
+    }
+  ],
+  "rank_scores": [
+    -2.472419691607894,
+    -1.726651595610462,
+    -2.566874482537026
+  ],
+  "points": [
+    [
+      382.0,
+      468.76174496644296
+    ],
+    [
+      322.0,
+      509.56711409395973
+    ],
+    [
+      262.0,
+      470.90939597315435
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        178.0,
+        181.0
+      ],
+      [
+        150.0,
+        200.0
+      ],
+      [
+        122.0,
+        182.0
+      ]
+    ],
+    "crop_box": [
+      72,
+      0,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000082729\\513.map.npz": "ddba0a5975b85563fb0ee9c3b4a9705a636fc2647248c3d7c6da0bf1b1297cc6",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000082729\\513.map.json": "52325a38b82626f3e90862b03e73e9e13931ec49d82c4205b6545fd2e10b423f",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000082729\\513.npz": "c419d366fa5ce2d919eb1718f3e1b70a3978a974959e762311631ad9441dcfe5"
+  }
+}

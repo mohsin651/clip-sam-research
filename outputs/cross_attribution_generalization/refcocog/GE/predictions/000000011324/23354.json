@@ -1,0 +1,139 @@
+{
+  "image_id": 11324,
+  "sent_id": 23354,
+  "expression": "giraffe not facing the camera",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000011324.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 448,
+    "rw": 320,
+    "rh": 224,
+    "left": 48,
+    "top": 0
+  },
+  "image_sha256": "0b050612ad6b4a2feebdcae34b0e7edff9f43834b0882680d49bdb4cf61d5fff",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.025032781729233622,
+      "density_outside": 0.0045937269432130105,
+      "density_ratio": 5.449340379442643,
+      "log_density_ratio": 1.6954945700952941,
+      "coverage": 0.7734728673079931,
+      "area_fraction": 0.38521554129464286,
+      "sam_score": 0.975702166557312,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5119930334391833,
+      "agreement_min": 0.4635881469145412,
+      "agreement_max": 0.5603979199638255,
+      "spread_mean": 0.18346792821090316,
+      "spread_max": 0.22600040925454423,
+      "entropy": 0.9441309514658165,
+      "top10_mass": 0.3565414533088207,
+      "score_margin": 0.003977835178375244
+    },
+    {
+      "density_inside": 0.03424206553880781,
+      "density_outside": 0.006448119636837662,
+      "density_ratio": 5.3103955047413915,
+      "log_density_ratio": 1.6696663155114755,
+      "coverage": 0.5947983921974029,
+      "area_fraction": 0.21655970982142858,
+      "sam_score": 0.9717243313789368,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6926848720733634,
+      "agreement_min": 0.5603979199638255,
+      "agreement_max": 0.8249718241829013,
+      "spread_mean": 0.18346792821090316,
+      "spread_max": 0.22600040925454423,
+      "entropy": 0.9441309514658165,
+      "top10_mass": 0.3565414533088207,
+      "score_margin": 0.003977835178375244
+    },
+    {
+      "density_inside": 0.037998741906206994,
+      "density_outside": 0.006909302256969347,
+      "density_ratio": 5.499649673362947,
+      "log_density_ratio": 1.7046843944838899,
+      "coverage": 0.5448746270312372,
+      "area_fraction": 0.17877022879464285,
+      "sam_score": 0.9176146984100342,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6442799855487212,
+      "agreement_min": 0.4635881469145412,
+      "agreement_max": 0.8249718241829013,
+      "spread_mean": 0.18346792821090316,
+      "spread_max": 0.22600040925454423,
+      "entropy": 0.9441309514658165,
+      "top10_mass": 0.3565414533088207,
+      "score_margin": 0.003977835178375244
+    }
+  ],
+  "rank_scores": [
+    2.2189101867100587,
+    1.9241327050241002,
+    1.5679884142130145
+  ],
+  "points": [
+    [
+      438.5,
+      392.5
+    ],
+    [
+      374.5,
+      230.5
+    ],
+    [
+      360.5,
+      406.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 448,
+      "rw": 320,
+      "rh": 224,
+      "left": 48,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        171.0,
+        196.0
+      ],
+      [
+        139.0,
+        115.0
+      ],
+      [
+        132.0,
+        203.0
+      ]
+    ],
+    "crop_box": [
+      116,
+      29,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011324\\23354.map.npz": "944c4886b020a79f834c6c323a67464c2662dac7bc063806f16ff604e2f4e0ae",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011324\\23354.map.json": "82b82c8b65b86bcdebb2887a606adc312cc18799516993e8fb2906aa1b87b457",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011324\\23354.npz": "01b703867e0a11829976fc1d6810bf8b2edf7fdd4486d80a3f899ab03285e028"
+  }
+}

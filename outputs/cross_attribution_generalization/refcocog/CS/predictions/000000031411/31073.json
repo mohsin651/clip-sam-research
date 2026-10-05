@@ -1,0 +1,139 @@
+{
+  "image_id": 31411,
+  "sent_id": 31073,
+  "expression": "Giraffe standing to the left of another giraffe, interacting with the other giraffe.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000031411.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 426,
+    "rw": 336,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "53c6cf0c67bfb673be9e99ca615e18f3570376d77c0ea11ff6aaba2157973617",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.776748362208923,
+      "density_outside": 0.15529599278885356,
+      "density_ratio": 5.001728301257704,
+      "log_density_ratio": 1.609783512960187,
+      "coverage": 0.40714500559974487,
+      "area_fraction": 0.12072696596244131,
+      "sam_score": 0.9412908554077148,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.9027367355387352,
+      "agreement_min": 0.8499711658117582,
+      "agreement_max": 0.9555023052657122,
+      "spread_mean": 0.16272992259507682,
+      "spread_max": 0.23288787994126325,
+      "entropy": 0.9757992830284007,
+      "top10_mass": 0.2576306152037676,
+      "score_margin": 0.028130829334259033
+    },
+    {
+      "density_inside": 0.7853813459662844,
+      "density_outside": 0.15767436194052944,
+      "density_ratio": 4.981033925208007,
+      "log_density_ratio": 1.6056374849923345,
+      "coverage": 0.39464800267225847,
+      "area_fraction": 0.1157350352112676,
+      "sam_score": 0.9694216847419739,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.9218259308331096,
+      "agreement_min": 0.888149556400507,
+      "agreement_max": 0.9555023052657122,
+      "spread_mean": 0.16272992259507682,
+      "spread_max": 0.23288787994126325,
+      "entropy": 0.9757992830284007,
+      "top10_mass": 0.2576306152037676,
+      "score_margin": 0.028130829334259033
+    },
+    {
+      "density_inside": 0.8089032675616495,
+      "density_outside": 0.16400628037176912,
+      "density_ratio": 4.932148120932302,
+      "log_density_ratio": 1.5957746174825953,
+      "coverage": 0.3611499400857388,
+      "area_fraction": 0.10283157276995306,
+      "sam_score": 0.9082502126693726,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8690603611061326,
+      "agreement_min": 0.8499711658117582,
+      "agreement_max": 0.888149556400507,
+      "spread_mean": 0.16272992259507682,
+      "spread_max": 0.23288787994126325,
+      "entropy": 0.9757992830284007,
+      "top10_mass": 0.2576306152037676,
+      "score_margin": 0.028130829334259033
+    }
+  ],
+  "rank_scores": [
+    1.3133177351439533,
+    1.338373116937798,
+    0.9537177223777366
+  ],
+  "points": [
+    [
+      368.07142857142856,
+      259.09375
+    ],
+    [
+      189.02380952380952,
+      259.09375
+    ],
+    [
+      289.9761904761905,
+      219.15625
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 426,
+      "rw": 336,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        137.0,
+        136.0
+      ],
+      [
+        43.0,
+        136.0
+      ],
+      [
+        96.0,
+        115.0
+      ]
+    ],
+    "crop_box": [
+      2,
+      67,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000031411\\31073.map.npz": "2a19e07d315da1400a074fdeb0fc61c47a1719c8c1281e84728c4b1b7d51f813",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000031411\\31073.map.json": "2b8e473a0ec6cdf5598a503d085413c84ac651665e5b4a4449c8374e761188f9",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000031411\\31073.npz": "5f51fc32cfeb047f95aef4f06d3f131784632c7874baa857d84065f5205e9f28"
+  }
+}

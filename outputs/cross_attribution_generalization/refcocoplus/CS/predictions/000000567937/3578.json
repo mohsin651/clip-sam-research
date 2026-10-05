@@ -1,0 +1,139 @@
+{
+  "image_id": 567937,
+  "sent_id": 3578,
+  "expression": "big elephant",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000567937.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "7c8293f31a3d11b8175845e03be199452c872badae70b527a3f4512069570caa",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.7652277620906721,
+      "density_outside": 0.13890955917424294,
+      "density_ratio": 5.508820031062731,
+      "log_density_ratio": 1.7063504497903141,
+      "coverage": 0.7929768961079063,
+      "area_fraction": 0.41013997395833335,
+      "sam_score": 0.9789766669273376,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5525052620721045,
+      "agreement_min": 0.3563396265346126,
+      "agreement_max": 0.7486708976095965,
+      "spread_mean": 0.23992074964654356,
+      "spread_max": 0.34949660653758086,
+      "entropy": 0.9804416219564905,
+      "top10_mass": 0.18373004788019362,
+      "score_margin": 0.0036945343017578125
+    },
+    {
+      "density_inside": 0.8481540980362084,
+      "density_outside": 0.19416115548860477,
+      "density_ratio": 4.368299600903528,
+      "log_density_ratio": 1.4743738260420414,
+      "coverage": 0.6606738341034584,
+      "area_fraction": 0.30830078125,
+      "sam_score": 0.9826712012290955,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6114515176880325,
+      "agreement_min": 0.4742321377664685,
+      "agreement_max": 0.7486708976095965,
+      "spread_mean": 0.23992074964654356,
+      "spread_max": 0.34949660653758086,
+      "entropy": 0.9804416219564905,
+      "top10_mass": 0.18373004788019362,
+      "score_margin": 0.0036945343017578125
+    },
+    {
+      "density_inside": 0.8916104961674661,
+      "density_outside": 0.3108782903605444,
+      "density_ratio": 2.8680371830742617,
+      "log_density_ratio": 1.0536278874641678,
+      "coverage": 0.3293766067590902,
+      "area_fraction": 0.1462109375,
+      "sam_score": 0.7101410627365112,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4152858821505405,
+      "agreement_min": 0.3563396265346126,
+      "agreement_max": 0.4742321377664685,
+      "spread_mean": 0.23992074964654356,
+      "spread_max": 0.34949660653758086,
+      "entropy": 0.9804416219564905,
+      "top10_mass": 0.18373004788019362,
+      "score_margin": 0.0036945343017578125
+    }
+  ],
+  "rank_scores": [
+    2.2435588884275,
+    1.6223150972281204,
+    -1.2980440089537597
+  ],
+  "points": [
+    [
+      211.04362416107384,
+      67.0
+    ],
+    [
+      490.23825503355704,
+      82.0
+    ],
+    [
+      430.1040268456376,
+      37.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        61.0,
+        31.0
+      ],
+      [
+        191.0,
+        38.0
+      ],
+      [
+        163.0,
+        17.0
+      ]
+    ],
+    "crop_box": [
+      10,
+      7,
+      224,
+      195
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000567937\\3578.map.npz": "6a6a837da01b134d1bf43dc03241de058c11345c4248614c9dada26672108990",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000567937\\3578.map.json": "002685076f87c6589228579a8ccac78395d73710a247de0f75e036443c75f0fd",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000567937\\3578.npz": "c37a9e53be9d3146cdb2b4ceb478d15e109a15f2f5dcb4444ef601665934e2bb"
+  }
+}

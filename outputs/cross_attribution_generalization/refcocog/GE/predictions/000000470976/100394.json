@@ -1,0 +1,139 @@
+{
+  "image_id": 470976,
+  "sent_id": 100394,
+  "expression": "The chair that the man's hand is resting on",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000470976.jpg",
+  "geometry": {
+    "width": 481,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "6ba4b4c4679854a3d7f7d1a8106e4de15a54120d637a5eababde7be8acb6bff3",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.006449765854266448,
+      "density_outside": 0.0026313442268609067,
+      "density_ratio": 2.451129649240017,
+      "log_density_ratio": 0.8965489997688065,
+      "coverage": 0.38822830331177177,
+      "area_fraction": 0.20565553534303535,
+      "sam_score": 0.9155604839324951,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.39875785351920745,
+      "agreement_min": 0.38250084842501464,
+      "agreement_max": 0.4150148586134003,
+      "spread_mean": 0.29851406781987017,
+      "spread_max": 0.39196753334222706,
+      "entropy": 0.960662298468702,
+      "top10_mass": 0.3153184469046987,
+      "score_margin": 0.03770339488983154
+    },
+    {
+      "density_inside": 0.00886538455465778,
+      "density_outside": 0.0028485159811912006,
+      "density_ratio": 3.1122818373088945,
+      "log_density_ratio": 1.1353561670161578,
+      "coverage": 0.24499692839953352,
+      "area_fraction": 0.0944191787941788,
+      "sam_score": 0.9532638788223267,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6578935628230894,
+      "agreement_min": 0.4150148586134003,
+      "agreement_max": 0.9007722670327785,
+      "spread_mean": 0.29851406781987017,
+      "spread_max": 0.39196753334222706,
+      "entropy": 0.960662298468702,
+      "top10_mass": 0.3153184469046987,
+      "score_margin": 0.03770339488983154
+    },
+    {
+      "density_inside": 0.00919385771448809,
+      "density_outside": 0.0028766529802290853,
+      "density_ratio": 3.196025997741271,
+      "log_density_ratio": 1.161908162441937,
+      "coverage": 0.23000958559257195,
+      "area_fraction": 0.08547622141372141,
+      "sam_score": 0.8631179332733154,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6416365577288965,
+      "agreement_min": 0.38250084842501464,
+      "agreement_max": 0.9007722670327785,
+      "spread_mean": 0.29851406781987017,
+      "spread_max": 0.39196753334222706,
+      "entropy": 0.960662298468702,
+      "top10_mass": 0.3153184469046987,
+      "score_margin": 0.03770339488983154
+    }
+  ],
+  "rank_scores": [
+    -0.9674841022817424,
+    -0.8191216393917259,
+    -1.0542375777475224
+  ],
+  "points": [
+    [
+      294.7566964285714,
+      518.1577181208054
+    ],
+    [
+      329.1138392857143,
+      327.01677852348996
+    ],
+    [
+      135.8549107142857,
+      247.55369127516778
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 481,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        137.0,
+        204.0
+      ],
+      [
+        153.0,
+        115.0
+      ],
+      [
+        63.0,
+        78.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      53,
+      219,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000470976\\100394.map.npz": "0b44c8b5741f633e481141ada52b104bacded3336448c35bcfe41567b0ab2bb8",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000470976\\100394.map.json": "d0fae7be9fcb653cf14f53711bf838006135b1c27ae89cebe362e63ee41c80e2",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000470976\\100394.npz": "dfc9e20b2642333810cf077bf7149f8785e679f8a1ecd27ca92641e5d1b63572"
+  }
+}

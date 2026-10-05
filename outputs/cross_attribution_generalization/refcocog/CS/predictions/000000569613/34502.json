@@ -1,0 +1,139 @@
+{
+  "image_id": 569613,
+  "sent_id": 34502,
+  "expression": "An elephant crossing the path in front of a vehicle.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000569613.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 425,
+    "rw": 337,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "4c1820289b0b5dcbac5743d5b63067bdc10712dca7dacec2e988d74e10fa9baa",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5876977975661878,
+      "density_outside": 0.26566415008312916,
+      "density_ratio": 2.212183305049171,
+      "log_density_ratio": 0.7939799486954636,
+      "coverage": 0.2576963889849491,
+      "area_fraction": 0.13564338235294118,
+      "sam_score": 0.8637046813964844,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5141308770364067,
+      "agreement_min": 0.15090913945478332,
+      "agreement_max": 0.8773526146180302,
+      "spread_mean": 0.16324884420958866,
+      "spread_max": 0.2435465668253812,
+      "entropy": 0.9812422875906405,
+      "top10_mass": 0.18443870183339206,
+      "score_margin": 0.08234792947769165
+    },
+    {
+      "density_inside": 0.6573374251662454,
+      "density_outside": 0.2622391265532297,
+      "density_ratio": 2.5066336736379857,
+      "log_density_ratio": 0.918940687096033,
+      "coverage": 0.2533506734762292,
+      "area_fraction": 0.11922794117647059,
+      "sam_score": 0.946052610874176,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5228562782814389,
+      "agreement_min": 0.1683599419448476,
+      "agreement_max": 0.8773526146180302,
+      "spread_mean": 0.16324884420958866,
+      "spread_max": 0.2435465668253812,
+      "entropy": 0.9812422875906405,
+      "top10_mass": 0.18443870183339206,
+      "score_margin": 0.08234792947769165
+    },
+    {
+      "density_inside": 0.7263036330780929,
+      "density_outside": 0.299603953064764,
+      "density_ratio": 2.4242124499561157,
+      "log_density_ratio": 0.8855067087392362,
+      "coverage": 0.05360392265322733,
+      "area_fraction": 0.022830882352941177,
+      "sam_score": 0.65472412109375,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.15963454069981547,
+      "agreement_min": 0.15090913945478332,
+      "agreement_max": 0.1683599419448476,
+      "spread_mean": 0.16324884420958866,
+      "spread_max": 0.2435465668253812,
+      "entropy": 0.9812422875906405,
+      "top10_mass": 0.18443870183339206,
+      "score_margin": 0.08234792947769165
+    }
+  ],
+  "rank_scores": [
+    -1.7509939755024162,
+    -1.3880829002831185,
+    -3.4195425060768807
+  ],
+  "points": [
+    [
+      410.6572700296736,
+      338.171875
+    ],
+    [
+      389.76706231454006,
+      271.765625
+    ],
+    [
+      389.76706231454006,
+      152.234375
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 425,
+      "rw": 337,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        160.0,
+        178.0
+      ],
+      [
+        149.0,
+        143.0
+      ],
+      [
+        149.0,
+        80.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      49,
+      224,
+      210
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000569613\\34502.map.npz": "979f1401503dc500ccd201fc10ca660f5600e55b24d7349c924511618caafc4b",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000569613\\34502.map.json": "862bb5a4bc619350ef5cb7e8bd04a0066e5ebb8355d53535bde6a8149a6a9f59",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000569613\\34502.npz": "e517275feb2d501793fc51129ea3ac99035435536ae4db8dc892a12f7321687d"
+  }
+}

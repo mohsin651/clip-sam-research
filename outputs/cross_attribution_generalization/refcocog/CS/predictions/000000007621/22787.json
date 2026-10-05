@@ -1,0 +1,139 @@
+{
+  "image_id": 7621,
+  "sent_id": 22787,
+  "expression": "A cow that is standing",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000007621.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "b688bcfa244dcfe3f7cdcbba14ad7fe7ea157c207750520b37dd5487d69331d7",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.7039011093841709,
+      "density_outside": 0.2517062799888639,
+      "density_ratio": 2.796517867621407,
+      "log_density_ratio": 1.0283750245404744,
+      "coverage": 0.24885485410955419,
+      "area_fraction": 0.10592066744730678,
+      "sam_score": 0.9058257341384888,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7016200082978427,
+      "agreement_min": 0.642361470740549,
+      "agreement_max": 0.7608785458551364,
+      "spread_mean": 0.13153765637267192,
+      "spread_max": 0.1639105564017385,
+      "entropy": 0.97750589716343,
+      "top10_mass": 0.21168360269041683,
+      "score_margin": 0.0031046271324157715
+    },
+    {
+      "density_inside": 0.8070879905779734,
+      "density_outside": 0.2547234382586944,
+      "density_ratio": 3.1684873449106594,
+      "log_density_ratio": 1.1532542957430292,
+      "coverage": 0.218875934186866,
+      "area_fraction": 0.08125,
+      "sam_score": 0.9342175126075745,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7997628791601179,
+      "agreement_min": 0.7608785458551364,
+      "agreement_max": 0.8386472124650995,
+      "spread_mean": 0.13153765637267192,
+      "spread_max": 0.1639105564017385,
+      "entropy": 0.97750589716343,
+      "top10_mass": 0.21168360269041683,
+      "score_margin": 0.0031046271324157715
+    },
+    {
+      "density_inside": 0.8347093382225741,
+      "density_outside": 0.2604663654852166,
+      "density_ratio": 3.2046722680082294,
+      "log_density_ratio": 1.1646098286735906,
+      "coverage": 0.1898792302840853,
+      "area_fraction": 0.06815354215456675,
+      "sam_score": 0.9373221397399902,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7405043416028243,
+      "agreement_min": 0.642361470740549,
+      "agreement_max": 0.8386472124650995,
+      "spread_mean": 0.13153765637267192,
+      "spread_max": 0.1639105564017385,
+      "entropy": 0.97750589716343,
+      "top10_mass": 0.21168360269041683,
+      "score_margin": 0.0031046271324157715
+    }
+  ],
+  "rank_scores": [
+    -0.8653914034543051,
+    -0.5800784780835849,
+    -0.8486798409877506
+  ],
+  "points": [
+    [
+      170.48507462686567,
+      206.328125
+    ],
+    [
+      267.9179104477612,
+      126.265625
+    ],
+    [
+      170.48507462686567,
+      126.265625
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        33.0,
+        108.0
+      ],
+      [
+        84.0,
+        66.0
+      ],
+      [
+        33.0,
+        66.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      40,
+      224,
+      192
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000007621\\22787.map.npz": "c94542c2e21bb94a75b0846f7fb54e2e6a44d45ea3c24856a117ce33403fa094",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000007621\\22787.map.json": "a35cdc8da82f200350f03cb4d50580879d045298a9d218654903438e390bf145",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000007621\\22787.npz": "83e6e973c730e4dac7bfd9852ef9c7ab4be64019c17a63ed88814396743a3980"
+  }
+}

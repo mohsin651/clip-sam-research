@@ -1,0 +1,139 @@
+{
+  "image_id": 214265,
+  "sent_id": 90163,
+  "expression": "man obama is touching",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000214265.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 512,
+    "rw": 280,
+    "rh": 224,
+    "left": 28,
+    "top": 0
+  },
+  "image_sha256": "0b1422cb56568d490733c9419335cd6f36cb890e427388daf47d9ad6bb576a40",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.015450602063730268,
+      "density_outside": 0.002644979727238489,
+      "density_ratio": 5.8414822233893275,
+      "log_density_ratio": 1.7649845700766076,
+      "coverage": 0.6573533962329744,
+      "area_fraction": 0.2472259521484375,
+      "sam_score": 0.9053616523742676,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.18357005748144922,
+      "agreement_min": 0.17750829622136416,
+      "agreement_max": 0.18963181874153429,
+      "spread_mean": 0.09643680184720875,
+      "spread_max": 0.10512768079004065,
+      "entropy": 0.8960017835170929,
+      "top10_mass": 0.625696819464281,
+      "score_margin": 0.07460200786590576
+    },
+    {
+      "density_inside": 0.052947661516964305,
+      "density_outside": 0.0034547846748758096,
+      "density_ratio": 15.325893357895522,
+      "log_density_ratio": 2.7295437742951756,
+      "coverage": 0.4337635480074688,
+      "area_fraction": 0.0476043701171875,
+      "sam_score": 0.8992989659309387,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5574489051405402,
+      "agreement_min": 0.18963181874153429,
+      "agreement_max": 0.9252659915395463,
+      "spread_mean": 0.09643680184720875,
+      "spread_max": 0.10512768079004065,
+      "entropy": 0.8960017835170929,
+      "top10_mass": 0.625696819464281,
+      "score_margin": 0.07460200786590576
+    },
+    {
+      "density_inside": 0.05443960436726179,
+      "density_outside": 0.0035692957839623504,
+      "density_ratio": 15.252197533367505,
+      "log_density_ratio": 2.7247235932389917,
+      "coverage": 0.412820815515207,
+      "area_fraction": 0.0440643310546875,
+      "sam_score": 0.9799636602401733,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5513871438804552,
+      "agreement_min": 0.17750829622136416,
+      "agreement_max": 0.9252659915395463,
+      "spread_mean": 0.09643680184720875,
+      "spread_max": 0.10512768079004065,
+      "entropy": 0.8960017835170929,
+      "top10_mass": 0.625696819464281,
+      "score_margin": 0.07460200786590576
+    }
+  ],
+  "rank_scores": [
+    1.4153475459399554,
+    2.307075270099223,
+    2.300201292104509
+  ],
+  "points": [
+    [
+      455.5,
+      119.5
+    ],
+    [
+      487.5,
+      199.5
+    ],
+    [
+      528.6428571428571,
+      135.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 512,
+      "rw": 280,
+      "rh": 224,
+      "left": 28,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        171.0,
+        52.0
+      ],
+      [
+        185.0,
+        87.0
+      ],
+      [
+        203.0,
+        59.0
+      ]
+    ],
+    "crop_box": [
+      105,
+      19,
+      224,
+      161
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000214265\\90163.map.npz": "90edc6089ed784ac79c6bf855bc37f07eb611c53caab29ec35838590e414eca7",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000214265\\90163.map.json": "e458fd9a4cdc49bf33371572a722f6e16cf49a9c792b34e59a6dd4230f5ef3b6",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000214265\\90163.npz": "d6c5455e82c44d9d65645c440c7b5ed15d5767568c5322a7a7c6f3bec9ec9896"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 396663,
+  "sent_id": 41600,
+  "expression": "A yellow bus parked to the left of private bus number 1235.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000396663.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "a191e099aac5c819e0722fd566a87bd37259901e5763d44bf5905c730f3e417a",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.012893253765327331,
+      "density_outside": 0.0015091354951915852,
+      "density_ratio": 8.543469952078132,
+      "log_density_ratio": 2.1451672429269584,
+      "coverage": 0.9085361651453335,
+      "area_fraction": 0.5376097775175644,
+      "sam_score": 0.9619748592376709,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.28620523692280025,
+      "agreement_min": 0.23147493267321345,
+      "agreement_max": 0.34093554117238706,
+      "spread_mean": 0.29388913714504766,
+      "spread_max": 0.2993993649951523,
+      "entropy": 0.9412820485284012,
+      "top10_mass": 0.340677612635961,
+      "score_margin": 0.022217214107513428
+    },
+    {
+      "density_inside": 0.009150391226349537,
+      "density_outside": 0.007287842987095498,
+      "density_ratio": 1.2555692049480844,
+      "log_density_ratio": 0.22758901962985886,
+      "coverage": 0.2199088693186279,
+      "area_fraction": 0.18335406908665106,
+      "sam_score": 0.9397576451301575,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5090586751538122,
+      "agreement_min": 0.34093554117238706,
+      "agreement_max": 0.6771818091352373,
+      "spread_mean": 0.29388913714504766,
+      "spread_max": 0.2993993649951523,
+      "entropy": 0.9412820485284012,
+      "top10_mass": 0.340677612635961,
+      "score_margin": 0.022217214107513428
+    },
+    {
+      "density_inside": 0.007218062048517457,
+      "density_outside": 0.00768810993101393,
+      "density_ratio": 0.9388604107312313,
+      "log_density_ratio": -0.06308846805416538,
+      "coverage": 0.1182718236525293,
+      "area_fraction": 0.12501097775175643,
+      "sam_score": 0.8878674507141113,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4543283709042254,
+      "agreement_min": 0.23147493267321345,
+      "agreement_max": 0.6771818091352373,
+      "spread_mean": 0.29388913714504766,
+      "spread_max": 0.2993993649951523,
+      "entropy": 0.9412820485284012,
+      "top10_mass": 0.340677612635961,
+      "score_margin": 0.022217214107513428
+    }
+  ],
+  "rank_scores": [
+    2.6271771535598143,
+    -2.7301126867060903,
+    -3.7362101665434633
+  ],
+  "points": [
+    [
+      134.1865671641791,
+      103.390625
+    ],
+    [
+      118.90298507462687,
+      322.609375
+    ],
+    [
+      327.14179104477614,
+      229.203125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        14.0,
+        54.0
+      ],
+      [
+        6.0,
+        169.0
+      ],
+      [
+        115.0,
+        120.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      31,
+      224,
+      192
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000396663\\41600.map.npz": "ddea1e72d4381de22bf97e1768177e44a19cee42817f9b7ffa737b5a47368325",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000396663\\41600.map.json": "12a0139bf6c8d01f894dccf326ee5aea473f1e5b54808ba9c85376b5c4887cab",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000396663\\41600.npz": "25195c24135425a09b88a83c3f9d75b0cf7dcaa505d1255b2c6b28e776aceb8b"
+  }
+}

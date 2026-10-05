@@ -1,0 +1,139 @@
+{
+  "image_id": 430950,
+  "sent_id": 1233,
+  "expression": "brown chair the man is sitting on",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000430950.jpg",
+  "geometry": {
+    "width": 612,
+    "height": 612,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "4afd2f4c4c5abed29089655149ca6b4f6410818cf7090cfb7adcc31cc63bb956",
+  "naive_candidate": 2,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.0054724321317004875,
+      "density_outside": 0.0019510292836290325,
+      "density_ratio": 2.8048949212676795,
+      "log_density_ratio": 1.031366077232061,
+      "coverage": 0.4225134055880871,
+      "area_fraction": 0.20688090050835148,
+      "sam_score": 0.5914347767829895,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.09351103293994761,
+      "agreement_min": 0.059361704797881554,
+      "agreement_max": 0.12766036108201367,
+      "spread_mean": 0.35938498447787587,
+      "spread_max": 0.48840591520804094,
+      "entropy": 0.891843299303628,
+      "top10_mass": 0.5952452017697945,
+      "score_margin": 0.11821550130844116
+    },
+    {
+      "density_inside": 0.01761904521350772,
+      "density_outside": 0.0020986612818222985,
+      "density_ratio": 8.395373449599008,
+      "log_density_ratio": 2.127680774361466,
+      "coverage": 0.24609641780514896,
+      "area_fraction": 0.03742684437609466,
+      "sam_score": 0.7375635504722595,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3052278016115251,
+      "agreement_min": 0.12766036108201367,
+      "agreement_max": 0.48279524214103653,
+      "spread_mean": 0.35938498447787587,
+      "spread_max": 0.48840591520804094,
+      "entropy": 0.891843299303628,
+      "top10_mass": 0.5952452017697945,
+      "score_margin": 0.11821550130844116
+    },
+    {
+      "density_inside": 0.025884581581901236,
+      "density_outside": 0.002242416756583722,
+      "density_ratio": 11.543162748120348,
+      "log_density_ratio": 2.4460932918633898,
+      "coverage": 0.17860671929622868,
+      "area_fraction": 0.018489149472425137,
+      "sam_score": 0.8557790517807007,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.271078473469459,
+      "agreement_min": 0.059361704797881554,
+      "agreement_max": 0.48279524214103653,
+      "spread_mean": 0.35938498447787587,
+      "spread_max": 0.48840591520804094,
+      "entropy": 0.891843299303628,
+      "top10_mass": 0.5952452017697945,
+      "score_margin": 0.11821550130844116
+    }
+  ],
+  "rank_scores": [
+    -1.664384969753225,
+    -0.3158715609826145,
+    -0.18776966772983064
+  ],
+  "points": [
+    [
+      55.50892857142857,
+      361.50892857142856
+    ],
+    [
+      170.25892857142858,
+      249.49107142857144
+    ],
+    [
+      473.5267857142857,
+      424.3482142857143
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 612,
+      "height": 612,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        20.0,
+        132.0
+      ],
+      [
+        62.0,
+        91.0
+      ],
+      [
+        173.0,
+        155.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      73,
+      73,
+      143
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000430950\\1233.map.npz": "8722165dc191a61d92a9b3968a194c7082d771574f4c388e33dc6947955da277",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000430950\\1233.map.json": "2c3394a60c468ae9e331d6bc5d714e5b8b59cf0a9ac70b964b0e7423769d05e7",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000430950\\1233.npz": "6f1a5c74eae392953eefba0bb72dff34fab0ca9ac8196808a09e8b738c54fa6a"
+  }
+}

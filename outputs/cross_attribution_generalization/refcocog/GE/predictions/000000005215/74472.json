@@ -1,0 +1,139 @@
+{
+  "image_id": 5215,
+  "sent_id": 74472,
+  "expression": "A man crossing his legs with red socks and brown shoes",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000005215.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 474,
+    "rw": 302,
+    "rh": 224,
+    "left": 39,
+    "top": 0
+  },
+  "image_sha256": "6fd828d078d96df300d1843822849693f9872bfc2e4ea5195e8f732d9e9a912f",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.01713324186701576,
+      "density_outside": 0.0029995937656850063,
+      "density_ratio": 5.711854070809903,
+      "log_density_ratio": 1.7425436769418998,
+      "coverage": 0.6466182642172713,
+      "area_fraction": 0.2426259229957806,
+      "sam_score": 0.7957395315170288,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.16771679834554767,
+      "agreement_min": 0.13064535822333165,
+      "agreement_max": 0.2047882384677637,
+      "spread_mean": 0.18057103638012773,
+      "spread_max": 0.2701092838740008,
+      "entropy": 0.8939913766520515,
+      "top10_mass": 0.6233522969413675,
+      "score_margin": 0.0522691011428833
+    },
+    {
+      "density_inside": 0.06171921841473184,
+      "density_outside": 0.0034070697833432995,
+      "density_ratio": 18.115043812238202,
+      "log_density_ratio": 2.8967427429216324,
+      "coverage": 0.4974917290325362,
+      "area_fraction": 0.051819620253164556,
+      "sam_score": 0.9389228820800781,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.41171507549023995,
+      "agreement_min": 0.2047882384677637,
+      "agreement_max": 0.6186419125127162,
+      "spread_mean": 0.18057103638012773,
+      "spread_max": 0.2701092838740008,
+      "entropy": 0.8939913766520515,
+      "top10_mass": 0.6233522969413675,
+      "score_margin": 0.0522691011428833
+    },
+    {
+      "density_inside": 0.0744961616000255,
+      "density_outside": 0.00417132246323301,
+      "density_ratio": 17.859123153098945,
+      "log_density_ratio": 2.882514478685382,
+      "coverage": 0.3719774149980906,
+      "area_fraction": 0.0321004746835443,
+      "sam_score": 0.8866537809371948,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3746436353680239,
+      "agreement_min": 0.13064535822333165,
+      "agreement_max": 0.6186419125127162,
+      "spread_mean": 0.18057103638012773,
+      "spread_max": 0.2701092838740008,
+      "entropy": 0.8939913766520515,
+      "top10_mass": 0.6233522969413675,
+      "score_margin": 0.0522691011428833
+    }
+  ],
+  "rank_scores": [
+    1.0876306429672222,
+    2.8592328264974274,
+    1.8624031003526527
+  ],
+  "points": [
+    [
+      375.65894039735105,
+      119.05803571428571
+    ],
+    [
+      326.9172185430464,
+      70.38839285714285
+    ],
+    [
+      454.0695364238411,
+      243.90624999999997
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 474,
+      "rw": 302,
+      "rh": 224,
+      "left": 39,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        138.0,
+        56.0
+      ],
+      [
+        115.0,
+        33.0
+      ],
+      [
+        175.0,
+        115.0
+      ]
+    ],
+    "crop_box": [
+      94,
+      19,
+      224,
+      159
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000005215\\74472.map.npz": "c7aa46ce00297d6027df777a2e042ff95279521c414454cf696bb56034d0c9df",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000005215\\74472.map.json": "2d83a242778ef1e2047dc1f5925bfce5c5ff5a2628d4534a56e3f476d1102870",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000005215\\74472.npz": "7fbefaf86859e866c140e4c732903212722dc44d98664c11ba0daae761e8933a"
+  }
+}

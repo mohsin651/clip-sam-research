@@ -1,0 +1,139 @@
+{
+  "image_id": 76245,
+  "sent_id": 123228,
+  "expression": "white car on left",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000076245.jpg",
+  "geometry": {
+    "width": 425,
+    "height": 640,
+    "rw": 224,
+    "rh": 337,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "b802ead0da7b7699e8bee6eade1e85c3fd5a451234089b2639d12f2fa8dddc6a",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.6804472091358349,
+      "density_outside": 0.1135189692722468,
+      "density_ratio": 5.994127796368187,
+      "log_density_ratio": 1.7907802893840712,
+      "coverage": 0.5064009541410273,
+      "area_fraction": 0.14614338235294116,
+      "sam_score": 0.9223880767822266,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7912147165507211,
+      "agreement_min": 0.6973092480466296,
+      "agreement_max": 0.8851201850548124,
+      "spread_mean": 0.3502456337689143,
+      "spread_max": 0.48682334151363466,
+      "entropy": 0.9725214426460589,
+      "top10_mass": 0.2774772439209435,
+      "score_margin": 0.014763474464416504
+    },
+    {
+      "density_inside": 0.7026947554122203,
+      "density_outside": 0.12104860306884387,
+      "density_ratio": 5.805062905242882,
+      "log_density_ratio": 1.7587304514823807,
+      "coverage": 0.4634014669511518,
+      "area_fraction": 0.1295,
+      "sam_score": 0.9371515512466431,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8353504607993609,
+      "agreement_min": 0.7855807365439094,
+      "agreement_max": 0.8851201850548124,
+      "spread_mean": 0.3502456337689143,
+      "spread_max": 0.48682334151363466,
+      "entropy": 0.9725214426460589,
+      "top10_mass": 0.2774772439209435,
+      "score_margin": 0.014763474464416504
+    },
+    {
+      "density_inside": 0.6996751945490856,
+      "density_outside": 0.13905908838517975,
+      "density_ratio": 5.031495622968733,
+      "log_density_ratio": 1.6157172804665803,
+      "coverage": 0.3642525776366826,
+      "area_fraction": 0.10223161764705882,
+      "sam_score": 0.8038800954818726,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7414449922952695,
+      "agreement_min": 0.6973092480466296,
+      "agreement_max": 0.7855807365439094,
+      "spread_mean": 0.3502456337689143,
+      "spread_max": 0.48682334151363466,
+      "entropy": 0.9725214426460589,
+      "top10_mass": 0.2774772439209435,
+      "score_margin": 0.014763474464416504
+    }
+  ],
+  "rank_scores": [
+    1.8659790064194937,
+    1.7289789695838857,
+    0.5751230639509375
+  ],
+  "points": [
+    [
+      19.421875,
+      310.00445103857567
+    ],
+    [
+      391.296875,
+      330.8946587537092
+    ],
+    [
+      19.421875,
+      370.7759643916914
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 425,
+      "height": 640,
+      "rw": 224,
+      "rh": 337,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        10.0,
+        107.0
+      ],
+      [
+        206.0,
+        118.0
+      ],
+      [
+        10.0,
+        139.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      88,
+      87,
+      177
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000076245\\123228.map.npz": "01074396a99f4b1317633d6f357274989f5d805570bea620e6165479f5801aef",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000076245\\123228.map.json": "0838e82842ffe05544f361c72bc2177ed86e3665dd79e7045a5b076b32dec42b",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000076245\\123228.npz": "17966694d451ec16604c7babf5098502ed78ddde61beee1bd57f71556ee6d27c"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 73602,
+  "sent_id": 123946,
+  "expression": "clear thing in back of dog",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000073602.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "1d1bad82fea202d71066433975eae2dd245be8374b5ec78a10c526a492508812",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.42597593329466554,
+      "density_outside": 0.13300234147558185,
+      "density_ratio": 3.2027701810773648,
+      "log_density_ratio": 1.1640161169085084,
+      "coverage": 0.7301095947374895,
+      "area_fraction": 0.457890625,
+      "sam_score": 0.8174523115158081,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.34976254070787655,
+      "agreement_min": 0.3253905084071237,
+      "agreement_max": 0.3741345730086294,
+      "spread_mean": 0.24314339433054336,
+      "spread_max": 0.3646574430116199,
+      "entropy": 0.9802414311448078,
+      "top10_mass": 0.2352786692868471,
+      "score_margin": 0.003558814525604248
+    },
+    {
+      "density_inside": 0.7267590229829186,
+      "density_outside": 0.17208479557035097,
+      "density_ratio": 4.223261099680273,
+      "log_density_ratio": 1.4406076020504992,
+      "coverage": 0.4662569673383726,
+      "area_fraction": 0.17139322916666666,
+      "sam_score": 0.9392418265342712,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6207539119641001,
+      "agreement_min": 0.3741345730086294,
+      "agreement_max": 0.8673732509195707,
+      "spread_mean": 0.24314339433054336,
+      "spread_max": 0.3646574430116199,
+      "entropy": 0.9802414311448078,
+      "top10_mass": 0.2352786692868471,
+      "score_margin": 0.003558814525604248
+    },
+    {
+      "density_inside": 0.7545230692031821,
+      "density_outside": 0.1816786718007984,
+      "density_ratio": 4.15306354741698,
+      "log_density_ratio": 1.423846266102096,
+      "coverage": 0.42141378499608656,
+      "area_fraction": 0.149208984375,
+      "sam_score": 0.9428006410598755,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5963818796633472,
+      "agreement_min": 0.3253905084071237,
+      "agreement_max": 0.8673732509195707,
+      "spread_mean": 0.24314339433054336,
+      "spread_max": 0.3646574430116199,
+      "entropy": 0.9802414311448078,
+      "top10_mass": 0.2352786692868471,
+      "score_margin": 0.003558814525604248
+    }
+  ],
+  "rank_scores": [
+    0.3932801269841095,
+    0.6808129540291987,
+    0.39017303516377355
+  ],
+  "points": [
+    [
+      397.0,
+      331.31208053691273
+    ],
+    [
+      217.0,
+      288.3590604026846
+    ],
+    [
+      112.0,
+      269.0302013422819
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        185.0,
+        117.0
+      ],
+      [
+        101.0,
+        97.0
+      ],
+      [
+        52.0,
+        88.0
+      ]
+    ],
+    "crop_box": [
+      19,
+      0,
+      224,
+      173
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000073602\\123946.map.npz": "2782ae26332f36e19b04a165fb671478f38643dd48bafe1280fb61dd28462b1b",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000073602\\123946.map.json": "668126d53ee419691de46333795d13b24e5dac31db27538314bb443d1aaa64fc",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000073602\\123946.npz": "525e6f9a4f6130ce02c866ce68ed3530e469ec03e2d00069b410d45df995fb21"
+  }
+}

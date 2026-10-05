@@ -1,0 +1,139 @@
+{
+  "image_id": 43049,
+  "sent_id": 101360,
+  "expression": "the left side of a black cow eating grass in front of another cow",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000043049.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "9158d6fee93d4a4c08381f2ce5a37f6af59069afc7cd8f594a93c176a9804461",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.024323485481420402,
+      "density_outside": 0.0031721347420754597,
+      "density_ratio": 7.667860116761058,
+      "log_density_ratio": 2.0370375825908558,
+      "coverage": 0.8281425798491404,
+      "area_fraction": 0.3859147135416667,
+      "sam_score": 0.8206595182418823,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.26471108348688543,
+      "agreement_min": 0.258162784435169,
+      "agreement_max": 0.2712593825386018,
+      "spread_mean": 0.27488726488016285,
+      "spread_max": 0.4080624826030787,
+      "entropy": 0.9117060970547699,
+      "top10_mass": 0.5697182695634138,
+      "score_margin": 0.0017570853233337402
+    },
+    {
+      "density_inside": 0.06230498380034122,
+      "density_outside": 0.005264966509540592,
+      "density_ratio": 11.83388036288647,
+      "log_density_ratio": 2.4709666346103973,
+      "coverage": 0.5849307682054,
+      "area_fraction": 0.10641276041666667,
+      "sam_score": 0.9705079197883606,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6089444698354864,
+      "agreement_min": 0.2712593825386018,
+      "agreement_max": 0.946629557132371,
+      "spread_mean": 0.27488726488016285,
+      "spread_max": 0.4080624826030787,
+      "entropy": 0.9117060970547699,
+      "top10_mass": 0.5697182695634138,
+      "score_margin": 0.0017570853233337402
+    },
+    {
+      "density_inside": 0.0651119076010429,
+      "density_outside": 0.005308248727973766,
+      "density_ratio": 12.266174952512232,
+      "log_density_ratio": 2.5068454703256684,
+      "coverage": 0.5788766672218024,
+      "area_fraction": 0.100771484375,
+      "sam_score": 0.9687508344650269,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.60239617078377,
+      "agreement_min": 0.258162784435169,
+      "agreement_max": 0.946629557132371,
+      "spread_mean": 0.27488726488016285,
+      "spread_max": 0.4080624826030787,
+      "entropy": 0.9117060970547699,
+      "top10_mass": 0.5697182695634138,
+      "score_margin": 0.0017570853233337402
+    }
+  ],
+  "rank_scores": [
+    2.3314841831562783,
+    3.0354614934004283,
+    3.042545769962501
+  ],
+  "points": [
+    [
+      406.47986577181206,
+      326.2857142857143
+    ],
+    [
+      262.5872483221477,
+      360.57142857142856
+    ],
+    [
+      80.03691275167785,
+      328.42857142857144
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        152.0,
+        152.0
+      ],
+      [
+        85.0,
+        168.0
+      ],
+      [
+        0.0,
+        153.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      101,
+      200,
+      218
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000043049\\101360.map.npz": "d3bcd9ab7c7d4102a0908484b9461e3436d3c60de4829b36381a1429028b4464",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000043049\\101360.map.json": "451e136e41cc6b60dd89ad7cd56fbf632fdcb5809c45fb6bdb8077d03d96f6e5",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000043049\\101360.npz": "da4699b800c81c6fd49b1a56aebba877979824121a619f3ff2a713f09f62b821"
+  }
+}

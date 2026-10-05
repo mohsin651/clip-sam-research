@@ -1,0 +1,139 @@
+{
+  "image_id": 214265,
+  "sent_id": 90158,
+  "expression": "man tieing the blue tie",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000214265.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 512,
+    "rw": 280,
+    "rh": 224,
+    "left": 28,
+    "top": 0
+  },
+  "image_sha256": "0b1422cb56568d490733c9419335cd6f36cb890e427388daf47d9ad6bb576a40",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.015642699814158438,
+      "density_outside": 0.0037800994760515813,
+      "density_ratio": 4.1381714711803035,
+      "log_density_ratio": 1.4202540167066782,
+      "coverage": 0.18803694215383665,
+      "area_fraction": 0.052996826171875,
+      "sam_score": 0.7128776907920837,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.31033021581527936,
+      "agreement_min": 0.26339696412143515,
+      "agreement_max": 0.3572634675091236,
+      "spread_mean": 0.18721544194314832,
+      "spread_max": 0.2537823630689849,
+      "entropy": 0.9207179014855489,
+      "top10_mass": 0.4743771133890073,
+      "score_margin": 0.0796358585357666
+    },
+    {
+      "density_inside": 0.02879199182643017,
+      "density_outside": 0.0038335659221028625,
+      "density_ratio": 7.510498685549178,
+      "log_density_ratio": 2.0163018664756,
+      "coverage": 0.15051000281002022,
+      "area_fraction": 0.023046875,
+      "sam_score": 0.882461428642273,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4826920432374344,
+      "agreement_min": 0.3572634675091236,
+      "agreement_max": 0.6081206189657453,
+      "spread_mean": 0.18721544194314832,
+      "spread_max": 0.2537823630689849,
+      "entropy": 0.9207179014855489,
+      "top10_mass": 0.4743771133890073,
+      "score_margin": 0.0796358585357666
+    },
+    {
+      "density_inside": 0.0338688586501553,
+      "density_outside": 0.003988680830595192,
+      "density_ratio": 8.491243115235704,
+      "log_density_ratio": 2.139035410745647,
+      "coverage": 0.10800663758490699,
+      "area_fraction": 0.0140594482421875,
+      "sam_score": 0.9620972871780396,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4357587915435902,
+      "agreement_min": 0.26339696412143515,
+      "agreement_max": 0.6081206189657453,
+      "spread_mean": 0.18721544194314832,
+      "spread_max": 0.2537823630689849,
+      "entropy": 0.9207179014855489,
+      "top10_mass": 0.4743771133890073,
+      "score_margin": 0.0796358585357666
+    }
+  ],
+  "rank_scores": [
+    -1.6085796278620867,
+    -0.4565871571966199,
+    -0.5349998692461294
+  ],
+  "points": [
+    [
+      215.5,
+      327.5
+    ],
+    [
+      423.5,
+      327.5
+    ],
+    [
+      375.5,
+      391.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 512,
+      "rw": 280,
+      "rh": 224,
+      "left": 28,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        66.0,
+        143.0
+      ],
+      [
+        157.0,
+        143.0
+      ],
+      [
+        136.0,
+        171.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      33,
+      224,
+      200
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000214265\\90158.map.npz": "fd08fa794a4b6bfbdcc9a835f0702e041b6c7035b7713bf0c3754c58973f944a",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000214265\\90158.map.json": "dbf4e56bac6366e62981af7102969673d651d69d14a6e1395bde21a263214d3f",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000214265\\90158.npz": "fdfc7e99a40fd88e493279f1a723a3fc8ddee5e297e263047f4df37805d7b0ed"
+  }
+}

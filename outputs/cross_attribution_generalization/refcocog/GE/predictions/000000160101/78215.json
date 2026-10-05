@@ -1,0 +1,139 @@
+{
+  "image_id": 160101,
+  "sent_id": 78215,
+  "expression": "A baseball player to the left of the man in the wheel chair.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000160101.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 457,
+    "rw": 313,
+    "rh": 224,
+    "left": 44,
+    "top": 0
+  },
+  "image_sha256": "86a5891bc426d04773e41b6057bccc45e567801bba61e30f9bdb4d8583d20e3a",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.0553705070895532,
+      "density_outside": 0.00715995056696372,
+      "density_ratio": 7.733364436522987,
+      "log_density_ratio": 2.045544011978306,
+      "coverage": 0.30404029372429303,
+      "area_fraction": 0.053470322757111596,
+      "sam_score": 0.74421626329422,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7180444367428407,
+      "agreement_min": 0.5881905727318804,
+      "agreement_max": 0.8478983007538009,
+      "spread_mean": 0.1361674427178581,
+      "spread_max": 0.16281037063797726,
+      "entropy": 0.9391872844998991,
+      "top10_mass": 0.4444380732159738,
+      "score_margin": 0.15125828981399536
+    },
+    {
+      "density_inside": 0.05804352527355687,
+      "density_outside": 0.007438697639786606,
+      "density_ratio": 7.802914982765592,
+      "log_density_ratio": 2.054497379637619,
+      "coverage": 0.270805240154017,
+      "area_fraction": 0.04543216630196936,
+      "sam_score": 0.8954745531082153,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7168636355426945,
+      "agreement_min": 0.5858289703315881,
+      "agreement_max": 0.8478983007538009,
+      "spread_mean": 0.1361674427178581,
+      "spread_max": 0.16281037063797726,
+      "entropy": 0.9391872844998991,
+      "top10_mass": 0.4444380732159738,
+      "score_margin": 0.15125828981399536
+    },
+    {
+      "density_inside": 0.06803587314661706,
+      "density_outside": 0.007795757610405451,
+      "density_ratio": 8.72729457969272,
+      "log_density_ratio": 2.166455422604153,
+      "coverage": 0.22524090383691642,
+      "area_fraction": 0.032238101750547046,
+      "sam_score": 0.6276004314422607,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5870097715317342,
+      "agreement_min": 0.5858289703315881,
+      "agreement_max": 0.5881905727318804,
+      "spread_mean": 0.1361674427178581,
+      "spread_max": 0.16281037063797726,
+      "entropy": 0.9391872844998991,
+      "top10_mass": 0.4444380732159738,
+      "score_margin": 0.15125828981399536
+    }
+  ],
+  "rank_scores": [
+    0.6865242638058496,
+    0.8010197310360316,
+    0.014485057440482176
+  ],
+  "points": [
+    [
+      376.7523961661342,
+      306.54687500000006
+    ],
+    [
+      262.2476038338658,
+      290.22544642857144
+    ],
+    [
+      374.7076677316294,
+      229.0200892857143
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 457,
+      "rw": 313,
+      "rh": 224,
+      "left": 44,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        140.0,
+        150.0
+      ],
+      [
+        84.0,
+        142.0
+      ],
+      [
+        139.0,
+        112.0
+      ]
+    ],
+    "crop_box": [
+      56,
+      36,
+      172,
+      196
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000160101\\78215.map.npz": "9d57a8e3fee810a627ffbb479b4cc73c4929d816c346f07041738caeeb481694",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000160101\\78215.map.json": "96966c9d870a7c4a5cc1601797347c95f63e27dade7f2814bb1edc3da1bf38a2",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000160101\\78215.npz": "402f6288c9b3311cb0c91913adfe444c662f927981092e145019986953acdc86"
+  }
+}

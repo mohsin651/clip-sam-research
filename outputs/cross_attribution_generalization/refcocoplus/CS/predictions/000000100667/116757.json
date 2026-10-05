@@ -1,0 +1,139 @@
+{
+  "image_id": 100667,
+  "sent_id": 116757,
+  "expression": "banana 3",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000100667.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "e0e2cb7ef5b23145e2cd23c193bd09cc535de8c6b3c9533573026eb70b91b4ad",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.384671717419999,
+      "density_outside": 0.18252082921785862,
+      "density_ratio": 2.107549692088806,
+      "log_density_ratio": 0.745525989308325,
+      "coverage": 0.4955972659330421,
+      "area_fraction": 0.3179654947916667,
+      "sam_score": 0.6980128884315491,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2281279454975087,
+      "agreement_min": 0.21087621326951203,
+      "agreement_max": 0.2453796777255054,
+      "spread_mean": 0.18712115845800706,
+      "spread_max": 0.26423625969046266,
+      "entropy": 0.9734450843550586,
+      "top10_mass": 0.2664787966102057,
+      "score_margin": 0.019310295581817627
+    },
+    {
+      "density_inside": 0.6022822664026733,
+      "density_outside": 0.2161853260701277,
+      "density_ratio": 2.7859535027114415,
+      "log_density_ratio": 1.024590185597403,
+      "coverage": 0.19349124216802038,
+      "area_fraction": 0.079287109375,
+      "sam_score": 0.9299911856651306,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.547485669289149,
+      "agreement_min": 0.2453796777255054,
+      "agreement_max": 0.8495916608527927,
+      "spread_mean": 0.18712115845800706,
+      "spread_max": 0.26423625969046266,
+      "entropy": 0.9734450843550586,
+      "top10_mass": 0.2664787966102057,
+      "score_margin": 0.019310295581817627
+    },
+    {
+      "density_inside": 0.5965468848952229,
+      "density_outside": 0.22151230161288843,
+      "density_ratio": 2.6930643605294944,
+      "log_density_ratio": 0.9906797127395763,
+      "coverage": 0.16296864709386946,
+      "area_fraction": 0.067421875,
+      "sam_score": 0.9493014812469482,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5302339370611524,
+      "agreement_min": 0.21087621326951203,
+      "agreement_max": 0.8495916608527927,
+      "spread_mean": 0.18712115845800706,
+      "spread_max": 0.26423625969046266,
+      "entropy": 0.9734450843550586,
+      "top10_mass": 0.2664787966102057,
+      "score_margin": 0.019310295581817627
+    }
+  ],
+  "rank_scores": [
+    -1.5790380966056745,
+    -1.523300922106618,
+    -1.7338895606167897
+  ],
+  "points": [
+    [
+      88.62751677852349,
+      322.0
+    ],
+    [
+      107.95637583892618,
+      412.0
+    ],
+    [
+      189.56711409395973,
+      217.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        4.0,
+        150.0
+      ],
+      [
+        13.0,
+        192.0
+      ],
+      [
+        51.0,
+        101.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      41,
+      224,
+      205
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000100667\\116757.map.npz": "32615da980b19e51dc4b03418721d8b4cc9d971b567641aa6295783f93648a18",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000100667\\116757.map.json": "1a97b367ed5408920ca523b0bc39b392c93df158a1c2ce36c95e4fbe12638e35",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000100667\\116757.npz": "ed638a78765525766109a1d290531bbe0d269eb10b32bd5a7bad81caae52e892"
+  }
+}

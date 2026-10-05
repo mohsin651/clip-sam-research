@@ -1,0 +1,139 @@
+{
+  "image_id": 122560,
+  "sent_id": 102996,
+  "expression": "An elephant with small trunk is walking together with another elephant",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000122560.jpg",
+  "geometry": {
+    "width": 426,
+    "height": 640,
+    "rw": 224,
+    "rh": 336,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "de8fcae6dbb253bde780e59d80dfa17b45e26689cf366e60d5f33fc8f909759a",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.7488630539367215,
+      "density_outside": 0.20462485977024059,
+      "density_ratio": 3.659687560807174,
+      "log_density_ratio": 1.2973777778710551,
+      "coverage": 0.7230099861515442,
+      "area_fraction": 0.41631088615023476,
+      "sam_score": 0.9177985191345215,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3019518427952692,
+      "agreement_min": 0.25386509541816904,
+      "agreement_max": 0.35003859017236943,
+      "spread_mean": 0.11667205164271809,
+      "spread_max": 0.15960773971963213,
+      "entropy": 0.9932151435764608,
+      "top10_mass": 0.14280266367950126,
+      "score_margin": 0.04558950662612915
+    },
+    {
+      "density_inside": 0.7944344272427621,
+      "density_outside": 0.3614369731045106,
+      "density_ratio": 2.197988823381528,
+      "log_density_ratio": 0.7875427710659967,
+      "coverage": 0.2968276658987465,
+      "area_fraction": 0.1611098884976526,
+      "sam_score": 0.9633880257606506,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5054971107858435,
+      "agreement_min": 0.35003859017236943,
+      "agreement_max": 0.6609556313993175,
+      "spread_mean": 0.11667205164271809,
+      "spread_max": 0.15960773971963213,
+      "entropy": 0.9932151435764608,
+      "top10_mass": 0.14280266367950126,
+      "score_margin": 0.04558950662612915
+    },
+    {
+      "density_inside": 0.7773885355593865,
+      "density_outside": 0.3898729512221857,
+      "density_ratio": 1.9939534997757888,
+      "log_density_ratio": 0.6901193511966932,
+      "coverage": 0.19225492250564577,
+      "area_fraction": 0.10663879107981221,
+      "sam_score": 0.8098322153091431,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.45741036340874325,
+      "agreement_min": 0.25386509541816904,
+      "agreement_max": 0.6609556313993175,
+      "spread_mean": 0.11667205164271809,
+      "spread_max": 0.15960773971963213,
+      "entropy": 0.9932151435764608,
+      "top10_mass": 0.14280266367950126,
+      "score_margin": 0.04558950662612915
+    }
+  ],
+  "rank_scores": [
+    0.7700276064219842,
+    -1.331328044577537,
+    -2.339058003147207
+  ],
+  "points": [
+    [
+      205.84375,
+      149.02380952380952
+    ],
+    [
+      99.34375,
+      209.97619047619045
+    ],
+    [
+      179.21875,
+      209.97619047619045
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 426,
+      "height": 640,
+      "rw": 224,
+      "rh": 336,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        108.0,
+        22.0
+      ],
+      [
+        52.0,
+        54.0
+      ],
+      [
+        94.0,
+        54.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000122560\\102996.map.npz": "7fef075d59e444f417543784e61614a14a39f8c2599cb38c290b7251ed0a2f92",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000122560\\102996.map.json": "2902f061426538da69e51ed10b7db48135714a5e3db23536ed692442bab4b0e1",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000122560\\102996.npz": "fca6a1fa979214ed059f045507b50c3002f66952ef68a3a465651b782755e61e"
+  }
+}

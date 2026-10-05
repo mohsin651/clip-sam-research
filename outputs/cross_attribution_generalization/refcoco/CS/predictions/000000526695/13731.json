@@ -1,0 +1,139 @@
+{
+  "image_id": 526695,
+  "sent_id": 13731,
+  "expression": "blue bag under window",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000526695.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "e5fc86671c56c25d367225b3636b9371ea201e0f33c1b46536b8191d9f298e0f",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.33739872516168834,
+      "density_outside": 0.25305856121554027,
+      "density_ratio": 1.33328318765307,
+      "log_density_ratio": 0.28764446248730136,
+      "coverage": 0.1291865467659582,
+      "area_fraction": 0.100126953125,
+      "sam_score": 0.7642186880111694,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3383976681126136,
+      "agreement_min": 0.3371469431533786,
+      "agreement_max": 0.3396483930718487,
+      "spread_mean": 0.09938843768942202,
+      "spread_max": 0.11253202603069429,
+      "entropy": 0.9932717457276252,
+      "top10_mass": 0.19434385922088526,
+      "score_margin": 0.03253823518753052
+    },
+    {
+      "density_inside": 0.7254521269561249,
+      "density_outside": 0.2451395092827608,
+      "density_ratio": 2.959343963262891,
+      "log_density_ratio": 1.0849676097400884,
+      "coverage": 0.09451290863717587,
+      "area_fraction": 0.03406901041666666,
+      "sam_score": 0.9806259274482727,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6651927985221734,
+      "agreement_min": 0.3396483930718487,
+      "agreement_max": 0.9907372039724981,
+      "spread_mean": 0.09938843768942202,
+      "spread_max": 0.11253202603069429,
+      "entropy": 0.9932717457276252,
+      "top10_mass": 0.19434385922088526,
+      "score_margin": 0.03253823518753052
+    },
+    {
+      "density_inside": 0.727857923893246,
+      "density_outside": 0.2451929155488623,
+      "density_ratio": 2.96851123231262,
+      "log_density_ratio": 1.088060558557277,
+      "coverage": 0.09405620363097372,
+      "area_fraction": 0.03379231770833333,
+      "sam_score": 0.9480876922607422,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6639420735629383,
+      "agreement_min": 0.3371469431533786,
+      "agreement_max": 0.9907372039724981,
+      "spread_mean": 0.09938843768942202,
+      "spread_max": 0.11253202603069429,
+      "entropy": 0.9932717457276252,
+      "top10_mass": 0.19434385922088526,
+      "score_margin": 0.03253823518753052
+    }
+  ],
+  "rank_scores": [
+    -3.4404355498977877,
+    -1.665736751698488,
+    -1.7255730600355423
+  ],
+  "points": [
+    [
+      367.0,
+      408.6275167785235
+    ],
+    [
+      277.0,
+      410.7751677852349
+    ],
+    [
+      322.0,
+      350.6409395973154
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        171.0,
+        153.0
+      ],
+      [
+        129.0,
+        154.0
+      ],
+      [
+        150.0,
+        126.0
+      ]
+    ],
+    "crop_box": [
+      84,
+      0,
+      224,
+      177
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000526695\\13731.map.npz": "8e867fcce6b017c82f4c28baf77ca95989e4c276664de63af50adda136965f78",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000526695\\13731.map.json": "d6f00c99b5e04f21ac65dc8c9da6775b742b7e75928b32690d095872f7a25ed1",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000526695\\13731.npz": "867675dd82ea87fa0360801ec58f717010bda5b0da018e87cffaba622775d004"
+  }
+}

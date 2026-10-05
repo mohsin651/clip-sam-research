@@ -1,0 +1,139 @@
+{
+  "image_id": 335766,
+  "sent_id": 77400,
+  "expression": "A faucet sits above the sink in the forground.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000335766.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 428,
+    "rw": 334,
+    "rh": 224,
+    "left": 55,
+    "top": 0
+  },
+  "image_sha256": "fdefcc0b74a6d8ce831f5d0b2e578a71f477b7caaca756b15c1f0612ea10d9c7",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": false,
+  "features": [
+    {
+      "density_inside": 0.20132725879955396,
+      "density_outside": 0.24097467873698938,
+      "density_ratio": 0.8354705973836202,
+      "log_density_ratio": -0.17976012320235002,
+      "coverage": 0.40241114979084297,
+      "area_fraction": 0.4462908878504673,
+      "sam_score": 0.750325083732605,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.25069708526481294,
+      "agreement_min": 0.22709925217065807,
+      "agreement_max": 0.27429491835896785,
+      "spread_mean": 0.13582200293084953,
+      "spread_max": 0.17371829339498587,
+      "entropy": 0.9809297239600834,
+      "top10_mass": 0.24442651692126716,
+      "score_margin": 0.08302885293960571
+    },
+    {
+      "density_inside": 0.3592793653031437,
+      "density_outside": 0.20060540571309787,
+      "density_ratio": 1.7909754925307815,
+      "log_density_ratio": 0.5827604393086634,
+      "coverage": 0.22994456019218368,
+      "area_fraction": 0.14290303738317758,
+      "sam_score": 0.8333539366722107,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.49075770860572787,
+      "agreement_min": 0.27429491835896785,
+      "agreement_max": 0.7072204988524879,
+      "spread_mean": 0.13582200293084953,
+      "spread_max": 0.17371829339498587,
+      "entropy": 0.9809297239600834,
+      "top10_mass": 0.24442651692126716,
+      "score_margin": 0.08302885293960571
+    },
+    {
+      "density_inside": 0.3546244604124522,
+      "density_outside": 0.20799846961054658,
+      "density_ratio": 1.7049378347578286,
+      "log_density_ratio": 0.5335286495210045,
+      "coverage": 0.16553325344843478,
+      "area_fraction": 0.10422386098130841,
+      "sam_score": 0.6111223697662354,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.467159875511573,
+      "agreement_min": 0.22709925217065807,
+      "agreement_max": 0.7072204988524879,
+      "spread_mean": 0.13582200293084953,
+      "spread_max": 0.17371829339498587,
+      "entropy": 0.9809297239600834,
+      "top10_mass": 0.24442651692126716,
+      "score_margin": 0.08302885293960571
+    }
+  ],
+  "rank_scores": [
+    -3.9864110997202498,
+    -2.3034860435696562,
+    -3.10424065292859
+  ],
+  "points": [
+    [
+      310.877245508982,
+      260.3125
+    ],
+    [
+      368.3622754491018,
+      353.9375
+    ],
+    [
+      368.3622754491018,
+      220.1875
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 428,
+      "rw": 334,
+      "rh": 224,
+      "left": 55,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        107.0,
+        136.0
+      ],
+      [
+        137.0,
+        185.0
+      ],
+      [
+        137.0,
+        115.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      23,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000335766\\77400.map.npz": "98742f2a7412a6d00c39db79e6a68417c3b81c71ec1d5de0748e850951cdb618",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000335766\\77400.map.json": "89ff8263d445092086992c7ed51f081cce0ff7967da851bb5f05ab59e4970ec2",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000335766\\77400.npz": "5aa7ed0692e04d6be265071e34529c7d34e1dcf03251b275967e40db2e003727"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 469567,
+  "sent_id": 81544,
+  "expression": "a 3 seat couch with 6 pillows on it",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000469567.jpg",
+  "geometry": {
+    "width": 425,
+    "height": 640,
+    "rw": 224,
+    "rh": 337,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "51ee607083e418776b73f3943bd0b72bba34c7863781adad883a816aa7c3393a",
+  "naive_candidate": 2,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.01379575123924096,
+      "density_outside": 0.004502593851646258,
+      "density_ratio": 3.063956397295959,
+      "log_density_ratio": 1.1197070212020412,
+      "coverage": 0.3723192195921067,
+      "area_fraction": 0.16219485294117647,
+      "sam_score": 0.7812051773071289,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.47476694757668425,
+      "agreement_min": 0.37020469025349056,
+      "agreement_max": 0.5793292048998779,
+      "spread_mean": 0.2175424378663129,
+      "spread_max": 0.29501402370743257,
+      "entropy": 0.972523660067571,
+      "top10_mass": 0.2694414343131675,
+      "score_margin": 0.043573200702667236
+    },
+    {
+      "density_inside": 0.01478440665994366,
+      "density_outside": 0.005091886174119467,
+      "density_ratio": 2.903522614504788,
+      "log_density_ratio": 1.0659246945722127,
+      "coverage": 0.23299553807644816,
+      "area_fraction": 0.09471323529411765,
+      "sam_score": 0.8128059506416321,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.46594142614113476,
+      "agreement_min": 0.35255364738239153,
+      "agreement_max": 0.5793292048998779,
+      "spread_mean": 0.2175424378663129,
+      "spread_max": 0.29501402370743257,
+      "entropy": 0.972523660067571,
+      "top10_mass": 0.2694414343131675,
+      "score_margin": 0.043573200702667236
+    },
+    {
+      "density_inside": 0.016151453252254578,
+      "density_outside": 0.005353651826261806,
+      "density_ratio": 3.016903932752655,
+      "log_density_ratio": 1.1042311177539643,
+      "coverage": 0.16333334609865038,
+      "area_fraction": 0.060775735294117644,
+      "sam_score": 0.8563791513442993,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3613791688179411,
+      "agreement_min": 0.35255364738239153,
+      "agreement_max": 0.37020469025349056,
+      "spread_mean": 0.2175424378663129,
+      "spread_max": 0.29501402370743257,
+      "entropy": 0.972523660067571,
+      "top10_mass": 0.2694414343131675,
+      "score_margin": 0.043573200702667236
+    }
+  ],
+  "rank_scores": [
+    -0.7818865434707901,
+    -1.4967242900096596,
+    -1.8299994711933394
+  ],
+  "points": [
+    [
+      290.7388392857143,
+      471.42878338278933
+    ],
+    [
+      118.08258928571429,
+      471.42878338278933
+    ],
+    [
+      322.99330357142856,
+      374.57418397626117
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 425,
+      "height": 640,
+      "rw": 224,
+      "rh": 337,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        153.0,
+        192.0
+      ],
+      [
+        62.0,
+        192.0
+      ],
+      [
+        170.0,
+        141.0
+      ]
+    ],
+    "crop_box": [
+      109,
+      64,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000469567\\81544.map.npz": "0f1966f071838707ce88fb8726a92f00f393abe48caa9afdd5705a318204323b",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000469567\\81544.map.json": "fd3df9868c394e56bd3f528941b687d33ed0a6fbacfc827a347fe1b5ad7dcb31",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000469567\\81544.npz": "aea26c9d59ea53e18f6e6de70f365f3ef582e26f3f9a7bef8e8b705a0af0740a"
+  }
+}

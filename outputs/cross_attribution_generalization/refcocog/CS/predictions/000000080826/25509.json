@@ -1,0 +1,139 @@
+{
+  "image_id": 80826,
+  "sent_id": 25509,
+  "expression": "arm with white sleeve",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000080826.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "c1284571e2e40f4e49642ee11cc8d7151918d3bbc29eaf6b0d49f9595222db2c",
+  "naive_candidate": 2,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.2854874559239647,
+      "density_outside": 0.2468601757533091,
+      "density_ratio": 1.1564743282371308,
+      "log_density_ratio": 0.14537600464028552,
+      "coverage": 0.08400422348002719,
+      "area_fraction": 0.07347330729166666,
+      "sam_score": 0.6481556296348572,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3264338286350975,
+      "agreement_min": 0.3125687871450583,
+      "agreement_max": 0.34029887012513665,
+      "spread_mean": 0.20618008791623563,
+      "spread_max": 0.304305249065476,
+      "entropy": 0.9930712307557736,
+      "top10_mass": 0.170000747505032,
+      "score_margin": 0.09246248006820679
+    },
+    {
+      "density_inside": 0.45059716193049304,
+      "density_outside": 0.24067330043413415,
+      "density_ratio": 1.872235769883154,
+      "log_density_ratio": 0.6271333155775599,
+      "coverage": 0.07758109771410787,
+      "area_fraction": 0.04299153645833333,
+      "sam_score": 0.8466723561286926,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5515612911128943,
+      "agreement_min": 0.3125687871450583,
+      "agreement_max": 0.7905537950807303,
+      "spread_mean": 0.20618008791623563,
+      "spread_max": 0.304305249065476,
+      "entropy": 0.9930712307557736,
+      "top10_mass": 0.170000747505032,
+      "score_margin": 0.09246248006820679
+    },
+    {
+      "density_inside": 0.5092136188230152,
+      "density_outside": 0.24049154459943098,
+      "density_ratio": 2.1173867865876836,
+      "log_density_ratio": 0.7501826805146615,
+      "coverage": 0.06986914120516598,
+      "area_fraction": 0.034261067708333336,
+      "sam_score": 0.9391348361968994,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5654263326029335,
+      "agreement_min": 0.34029887012513665,
+      "agreement_max": 0.7905537950807303,
+      "spread_mean": 0.20618008791623563,
+      "spread_max": 0.304305249065476,
+      "entropy": 0.9930712307557736,
+      "top10_mass": 0.170000747505032,
+      "score_margin": 0.09246248006820679
+    }
+  ],
+  "rank_scores": [
+    -4.053418206376779,
+    -2.7681092739185207,
+    -2.4343569096819198
+  ],
+  "points": [
+    [
+      232.0,
+      90.7751677852349
+    ],
+    [
+      412.0,
+      88.62751677852349
+    ],
+    [
+      172.0,
+      129.43288590604027
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        108.0,
+        5.0
+      ],
+      [
+        192.0,
+        4.0
+      ],
+      [
+        80.0,
+        23.0
+      ]
+    ],
+    "crop_box": [
+      47,
+      0,
+      142,
+      41
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000080826\\25509.map.npz": "0020627ff715fd542d7a079cea4b81319c3ccc1a5e44115db4aaa82e825562c9",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000080826\\25509.map.json": "b4e52de889686867099a1a966ae529edd41ab37cbd7133c13dd4588d834ea6ff",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000080826\\25509.npz": "0bf0fa2403b0dac96ed6eb2ce174894fcbe0bd42c4fc7a936cd67ab56df60120"
+  }
+}

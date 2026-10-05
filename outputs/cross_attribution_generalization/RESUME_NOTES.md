@@ -1,0 +1,7 @@
+# Interrupted run and resumption
+
+On 2026-10-01 the user requested continuation after stopping the experiment. No Python experiment process remained. RefCOCO/CS had 8,302 expressions in run.json and 8,333 completed expression markers on disk. All 33,208 files in the saved aggregate hash manifest verified, as did the original frozen inference signatures. The unchanged runner verifies the additional expression markers and their array hashes during resume. Completed predictions are reused.
+
+The uv launcher could not find its old cpython-3.11-windows-x86_64-none alias. That junction was restored to the already installed cpython-3.11.16-windows-x86_64-none interpreter, following the prior reproduction notes. Python 3.11.16, Torch 2.11.0+cu128 and CUDA were available afterward. No packages, model weights, inference code, thresholds or source revisions changed. MPLCONFIGDIR was set to a writable workspace cache to avoid Windows cache permissions; this does not change inference.
+
+Runtime caveat: the stopped process did not finalize timing. The resumed run accumulates time from its last saved checkpoint. Work after that checkpoint and before termination is not fully timed, so the reported RefCOCO/CS inference time is a checkpoint-based recorded duration rather than a complete exact total. Downtime is excluded. See resume_audit_2026-10-01.json for the preserved pre-resume run record.

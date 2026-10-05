@@ -1,0 +1,139 @@
+{
+  "image_id": 152309,
+  "sent_id": 104897,
+  "expression": "woman in sunglasses far right",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000152309.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 640,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "a6d32e397ab8cae32f1f16ffa8b0d5584807135a7815ece37aae4e8318cc0046",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.6357640879284132,
+      "density_outside": 0.3199698635272496,
+      "density_ratio": 1.9869498987122038,
+      "log_density_ratio": 0.6866007487149632,
+      "coverage": 0.07275761994845432,
+      "area_fraction": 0.03799072265625,
+      "sam_score": 0.843764066696167,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.25482782724641784,
+      "agreement_min": 0.22620472440944883,
+      "agreement_max": 0.2834509300833868,
+      "spread_mean": 0.29542145654832574,
+      "spread_max": 0.4424938205783217,
+      "entropy": 0.9857176903693475,
+      "top10_mass": 0.21064951509605137,
+      "score_margin": 0.08554840087890625
+    },
+    {
+      "density_inside": 0.7194555836173592,
+      "density_outside": 0.32771303508495064,
+      "density_ratio": 2.1953828703477254,
+      "log_density_ratio": 0.7863564597220901,
+      "coverage": 0.023534975728785143,
+      "area_fraction": 0.010859375,
+      "sam_score": 0.9293124675750732,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4894015356729091,
+      "agreement_min": 0.2834509300833868,
+      "agreement_max": 0.6953521412624315,
+      "spread_mean": 0.29542145654832574,
+      "spread_max": 0.4424938205783217,
+      "entropy": 0.9857176903693475,
+      "top10_mass": 0.21064951509605137,
+      "score_margin": 0.08554840087890625
+    },
+    {
+      "density_inside": 0.7403236608957053,
+      "density_outside": 0.328036495719371,
+      "density_ratio": 2.2568332199438608,
+      "log_density_ratio": 0.8139626005312494,
+      "coverage": 0.021261194314745484,
+      "area_fraction": 0.00953369140625,
+      "sam_score": 0.7895846366882324,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.46077843283594017,
+      "agreement_min": 0.22620472440944883,
+      "agreement_max": 0.6953521412624315,
+      "spread_mean": 0.29542145654832574,
+      "spread_max": 0.4424938205783217,
+      "entropy": 0.9857176903693475,
+      "top10_mass": 0.21064951509605137,
+      "score_margin": 0.08554840087890625
+    }
+  ],
+  "rank_scores": [
+    -3.0666017945671364,
+    -2.719981489421006,
+    -3.0490471637069363
+  ],
+  "points": [
+    [
+      269.5,
+      49.5
+    ],
+    [
+      549.5,
+      49.5
+    ],
+    [
+      149.5,
+      69.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 640,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        94.0,
+        17.0
+      ],
+      [
+        192.0,
+        17.0
+      ],
+      [
+        52.0,
+        24.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      224,
+      121
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000152309\\104897.map.npz": "1af35a858c290314b54fb54b993ecef8dc26f7e41f6059fb2aba26fab591aebb",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000152309\\104897.map.json": "6a0ff836364b70afc17fee8310513e803010c3a0a5241ebbdfad4afd642ebb99",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000152309\\104897.npz": "8102c09711428a6817e548205acb09142ca05a01f2acf0853ca361058d4e6268"
+  }
+}

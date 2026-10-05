@@ -1,0 +1,139 @@
+{
+  "image_id": 296385,
+  "sent_id": 78553,
+  "expression": "The chair that the woman with the purple shirt is sitting in.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000296385.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 426,
+    "rw": 336,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "bf9f6c51f99b5294b56b43ad9dd04cc2e99e68ae8aee5f2ad078d1fbc2da10d0",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.02266765682484977,
+      "density_outside": 0.003678184624084876,
+      "density_ratio": 6.162729480803781,
+      "log_density_ratio": 1.8185197769839025,
+      "coverage": 0.19896730524850223,
+      "area_fraction": 0.03874339788732394,
+      "sam_score": 0.6840022802352905,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7864185599445253,
+      "agreement_min": 0.7483350529969046,
+      "agreement_max": 0.8245020668921458,
+      "spread_mean": 0.19930491826935215,
+      "spread_max": 0.23134353589068785,
+      "entropy": 0.9341332334408868,
+      "top10_mass": 0.4023790301347706,
+      "score_margin": 0.0635519027709961
+    },
+    {
+      "density_inside": 0.023839963859782216,
+      "density_outside": 0.003761635476361589,
+      "density_ratio": 6.337659245096115,
+      "log_density_ratio": 1.846509496074899,
+      "coverage": 0.17546077632855597,
+      "area_fraction": 0.03248606220657277,
+      "sam_score": 0.7854108810424805,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8011224245221884,
+      "agreement_min": 0.7777427821522309,
+      "agreement_max": 0.8245020668921458,
+      "spread_mean": 0.19930491826935215,
+      "spread_max": 0.23134353589068785,
+      "entropy": 0.9341332334408868,
+      "top10_mass": 0.4023790301347706,
+      "score_margin": 0.0635519027709961
+    },
+    {
+      "density_inside": 0.024179669825101342,
+      "density_outside": 0.0038105374777356775,
+      "density_ratio": 6.3454748733042425,
+      "log_density_ratio": 1.8477419405355038,
+      "coverage": 0.16226859868539734,
+      "area_fraction": 0.029621478873239435,
+      "sam_score": 0.7218589782714844,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7630389175745678,
+      "agreement_min": 0.7483350529969046,
+      "agreement_max": 0.7777427821522309,
+      "spread_mean": 0.19930491826935215,
+      "spread_max": 0.23134353589068785,
+      "entropy": 0.9341332334408868,
+      "top10_mass": 0.4023790301347706,
+      "score_margin": 0.0635519027709961
+    }
+  ],
+  "rank_scores": [
+    -0.16347878838585894,
+    -0.04956810331423477,
+    -0.3040496845935364
+  ],
+  "points": [
+    [
+      328.07142857142856,
+      118.36160714285714
+    ],
+    [
+      423.3095238095238,
+      243.87946428571428
+    ],
+    [
+      503.3095238095238,
+      148.79017857142856
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 426,
+      "rw": 336,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        116.0,
+        62.0
+      ],
+      [
+        166.0,
+        128.0
+      ],
+      [
+        208.0,
+        78.0
+      ]
+    ],
+    "crop_box": [
+      44,
+      16,
+      224,
+      189
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000296385\\78553.map.npz": "217a93db237e016da8770577b030bc1e7d5e97895a31f10befee91696b8a324a",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000296385\\78553.map.json": "794af79cbe7b3ec2cac9aeed7ed3c634e6d45612be76d3161ba274b8eb947054",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000296385\\78553.npz": "ad3bdfe96fce5cc6336657773b5a1a53f468f278ae86c67e120e19c138b61058"
+  }
+}

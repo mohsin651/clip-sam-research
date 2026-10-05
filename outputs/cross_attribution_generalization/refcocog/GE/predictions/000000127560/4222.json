@@ -1,0 +1,139 @@
+{
+  "image_id": 127560,
+  "sent_id": 4222,
+  "expression": "A skateboarder jumping off ledge.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000127560.jpg",
+  "geometry": {
+    "width": 462,
+    "height": 640,
+    "rw": 224,
+    "rh": 310,
+    "left": 0,
+    "top": 43
+  },
+  "image_sha256": "e668f65b53ea8614ff45c2bc6ab2231e4de3e265657ab351b7172cdb3a84ffb3",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.03144488973721265,
+      "density_outside": 0.004455172113308016,
+      "density_ratio": 7.058063960363227,
+      "log_density_ratio": 1.9541707873525225,
+      "coverage": 0.3060354738087409,
+      "area_fraction": 0.05880681818181818,
+      "sam_score": 0.7157577276229858,
+      "points_inside": 0,
+      "points_fraction": 0.0,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.3821223026229262,
+      "agreement_min": 0.01940684713375796,
+      "agreement_max": 0.7448377581120944,
+      "spread_mean": 0.13091661587365558,
+      "spread_max": 0.14234876457718462,
+      "entropy": 0.9091131165958035,
+      "top10_mass": 0.5425823751145352,
+      "score_margin": 0.0987730622291565
+    },
+    {
+      "density_inside": 0.037553938391658076,
+      "density_outside": 0.0042710460877041,
+      "density_ratio": 8.792679266791174,
+      "log_density_ratio": 2.173919473787704,
+      "coverage": 0.3307667902419878,
+      "area_fraction": 0.05321969696969697,
+      "sam_score": 0.8145307898521423,
+      "points_inside": 0,
+      "points_fraction": 0.0,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.3757075556233612,
+      "agreement_min": 0.006577353134628034,
+      "agreement_max": 0.7448377581120944,
+      "spread_mean": 0.13091661587365558,
+      "spread_max": 0.14234876457718462,
+      "entropy": 0.9091131165958035,
+      "top10_mass": 0.5425823751145352,
+      "score_margin": 0.0987730622291565
+    },
+    {
+      "density_inside": 0.012965809078687007,
+      "density_outside": 0.005715206335605795,
+      "density_ratio": 2.268651088875169,
+      "log_density_ratio": 0.8191854209677567,
+      "coverage": 0.09681888325446794,
+      "area_fraction": 0.04511972402597403,
+      "sam_score": 0.6998348236083984,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.012992100134192996,
+      "agreement_min": 0.006577353134628034,
+      "agreement_max": 0.01940684713375796,
+      "spread_mean": 0.13091661587365558,
+      "spread_max": 0.14234876457718462,
+      "entropy": 0.9091131165958035,
+      "top10_mass": 0.5425823751145352,
+      "score_margin": 0.0987730622291565
+    }
+  ],
+  "rank_scores": [
+    -0.34713612905721203,
+    0.28215767937696445,
+    -3.6262778906423647
+  ],
+  "points": [
+    [
+      245.96875,
+      326.72580645161287
+    ],
+    [
+      215.03125,
+      246.20967741935482
+    ],
+    [
+      326.40625,
+      248.2741935483871
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 462,
+      "height": 640,
+      "rw": 224,
+      "rh": 310,
+      "left": 0,
+      "top": 43
+    },
+    "crop_points": [
+      [
+        119.0,
+        115.0
+      ],
+      [
+        104.0,
+        76.0
+      ],
+      [
+        158.0,
+        77.0
+      ]
+    ],
+    "crop_box": [
+      83,
+      11,
+      224,
+      215
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000127560\\4222.map.npz": "4f57794d768c29423447416b45ca92a6975e2a74cc88b8e4e19b995cfefdfd88",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000127560\\4222.map.json": "9f5717787e96dd3e49a078dba18c975c4ab97b04b2f986d3be09be959672c2b9",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000127560\\4222.npz": "574252259b3650462846464796a1e3bfdf93dc23adaac01b26e341b3d7ea9a66"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 440623,
+  "sent_id": 80323,
+  "expression": "Broccoli stems that are partially hanging off the plate.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000440623.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 425,
+    "rw": 337,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "211d756e1d21450912e0b725f154d73877ab9c3b44ead3949db74b175da74f21",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.027411481865008757,
+      "density_outside": 0.0035459095610152584,
+      "density_ratio": 7.730451492234308,
+      "log_density_ratio": 2.045167268722421,
+      "coverage": 0.4441279784297966,
+      "area_fraction": 0.09367279411764706,
+      "sam_score": 0.7353477478027344,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3014645492360535,
+      "agreement_min": 0.2906216988145076,
+      "agreement_max": 0.3123073996575994,
+      "spread_mean": 0.1107743538204448,
+      "spread_max": 0.16615213244543092,
+      "entropy": 0.9303544772590978,
+      "top10_mass": 0.4670144356870465,
+      "score_margin": 0.04301327466964722
+    },
+    {
+      "density_inside": 0.05282448168866712,
+      "density_outside": 0.0041688522725869025,
+      "density_ratio": 12.671228967107691,
+      "log_density_ratio": 2.539333987841146,
+      "coverage": 0.3028267360106571,
+      "area_fraction": 0.033143382352941175,
+      "sam_score": 0.941798985004425,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5684218093694358,
+      "agreement_min": 0.3123073996575994,
+      "agreement_max": 0.8245362190812721,
+      "spread_mean": 0.1107743538204448,
+      "spread_max": 0.16615213244543092,
+      "entropy": 0.9303544772590978,
+      "top10_mass": 0.4670144356870465,
+      "score_margin": 0.04301327466964722
+    },
+    {
+      "density_inside": 0.05615571232198266,
+      "density_outside": 0.004351516224370321,
+      "density_ratio": 12.90486106763941,
+      "log_density_ratio": 2.557604067352782,
+      "coverage": 0.26810903193046853,
+      "area_fraction": 0.027602941176470587,
+      "sam_score": 0.8987857103347778,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5575789589478899,
+      "agreement_min": 0.2906216988145076,
+      "agreement_max": 0.8245362190812721,
+      "spread_mean": 0.1107743538204448,
+      "spread_max": 0.16615213244543092,
+      "entropy": 0.9303544772590978,
+      "top10_mass": 0.4670144356870465,
+      "score_margin": 0.04301327466964722
+    }
+  ],
+  "rank_scores": [
+    0.8258354294401398,
+    1.383484167298149,
+    1.0823794310855646
+  ],
+  "points": [
+    [
+      342.2893175074184,
+      260.38169642857144
+    ],
+    [
+      232.14094955489614,
+      195.87276785714286
+    ],
+    [
+      285.3160237388724,
+      228.12723214285714
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 425,
+      "rw": 337,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        124.0,
+        137.0
+      ],
+      [
+        66.0,
+        103.0
+      ],
+      [
+        94.0,
+        120.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      81,
+      182,
+      213
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000440623\\80323.map.npz": "aa3e1779c1e44c95e0920595238def2561b771c3ae2bc7733149f1b9afde48c1",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000440623\\80323.map.json": "9efbcadb451eac5142b53a883816927467e0339e53ea9dbf751a7f830f58494e",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000440623\\80323.npz": "fe42c6245635db95052ce778d7d3cce0f9db95f686846f5f91ab5853aaf9ef1a"
+  }
+}

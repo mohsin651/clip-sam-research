@@ -1,0 +1,139 @@
+{
+  "image_id": 221889,
+  "sent_id": 26906,
+  "expression": "An elephant walking to the side with only one eye showing.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000221889.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 426,
+    "rw": 336,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "bfd2c5793a22789ca0f469ccd570fc11ee91da2340b133565b1acf028b2a0d71",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.47327132820627,
+      "density_outside": 0.2785168944411,
+      "density_ratio": 1.6992553688862737,
+      "log_density_ratio": 0.5301901368040529,
+      "coverage": 0.6289935147712397,
+      "area_fraction": 0.4994278169014085,
+      "sam_score": 0.9321352243423462,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4369352957381101,
+      "agreement_min": 0.41884375526714984,
+      "agreement_max": 0.45502683620907025,
+      "spread_mean": 0.23274791889840676,
+      "spread_max": 0.25840023648355886,
+      "entropy": 0.9841755613338442,
+      "top10_mass": 0.17058676229637545,
+      "score_margin": 0.006634771823883057
+    },
+    {
+      "density_inside": 0.7801753088755462,
+      "density_outside": 0.19969763538443966,
+      "density_ratio": 3.906782908919863,
+      "log_density_ratio": 1.3627142498823404,
+      "coverage": 0.6297851099766205,
+      "area_fraction": 0.3033450704225352,
+      "sam_score": 0.9255004525184631,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.26718713584953735,
+      "agreement_min": 0.11553051643192488,
+      "agreement_max": 0.41884375526714984,
+      "spread_mean": 0.23274791889840676,
+      "spread_max": 0.25840023648355886,
+      "entropy": 0.9841755613338442,
+      "top10_mass": 0.17058676229637545,
+      "score_margin": 0.006634771823883057
+    },
+    {
+      "density_inside": 0.37487175073713275,
+      "density_outside": 0.37607246577950987,
+      "density_ratio": 0.9968072242649163,
+      "log_density_ratio": -0.0031978835157655495,
+      "coverage": 0.24076251995609738,
+      "area_fraction": 0.24134756455399062,
+      "sam_score": 0.8329874277114868,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2852786763204976,
+      "agreement_min": 0.11553051643192488,
+      "agreement_max": 0.45502683620907025,
+      "spread_mean": 0.23274791889840676,
+      "spread_max": 0.25840023648355886,
+      "entropy": 0.9841755613338442,
+      "top10_mass": 0.17058676229637545,
+      "score_margin": 0.006634771823883057
+    }
+  ],
+  "rank_scores": [
+    -0.910153698313747,
+    0.6079330649459491,
+    -3.7040027202411054
+  ],
+  "points": [
+    [
+      289.9761904761905,
+      245.78125
+    ],
+    [
+      408.07142857142856,
+      86.03125
+    ],
+    [
+      229.02380952380952,
+      99.34375
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 426,
+      "rw": 336,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        96.0,
+        129.0
+      ],
+      [
+        158.0,
+        45.0
+      ],
+      [
+        64.0,
+        52.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      25,
+      224,
+      209
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000221889\\26906.map.npz": "4f0fa2005a3c1ca8e7a4653489a53bb834092392ea3891832a1933d3563d50cc",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000221889\\26906.map.json": "589c2619e33d8ee388a3f68f5328fd7db38d99a853fbdce8a3641671d6f00de2",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000221889\\26906.npz": "dccae0e68919300fa5e273d0a79037c91e99cb314a5d03909269d72086b78ee3"
+  }
+}

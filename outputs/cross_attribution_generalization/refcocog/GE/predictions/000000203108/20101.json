@@ -1,0 +1,139 @@
+{
+  "image_id": 203108,
+  "sent_id": 20101,
+  "expression": "A train that has a B on the front of it.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000203108.jpg",
+  "geometry": {
+    "width": 586,
+    "height": 640,
+    "rw": 224,
+    "rh": 244,
+    "left": 0,
+    "top": 10
+  },
+  "image_sha256": "b4371601ad479bd54d77ca58271f4b2428f4b0951c7e7a486be23fb1d02bf7a3",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.02602288736563465,
+      "density_outside": 0.0023284257091282868,
+      "density_ratio": 11.176172489609254,
+      "log_density_ratio": 2.413784055804664,
+      "coverage": 0.7834971963551448,
+      "area_fraction": 0.24460057593856654,
+      "sam_score": 0.9294326305389404,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.28231897728276134,
+      "agreement_min": 0.20912857655541417,
+      "agreement_max": 0.35550937801010857,
+      "spread_mean": 0.25382876302903384,
+      "spread_max": 0.36044577472518213,
+      "entropy": 0.9085011120364552,
+      "top10_mass": 0.4538155893369072,
+      "score_margin": 0.05847889184951782
+    },
+    {
+      "density_inside": 0.030738091239918223,
+      "density_outside": 0.005905281470328884,
+      "density_ratio": 5.205186474032901,
+      "log_density_ratio": 1.649655527400652,
+      "coverage": 0.3380634527002453,
+      "area_fraction": 0.08935046928327645,
+      "sam_score": 0.8709537386894226,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4678424135380853,
+      "agreement_min": 0.35550937801010857,
+      "agreement_max": 0.580175449066062,
+      "spread_mean": 0.25382876302903384,
+      "spread_max": 0.36044577472518213,
+      "entropy": 0.9085011120364552,
+      "top10_mass": 0.4538155893369072,
+      "score_margin": 0.05847889184951782
+    },
+    {
+      "density_inside": 0.03390077405190783,
+      "density_outside": 0.006714329805646866,
+      "density_ratio": 5.049018297901851,
+      "log_density_ratio": 1.6191938279642473,
+      "coverage": 0.2163871464517967,
+      "area_fraction": 0.05185580204778157,
+      "sam_score": 0.7970324754714966,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3946520128107381,
+      "agreement_min": 0.20912857655541417,
+      "agreement_max": 0.580175449066062,
+      "spread_mean": 0.25382876302903384,
+      "spread_max": 0.36044577472518213,
+      "entropy": 0.9085011120364552,
+      "top10_mass": 0.4538155893369072,
+      "score_margin": 0.05847889184951782
+    }
+  ],
+  "rank_scores": [
+    3.2799287223346028,
+    0.08714282179688801,
+    -0.9498736311013849
+  ],
+  "points": [
+    [
+      387.9866071428571,
+      375.8934426229508
+    ],
+    [
+      340.8973214285714,
+      472.9426229508196
+    ],
+    [
+      102.83482142857142,
+      504.4180327868852
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 586,
+      "height": 640,
+      "rw": 224,
+      "rh": 244,
+      "left": 0,
+      "top": 10
+    },
+    "crop_points": [
+      [
+        148.0,
+        133.0
+      ],
+      [
+        130.0,
+        170.0
+      ],
+      [
+        39.0,
+        182.0
+      ]
+    ],
+    "crop_box": [
+      4,
+      50,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000203108\\20101.map.npz": "ec5ef1724d4d62c078428098bbb489087357f5262b79f83631ce5431dccac4b7",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000203108\\20101.map.json": "dc637abc7567624aa838b8f45aef15bdcbffdf4d96e566b8634808502ef90d36",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000203108\\20101.npz": "6bca30af429cdb3c29cc7535b154c64634a968a556f653bc25d7c96fb4c56472"
+  }
+}

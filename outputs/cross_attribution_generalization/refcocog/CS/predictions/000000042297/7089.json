@@ -1,0 +1,139 @@
+{
+  "image_id": 42297,
+  "sent_id": 7089,
+  "expression": "A black haired toddler reaching for cake.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000042297.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 424,
+    "rw": 338,
+    "rh": 224,
+    "left": 57,
+    "top": 0
+  },
+  "image_sha256": "15c208db7fe32df9b542d87e0353e4fa662e4c5d555ec32d619e30aa609a3cf2",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": false,
+  "features": [
+    {
+      "density_inside": 0.3320250103078055,
+      "density_outside": 0.3280626026083652,
+      "density_ratio": 1.0120782060098406,
+      "log_density_ratio": 0.01200584654829351,
+      "coverage": 0.11883694229878379,
+      "area_fraction": 0.11758549528301887,
+      "sam_score": 0.7931597828865051,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5497753405648128,
+      "agreement_min": 0.5480079805474157,
+      "agreement_max": 0.5515427005822099,
+      "spread_mean": 0.10255029755348848,
+      "spread_max": 0.135200969355705,
+      "entropy": 0.9959850250398086,
+      "top10_mass": 0.15418186042616863,
+      "score_margin": 0.0320621132850647
+    },
+    {
+      "density_inside": 0.5002968432640479,
+      "density_outside": 0.3163789354874579,
+      "density_ratio": 1.5813215961790847,
+      "log_density_ratio": 0.45826095068668665,
+      "coverage": 0.10059867051721665,
+      "area_fraction": 0.06605984669811321,
+      "sam_score": 0.963761031627655,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7695039408203528,
+      "agreement_min": 0.5515427005822099,
+      "agreement_max": 0.9874651810584958,
+      "spread_mean": 0.10255029755348848,
+      "spread_max": 0.135200969355705,
+      "entropy": 0.9959850250398086,
+      "top10_mass": 0.15418186042616863,
+      "score_margin": 0.0320621132850647
+    },
+    {
+      "density_inside": 0.5021274048977553,
+      "density_outside": 0.31637918323396647,
+      "density_ratio": 1.5871063315971663,
+      "log_density_ratio": 0.4619124409382799,
+      "coverage": 0.09996981783041756,
+      "area_fraction": 0.06540757665094339,
+      "sam_score": 0.9316989183425903,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7677365808029557,
+      "agreement_min": 0.5480079805474157,
+      "agreement_max": 0.9874651810584958,
+      "spread_mean": 0.10255029755348848,
+      "spread_max": 0.135200969355705,
+      "entropy": 0.9959850250398086,
+      "top10_mass": 0.15418186042616863,
+      "score_margin": 0.0320621132850647
+    }
+  ],
+  "rank_scores": [
+    -3.5040498364440626,
+    -2.307224515513689,
+    -2.3663215991356497
+  ],
+  "points": [
+    [
+      369.6775147928994,
+      165.125
+    ],
+    [
+      470.0325443786982,
+      191.625
+    ],
+    [
+      409.44082840236683,
+      218.125
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 424,
+      "rw": 338,
+      "rh": 224,
+      "left": 57,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        138.0,
+        87.0
+      ],
+      [
+        191.0,
+        101.0
+      ],
+      [
+        159.0,
+        115.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      9,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000042297\\7089.map.npz": "90367b3b4237a6625549c434d3e78be636fa3b3629d282cb574dfde11ac89e6b",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000042297\\7089.map.json": "ca6024b666bf15a1b531430f9243df6d193a496511b754301506fd215612ea88",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000042297\\7089.npz": "6a4dd48511686b3ed2814e8049fa751574411db8ee2485f327a6cb1307341180"
+  }
+}

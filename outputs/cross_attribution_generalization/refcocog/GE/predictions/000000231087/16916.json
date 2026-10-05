@@ -1,0 +1,139 @@
+{
+  "image_id": 231087,
+  "sent_id": 16916,
+  "expression": "A banana is sitting on the outer right side of the grill.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000231087.jpg",
+  "geometry": {
+    "width": 612,
+    "height": 612,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "809ee583f49112e0b651cfe589f0377ec363e2e92ef766d96a11ce14a9b7cc42",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.028119771526602902,
+      "density_outside": 0.007219109264131786,
+      "density_ratio": 3.8951857485273242,
+      "log_density_ratio": 1.3597413671884118,
+      "coverage": 0.7710600224605715,
+      "area_fraction": 0.46370519885514117,
+      "sam_score": 0.7747036814689636,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4807143103904927,
+      "agreement_min": 0.3753152385448934,
+      "agreement_max": 0.5861133822360921,
+      "spread_mean": 0.17198917584499215,
+      "spread_max": 0.23559419289212072,
+      "entropy": 0.9580450901273833,
+      "top10_mass": 0.3209750870044943,
+      "score_margin": 0.032238543033599854
+    },
+    {
+      "density_inside": 0.03401477681597488,
+      "density_outside": 0.010527353261292512,
+      "density_ratio": 3.2310853420119368,
+      "log_density_ratio": 1.1728181000208986,
+      "coverage": 0.5466705293820131,
+      "area_fraction": 0.27178382246144644,
+      "sam_score": 0.8495602011680603,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6131329137746413,
+      "agreement_min": 0.5861133822360921,
+      "agreement_max": 0.6401524453131906,
+      "spread_mean": 0.17198917584499215,
+      "spread_max": 0.23559419289212072,
+      "entropy": 0.9580450901273833,
+      "top10_mass": 0.3209750870044943,
+      "score_margin": 0.032238543033599854
+    },
+    {
+      "density_inside": 0.03701811720148528,
+      "density_outside": 0.012674134758807918,
+      "density_ratio": 2.9207608963474763,
+      "log_density_ratio": 1.0718441633028042,
+      "coverage": 0.3809666184145706,
+      "area_fraction": 0.17403562732282454,
+      "sam_score": 0.8173216581344604,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.507733841929042,
+      "agreement_min": 0.3753152385448934,
+      "agreement_max": 0.6401524453131906,
+      "spread_mean": 0.17198917584499215,
+      "spread_max": 0.23559419289212072,
+      "entropy": 0.9580450901273833,
+      "top10_mass": 0.3209750870044943,
+      "score_margin": 0.032238543033599854
+    }
+  ],
+  "rank_scores": [
+    0.9957777181861279,
+    0.44485866629502957,
+    -0.7261041016451157
+  ],
+  "points": [
+    [
+      233.09821428571428,
+      134.74107142857144
+    ],
+    [
+      137.47321428571428,
+      216.70535714285714
+    ],
+    [
+      200.3125,
+      22.723214285714285
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 612,
+      "height": 612,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        85.0,
+        49.0
+      ],
+      [
+        50.0,
+        79.0
+      ],
+      [
+        73.0,
+        8.0
+      ]
+    ],
+    "crop_box": [
+      6,
+      0,
+      224,
+      130
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000231087\\16916.map.npz": "11481e99019f56d4eb9a1a71adf1e156c26534d950631915260bb3a5df0948ad",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000231087\\16916.map.json": "b214978ddb9e38ac6647befebd2534ca20d769d3054b5244601d32d47cc6b28e",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000231087\\16916.npz": "a9dd722f38c45d74c46c4af3bf6c458b9ca33b1cbf5f1b55c1ef7c7bb915ba41"
+  }
+}

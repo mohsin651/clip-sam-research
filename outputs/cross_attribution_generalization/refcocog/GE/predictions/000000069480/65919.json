@@ -1,0 +1,139 @@
+{
+  "image_id": 69480,
+  "sent_id": 65919,
+  "expression": "A brown goat with its ears up",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000069480.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 512,
+    "rw": 280,
+    "rh": 224,
+    "left": 28,
+    "top": 0
+  },
+  "image_sha256": "037faeeeaf1ea0640dddb9779c6272e0d6b12001d56c294c5bca465bf6ab772c",
+  "naive_candidate": 2,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.03160520446484541,
+      "density_outside": 0.004345020321133168,
+      "density_ratio": 7.273891057275649,
+      "log_density_ratio": 1.9842913694806585,
+      "coverage": 0.5291067971033914,
+      "area_fraction": 0.1338043212890625,
+      "sam_score": 0.793122410774231,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6759072297374208,
+      "agreement_min": 0.6660015418801868,
+      "agreement_max": 0.6858129175946548,
+      "spread_mean": 0.13815876844155484,
+      "spread_max": 0.148672991954105,
+      "entropy": 0.9217189114519965,
+      "top10_mass": 0.5455792234930317,
+      "score_margin": 0.07884812355041504
+    },
+    {
+      "density_inside": 0.03516761883338164,
+      "density_outside": 0.005066999878324323,
+      "density_ratio": 6.940520953411032,
+      "log_density_ratio": 1.937376837062889,
+      "coverage": 0.42765129374231853,
+      "area_fraction": 0.0971923828125,
+      "sam_score": 0.8603054285049438,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8070700672161348,
+      "agreement_min": 0.6858129175946548,
+      "agreement_max": 0.9283272168376149,
+      "spread_mean": 0.13815876844155484,
+      "spread_max": 0.148672991954105,
+      "entropy": 0.9217189114519965,
+      "top10_mass": 0.5455792234930317,
+      "score_margin": 0.07884812355041504
+    },
+    {
+      "density_inside": 0.03673063146392248,
+      "density_outside": 0.005135722252115981,
+      "density_ratio": 7.151989467817699,
+      "log_density_ratio": 1.967390565276786,
+      "coverage": 0.4155373354834787,
+      "area_fraction": 0.0904205322265625,
+      "sam_score": 0.9391535520553589,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7971643793589008,
+      "agreement_min": 0.6660015418801868,
+      "agreement_max": 0.9283272168376149,
+      "spread_mean": 0.13815876844155484,
+      "spread_max": 0.148672991954105,
+      "entropy": 0.9217189114519965,
+      "top10_mass": 0.5455792234930317,
+      "score_margin": 0.07884812355041504
+    }
+  ],
+  "rank_scores": [
+    1.9342881529200318,
+    1.6035061124544223,
+    1.7029622389115864
+  ],
+  "points": [
+    [
+      439.5,
+      135.5
+    ],
+    [
+      535.5,
+      135.5
+    ],
+    [
+      487.5,
+      247.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 512,
+      "rw": 280,
+      "rh": 224,
+      "left": 28,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        164.0,
+        59.0
+      ],
+      [
+        206.0,
+        59.0
+      ],
+      [
+        185.0,
+        108.0
+      ]
+    ],
+    "crop_box": [
+      130,
+      25,
+      224,
+      132
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000069480\\65919.map.npz": "f5f16c28b89661d1e4bdaf6f81a29d486c7c65cbda6255b56456c511d7a3c11c",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000069480\\65919.map.json": "9812c170e38655e7fbdc46ed0fa3c308bb300b60d133c3a4fd8e5593bf007746",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000069480\\65919.npz": "b81f8af5c1eadc27baa41ad41bbcbfa984f8a1435d93584ee675b5fbe9d7dc57"
+  }
+}

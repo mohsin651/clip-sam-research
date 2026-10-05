@@ -1,0 +1,139 @@
+{
+  "image_id": 65769,
+  "sent_id": 57978,
+  "expression": "A child eating a hot dog.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000065769.jpg",
+  "geometry": {
+    "width": 424,
+    "height": 640,
+    "rw": 224,
+    "rh": 338,
+    "left": 0,
+    "top": 57
+  },
+  "image_sha256": "fd0ead7869dae735ac41f33d373a8c964b82e39fccfe78118a02a754dad02b0c",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.012474843048867423,
+      "density_outside": 0.004279887459805916,
+      "density_ratio": 2.914759596626957,
+      "log_density_ratio": 1.069787345341705,
+      "coverage": 0.6745885755470628,
+      "area_fraction": 0.4156213148584906,
+      "sam_score": 0.7303071022033691,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.07493290656983366,
+      "agreement_min": 0.05483665112651339,
+      "agreement_max": 0.09502916201315392,
+      "spread_mean": 0.1686207978549339,
+      "spread_max": 0.24817206284963006,
+      "entropy": 0.9252938714192591,
+      "top10_mass": 0.4696859286609889,
+      "score_margin": 0.004806935787200928
+    },
+    {
+      "density_inside": 0.0586021425002994,
+      "density_outside": 0.0055844012085802105,
+      "density_ratio": 10.493899041452401,
+      "log_density_ratio": 2.3507940446380506,
+      "coverage": 0.3022209294232992,
+      "area_fraction": 0.0396373820754717,
+      "sam_score": 0.9469687342643738,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3344134969706277,
+      "agreement_min": 0.09502916201315392,
+      "agreement_max": 0.5737978319281015,
+      "spread_mean": 0.1686207978549339,
+      "spread_max": 0.24817206284963006,
+      "entropy": 0.9252938714192591,
+      "top10_mass": 0.4696859286609889,
+      "score_margin": 0.004806935787200928
+    },
+    {
+      "density_inside": 0.06321151003504641,
+      "density_outside": 0.006381149737018512,
+      "density_ratio": 9.905975040584924,
+      "log_density_ratio": 2.2931381145526997,
+      "coverage": 0.18881846422270887,
+      "area_fraction": 0.022958431603773585,
+      "sam_score": 0.9421617984771729,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.31431724152730744,
+      "agreement_min": 0.05483665112651339,
+      "agreement_max": 0.5737978319281015,
+      "spread_mean": 0.1686207978549339,
+      "spread_max": 0.24817206284963006,
+      "entropy": 0.9252938714192591,
+      "top10_mass": 0.4696859286609889,
+      "score_margin": 0.004806935787200928
+    }
+  ],
+  "rank_scores": [
+    -0.5630091353773199,
+    0.7308671082479419,
+    -0.12104144064037675
+  ],
+  "points": [
+    [
+      55.339285714285715,
+      471.92603550295854
+    ],
+    [
+      100.76785714285714,
+      422.6952662721893
+    ],
+    [
+      227.5892857142857,
+      390.50591715976327
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 424,
+      "height": 640,
+      "rw": 224,
+      "rh": 338,
+      "left": 0,
+      "top": 57
+    },
+    "crop_points": [
+      [
+        29.0,
+        192.0
+      ],
+      [
+        53.0,
+        166.0
+      ],
+      [
+        120.0,
+        149.0
+      ]
+    ],
+    "crop_box": [
+      17,
+      68,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000065769\\57978.map.npz": "fe8757fec7747562ca109410ea8c683e9afd2ec3f8e55b359d5f364b83a66182",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000065769\\57978.map.json": "04cd91fdccedb91e0273addf46ddfa82e6dc9eaa63c438f9c045f85cc3bf02ec",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000065769\\57978.npz": "7788eae41020e17cac5637eb57f447a6eaed13d53128fa67fe1d5fc82bf211f1"
+  }
+}

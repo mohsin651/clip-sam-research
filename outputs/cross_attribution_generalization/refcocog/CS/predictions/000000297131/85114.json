@@ -1,0 +1,139 @@
+{
+  "image_id": 297131,
+  "sent_id": 85114,
+  "expression": "A blue and white umbrella in the rain.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000297131.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 320,
+    "rw": 448,
+    "rh": 224,
+    "left": 112,
+    "top": 0
+  },
+  "image_sha256": "79a191fd141f3f25b91e7bc62477031bf75e0bd25a9c45caaa4508047ae8a3b2",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.826381281800439,
+      "density_outside": 0.12906002197438426,
+      "density_ratio": 6.403077181856171,
+      "log_density_ratio": 1.8567786844799334,
+      "coverage": 0.19588514563932918,
+      "area_fraction": 0.036650390625,
+      "sam_score": 0.886009931564331,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8727354741121458,
+      "agreement_min": 0.7709994683678895,
+      "agreement_max": 0.974471479856402,
+      "spread_mean": 0.07622967561552106,
+      "spread_max": 0.09028459114355664,
+      "entropy": 0.9741573855401428,
+      "top10_mass": 0.2656501161399098,
+      "score_margin": 0.09776145219802856
+    },
+    {
+      "density_inside": 0.829462660442072,
+      "density_outside": 0.12951752338911804,
+      "density_ratio": 6.404250473070414,
+      "log_density_ratio": 1.8569619063430902,
+      "coverage": 0.19237205343440344,
+      "area_fraction": 0.035859375,
+      "sam_score": 0.9837713837623596,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8792796542681305,
+      "agreement_min": 0.784087828679859,
+      "agreement_max": 0.974471479856402,
+      "spread_mean": 0.07622967561552106,
+      "spread_max": 0.09028459114355664,
+      "entropy": 0.9741573855401428,
+      "top10_mass": 0.2656501161399098,
+      "score_margin": 0.09776145219802856
+    },
+    {
+      "density_inside": 0.8670440146599998,
+      "density_outside": 0.13378290769119527,
+      "density_ratio": 6.480977500166728,
+      "log_density_ratio": 1.8688713477799634,
+      "coverage": 0.15933162080015648,
+      "area_fraction": 0.0284130859375,
+      "sam_score": 0.8825690746307373,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7775436485238743,
+      "agreement_min": 0.7709994683678895,
+      "agreement_max": 0.784087828679859,
+      "spread_mean": 0.07622967561552106,
+      "spread_max": 0.09028459114355664,
+      "entropy": 0.9741573855401428,
+      "top10_mass": 0.2656501161399098,
+      "score_margin": 0.09776145219802856
+    }
+  ],
+  "rank_scores": [
+    0.312914589216826,
+    0.4836258737084154,
+    -0.006060732527563138
+  ],
+  "points": [
+    [
+      290.2142857142857,
+      174.5
+    ],
+    [
+      228.78571428571428,
+      154.5
+    ],
+    [
+      265.92857142857144,
+      127.35714285714286
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 320,
+      "rw": 448,
+      "rh": 224,
+      "left": 112,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        91.0,
+        122.0
+      ],
+      [
+        48.0,
+        108.0
+      ],
+      [
+        74.0,
+        89.0
+      ]
+    ],
+    "crop_box": [
+      6,
+      75,
+      131,
+      174
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000297131\\85114.map.npz": "93ce065e257ef739e628a38331871b426c8794b4068f0526b0c0d02e34e4961c",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000297131\\85114.map.json": "2480267cde859aaee739d96e0bbf36321d4fdad2f1db6beee96920a23ddaf378",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000297131\\85114.npz": "8e8ed3746e11f5bc52d5616ff837a7e4db7c2e1fec48642c16076467508641cf"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 2281,
+  "sent_id": 141699,
+  "expression": "car in back of fridge full of snow",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000002281.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "f35b69dc4426b70f7333c85d7e633c61f88cebe059db3aa9e03a23422124bdcc",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.02730436462478015,
+      "density_outside": 0.008853815306633159,
+      "density_ratio": 3.083909441982619,
+      "log_density_ratio": 1.1261980914877165,
+      "coverage": 0.4408125429679442,
+      "area_fraction": 0.20358072916666667,
+      "sam_score": 0.8818702101707458,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5589374078701048,
+      "agreement_min": 0.2099704923124709,
+      "agreement_max": 0.9079043234277387,
+      "spread_mean": 0.22363381435476745,
+      "spread_max": 0.3201809610012727,
+      "entropy": 0.9633041519746169,
+      "top10_mass": 0.2974701972945954,
+      "score_margin": 0.006348550319671631
+    },
+    {
+      "density_inside": 0.028399927269645863,
+      "density_outside": 0.008734763703644517,
+      "density_ratio": 3.251367550394618,
+      "log_density_ratio": 1.1790756926085924,
+      "coverage": 0.44381514126074095,
+      "area_fraction": 0.197060546875,
+      "sam_score": 0.8882187604904175,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.578454415967333,
+      "agreement_min": 0.2490045085069273,
+      "agreement_max": 0.9079043234277387,
+      "spread_mean": 0.22363381435476745,
+      "spread_max": 0.3201809610012727,
+      "entropy": 0.9633041519746169,
+      "top10_mass": 0.2974701972945954,
+      "score_margin": 0.006348550319671631
+    },
+    {
+      "density_inside": 0.03707226469427469,
+      "density_outside": 0.011321621177410195,
+      "density_ratio": 3.2744660954536946,
+      "log_density_ratio": 1.1861548315353374,
+      "coverage": 0.14709129668121906,
+      "area_fraction": 0.050032552083333334,
+      "sam_score": 0.8705769777297974,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2294875004096991,
+      "agreement_min": 0.2099704923124709,
+      "agreement_max": 0.2490045085069273,
+      "spread_mean": 0.22363381435476745,
+      "spread_max": 0.3201809610012727,
+      "entropy": 0.9633041519746169,
+      "top10_mass": 0.2974701972945954,
+      "score_margin": 0.006348550319671631
+    }
+  ],
+  "rank_scores": [
+    -0.2666562780633776,
+    -0.12703586811041856,
+    -1.9769152957449736
+  ],
+  "points": [
+    [
+      408.6275167785235,
+      135.57142857142856
+    ],
+    [
+      153.05704697986576,
+      152.71428571428572
+    ],
+    [
+      294.8020134228188,
+      86.28571428571428
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        153.0,
+        63.0
+      ],
+      [
+        34.0,
+        71.0
+      ],
+      [
+        100.0,
+        40.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      16,
+      218,
+      165
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000002281\\141699.map.npz": "2c2f928d5d473414b9d80eccb6c91c63ad670fd688931063495455e167f04e06",
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000002281\\141699.map.json": "460285f6e8ba5313f8fdfd9a5f4875204f31220391c0016747f016d3f3de576a",
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000002281\\141699.npz": "bde137678d8f5a023fd8ee169f72519a2aaad66ea7981592a2a406c329b63d7c"
+  }
+}

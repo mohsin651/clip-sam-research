@@ -1,0 +1,139 @@
+{
+  "image_id": 114202,
+  "sent_id": 8280,
+  "expression": "The smaller giraffe eats while in the shade.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000114202.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "8311549cbb6c95bda74f0500fb92f0ffc4323f940a445ea91f290430c2a7bbe5",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.04703589903039559,
+      "density_outside": 0.006394147103124683,
+      "density_ratio": 7.3560864747784835,
+      "log_density_ratio": 1.9955280623737486,
+      "coverage": 0.4222787571432667,
+      "area_fraction": 0.09038411458333333,
+      "sam_score": 0.85679030418396,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.49889754292159805,
+      "agreement_min": 0.4851843880040178,
+      "agreement_max": 0.5126106978391782,
+      "spread_mean": 0.0983193876962764,
+      "spread_max": 0.12225178816702675,
+      "entropy": 0.938240611965036,
+      "top10_mass": 0.4825363760188203,
+      "score_margin": 0.02840489149093628
+    },
+    {
+      "density_inside": 0.07553801534910679,
+      "density_outside": 0.006721915435832538,
+      "density_ratio": 11.23757298927006,
+      "log_density_ratio": 2.4192628949418356,
+      "coverage": 0.36477684525378884,
+      "area_fraction": 0.04861653645833333,
+      "sam_score": 0.9532063603401184,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7125273182615799,
+      "agreement_min": 0.5126106978391782,
+      "agreement_max": 0.9124439386839815,
+      "spread_mean": 0.0983193876962764,
+      "spread_max": 0.12225178816702675,
+      "entropy": 0.938240611965036,
+      "top10_mass": 0.4825363760188203,
+      "score_margin": 0.02840489149093628
+    },
+    {
+      "density_inside": 0.07943190184859324,
+      "density_outside": 0.006845798689853824,
+      "density_ratio": 11.60301455471024,
+      "log_density_ratio": 2.4512649397691995,
+      "coverage": 0.3501922811504103,
+      "area_fraction": 0.044384765625,
+      "sam_score": 0.9248014688491821,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6988141633439997,
+      "agreement_min": 0.4851843880040178,
+      "agreement_max": 0.9124439386839815,
+      "spread_mean": 0.0983193876962764,
+      "spread_max": 0.12225178816702675,
+      "entropy": 0.938240611965036,
+      "top10_mass": 0.4825363760188203,
+      "score_margin": 0.02840489149093628
+    }
+  ],
+  "rank_scores": [
+    1.1886243096089506,
+    1.9136698838047985,
+    1.784735125305082
+  ],
+  "points": [
+    [
+      296.2857142857143,
+      262.5872483221477
+    ],
+    [
+      311.2857142857143,
+      359.2315436241611
+    ],
+    [
+      255.57142857142856,
+      318.4261744966443
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        138.0,
+        85.0
+      ],
+      [
+        145.0,
+        130.0
+      ],
+      [
+        119.0,
+        111.0
+      ]
+    ],
+    "crop_box": [
+      61,
+      5,
+      224,
+      180
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000114202\\8280.map.npz": "b32094904b9eeaabe25226d2bd1817dec900a2902b25d06292af5abe7230bf1c",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000114202\\8280.map.json": "c895d5242e6854842db70693e62893b69d2537d929904a186b05a92ae464a624",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000114202\\8280.npz": "5c3aa6dc0fa94ce7f35b55ee20c0266573ad6f44876849c253c564b2b8a3ad7f"
+  }
+}

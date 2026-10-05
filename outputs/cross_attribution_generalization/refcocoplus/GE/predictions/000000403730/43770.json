@@ -1,0 +1,139 @@
+{
+  "image_id": 403730,
+  "sent_id": 43770,
+  "expression": "elephant walking towards us next to baby",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000403730.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 457,
+    "rw": 313,
+    "rh": 224,
+    "left": 44,
+    "top": 0
+  },
+  "image_sha256": "b3bbd4a093744f70ae2098fd2560ee27a060198b13c67f983718fb9386591290",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.03357813192883378,
+      "density_outside": 0.009635966394911826,
+      "density_ratio": 3.484666773337825,
+      "log_density_ratio": 1.248372422263983,
+      "coverage": 0.3672257000994743,
+      "area_fraction": 0.14276531728665207,
+      "sam_score": 0.8258919715881348,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.1545775319786253,
+      "agreement_min": 0.13723330380019635,
+      "agreement_max": 0.17192176015705427,
+      "spread_mean": 0.08936576978376086,
+      "spread_max": 0.10184942223281103,
+      "entropy": 0.9429515169406038,
+      "top10_mass": 0.41590328742973715,
+      "score_margin": 0.10926449298858643
+    },
+    {
+      "density_inside": 0.09935086694345902,
+      "density_outside": 0.010877948369099822,
+      "density_ratio": 9.133235750276622,
+      "log_density_ratio": 2.211920040402621,
+      "coverage": 0.1871973696414463,
+      "area_fraction": 0.024596553610503284,
+      "sam_score": 0.9748719930648804,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.48412703734443435,
+      "agreement_min": 0.17192176015705427,
+      "agreement_max": 0.7963323145318144,
+      "spread_mean": 0.08936576978376086,
+      "spread_max": 0.10184942223281103,
+      "entropy": 0.9429515169406038,
+      "top10_mass": 0.41590328742973715,
+      "score_margin": 0.10926449298858643
+    },
+    {
+      "density_inside": 0.10471600986305349,
+      "density_outside": 0.011220480577252816,
+      "density_ratio": 9.33257797050251,
+      "log_density_ratio": 2.2335112865096205,
+      "coverage": 0.15731852846608246,
+      "area_fraction": 0.019611597374179432,
+      "sam_score": 0.865607500076294,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4667828091660054,
+      "agreement_min": 0.13723330380019635,
+      "agreement_max": 0.7963323145318144,
+      "spread_mean": 0.08936576978376086,
+      "spread_max": 0.10184942223281103,
+      "entropy": 0.9429515169406038,
+      "top10_mass": 0.41590328742973715,
+      "score_margin": 0.10926449298858643
+    }
+  ],
+  "rank_scores": [
+    -1.0006127966169693,
+    0.08415144947758102,
+    -0.3161541300632788
+  ],
+  "points": [
+    [
+      166.14536741214056,
+      245.3415178571429
+    ],
+    [
+      166.14536741214056,
+      310.62723214285717
+    ],
+    [
+      102.75878594249201,
+      261.66294642857144
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 457,
+      "rw": 313,
+      "rh": 224,
+      "left": 44,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        37.0,
+        120.0
+      ],
+      [
+        37.0,
+        152.0
+      ],
+      [
+        6.0,
+        128.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      105,
+      52,
+      184
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000403730\\43770.map.npz": "6d0ad22b79bbd4a063c0596036cd540aa5f899fcc99c8faa53558b9c38b70fed",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000403730\\43770.map.json": "167dbef79b074ae444c702e47fb01d21a48367f73bfb3be9e7cba9c359253233",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000403730\\43770.npz": "1fbfa51f02dccd54e3e148bdd42adf42929648648d28d9bd613857873ed06035"
+  }
+}

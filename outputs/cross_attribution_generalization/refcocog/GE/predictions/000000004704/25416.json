@@ -1,0 +1,139 @@
+{
+  "image_id": 4704,
+  "sent_id": 25416,
+  "expression": "person doing jump on snowboard",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000004704.jpg",
+  "geometry": {
+    "width": 427,
+    "height": 640,
+    "rw": 224,
+    "rh": 335,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "3a9b087683c26bd9f6f98bc597cbc477fe3a9fab456eaa4f90b4e896a7459d31",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.006382855355514944,
+      "density_outside": 0.012713129618405301,
+      "density_ratio": 0.5020679837773512,
+      "log_density_ratio": -0.6890197424516937,
+      "coverage": 0.7629912731473164,
+      "area_fraction": 0.8650834309133489,
+      "sam_score": 0.8426767587661743,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 8.207902115032108e-06,
+      "agreement_min": 8.197695627759037e-06,
+      "agreement_max": 8.21810860230518e-06,
+      "spread_mean": 0.19869183885298236,
+      "spread_max": 0.2960434354627704,
+      "entropy": 0.9338451367509086,
+      "top10_mass": 0.4835171231989825,
+      "score_margin": 0.00337064266204834
+    },
+    {
+      "density_inside": 0.04442881794005921,
+      "density_outside": 0.0061783354980946776,
+      "density_ratio": 7.191065934598314,
+      "log_density_ratio": 1.972839413145234,
+      "coverage": 0.16990164506741895,
+      "area_fraction": 0.02767491217798595,
+      "sam_score": 0.9131684303283691,
+      "points_inside": 0,
+      "points_fraction": 0.0,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.4595600068573301,
+      "agreement_min": 8.197695627759037e-06,
+      "agreement_max": 0.9191118160190325,
+      "spread_mean": 0.19869183885298236,
+      "spread_max": 0.2960434354627704,
+      "entropy": 0.9338451367509086,
+      "top10_mass": 0.4835171231989825,
+      "score_margin": 0.00337064266204834
+    },
+    {
+      "density_inside": 0.04658571259730127,
+      "density_outside": 0.006209028589676695,
+      "density_ratio": 7.502898709027219,
+      "log_density_ratio": 2.0152894404309185,
+      "coverage": 0.16387528925204498,
+      "area_fraction": 0.025457406323185012,
+      "sam_score": 0.9097977876663208,
+      "points_inside": 0,
+      "points_fraction": 0.0,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.4595600170638174,
+      "agreement_min": 8.21810860230518e-06,
+      "agreement_max": 0.9191118160190325,
+      "spread_mean": 0.19869183885298236,
+      "spread_max": 0.2960434354627704,
+      "entropy": 0.9338451367509086,
+      "top10_mass": 0.4835171231989825,
+      "score_margin": 0.00337064266204834
+    }
+  ],
+  "rank_scores": [
+    -3.9371622214599804,
+    -0.7161106184106178,
+    -0.7030814364967582
+  ],
+  "points": [
+    [
+      164.390625,
+      231.61940298507463
+    ],
+    [
+      70.984375,
+      166.6641791044776
+    ],
+    [
+      276.859375,
+      264.0970149253731
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 427,
+      "height": 640,
+      "rw": 224,
+      "rh": 335,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        86.0,
+        65.0
+      ],
+      [
+        37.0,
+        31.0
+      ],
+      [
+        145.0,
+        82.0
+      ]
+    ],
+    "crop_box": [
+      18,
+      0,
+      180,
+      153
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000004704\\25416.map.npz": "01291973979f25af1c83c5067da8ddd35fbf5f4038eed41475fa5b3020bc4c6f",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000004704\\25416.map.json": "0498ecef026930de72a3e772eef250bf6c25d246ae2b942d1c4b22dc20bfa8a1",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000004704\\25416.npz": "9dde78d007a5b9a33036d770c6a488228efa9bb78a27db83347bd46a3a8562cd"
+  }
+}

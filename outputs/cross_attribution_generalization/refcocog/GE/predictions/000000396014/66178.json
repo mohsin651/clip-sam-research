@@ -1,0 +1,139 @@
+{
+  "image_id": 396014,
+  "sent_id": 66178,
+  "expression": "A cow that is standing to the left of a cow that is sitting down.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000396014.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "22409b8bcc97c48d47f137213981d7818313fc4161f6c057740d25447def4716",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.03380212603287816,
+      "density_outside": 0.00393995385244842,
+      "density_ratio": 8.579320289067105,
+      "log_density_ratio": 2.149354690002905,
+      "coverage": 0.7599657905059041,
+      "area_fraction": 0.2695586943793911,
+      "sam_score": 0.8569586873054504,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3375800854907927,
+      "agreement_min": 0.15704880200909524,
+      "agreement_max": 0.5181113689724902,
+      "spread_mean": 0.1037572925839303,
+      "spread_max": 0.1497771680494664,
+      "entropy": 0.9477636283825548,
+      "top10_mass": 0.3762549212008185,
+      "score_margin": 0.016258537769317627
+    },
+    {
+      "density_inside": 0.04673443686545732,
+      "density_outside": 0.0063446246089906835,
+      "density_ratio": 7.365989280416378,
+      "log_density_ratio": 1.9968733627644146,
+      "coverage": 0.5447797938184208,
+      "area_fraction": 0.1397614168618267,
+      "sam_score": 0.8257885575294495,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.41050617409194234,
+      "agreement_min": 0.30290097921139447,
+      "agreement_max": 0.5181113689724902,
+      "spread_mean": 0.1037572925839303,
+      "spread_max": 0.1497771680494664,
+      "entropy": 0.9477636283825548,
+      "top10_mass": 0.3762549212008185,
+      "score_margin": 0.016258537769317627
+    },
+    {
+      "density_inside": 0.058658049152712416,
+      "density_outside": 0.009926569887474089,
+      "density_ratio": 5.90919620893631,
+      "log_density_ratio": 1.7765098169293778,
+      "coverage": 0.20711534160580244,
+      "area_fraction": 0.04233387002341921,
+      "sam_score": 0.8407001495361328,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.22997489061024484,
+      "agreement_min": 0.15704880200909524,
+      "agreement_max": 0.30290097921139447,
+      "spread_mean": 0.1037572925839303,
+      "spread_max": 0.1497771680494664,
+      "entropy": 0.9477636283825548,
+      "top10_mass": 0.3762549212008185,
+      "score_margin": 0.016258537769317627
+    }
+  ],
+  "rank_scores": [
+    2.5806393863420607,
+    1.566057201996962,
+    -1.1106725497684762
+  ],
+  "points": [
+    [
+      246.90298507462686,
+      133.890625
+    ],
+    [
+      279.38059701492534,
+      244.453125
+    ],
+    [
+      241.17164179104478,
+      196.796875
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        73.0,
+        70.0
+      ],
+      [
+        90.0,
+        128.0
+      ],
+      [
+        70.0,
+        103.0
+      ]
+    ],
+    "crop_box": [
+      25,
+      25,
+      219,
+      166
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000396014\\66178.map.npz": "0ba4351d3970a2730301c8b13a479060adc905501823bd95c8a6dce98a7355aa",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000396014\\66178.map.json": "1116ac7791358709c54628ae1d4f576ce06412f6fbf1feb3fa39194fd48627c0",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000396014\\66178.npz": "c11d1528e019b3515f0f5ca513756bc5d23d631d3fe7b4bb3a72226b119be891"
+  }
+}

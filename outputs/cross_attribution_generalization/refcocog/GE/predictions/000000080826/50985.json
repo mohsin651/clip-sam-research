@@ -1,0 +1,139 @@
+{
+  "image_id": 80826,
+  "sent_id": 50985,
+  "expression": "the first table of the picture on which pizzas are there",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000080826.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "c1284571e2e40f4e49642ee11cc8d7151918d3bbc29eaf6b0d49f9595222db2c",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.019491491561306393,
+      "density_outside": 0.004734405624392394,
+      "density_ratio": 4.116988087536524,
+      "log_density_ratio": 1.4151218493533517,
+      "coverage": 0.5452259371851439,
+      "area_fraction": 0.22553059895833333,
+      "sam_score": 0.9777130484580994,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.774795028113252,
+      "agreement_min": 0.769766127809705,
+      "agreement_max": 0.7798239284167989,
+      "spread_mean": 0.35240089827713716,
+      "spread_max": 0.45911567951429144,
+      "entropy": 0.9528100136273537,
+      "top10_mass": 0.36885704107567624,
+      "score_margin": 0.005078315734863281
+    },
+    {
+      "density_inside": 0.021740030403472343,
+      "density_outside": 0.004802216235662245,
+      "density_ratio": 4.527082774303107,
+      "log_density_ratio": 1.5100777529147456,
+      "coverage": 0.5190328057932154,
+      "area_fraction": 0.192490234375,
+      "sam_score": 0.9827913641929626,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8416819547100333,
+      "agreement_min": 0.769766127809705,
+      "agreement_max": 0.9135977816103615,
+      "spread_mean": 0.35240089827713716,
+      "spread_max": 0.45911567951429144,
+      "entropy": 0.9528100136273537,
+      "top10_mass": 0.36885704107567624,
+      "score_margin": 0.005078315734863281
+    },
+    {
+      "density_inside": 0.02122702428557541,
+      "density_outside": 0.005252410435195965,
+      "density_ratio": 4.041387196113521,
+      "log_density_ratio": 1.396587998458403,
+      "coverage": 0.46314527995257815,
+      "area_fraction": 0.17591471354166666,
+      "sam_score": 0.9707566499710083,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8467108550135802,
+      "agreement_min": 0.7798239284167989,
+      "agreement_max": 0.9135977816103615,
+      "spread_mean": 0.35240089827713716,
+      "spread_max": 0.45911567951429144,
+      "entropy": 0.9528100136273537,
+      "top10_mass": 0.36885704107567624,
+      "score_margin": 0.005078315734863281
+    }
+  ],
+  "rank_scores": [
+    1.4606636306906502,
+    1.620680616310825,
+    1.1843132854359342
+  ],
+  "points": [
+    [
+      375.57142857142856,
+      503.1241610738255
+    ],
+    [
+      135.57142857142856,
+      423.66107382550337
+    ],
+    [
+      167.71428571428572,
+      200.30536912751677
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        175.0,
+        197.0
+      ],
+      [
+        63.0,
+        160.0
+      ],
+      [
+        78.0,
+        56.0
+      ]
+    ],
+    "crop_box": [
+      50,
+      117,
+      191,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000080826\\50985.map.npz": "15da977972451fccfe257548ebde01cd1c234371c6ae39a82140aceca9aee6b5",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000080826\\50985.map.json": "962f3dab122bab2a674e8e4212a88c07fa9f480442461d20d20baf75871fbd5e",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000080826\\50985.npz": "f76bc6616167db8dd7d1a187c4707aaca13a0d49ff96e197ceb7e23fe755e3d5"
+  }
+}

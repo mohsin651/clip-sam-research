@@ -1,0 +1,139 @@
+{
+  "image_id": 106072,
+  "sent_id": 55436,
+  "expression": "A shiny red Acura Integra with black rims",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000106072.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "dbe68cf2a4b09eb095343a9bb4d0c31cfb5d9989b5b397e072d53626c70a82a2",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.527626945523935,
+      "density_outside": 0.14085184743141674,
+      "density_ratio": 3.74597106919098,
+      "log_density_ratio": 1.3206808808735682,
+      "coverage": 0.526368457610368,
+      "area_fraction": 0.22879830210772834,
+      "sam_score": 0.9404182434082031,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5857827504375152,
+      "agreement_min": 0.4638943029683356,
+      "agreement_max": 0.7076711979066947,
+      "spread_mean": 0.16111446393291476,
+      "spread_max": 0.2282760865932787,
+      "entropy": 0.9795970559405204,
+      "top10_mass": 0.24062286424711346,
+      "score_margin": 0.050248026847839355
+    },
+    {
+      "density_inside": 0.6732857098363295,
+      "density_outside": 0.14298521444047607,
+      "density_ratio": 4.708778543755695,
+      "log_density_ratio": 1.549428541861369,
+      "coverage": 0.4780801229305928,
+      "area_fraction": 0.16285128805620608,
+      "sam_score": 0.9906662702560425,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6789006097137491,
+      "agreement_min": 0.6501300215208035,
+      "agreement_max": 0.7076711979066947,
+      "spread_mean": 0.16111446393291476,
+      "spread_max": 0.2282760865932787,
+      "entropy": 0.9795970559405204,
+      "top10_mass": 0.24062286424711346,
+      "score_margin": 0.050248026847839355
+    },
+    {
+      "density_inside": 0.6849375313867554,
+      "density_outside": 0.17503997460173584,
+      "density_ratio": 3.913034910689766,
+      "log_density_ratio": 1.3643132649097853,
+      "coverage": 0.3180686103662469,
+      "area_fraction": 0.10650248829039813,
+      "sam_score": 0.8526350259780884,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5570121622445695,
+      "agreement_min": 0.4638943029683356,
+      "agreement_max": 0.6501300215208035,
+      "spread_mean": 0.16111446393291476,
+      "spread_max": 0.2282760865932787,
+      "entropy": 0.9795970559405204,
+      "top10_mass": 0.24062286424711346,
+      "score_margin": 0.050248026847839355
+    }
+  ],
+  "rank_scores": [
+    0.7587443286974884,
+    1.2992395740915281,
+    -0.30894086800537574
+  ],
+  "points": [
+    [
+      309.94776119402985,
+      233.015625
+    ],
+    [
+      449.410447761194,
+      339.765625
+    ],
+    [
+      430.3059701492537,
+      273.046875
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        106.0,
+        122.0
+      ],
+      [
+        179.0,
+        178.0
+      ],
+      [
+        169.0,
+        143.0
+      ]
+    ],
+    "crop_box": [
+      40,
+      76,
+      224,
+      193
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000106072\\55436.map.npz": "6e425fd1c225837bca4cc9849d685e73a49edc82d389c534dc6cb85a8ec650ea",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000106072\\55436.map.json": "8bed034de0f7f13d28d82d0360485e276a9cc7b330bc01a60d3c581be88673cd",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000106072\\55436.npz": "f813d1928791563fc3b0bb49653e1b8a8e8d8f81b53c525f69ce1300630b6be4"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 52179,
+  "sent_id": 43422,
+  "expression": "A woman holds a fork as she eats a pizza",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000052179.jpg",
+  "geometry": {
+    "width": 427,
+    "height": 640,
+    "rw": 224,
+    "rh": 335,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "0000508fb8beaaae0976cef45ef6242ec92113382d08a121cf6d7eb1c1f86ad6",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5981503457187451,
+      "density_outside": 0.3203575109401213,
+      "density_ratio": 1.867133827958476,
+      "log_density_ratio": 0.624404542741365,
+      "coverage": 0.06964371716649356,
+      "area_fraction": 0.03854654566744731,
+      "sam_score": 0.6825118064880371,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.1644779545663097,
+      "agreement_min": 0.09550223885584441,
+      "agreement_max": 0.23345367027677497,
+      "spread_mean": 0.16000189783172683,
+      "spread_max": 0.2162251934133623,
+      "entropy": 0.9887471600369901,
+      "top10_mass": 0.18133166548760316,
+      "score_margin": 0.07053011655807495
+    },
+    {
+      "density_inside": 0.7976285155446671,
+      "density_outside": 0.32084519025066643,
+      "density_ratio": 2.4860229786178767,
+      "log_density_ratio": 0.9106842362561766,
+      "coverage": 0.051645003374851825,
+      "area_fraction": 0.02143588992974239,
+      "sam_score": 0.7543324828147888,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.1393607084690181,
+      "agreement_min": 0.09550223885584441,
+      "agreement_max": 0.1832191780821918,
+      "spread_mean": 0.16000189783172683,
+      "spread_max": 0.2162251934133623,
+      "entropy": 0.9887471600369901,
+      "top10_mass": 0.18133166548760316,
+      "score_margin": 0.07053011655807495
+    },
+    {
+      "density_inside": 0.7608389687066434,
+      "density_outside": 0.32497925068539707,
+      "density_ratio": 2.3411924518247114,
+      "log_density_ratio": 0.850660394368476,
+      "coverage": 0.03209071438869422,
+      "area_fraction": 0.013963700234192038,
+      "sam_score": 0.6838023662567139,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2083364241794834,
+      "agreement_min": 0.1832191780821918,
+      "agreement_max": 0.23345367027677497,
+      "spread_mean": 0.16000189783172683,
+      "spread_max": 0.2162251934133623,
+      "entropy": 0.9887471600369901,
+      "top10_mass": 0.18133166548760316,
+      "score_margin": 0.07053011655807495
+    }
+  ],
+  "rank_scores": [
+    -3.832019648082322,
+    -3.2747956443653785,
+    -3.4473604615085436
+  ],
+  "points": [
+    [
+      139.609375,
+      329.05223880597015
+    ],
+    [
+      259.703125,
+      348.15671641791045
+    ],
+    [
+      126.265625,
+      248.8134328358209
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 427,
+      "height": 640,
+      "rw": 224,
+      "rh": 335,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        73.0,
+        116.0
+      ],
+      [
+        136.0,
+        126.0
+      ],
+      [
+        66.0,
+        74.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      56,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000052179\\43422.map.npz": "583fddab284a604cd65be4df9d869587fc72b0998b09ff2a266d8b0f7f2a3c0c",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000052179\\43422.map.json": "cf6c66152af9e629025ef6558c7d2256903164f9a539a8daddb45bfc5744511b",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000052179\\43422.npz": "b584d4262f1a54985294e0734ce6a248128b31095241d6b93b2f05044ee1e4e7"
+  }
+}

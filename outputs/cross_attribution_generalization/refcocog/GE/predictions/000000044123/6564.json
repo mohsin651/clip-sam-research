@@ -1,0 +1,139 @@
+{
+  "image_id": 44123,
+  "sent_id": 6564,
+  "expression": "a white swan swimming on the left side of another swan",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000044123.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "51ca798e206755c9e03ebecf95cd4abb324550be0250458bd7302462725e36ea",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.05671160460428214,
+      "density_outside": 0.007149628930424612,
+      "density_ratio": 7.93210460965587,
+      "log_density_ratio": 2.0709183988958157,
+      "coverage": 0.4398323632561578,
+      "area_fraction": 0.09007161458333333,
+      "sam_score": 0.8588860034942627,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7623831969385616,
+      "agreement_min": 0.5500161864681127,
+      "agreement_max": 0.9747502074090105,
+      "spread_mean": 0.10938042823362054,
+      "spread_max": 0.11917289325272774,
+      "entropy": 0.9425397200830965,
+      "top10_mass": 0.44477773575231994,
+      "score_margin": 0.0004969239234924316
+    },
+    {
+      "density_inside": 0.05713606572523617,
+      "density_outside": 0.007213697358118491,
+      "density_ratio": 7.920496644208838,
+      "log_density_ratio": 2.069453911479923,
+      "coverage": 0.433611633247407,
+      "area_fraction": 0.08813802083333333,
+      "sam_score": 0.9274958968162537,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7676989992647123,
+      "agreement_min": 0.5606477911204142,
+      "agreement_max": 0.9747502074090105,
+      "spread_mean": 0.10938042823362054,
+      "spread_max": 0.11917289325272774,
+      "entropy": 0.9425397200830965,
+      "top10_mass": 0.44477773575231994,
+      "score_margin": 0.0004969239234924316
+    },
+    {
+      "density_inside": 0.06855622965324587,
+      "density_outside": 0.008604047257194582,
+      "density_ratio": 7.967904823855101,
+      "log_density_ratio": 2.075421575428243,
+      "coverage": 0.2963423435850107,
+      "area_fraction": 0.050201822916666666,
+      "sam_score": 0.9279928207397461,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5553319887942634,
+      "agreement_min": 0.5500161864681127,
+      "agreement_max": 0.5606477911204142,
+      "spread_mean": 0.10938042823362054,
+      "spread_max": 0.11917289325272774,
+      "entropy": 0.9425397200830965,
+      "top10_mass": 0.44477773575231994,
+      "score_margin": 0.0004969239234924316
+    }
+  ],
+  "rank_scores": [
+    1.7447910520758725,
+    1.843985929202683,
+    0.8082252374926103
+  ],
+  "points": [
+    [
+      232.5201342281879,
+      86.28571428571428
+    ],
+    [
+      230.3724832214765,
+      167.71428571428572
+    ],
+    [
+      311.9832214765101,
+      118.42857142857143
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        71.0,
+        40.0
+      ],
+      [
+        70.0,
+        78.0
+      ],
+      [
+        108.0,
+        55.0
+      ]
+    ],
+    "crop_box": [
+      36,
+      8,
+      181,
+      182
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000044123\\6564.map.npz": "fe7c04cc853b32eaa3d66eff15e06c555af65ec8242789d6576e9f87e2773628",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000044123\\6564.map.json": "49b36c35bc7679c8d3911c233765cc39121d2e2ade894396ea8f1ed66cc1b46d",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000044123\\6564.npz": "03db55015fbdc2c22cf30d18776095407aa49ca05e4e105d80dfe22fade47481"
+  }
+}

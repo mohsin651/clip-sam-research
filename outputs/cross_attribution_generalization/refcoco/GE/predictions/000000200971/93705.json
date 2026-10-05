@@ -1,0 +1,139 @@
+{
+  "image_id": 200971,
+  "sent_id": 93705,
+  "expression": "fridge on left",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000200971.jpg",
+  "geometry": {
+    "width": 500,
+    "height": 375,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "326942ecb1b911ad39b31aeead51b0364a4acbf62e1dc5412942ea916254d085",
+  "naive_candidate": 2,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.006101391329915158,
+      "density_outside": 0.0020625052684797606,
+      "density_ratio": 2.9582427837646943,
+      "log_density_ratio": 1.084595438083931,
+      "coverage": 0.3497359824410103,
+      "area_fraction": 0.15384,
+      "sam_score": 0.8337857723236084,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.39628158277616576,
+      "agreement_min": 0.39413703144308665,
+      "agreement_max": 0.3984261341092448,
+      "spread_mean": 0.19702039740292507,
+      "spread_max": 0.2937480367570094,
+      "entropy": 0.9368639134478678,
+      "top10_mass": 0.4000306238584825,
+      "score_margin": 0.05199843645095825
+    },
+    {
+      "density_inside": 0.01038110617266291,
+      "density_outside": 0.0020890768186676073,
+      "density_ratio": 4.96923142075486,
+      "log_density_ratio": 1.603265184534999,
+      "coverage": 0.27744347750955567,
+      "area_fraction": 0.071728,
+      "sam_score": 0.8640279173851013,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6352932452283417,
+      "agreement_min": 0.3984261341092448,
+      "agreement_max": 0.8721603563474387,
+      "spread_mean": 0.19702039740292507,
+      "spread_max": 0.2937480367570094,
+      "entropy": 0.9368639134478678,
+      "top10_mass": 0.4000306238584825,
+      "score_margin": 0.05199843645095825
+    },
+    {
+      "density_inside": 0.0112077488411237,
+      "density_outside": 0.0021129875216716137,
+      "density_ratio": 5.304219130907539,
+      "log_density_ratio": 1.668502566393043,
+      "coverage": 0.2621192073002787,
+      "area_fraction": 0.062768,
+      "sam_score": 0.9160263538360596,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6331486938952626,
+      "agreement_min": 0.39413703144308665,
+      "agreement_max": 0.8721603563474387,
+      "spread_mean": 0.19702039740292507,
+      "spread_max": 0.2937480367570094,
+      "entropy": 0.9368639134478678,
+      "top10_mass": 0.4000306238584825,
+      "score_margin": 0.05199843645095825
+    }
+  ],
+  "rank_scores": [
+    -0.9248851685691312,
+    -0.11708002272465035,
+    -0.01752149691841679
+  ],
+  "points": [
+    [
+      104.36577181208054,
+      137.61383928571428
+    ],
+    [
+      104.36577181208054,
+      55.582589285714285
+    ],
+    [
+      72.48657718120805,
+      236.3861607142857
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 500,
+      "height": 375,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        25.0,
+        82.0
+      ],
+      [
+        25.0,
+        33.0
+      ],
+      [
+        6.0,
+        141.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      88,
+      160
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000200971\\93705.map.npz": "16ae1660bfbf12a95acb442abf031eeb54c7cb055755cae19d9d8cc106ae5dbc",
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000200971\\93705.map.json": "b5590c5aced03a3d960c3efecfa4eeea80502ba7e10b9dfaa9df909a6166476e",
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000200971\\93705.npz": "112c5a0810b71993026357b168e283524494fb22a19874e6def5802dbd626f1b"
+  }
+}

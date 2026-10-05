@@ -1,0 +1,139 @@
+{
+  "image_id": 376090,
+  "sent_id": 63852,
+  "expression": "A zebra, within a group of at least 4 other zebras, facing left.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000376090.jpg",
+  "geometry": {
+    "width": 427,
+    "height": 640,
+    "rw": 224,
+    "rh": 335,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "7f2d9a393250575747a60d31b69c8d18079269ab05f098e5afdad76970390358",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.654038918074694,
+      "density_outside": 0.2133244265749433,
+      "density_ratio": 3.065935432583276,
+      "log_density_ratio": 1.1203527210589135,
+      "coverage": 0.2940248920272438,
+      "area_fraction": 0.1195952868852459,
+      "sam_score": 0.8346641063690186,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8215736678908228,
+      "agreement_min": 0.7192987823533011,
+      "agreement_max": 0.9238485534283443,
+      "spread_mean": 0.1266267877958955,
+      "spread_max": 0.17404239671476304,
+      "entropy": 0.9906030041664184,
+      "top10_mass": 0.22482147707104566,
+      "score_margin": 0.09338027238845825
+    },
+    {
+      "density_inside": 0.6898295283702137,
+      "density_outside": 0.21333453956954082,
+      "density_ratio": 3.233557630934469,
+      "log_density_ratio": 1.1735829648287666,
+      "coverage": 0.2867727925616577,
+      "area_fraction": 0.11059353044496487,
+      "sam_score": 0.9280443787574768,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8509326478222686,
+      "agreement_min": 0.778016742216193,
+      "agreement_max": 0.9238485534283443,
+      "spread_mean": 0.1266267877958955,
+      "spread_max": 0.17404239671476304,
+      "entropy": 0.9906030041664184,
+      "top10_mass": 0.22482147707104566,
+      "score_margin": 0.09338027238845825
+    },
+    {
+      "density_inside": 0.7728726500615971,
+      "density_outside": 0.21831571761784416,
+      "density_ratio": 3.5401603626677485,
+      "log_density_ratio": 1.264172026309584,
+      "coverage": 0.24997296795298143,
+      "area_fraction": 0.08604361826697893,
+      "sam_score": 0.804956316947937,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.748657762284747,
+      "agreement_min": 0.7192987823533011,
+      "agreement_max": 0.778016742216193,
+      "spread_mean": 0.1266267877958955,
+      "spread_max": 0.17404239671476304,
+      "entropy": 0.9906030041664184,
+      "top10_mass": 0.22482147707104566,
+      "score_margin": 0.09338027238845825
+    }
+  ],
+  "rank_scores": [
+    -0.440563245022105,
+    -0.14898843075819757,
+    -0.5632329686562653
+  ],
+  "points": [
+    [
+      246.359375,
+      527.7388059701492
+    ],
+    [
+      219.671875,
+      468.5149253731343
+    ],
+    [
+      126.265625,
+      468.5149253731343
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 427,
+      "height": 640,
+      "rw": 224,
+      "rh": 335,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        129.0,
+        220.0
+      ],
+      [
+        115.0,
+        189.0
+      ],
+      [
+        66.0,
+        189.0
+      ]
+    ],
+    "crop_box": [
+      16,
+      150,
+      197,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000376090\\63852.map.npz": "25008f3133c5b2610e13acb939149aa0b82b5d7be4b90a0713e5fa45d50c7223",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000376090\\63852.map.json": "70d2a56eba5251b512b58645b97b7d2816ef6f825ae67c46ca9f5b39fa1ec11c",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000376090\\63852.npz": "a08bb40bf024d7340fae0dc957ca3ce1061fe9739ff5c18a8d0ec6b3ef4d234c"
+  }
+}

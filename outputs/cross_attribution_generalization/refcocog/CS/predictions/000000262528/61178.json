@@ -1,0 +1,139 @@
+{
+  "image_id": 262528,
+  "sent_id": 61178,
+  "expression": "A baseball player running into a base with his left leg up.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000262528.jpg",
+  "geometry": {
+    "width": 318,
+    "height": 480,
+    "rw": 224,
+    "rh": 338,
+    "left": 0,
+    "top": 57
+  },
+  "image_sha256": "545e3d8413e537eb92f22da0db8a5abd52c2850368516f49480f228eb8038cee",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.39705054208226087,
+      "density_outside": 0.27346278834082005,
+      "density_ratio": 1.4519362743641742,
+      "log_density_ratio": 0.3728980272630651,
+      "coverage": 0.4406656111674837,
+      "area_fraction": 0.351749213836478,
+      "sam_score": 0.9524508714675903,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.270893229081025,
+      "agreement_min": 0.19431434671809353,
+      "agreement_max": 0.3474721114439564,
+      "spread_mean": 0.23634693162364084,
+      "spread_max": 0.3484674588591953,
+      "entropy": 0.987229031626156,
+      "top10_mass": 0.18730044661116876,
+      "score_margin": 0.07403773069381714
+    },
+    {
+      "density_inside": 0.7687996112539361,
+      "density_outside": 0.250251050884295,
+      "density_ratio": 3.072113417842641,
+      "log_density_ratio": 1.1223657344758562,
+      "coverage": 0.31194153447554285,
+      "area_fraction": 0.12859669811320754,
+      "sam_score": 0.8784131407737732,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.27686970572368685,
+      "agreement_min": 0.20626730000341728,
+      "agreement_max": 0.3474721114439564,
+      "spread_mean": 0.23634693162364084,
+      "spread_max": 0.3484674588591953,
+      "entropy": 0.987229031626156,
+      "top10_mass": 0.18730044661116876,
+      "score_margin": 0.07403773069381714
+    },
+    {
+      "density_inside": 0.5537212799181395,
+      "density_outside": 0.28984520436706745,
+      "density_ratio": 1.9104034552698073,
+      "log_density_ratio": 0.6473144528793225,
+      "coverage": 0.1793585501565728,
+      "area_fraction": 0.1026598532494759,
+      "sam_score": 0.8352482318878174,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.2002908233607554,
+      "agreement_min": 0.19431434671809353,
+      "agreement_max": 0.20626730000341728,
+      "spread_mean": 0.23634693162364084,
+      "spread_max": 0.3484674588591953,
+      "entropy": 0.987229031626156,
+      "top10_mass": 0.18730044661116876,
+      "score_margin": 0.07403773069381714
+    }
+  ],
+  "rank_scores": [
+    -2.0723688901344843,
+    -1.1738218868193107,
+    -2.9672878276365835
+  ],
+  "points": [
+    [
+      113.78125,
+      231.68934911242602
+    ],
+    [
+      233.03125,
+      262.93195266272187
+    ],
+    [
+      54.15625,
+      172.04437869822485
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 318,
+      "height": 480,
+      "rw": 224,
+      "rh": 338,
+      "left": 0,
+      "top": 57
+    },
+    "crop_points": [
+      [
+        80.0,
+        106.0
+      ],
+      [
+        164.0,
+        128.0
+      ],
+      [
+        38.0,
+        64.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000262528\\61178.map.npz": "c44748c3de66e3a01ba112c527080f5f6fe5770ed689c5c06c2587b2b5436009",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000262528\\61178.map.json": "01208b54dbcf9e71777f7e9c83861184aa786c1e3f481f4a0cfc545b6362b505",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000262528\\61178.npz": "7dc6a05480745dd73204d065a40cd64b49689f07d81cb93b0128c3e463460c38"
+  }
+}

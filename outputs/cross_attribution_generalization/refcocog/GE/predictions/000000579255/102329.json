@@ -1,0 +1,139 @@
+{
+  "image_id": 579255,
+  "sent_id": 102329,
+  "expression": "A couch is front of a table",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000579255.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "baeab98d07afd9882eafc7121cf6b8ffbbfc980c0e03aad280d0838782e0564c",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.015028725197427923,
+      "density_outside": 0.003720460691819326,
+      "density_ratio": 4.039479633915797,
+      "log_density_ratio": 1.3961158802575278,
+      "coverage": 0.17047277427440521,
+      "area_fraction": 0.04841145833333333,
+      "sam_score": 0.8487862348556519,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8532553228957105,
+      "agreement_min": 0.8075968055835179,
+      "agreement_max": 0.898913840207903,
+      "spread_mean": 0.1454032872568756,
+      "spread_max": 0.1776075129162017,
+      "entropy": 0.9514890586233504,
+      "top10_mass": 0.317129675889899,
+      "score_margin": 0.032720327377319336
+    },
+    {
+      "density_inside": 0.015451629671904712,
+      "density_outside": 0.003748866831217257,
+      "density_ratio": 4.121680060522686,
+      "log_density_ratio": 1.416260861986063,
+      "coverage": 0.16057366153004274,
+      "area_fraction": 0.044352213541666664,
+      "sam_score": 0.9323887825012207,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8778941038541321,
+      "agreement_min": 0.8568743675003614,
+      "agreement_max": 0.898913840207903,
+      "spread_mean": 0.1454032872568756,
+      "spread_max": 0.1776075129162017,
+      "entropy": 0.9514890586233504,
+      "top10_mass": 0.317129675889899,
+      "score_margin": 0.032720327377319336
+    },
+    {
+      "density_inside": 0.01599248456717833,
+      "density_outside": 0.0037886970895564965,
+      "density_ratio": 4.221104032581634,
+      "log_density_ratio": 1.4400967129893159,
+      "coverage": 0.1471413637486989,
+      "area_fraction": 0.039267578125,
+      "sam_score": 0.8996684551239014,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8322355865419396,
+      "agreement_min": 0.8075968055835179,
+      "agreement_max": 0.8568743675003614,
+      "spread_mean": 0.1454032872568756,
+      "spread_max": 0.1776075129162017,
+      "entropy": 0.9514890586233504,
+      "top10_mass": 0.317129675889899,
+      "score_margin": 0.032720327377319336
+    }
+  ],
+  "rank_scores": [
+    -0.5451600771327085,
+    -0.3630825206776354,
+    -0.5474627459455471
+  ],
+  "points": [
+    [
+      391.4463087248322,
+      358.42857142857144
+    ],
+    [
+      391.4463087248322,
+      279.1428571428571
+    ],
+    [
+      264.73489932885906,
+      343.42857142857144
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        145.0,
+        167.0
+      ],
+      [
+        145.0,
+        130.0
+      ],
+      [
+        86.0,
+        160.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      74,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000579255\\102329.map.npz": "f2c16c0de8cfcbd80f61d97d0c9181db342037112410defd30594f6f1cd898c3",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000579255\\102329.map.json": "92a5a96350f05234e2bbf36aa9be88b38c065c6c8eb63bd52517f04f4bf51834",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000579255\\102329.npz": "dc4e6eece08375b6a2c1d7601d3040a42389432d5333e8695d7d3f54a5065b92"
+  }
+}

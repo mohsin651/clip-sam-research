@@ -1,0 +1,139 @@
+{
+  "image_id": 11324,
+  "sent_id": 81209,
+  "expression": "giraffe totally facing forward",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000011324.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 448,
+    "rw": 320,
+    "rh": 224,
+    "left": 48,
+    "top": 0
+  },
+  "image_sha256": "0b050612ad6b4a2feebdcae34b0e7edff9f43834b0882680d49bdb4cf61d5fff",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.025348697696611373,
+      "density_outside": 0.005388380774690569,
+      "density_ratio": 4.704325613173228,
+      "log_density_ratio": 1.548482428727654,
+      "coverage": 0.746677415923268,
+      "area_fraction": 0.385205078125,
+      "sam_score": 0.9757022261619568,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5120069297173379,
+      "agreement_min": 0.4636007349546989,
+      "agreement_max": 0.5604131244799768,
+      "spread_mean": 0.18346792821090316,
+      "spread_max": 0.22600040925454423,
+      "entropy": 0.9523980209354046,
+      "top10_mass": 0.33907514556216234,
+      "score_margin": 0.0039746761322021484
+    },
+    {
+      "density_inside": 0.034318109261389056,
+      "density_outside": 0.007205751990934237,
+      "density_ratio": 4.762599281768655,
+      "log_density_ratio": 1.5607935868302687,
+      "coverage": 0.56831140725034,
+      "area_fraction": 0.21655970982142858,
+      "sam_score": 0.9717275500297546,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6926924743314391,
+      "agreement_min": 0.5604131244799768,
+      "agreement_max": 0.8249718241829013,
+      "spread_mean": 0.18346792821090316,
+      "spread_max": 0.22600040925454423,
+      "entropy": 0.9523980209354046,
+      "top10_mass": 0.33907514556216234,
+      "score_margin": 0.0039746761322021484
+    },
+    {
+      "density_inside": 0.03791346102310478,
+      "density_outside": 0.007670688926992621,
+      "density_ratio": 4.942640925608038,
+      "log_density_ratio": 1.5978997887038755,
+      "coverage": 0.5182913822338875,
+      "area_fraction": 0.17877022879464285,
+      "sam_score": 0.9176051616668701,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6442862795688,
+      "agreement_min": 0.4636007349546989,
+      "agreement_max": 0.8249718241829013,
+      "spread_mean": 0.18346792821090316,
+      "spread_max": 0.22600040925454423,
+      "entropy": 0.9523980209354046,
+      "top10_mass": 0.33907514556216234,
+      "score_margin": 0.0039746761322021484
+    }
+  ],
+  "rank_scores": [
+    1.851033373630381,
+    1.6049242705026157,
+    1.2506248055107503
+  ],
+  "points": [
+    [
+      438.5,
+      392.5
+    ],
+    [
+      360.5,
+      406.5
+    ],
+    [
+      374.5,
+      230.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 448,
+      "rw": 320,
+      "rh": 224,
+      "left": 48,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        171.0,
+        196.0
+      ],
+      [
+        132.0,
+        203.0
+      ],
+      [
+        139.0,
+        115.0
+      ]
+    ],
+    "crop_box": [
+      116,
+      29,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011324\\81209.map.npz": "af9548c2513cbb07c6eb0c35b67ee2b3d1a5c42e8a36fe733c1fb00cdafad814",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011324\\81209.map.json": "3c39fa567071d8ab0de41678678237ec070d579507d6398d6816791b4c998282",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000011324\\81209.npz": "e0e4b0138bf459b86a93a6ac7d0d0adbf1416763e0389fc7493313028df97a46"
+  }
+}

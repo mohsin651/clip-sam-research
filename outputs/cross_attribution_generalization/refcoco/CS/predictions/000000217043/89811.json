@@ -1,0 +1,139 @@
+{
+  "image_id": 217043,
+  "sent_id": 89811,
+  "expression": "vase on left",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000217043.jpg",
+  "geometry": {
+    "width": 344,
+    "height": 640,
+    "rw": 224,
+    "rh": 416,
+    "left": 0,
+    "top": 96
+  },
+  "image_sha256": "dcdb0576935e44f14e74e95f8068fea1c7fe7f66ee009d5ee27b2c35fb352ba8",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": false,
+  "features": [
+    {
+      "density_inside": 0.22777689747636773,
+      "density_outside": 0.26866832174109734,
+      "density_ratio": 0.8477996065908266,
+      "log_density_ratio": -0.165110984094672,
+      "coverage": 0.2566316117737012,
+      "area_fraction": 0.2893713662790698,
+      "sam_score": 0.9155091047286987,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.42593700667722445,
+      "agreement_min": 0.17795488862253078,
+      "agreement_max": 0.6739191247319181,
+      "spread_mean": 0.1627483969382683,
+      "spread_max": 0.2229852226818832,
+      "entropy": 0.9943147734211525,
+      "top10_mass": 0.16665181126512243,
+      "score_margin": 0.017616629600524902
+    },
+    {
+      "density_inside": 0.15349223746177224,
+      "density_outside": 0.28264933426054845,
+      "density_ratio": 0.5430482893681214,
+      "log_density_ratio": -0.6105570322994304,
+      "coverage": 0.11944427549979308,
+      "area_fraction": 0.19986373546511627,
+      "sam_score": 0.9331257343292236,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.46618403564187927,
+      "agreement_min": 0.2584489465518404,
+      "agreement_max": 0.6739191247319181,
+      "spread_mean": 0.1627483969382683,
+      "spread_max": 0.2229852226818832,
+      "entropy": 0.9943147734211525,
+      "top10_mass": 0.16665181126512243,
+      "score_margin": 0.017616629600524902
+    },
+    {
+      "density_inside": 0.4394548677147755,
+      "density_outside": 0.2463403509462538,
+      "density_ratio": 1.783933756791924,
+      "log_density_ratio": 0.5788209016275971,
+      "coverage": 0.09298940938149845,
+      "area_fraction": 0.0543468386627907,
+      "sam_score": 0.7491593360900879,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2182019175871856,
+      "agreement_min": 0.17795488862253078,
+      "agreement_max": 0.2584489465518404,
+      "spread_mean": 0.1627483969382683,
+      "spread_max": 0.2229852226818832,
+      "entropy": 0.9943147734211525,
+      "top10_mass": 0.16665181126512243,
+      "score_margin": 0.017616629600524902
+    }
+  ],
+  "rank_scores": [
+    -3.6546190967973082,
+    -4.644196719801932,
+    -3.401828645472881
+  ],
+  "points": [
+    [
+      166.125,
+      149.5
+    ],
+    [
+      187.625,
+      209.5
+    ],
+    [
+      37.125,
+      149.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 344,
+      "height": 640,
+      "rw": 224,
+      "rh": 416,
+      "left": 0,
+      "top": 96
+    },
+    "crop_points": [
+      [
+        108.0,
+        1.0
+      ],
+      [
+        122.0,
+        40.0
+      ],
+      [
+        24.0,
+        1.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000217043\\89811.map.npz": "87be7722dc38ea50cb2200cc6b158d90751adfe0790360128d4b1ef8b5cc4739",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000217043\\89811.map.json": "c776229cb085bfe1aa133de2613dd229f0a085a75aa61f741e1a444e76ee6bf0",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000217043\\89811.npz": "d22c5305f6773677c134d72bb8d1a1b9de663b3b8ac2b583d1088c352fb8dbdc"
+  }
+}

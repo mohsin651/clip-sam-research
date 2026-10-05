@@ -1,0 +1,139 @@
+{
+  "image_id": 500603,
+  "sent_id": 104538,
+  "expression": "The bat held by the man on the right.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000500603.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 509,
+    "rw": 281,
+    "rh": 224,
+    "left": 28,
+    "top": 0
+  },
+  "image_sha256": "2a586a96a9cd36c7b49c3514cf0cc57c2ca419f01e82a37cfbc152523cbca5bc",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.6469183469542472,
+      "density_outside": 0.29981950492966997,
+      "density_ratio": 2.157692666138716,
+      "log_density_ratio": 0.7690394406335959,
+      "coverage": 0.2842032190383044,
+      "area_fraction": 0.15541502946954813,
+      "sam_score": 0.6903268694877625,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.025519312384553954,
+      "agreement_min": 0.021064873514572275,
+      "agreement_max": 0.02997375125453563,
+      "spread_mean": 0.23406995964724442,
+      "spread_max": 0.3446363001291884,
+      "entropy": 0.9841486769558209,
+      "top10_mass": 0.18004269297586403,
+      "score_margin": 0.003931105136871338
+    },
+    {
+      "density_inside": 0.2198372951709072,
+      "density_outside": 0.3878839052866729,
+      "density_ratio": 0.5667605491593305,
+      "log_density_ratio": -0.5678183763369218,
+      "coverage": 0.12617329594632268,
+      "area_fraction": 0.20303904715127702,
+      "sam_score": 0.8658545613288879,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4115451584283506,
+      "agreement_min": 0.021064873514572275,
+      "agreement_max": 0.8020254433421289,
+      "spread_mean": 0.23406995964724442,
+      "spread_max": 0.3446363001291884,
+      "entropy": 0.9841486769558209,
+      "top10_mass": 0.18004269297586403,
+      "score_margin": 0.003931105136871338
+    },
+    {
+      "density_inside": 0.25167235250946407,
+      "density_outside": 0.37500389300307657,
+      "density_ratio": 0.6711193062380507,
+      "log_density_ratio": -0.3988083541782158,
+      "coverage": 0.12251876365349429,
+      "area_fraction": 0.17221881139489195,
+      "sam_score": 0.8619234561920166,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.41599959729833225,
+      "agreement_min": 0.02997375125453563,
+      "agreement_max": 0.8020254433421289,
+      "spread_mean": 0.23406995964724442,
+      "spread_max": 0.3446363001291884,
+      "entropy": 0.9841486769558209,
+      "top10_mass": 0.18004269297586403,
+      "score_margin": 0.003931105136871338
+    }
+  ],
+  "rank_scores": [
+    -2.6871555644761975,
+    -4.8261845575825895,
+    -4.539815301554185
+  ],
+  "points": [
+    [
+      248.89501779359432,
+      373.29687499999994
+    ],
+    [
+      148.68149466192173,
+      405.10937499999994
+    ],
+    [
+      369.60676156583634,
+      230.14062499999997
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 509,
+      "rw": 281,
+      "rh": 224,
+      "left": 28,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        81.0,
+        164.0
+      ],
+      [
+        37.0,
+        178.0
+      ],
+      [
+        134.0,
+        101.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      4,
+      224,
+      204
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000500603\\104538.map.npz": "8b418942630055dcf77fe69a3236db3e336672e9a08724490e165506db08ef7e",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000500603\\104538.map.json": "adb89dad68f215ae9805d3185782a4744494203ade4dda7d79182dff3f5b2ea7",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000500603\\104538.npz": "d15152eed50a52f0c3ee3f60fbd890b15e11fba7f3e08e59a36fd4ce0b098fa3"
+  }
+}

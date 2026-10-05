@@ -1,0 +1,139 @@
+{
+  "image_id": 366009,
+  "sent_id": 102272,
+  "expression": "The lady is sitting in the chair next to a box of tissue.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000366009.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 483,
+    "rw": 296,
+    "rh": 224,
+    "left": 36,
+    "top": 0
+  },
+  "image_sha256": "4c4d9854a8e4b59e916773c1e4edb469ba8de3169f55ede0f7f567e26a7e8548",
+  "naive_candidate": 0,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.00789918951612928,
+      "density_outside": 0.003885903905468429,
+      "density_ratio": 2.032780456300112,
+      "log_density_ratio": 0.709404538926762,
+      "coverage": 0.13251001675440802,
+      "area_fraction": 0.0698919513457557,
+      "sam_score": 0.7479026317596436,
+      "points_inside": 0,
+      "points_fraction": 0.0,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.09193703653719906,
+      "agreement_min": 0.004512336479549594,
+      "agreement_max": 0.17936173659484853,
+      "spread_mean": 0.37003350144752334,
+      "spread_max": 0.4210212013101418,
+      "entropy": 0.9595196385996185,
+      "top10_mass": 0.3111170856068023,
+      "score_margin": 0.049720704555511475
+    },
+    {
+      "density_inside": 0.00806985023682557,
+      "density_outside": 0.0039701694281562405,
+      "density_ratio": 2.0326211212957257,
+      "log_density_ratio": 0.7093261530616175,
+      "coverage": 0.0927089585446636,
+      "area_fraction": 0.04786490683229814,
+      "sam_score": 0.6981819272041321,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.14226079865513241,
+      "agreement_min": 0.10515986071541628,
+      "agreement_max": 0.17936173659484853,
+      "spread_mean": 0.37003350144752334,
+      "spread_max": 0.4210212013101418,
+      "entropy": 0.9595196385996185,
+      "top10_mass": 0.3111170856068023,
+      "score_margin": 0.049720704555511475
+    },
+    {
+      "density_inside": 0.015972874634391523,
+      "density_outside": 0.0040639228752504305,
+      "density_ratio": 3.9304079139240113,
+      "log_density_ratio": 1.3687432154490649,
+      "coverage": 0.032989567693678674,
+      "area_fraction": 0.008605072463768116,
+      "sam_score": 0.6731784343719482,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.05483609859748294,
+      "agreement_min": 0.004512336479549594,
+      "agreement_max": 0.10515986071541628,
+      "spread_mean": 0.37003350144752334,
+      "spread_max": 0.4210212013101418,
+      "entropy": 0.9595196385996185,
+      "top10_mass": 0.3111170856068023,
+      "score_margin": 0.049720704555511475
+    }
+  ],
+  "rank_scores": [
+    -3.4114371754707618,
+    -3.4390175967251775,
+    -3.0892618251461976
+  ],
+  "points": [
+    [
+      264.3648648648649,
+      298.140625
+    ],
+    [
+      551.9324324324325,
+      474.953125
+    ],
+    [
+      456.79729729729735,
+      168.765625
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 483,
+      "rw": 296,
+      "rh": 224,
+      "left": 36,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        86.0,
+        138.0
+      ],
+      [
+        219.0,
+        220.0
+      ],
+      [
+        175.0,
+        78.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      8,
+      210,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000366009\\102272.map.npz": "4f31dfcd2b18a693de861377efb67dc50c1d788d4212837b7d0bb15cab9fa6b1",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000366009\\102272.map.json": "897a3a2ac95f7b214dde131c1b0fd49f70826a574e92539dbd552d0055e52a6d",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000366009\\102272.npz": "a3b01f01fb8af54edf6241c7c0e47e402cc595bf04ac596c4b93b768bd49aa56"
+  }
+}

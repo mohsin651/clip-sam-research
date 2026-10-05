@@ -1,0 +1,139 @@
+{
+  "image_id": 54083,
+  "sent_id": 63567,
+  "expression": "potted plant on shelf in distance",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000054083.jpg",
+  "geometry": {
+    "width": 387,
+    "height": 387,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "54770ba393c505314c9a87faa904aba732f8325e07a2ef021ffa9ec342d3b6fa",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.006615260900255962,
+      "density_outside": 0.002989425887061572,
+      "density_ratio": 2.2128867374415773,
+      "log_density_ratio": 0.7942978793597341,
+      "coverage": 0.6186172204684736,
+      "area_fraction": 0.42296469896974676,
+      "sam_score": 0.8644530773162842,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4139891910494472,
+      "agreement_min": 0.3640193108670958,
+      "agreement_max": 0.4639590712317985,
+      "spread_mean": 0.4085850896913213,
+      "spread_max": 0.5884141959061471,
+      "entropy": 0.914175653574375,
+      "top10_mass": 0.55603576091001,
+      "score_margin": 0.05778169631958008
+    },
+    {
+      "density_inside": 0.009391058016902067,
+      "density_outside": 0.003321357623345264,
+      "density_ratio": 2.8274757129634054,
+      "log_density_ratio": 1.0393843394980347,
+      "coverage": 0.4110577534261906,
+      "area_fraction": 0.19797821979181274,
+      "sam_score": 0.9222347736358643,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6196141251179181,
+      "agreement_min": 0.4639590712317985,
+      "agreement_max": 0.7752691790040377,
+      "spread_mean": 0.4085850896913213,
+      "spread_max": 0.5884141959061471,
+      "entropy": 0.914175653574375,
+      "top10_mass": 0.55603576091001,
+      "score_margin": 0.05778169631958008
+    },
+    {
+      "density_inside": 0.010733458551714035,
+      "density_outside": 0.0033898804595807507,
+      "density_ratio": 3.166323614218299,
+      "log_density_ratio": 1.152571171811063,
+      "coverage": 0.36617492811884395,
+      "area_fraction": 0.15430429528140002,
+      "sam_score": 0.6540564298629761,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5696442449355668,
+      "agreement_min": 0.3640193108670958,
+      "agreement_max": 0.7752691790040377,
+      "spread_mean": 0.4085850896913213,
+      "spread_max": 0.5884141959061471,
+      "entropy": 0.914175653574375,
+      "top10_mass": 0.55603576091001,
+      "score_margin": 0.05778169631958008
+    }
+  ],
+  "rank_scores": [
+    -0.5086682419093447,
+    -0.25597458384641164,
+    -0.8449382345883918
+  ],
+  "points": [
+    [
+      105.75223214285714,
+      104.02455357142857
+    ],
+    [
+      249.14955357142856,
+      24.551339285714285
+    ],
+    [
+      55.64955357142857,
+      281.97544642857144
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 387,
+      "height": 387,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        61.0,
+        60.0
+      ],
+      [
+        144.0,
+        14.0
+      ],
+      [
+        32.0,
+        163.0
+      ]
+    ],
+    "crop_box": [
+      32,
+      0,
+      197,
+      110
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000054083\\63567.map.npz": "1565b7166787c1704033d5320a0f65fdcc16165d7cc39a9ba6d51dd5ea15a564",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000054083\\63567.map.json": "0b22771ec012f0dcf7859dbe3d2c4f649971ce404807b3b87bfc81ad2a842072",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000054083\\63567.npz": "bfe33a09ae5b2137407b49726f131659238a392b39ecb87c169f10a4a5e5a747"
+  }
+}

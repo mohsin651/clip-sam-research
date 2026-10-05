@@ -1,0 +1,139 @@
+{
+  "image_id": 517123,
+  "sent_id": 16141,
+  "expression": "right sheep",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000517123.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "2b72937e1f58beace15f961c0e34658b99757f3b137c593d5098dc9267ee08f9",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5789150362200945,
+      "density_outside": 0.17846553948581684,
+      "density_ratio": 3.2438477360098905,
+      "log_density_ratio": 1.1767601980416886,
+      "coverage": 0.3225442375732161,
+      "area_fraction": 0.12798828125,
+      "sam_score": 0.9538989067077637,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.917554477187859,
+      "agreement_min": 0.8442818676014835,
+      "agreement_max": 0.9908270867742345,
+      "spread_mean": 0.16293848924183235,
+      "spread_max": 0.1974048907221941,
+      "entropy": 0.9772669434017537,
+      "top10_mass": 0.3046150522257343,
+      "score_margin": 0.006121277809143066
+    },
+    {
+      "density_inside": 0.5787138360167157,
+      "density_outside": 0.17892339274514518,
+      "density_ratio": 3.2344224370805965,
+      "log_density_ratio": 1.1738503763368686,
+      "coverage": 0.3200785591642444,
+      "area_fraction": 0.12705403645833332,
+      "sam_score": 0.9681814908981323,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.9209389228634015,
+      "agreement_min": 0.8510507589525687,
+      "agreement_max": 0.9908270867742345,
+      "spread_mean": 0.16293848924183235,
+      "spread_max": 0.1974048907221941,
+      "entropy": 0.9772669434017537,
+      "top10_mass": 0.3046150522257343,
+      "score_margin": 0.006121277809143066
+    },
+    {
+      "density_inside": 0.5328652743637837,
+      "density_outside": 0.19288248678688755,
+      "density_ratio": 2.7626420793183493,
+      "log_density_ratio": 1.0161874969506541,
+      "coverage": 0.2513251624063436,
+      "area_fraction": 0.10834635416666667,
+      "sam_score": 0.9743027687072754,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8476663132770261,
+      "agreement_min": 0.8442818676014835,
+      "agreement_max": 0.8510507589525687,
+      "spread_mean": 0.16293848924183235,
+      "spread_max": 0.1974048907221941,
+      "entropy": 0.9772669434017537,
+      "top10_mass": 0.3046150522257343,
+      "score_margin": 0.006121277809143066
+    }
+  ],
+  "rank_scores": [
+    0.19350534388471224,
+    0.21049696498063503,
+    -0.45896729954613763
+  ],
+  "points": [
+    [
+      558.9630872483222,
+      37.0
+    ],
+    [
+      449.43288590604027,
+      97.0
+    ],
+    [
+      509.56711409395973,
+      187.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        223.0,
+        17.0
+      ],
+      [
+        172.0,
+        45.0
+      ],
+      [
+        200.0,
+        87.0
+      ]
+    ],
+    "crop_box": [
+      113,
+      0,
+      224,
+      103
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000517123\\16141.map.npz": "e818f35549388f70d37f7989eb8327b00eeebd385fe033cd079d46d158491baa",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000517123\\16141.map.json": "64026c179bf0086ee10fdfb22de6f273553867a1c304135797656bbaeb30a39a",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000517123\\16141.npz": "bc9c4508d5d0c314a15f4e621b5f202c027c4689cf2ea697fa149a8f66b698cb"
+  }
+}

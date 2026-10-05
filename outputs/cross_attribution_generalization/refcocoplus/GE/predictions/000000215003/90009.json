@@ -1,0 +1,139 @@
+{
+  "image_id": 215003,
+  "sent_id": 90009,
+  "expression": "arms up",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000215003.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 434,
+    "rw": 330,
+    "rh": 224,
+    "left": 53,
+    "top": 0
+  },
+  "image_sha256": "d8301b5f353da0e38556d66d4ffaf411c125b5c6420394cc22ee287fad186375",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.009222800850915518,
+      "density_outside": 0.0020606665496089053,
+      "density_ratio": 4.475639616797913,
+      "log_density_ratio": 1.4986492727495906,
+      "coverage": 0.5082367919702928,
+      "area_fraction": 0.18759720622119816,
+      "sam_score": 0.9187179207801819,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2648012829697587,
+      "agreement_min": 0.26383636988655895,
+      "agreement_max": 0.26576619605295837,
+      "spread_mean": 0.1631789953695306,
+      "spread_max": 0.2122136243834751,
+      "entropy": 0.9104716538704319,
+      "top10_mass": 0.540564996799656,
+      "score_margin": 0.0023334622383117676
+    },
+    {
+      "density_inside": 0.023794075632425034,
+      "density_outside": 0.0023100275209706513,
+      "density_ratio": 10.300342920644795,
+      "log_density_ratio": 2.3321771879898936,
+      "coverage": 0.35599212540526093,
+      "area_fraction": 0.050932459677419356,
+      "sam_score": 0.9526451230049133,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6277706235888514,
+      "agreement_min": 0.26576619605295837,
+      "agreement_max": 0.9897750511247444,
+      "spread_mean": 0.1631789953695306,
+      "spread_max": 0.2122136243834751,
+      "entropy": 0.9104716538704319,
+      "top10_mass": 0.540564996799656,
+      "score_margin": 0.0023334622383117676
+    },
+    {
+      "density_inside": 0.02392499140445573,
+      "density_outside": 0.0023093156501834016,
+      "density_ratio": 10.360208398620362,
+      "log_density_ratio": 2.3379723523677627,
+      "coverage": 0.3560025329994444,
+      "area_fraction": 0.05065524193548387,
+      "sam_score": 0.9503116607666016,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6268057105056517,
+      "agreement_min": 0.26383636988655895,
+      "agreement_max": 0.9897750511247444,
+      "spread_mean": 0.1631789953695306,
+      "spread_max": 0.2122136243834751,
+      "entropy": 0.9104716538704319,
+      "top10_mass": 0.540564996799656,
+      "score_margin": 0.0023334622383117676
+    }
+  ],
+  "rank_scores": [
+    0.504053822193996,
+    1.5158520413107854,
+    1.517704805014724
+  ],
+  "points": [
+    [
+      359.25757575757575,
+      151.59375
+    ],
+    [
+      231.25757575757575,
+      48.90625
+    ],
+    [
+      374.7727272727273,
+      87.65625
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 434,
+      "rw": 330,
+      "rh": 224,
+      "left": 53,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        132.0,
+        78.0
+      ],
+      [
+        66.0,
+        25.0
+      ],
+      [
+        140.0,
+        45.0
+      ]
+    ],
+    "crop_box": [
+      35,
+      0,
+      213,
+      180
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000215003\\90009.map.npz": "6ce40691256b8e3b27271f794e6a018015ffaf80bc7c6d68e5c32cd804b4afc6",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000215003\\90009.map.json": "af1e2edf938863367819e4c10693d3f483c37bdf9e04de28dd18b81c4910b758",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000215003\\90009.npz": "449243a954ff5d093bf71fb71def365d5264a4c10dbfd5249cffc9a751494332"
+  }
+}

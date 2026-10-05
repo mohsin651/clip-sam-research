@@ -1,0 +1,139 @@
+{
+  "image_id": 323475,
+  "sent_id": 63604,
+  "expression": "closest orange",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000323475.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "9420f89afce86f48f60212acf34ef13ce11177ca8bbb587039cded197b74652b",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.6413563573654687,
+      "density_outside": 0.20926662941449212,
+      "density_ratio": 3.064780845167991,
+      "log_density_ratio": 1.1199760644411434,
+      "coverage": 0.6322538800244274,
+      "area_fraction": 0.359375,
+      "sam_score": 0.8634159564971924,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.49114131995227345,
+      "agreement_min": 0.4074342373341785,
+      "agreement_max": 0.5748484025703684,
+      "spread_mean": 0.2977710522573822,
+      "spread_max": 0.43425596957186596,
+      "entropy": 0.9866750880950009,
+      "top10_mass": 0.17654451004444188,
+      "score_margin": 0.04932504892349243
+    },
+    {
+      "density_inside": 0.679444568944459,
+      "density_outside": 0.2823265777795418,
+      "density_ratio": 2.4065908859370837,
+      "log_density_ratio": 0.8782111759045678,
+      "coverage": 0.3858942560973349,
+      "area_fraction": 0.20704752604166668,
+      "sam_score": 0.9437101483345032,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6390492933972551,
+      "agreement_min": 0.5748484025703684,
+      "agreement_max": 0.703250184224142,
+      "spread_mean": 0.2977710522573822,
+      "spread_max": 0.43425596957186596,
+      "entropy": 0.9866750880950009,
+      "top10_mass": 0.17654451004444188,
+      "score_margin": 0.04932504892349243
+    },
+    {
+      "density_inside": 0.6910572601713499,
+      "density_outside": 0.30846819276196324,
+      "density_ratio": 2.2402869287154683,
+      "log_density_ratio": 0.8066039508417134,
+      "coverage": 0.2778683017351169,
+      "area_fraction": 0.14658203125,
+      "sam_score": 0.8943850994110107,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5553422107791602,
+      "agreement_min": 0.4074342373341785,
+      "agreement_max": 0.703250184224142,
+      "spread_mean": 0.2977710522573822,
+      "spread_max": 0.43425596957186596,
+      "entropy": 0.9866750880950009,
+      "top10_mass": 0.17654451004444188,
+      "score_margin": 0.04932504892349243
+    }
+  ],
+  "rank_scores": [
+    0.37477805266733843,
+    -0.5712609652006073,
+    -1.4427108761041567
+  ],
+  "points": [
+    [
+      457.0,
+      468.76174496644296
+    ],
+    [
+      397.0,
+      430.1040268456376
+    ],
+    [
+      112.0,
+      509.56711409395973
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        213.0,
+        181.0
+      ],
+      [
+        185.0,
+        163.0
+      ],
+      [
+        52.0,
+        200.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      87,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000323475\\63604.map.npz": "2f9d5c22bbcc19f9d424946c37face1ecc97f42eeeb04b2499571612ba4263b0",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000323475\\63604.map.json": "495f727f9803256e18c21424eb329d9b8d228b59ceeb76a29cfab0348aa9a8fc",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000323475\\63604.npz": "5a0a78f40f9e39ed455653fe5d60418418618245650f1ac86e9c2bd27bdd4f07"
+  }
+}

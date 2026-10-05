@@ -1,0 +1,139 @@
+{
+  "image_id": 547703,
+  "sent_id": 75675,
+  "expression": "A woman wearing a blue jacket and holding a frisbee about to be attacked by a dog.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000547703.jpg",
+  "geometry": {
+    "width": 340,
+    "height": 500,
+    "rw": 224,
+    "rh": 329,
+    "left": 0,
+    "top": 52
+  },
+  "image_sha256": "a408a070c0a28418c6545376a283689d8aca38b84545965b1613a152bf1878f9",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.003738241976386914,
+      "density_outside": 0.0082904006381314,
+      "density_ratio": 0.45091210173150037,
+      "log_density_ratio": -0.7964828545892038,
+      "coverage": 0.07089414174626514,
+      "area_fraction": 0.14472941176470588,
+      "sam_score": 0.8169597387313843,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.03464890581681239,
+      "agreement_min": 0.03223306988997365,
+      "agreement_max": 0.03706474174365112,
+      "spread_mean": 0.16058523041475747,
+      "spread_max": 0.19553231645775113,
+      "entropy": 0.9359560581700851,
+      "top10_mass": 0.348351365988289,
+      "score_margin": 0.11024922132492065
+    },
+    {
+      "density_inside": 0.03524413819507975,
+      "density_outside": 0.006142056369434329,
+      "density_ratio": 5.738165863265676,
+      "log_density_ratio": 1.747139623280905,
+      "coverage": 0.2363705061661473,
+      "area_fraction": 0.05118235294117647,
+      "sam_score": 0.9272089600563049,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.14437070559635226,
+      "agreement_min": 0.03223306988997365,
+      "agreement_max": 0.25650834130273087,
+      "spread_mean": 0.16058523041475747,
+      "spread_max": 0.19553231645775113,
+      "entropy": 0.9359560581700851,
+      "top10_mass": 0.348351365988289,
+      "score_margin": 0.11024922132492065
+    },
+    {
+      "density_inside": 0.036979305978253885,
+      "density_outside": 0.007082165469526545,
+      "density_ratio": 5.22146879116968,
+      "log_density_ratio": 1.652778739961044,
+      "coverage": 0.08904448006823339,
+      "area_fraction": 0.018376470588235293,
+      "sam_score": 0.7305885553359985,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.14678654152319098,
+      "agreement_min": 0.03706474174365112,
+      "agreement_max": 0.25650834130273087,
+      "spread_mean": 0.16058523041475747,
+      "spread_max": 0.19553231645775113,
+      "entropy": 0.9359560581700851,
+      "top10_mass": 0.348351365988289,
+      "score_margin": 0.11024922132492065
+    }
+  ],
+  "rank_scores": [
+    -5.773810648251712,
+    -0.9657200661960603,
+    -2.3224718859246245
+  ],
+  "points": [
+    [
+      170.25892857142856,
+      217.58510638297875
+    ],
+    [
+      56.419642857142854,
+      249.50000000000003
+    ],
+    [
+      88.29464285714285,
+      298.13221884498483
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 340,
+      "height": 500,
+      "rw": 224,
+      "rh": 329,
+      "left": 0,
+      "top": 52
+    },
+    "crop_points": [
+      [
+        112.0,
+        91.0
+      ],
+      [
+        37.0,
+        112.0
+      ],
+      [
+        58.0,
+        144.0
+      ]
+    ],
+    "crop_box": [
+      11,
+      63,
+      219,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000547703\\75675.map.npz": "5b94fdcf00af67d2186884a9691f6b837529dc976603c4eabb91091df5215fc9",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000547703\\75675.map.json": "2ba8cc64fbcf0aa803f71cd9d0d3c460d1cf6d3b8aea38f46aa50de76f0a98a0",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000547703\\75675.npz": "30de3ebeb7e4cc067cbc649920367f2a9353f3d91933fb0c07d0a396b2822244"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 283263,
+  "sent_id": 83150,
+  "expression": "Red skis that the person with the yellow boots is on",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000283263.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 360,
+    "rw": 398,
+    "rh": 224,
+    "left": 87,
+    "top": 0
+  },
+  "image_sha256": "2667c5dc473148eac40e3650d87c0ba6653063f24b554774c425aca2209dee73",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.3267268012535147,
+      "density_outside": 0.1876990583906588,
+      "density_ratio": 1.7406949403643581,
+      "log_density_ratio": 0.5542844245081358,
+      "coverage": 0.1312567700848263,
+      "area_fraction": 0.07986545138888888,
+      "sam_score": 0.7283247709274292,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.09768116262383558,
+      "agreement_min": 0.07315088004883508,
+      "agreement_max": 0.12221144519883609,
+      "spread_mean": 0.1627606915596978,
+      "spread_max": 0.2428844702557287,
+      "entropy": 0.9868943920883331,
+      "top10_mass": 0.21938549515736597,
+      "score_margin": 0.005576670169830322
+    },
+    {
+      "density_inside": 0.8042751772569452,
+      "density_outside": 0.18924070781284036,
+      "density_ratio": 4.250011461847446,
+      "log_density_ratio": 1.4469216798392137,
+      "coverage": 0.06289639782482426,
+      "area_fraction": 0.015546875,
+      "sam_score": 0.7455983757972717,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2822684064229475,
+      "agreement_min": 0.12221144519883609,
+      "agreement_max": 0.4423253676470588,
+      "spread_mean": 0.1627606915596978,
+      "spread_max": 0.2428844702557287,
+      "entropy": 0.9868943920883331,
+      "top10_mass": 0.21938549515736597,
+      "score_margin": 0.005576670169830322
+    },
+    {
+      "density_inside": 0.8108023777299997,
+      "density_outside": 0.19155925492037879,
+      "density_ratio": 4.232645288074311,
+      "log_density_ratio": 1.4428271612120294,
+      "coverage": 0.04770559424363597,
+      "area_fraction": 0.011697048611111111,
+      "sam_score": 0.751175045967102,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2577381238479469,
+      "agreement_min": 0.07315088004883508,
+      "agreement_max": 0.4423253676470588,
+      "spread_mean": 0.1627606915596978,
+      "spread_max": 0.2428844702557287,
+      "entropy": 0.9868943920883331,
+      "top10_mass": 0.21938549515736597,
+      "score_margin": 0.005576670169830322
+    }
+  ],
+  "rank_scores": [
+    -3.4802345664645826,
+    -2.3545893606256545,
+    -2.4980823193595265
+  ],
+  "points": [
+    [
+      389.4497487437186,
+      252.625
+    ],
+    [
+      268.8467336683417,
+      297.625
+    ],
+    [
+      429.65075376884425,
+      220.48214285714286
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 360,
+      "rw": 398,
+      "rh": 224,
+      "left": 87,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        155.0,
+        157.0
+      ],
+      [
+        80.0,
+        185.0
+      ],
+      [
+        180.0,
+        137.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      79,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000283263\\83150.map.npz": "b59341afbbd51b7508f3c142d5d589320619028266926848d9b6b9bde0bbfe09",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000283263\\83150.map.json": "5eb8d695d53a63e9338f12eb526bb246e4aea7795938746437c8537205062927",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000283263\\83150.npz": "658f60ca3a173d59108567f1de2ba506c21a2f929eb9b92bd2b4724b64066e3b"
+  }
+}

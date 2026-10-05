@@ -1,0 +1,63 @@
+{
+  "datasets": {
+    "refcoco": {
+      "images": 1500,
+      "expressions": 10752,
+      "instances": 3785,
+      "splits": {
+        "testB": 5095,
+        "testA": 5657
+      },
+      "strict_images": 1500,
+      "strict_expressions": 10752,
+      "manifest_hashes": {
+        "outputs\\refcoco_frozen\\inference_manifest.json": "ae3d9d7103dea12cc8758e87dc67f5d0951827d33a35400288841fb6e7a13a1b",
+        "outputs\\refcoco_frozen\\evaluation_manifest.json": "62d991e17125d1d8e0e47f039654791cc490d1b808e334cb4115d761e01f1528",
+        "outputs\\refcoco_frozen\\image_manifest.json": "c3b35063838497eeae4120e8d4ac7900023f842f0cea626f5a597488aac3a2e5",
+        "outputs\\refcoco_frozen\\overlap_audit.json": "226513485a16a09b296def4d6b492003ab2b4bcb88a71b3af9073e501f9e7702",
+        "outputs\\refcoco_frozen\\dataset_provenance.json": "d3e7102698f15f877e7a4bd536819e081205f2ed4dda555790c5632f07930578"
+      }
+    },
+    "refcocoplus": {
+      "images": 1500,
+      "expressions": 10615,
+      "instances": 3773,
+      "splits": {
+        "testB": 4889,
+        "testA": 5726
+      },
+      "strict_images": 0,
+      "strict_expressions": 0,
+      "manifest_hashes": {
+        "outputs\\refcocoplus_frozen\\inference_manifest.json": "eb6da671c2232edd0f347593bd0125099c050df32901a4e1f34e882002ecb4ae",
+        "outputs\\refcocoplus_frozen\\evaluation_manifest.json": "3650c40510874ed0730f9dd7bf60b98f9f855a3a21b6df45e8d30b04787c2a27",
+        "outputs\\refcocoplus_frozen\\image_manifest.json": "c3b35063838497eeae4120e8d4ac7900023f842f0cea626f5a597488aac3a2e5",
+        "outputs\\refcocoplus_frozen\\overlap_audit.json": "02928b9818dea543908d8716f703197e28ab380ed35078b77ef36112d222d929",
+        "outputs\\refcocoplus_frozen\\dataset_provenance.json": "56a26bf02bde79b6746e70893c5269f46d32b1d08304408c8a0b64bd97ce1a51"
+      }
+    },
+    "refcocog": {
+      "images": 2600,
+      "expressions": 9602,
+      "instances": 5023,
+      "splits": {
+        "test": 9602
+      },
+      "strict_images": 2443,
+      "strict_expressions": 8894,
+      "manifest_hashes": {
+        "outputs\\refcocog_frozen\\inference_manifest.json": "37060cf5e348c868fd15baf748cf86796094e06e46fc48ab5c15ed1bc00b0259",
+        "outputs\\refcocog_frozen\\evaluation_manifest.json": "d9225d2aa3c35e7e2b581fd29c953cab7bba45a0502d91161ebd286513b0a544",
+        "outputs\\refcocog_frozen\\image_manifest.json": "21f7313b8cb274664356da3681239fdbe1465f13509efea86fccd6561ade36b5",
+        "outputs\\refcocog_frozen\\overlap_audit.json": "49e132e5272ca4da6b39f5e901581768ec4d00cbf258f78c96e00a8c0be9c4e8",
+        "outputs\\refcocog_frozen\\dataset_provenance.json": "c368aaed619ff4de79b7215617f22cbe3cc60ecf199923315772e4ed2f208f95"
+      }
+    }
+  },
+  "cross_dataset_image_overlap": {
+    "refcoco / refcocoplus": 1500,
+    "refcoco / refcocog": 118,
+    "refcocog / refcocoplus": 118
+  },
+  "original_strict_flags_unchanged": true
+}

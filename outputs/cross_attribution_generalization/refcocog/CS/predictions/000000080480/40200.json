@@ -1,0 +1,139 @@
+{
+  "image_id": 80480,
+  "sent_id": 40200,
+  "expression": "A woman wearing a gray sweatshirt's upper body.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000080480.jpg",
+  "geometry": {
+    "width": 428,
+    "height": 640,
+    "rw": 224,
+    "rh": 334,
+    "left": 0,
+    "top": 55
+  },
+  "image_sha256": "2442879e7f5383f3a96aecc335550aa42fd0aa6008ed45b04e89b261b04e2668",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.42567390683055123,
+      "density_outside": 0.12932201392265094,
+      "density_ratio": 3.291581177214425,
+      "log_density_ratio": 1.1913680503049981,
+      "coverage": 0.30929252194487955,
+      "area_fraction": 0.11975029205607476,
+      "sam_score": 0.9342086911201477,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3659958171721971,
+      "agreement_min": 0.3520701946805594,
+      "agreement_max": 0.37992143966383485,
+      "spread_mean": 0.10986873143558501,
+      "spread_max": 0.14185396758024987,
+      "entropy": 0.9875447481209484,
+      "top10_mass": 0.23624716387297018,
+      "score_margin": 0.00926584005355835
+    },
+    {
+      "density_inside": 0.6506544560760726,
+      "density_outside": 0.1415480622814087,
+      "density_ratio": 4.596703378234339,
+      "log_density_ratio": 1.5253393896696905,
+      "coverage": 0.1803881601443053,
+      "area_fraction": 0.045692172897196265,
+      "sam_score": 0.9450932145118713,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6520643856733039,
+      "agreement_min": 0.37992143966383485,
+      "agreement_max": 0.9242073316827729,
+      "spread_mean": 0.10986873143558501,
+      "spread_max": 0.14185396758024987,
+      "entropy": 0.9875447481209484,
+      "top10_mass": 0.23624716387297018,
+      "score_margin": 0.00926584005355835
+    },
+    {
+      "density_inside": 0.670404123077844,
+      "density_outside": 0.1424987604471447,
+      "density_ratio": 4.704631261138612,
+      "log_density_ratio": 1.548547398264873,
+      "coverage": 0.17191935614373574,
+      "area_fraction": 0.04226416471962617,
+      "sam_score": 0.9543590545654297,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6381387631816662,
+      "agreement_min": 0.3520701946805594,
+      "agreement_max": 0.9242073316827729,
+      "spread_mean": 0.10986873143558501,
+      "spread_max": 0.14185396758024987,
+      "entropy": 0.9875447481209484,
+      "top10_mass": 0.23624716387297018,
+      "score_margin": 0.00926584005355835
+    }
+  ],
+  "rank_scores": [
+    -0.8095817047781625,
+    -0.6281080023585441,
+    -0.6608930526706331
+  ],
+  "points": [
+    [
+      260.3125,
+      230.39820359281438
+    ],
+    [
+      287.0625,
+      308.9610778443114
+    ],
+    [
+      231.65178571428572,
+      335.7874251497006
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 428,
+      "height": 640,
+      "rw": 224,
+      "rh": 334,
+      "left": 0,
+      "top": 55
+    },
+    "crop_points": [
+      [
+        136.0,
+        65.0
+      ],
+      [
+        150.0,
+        106.0
+      ],
+      [
+        121.0,
+        120.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      19,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000080480\\40200.map.npz": "7b580ccd55678396140610a19b0b12dacbcb0a272592095c70effa7fa17d7f8e",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000080480\\40200.map.json": "a9d1c4fd517727fbad420c575cc4aa6172e1fbdd6b68d6cb2906d2ce568fd2c5",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000080480\\40200.npz": "d379b2962f38105f758322a3b957cd32b5550458086a93b4eaacde200569ee51"
+  }
+}

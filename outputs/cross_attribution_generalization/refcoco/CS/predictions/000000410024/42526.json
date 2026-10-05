@@ -1,0 +1,139 @@
+{
+  "image_id": 410024,
+  "sent_id": 42526,
+  "expression": "red chair",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000410024.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "c0c9f84047666200f33a20e4ae522c6a80f1ef115ffbb7063a510f2818de6291",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.486120778778393,
+      "density_outside": 0.13631648277316818,
+      "density_ratio": 3.5661188499393432,
+      "log_density_ratio": 1.2714778475301718,
+      "coverage": 0.5333809085145709,
+      "area_fraction": 0.24273272833723653,
+      "sam_score": 0.8103682994842529,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.43988457763118594,
+      "agreement_min": 0.24532506248306182,
+      "agreement_max": 0.63444409277931,
+      "spread_mean": 0.227645528944326,
+      "spread_max": 0.3394831700658745,
+      "entropy": 0.9779572530504269,
+      "top10_mass": 0.24513926681088938,
+      "score_margin": 0.030847907066345215
+    },
+    {
+      "density_inside": 0.6555253762844788,
+      "density_outside": 0.14210655678359682,
+      "density_ratio": 4.6129143588927795,
+      "log_density_ratio": 1.528859839239641,
+      "coverage": 0.45662825829875436,
+      "area_fraction": 0.1541020199063232,
+      "sam_score": 0.9536175727844238,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5105062299663665,
+      "agreement_min": 0.3865683671534231,
+      "agreement_max": 0.63444409277931,
+      "spread_mean": 0.227645528944326,
+      "spread_max": 0.3394831700658745,
+      "entropy": 0.9779572530504269,
+      "top10_mass": 0.24513926681088938,
+      "score_margin": 0.030847907066345215
+    },
+    {
+      "density_inside": 0.7168599904968285,
+      "density_outside": 0.18962777113103413,
+      "density_ratio": 3.78035340613529,
+      "log_density_ratio": 1.3298174989492135,
+      "coverage": 0.19420137669013604,
+      "area_fraction": 0.05993120608899297,
+      "sam_score": 0.9227696657180786,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.31594671481824244,
+      "agreement_min": 0.24532506248306182,
+      "agreement_max": 0.3865683671534231,
+      "spread_mean": 0.227645528944326,
+      "spread_max": 0.3394831700658745,
+      "entropy": 0.9779572530504269,
+      "top10_mass": 0.24513926681088938,
+      "score_margin": 0.030847907066345215
+    }
+  ],
+  "rank_scores": [
+    0.11868571486212834,
+    0.7069952474967859,
+    -1.332913960821704
+  ],
+  "points": [
+    [
+      189.58955223880596,
+      419.828125
+    ],
+    [
+      371.0820895522388,
+      419.828125
+    ],
+    [
+      449.410447761194,
+      393.140625
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        43.0,
+        220.0
+      ],
+      [
+        138.0,
+        220.0
+      ],
+      [
+        179.0,
+        206.0
+      ]
+    ],
+    "crop_box": [
+      28,
+      70,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000410024\\42526.map.npz": "b986e83eca539e14d66d8c5c711b3cf739c3e3e62cf0dfb9c2c3688884522987",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000410024\\42526.map.json": "d6db3e417d0084108bc90aa693bb69f703b29abfa148fa312b3e9f1f00d55765",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000410024\\42526.npz": "87044bd9c6855cd9b607b557746ebd413c3b906badead5df130b4893cf0e3128"
+  }
+}

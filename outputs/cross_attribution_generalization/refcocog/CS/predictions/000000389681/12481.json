@@ -1,0 +1,139 @@
+{
+  "image_id": 389681,
+  "sent_id": 12481,
+  "expression": "a green and white jet",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000389681.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 480,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "02d2e5cdd20a2cc20aaddad34a05f2fa7b85c747329f08281e10bc8749ffd7b5",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.29928667390448854,
+      "density_outside": 0.24695477036567942,
+      "density_ratio": 1.211908858695487,
+      "log_density_ratio": 0.1921966857267374,
+      "coverage": 0.33087715753180147,
+      "area_fraction": 0.2897873263888889,
+      "sam_score": 0.7687128782272339,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.18026387386306233,
+      "agreement_min": 0.126003474718428,
+      "agreement_max": 0.23452427300769668,
+      "spread_mean": 0.3276114503884299,
+      "spread_max": 0.3563048203434806,
+      "entropy": 0.9795678194487086,
+      "top10_mass": 0.2933613383462417,
+      "score_margin": 0.05241847038269043
+    },
+    {
+      "density_inside": 0.5130342328813434,
+      "density_outside": 0.243800550602159,
+      "density_ratio": 2.1043194185251193,
+      "log_density_ratio": 0.7439920982430632,
+      "coverage": 0.13317626996822968,
+      "area_fraction": 0.06804253472222223,
+      "sam_score": 0.8211313486099243,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.38488258004195697,
+      "agreement_min": 0.23452427300769668,
+      "agreement_max": 0.5352408870762172,
+      "spread_mean": 0.3276114503884299,
+      "spread_max": 0.3563048203434806,
+      "entropy": 0.9795678194487086,
+      "top10_mass": 0.2933613383462417,
+      "score_margin": 0.05241847038269043
+    },
+    {
+      "density_inside": 0.5958412999656058,
+      "density_outside": 0.24947075310117575,
+      "density_ratio": 2.388421458452755,
+      "log_density_ratio": 0.8706326700988262,
+      "coverage": 0.08301386869926983,
+      "area_fraction": 0.03651909722222222,
+      "sam_score": 0.5296033620834351,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3306221808973226,
+      "agreement_min": 0.126003474718428,
+      "agreement_max": 0.5352408870762172,
+      "spread_mean": 0.3276114503884299,
+      "spread_max": 0.3563048203434806,
+      "entropy": 0.9795678194487086,
+      "top10_mass": 0.2933613383462417,
+      "score_margin": 0.05241847038269043
+    }
+  ],
+  "rank_scores": [
+    -3.2699167694728613,
+    -2.625639022649675,
+    -3.3082484274023054
+  ],
+  "points": [
+    [
+      412.0,
+      187.0
+    ],
+    [
+      292.0,
+      397.0
+    ],
+    [
+      202.0,
+      202.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 480,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        192.0,
+        87.0
+      ],
+      [
+        136.0,
+        185.0
+      ],
+      [
+        94.0,
+        94.0
+      ]
+    ],
+    "crop_box": [
+      4,
+      45,
+      218,
+      107
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000389681\\12481.map.npz": "7e25795a014ca171ce1692fd75b45089f7c507ab73706ee0c595bc16c411ba34",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000389681\\12481.map.json": "e52d407fb29a8865ec3a14b430402519d1f016c0e8c1af2e9728be69a55e2734",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000389681\\12481.npz": "c50e4ba1276d929f632ce8018ab611cbde06ff9f37098bb8a5355b55cb71c11e"
+  }
+}

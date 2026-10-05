@@ -1,0 +1,139 @@
+{
+  "image_id": 556492,
+  "sent_id": 9344,
+  "expression": "A city bus with let windows stopped behind a dark car.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000556492.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 318,
+    "rw": 450,
+    "rh": 224,
+    "left": 113,
+    "top": 0
+  },
+  "image_sha256": "6eeb470f892427c2a04bfaa632137accbadc3daea6cf2c6d66e70f908f844c0a",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.028080057306729977,
+      "density_outside": 0.00175766720670073,
+      "density_ratio": 15.975753079823653,
+      "log_density_ratio": 2.7710721403351224,
+      "coverage": 0.31867322869185605,
+      "area_fraction": 0.02844437893081761,
+      "sam_score": 0.8491001129150391,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.641853164904478,
+      "agreement_min": 0.3920925414364641,
+      "agreement_max": 0.8916137883724918,
+      "spread_mean": 0.10209848708658305,
+      "spread_max": 0.129295900889742,
+      "entropy": 0.9034880688015704,
+      "top10_mass": 0.5357403677456635,
+      "score_margin": 0.06140631437301636
+    },
+    {
+      "density_inside": 0.029614764459186302,
+      "density_outside": 0.001789850491813084,
+      "density_ratio": 16.54594312659108,
+      "log_density_ratio": 2.8061409435053317,
+      "coverage": 0.3042751489540333,
+      "area_fraction": 0.02575176886792453,
+      "sam_score": 0.9105064272880554,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6608401958037531,
+      "agreement_min": 0.4300666032350143,
+      "agreement_max": 0.8916137883724918,
+      "spread_mean": 0.10209848708658305,
+      "spread_max": 0.129295900889742,
+      "entropy": 0.9034880688015704,
+      "top10_mass": 0.5357403677456635,
+      "score_margin": 0.06140631437301636
+    },
+    {
+      "density_inside": 0.033115640838189,
+      "density_outside": 0.0021605188621426513,
+      "density_ratio": 15.32763328435818,
+      "log_density_ratio": 2.7296572964134094,
+      "coverage": 0.1476276359670103,
+      "area_fraction": 0.011173349056603773,
+      "sam_score": 0.7652765512466431,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.4110795723357392,
+      "agreement_min": 0.3920925414364641,
+      "agreement_max": 0.4300666032350143,
+      "spread_mean": 0.10209848708658305,
+      "spread_max": 0.129295900889742,
+      "entropy": 0.9034880688015704,
+      "top10_mass": 0.5357403677456635,
+      "score_margin": 0.06140631437301636
+    }
+  ],
+  "rank_scores": [
+    1.7964819479334215,
+    1.9056670183178466,
+    0.018218811489345343
+  ],
+  "points": [
+    [
+      391.32222222222225,
+      55.57589285714286
+    ],
+    [
+      311.6777777777778,
+      55.57589285714286
+    ],
+    [
+      311.6777777777778,
+      102.42410714285715
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 318,
+      "rw": 450,
+      "rh": 224,
+      "left": 113,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        162.0,
+        39.0
+      ],
+      [
+        106.0,
+        39.0
+      ],
+      [
+        106.0,
+        72.0
+      ]
+    ],
+    "crop_box": [
+      30,
+      0,
+      224,
+      119
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000556492\\9344.map.npz": "3fe953aebfd9521f235122d313955fa4a56740196b0af07f1bf06abaaa791992",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000556492\\9344.map.json": "ff52e959c2c8a3317891f44979e92eeefb7a24bbee4646f239e8c263f4b55775",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000556492\\9344.npz": "8b48d7bdecdf67915d790d2f7c92600d0d6bd05e26b3d9faeae9fcf40342db6d"
+  }
+}

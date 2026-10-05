@@ -1,0 +1,139 @@
+{
+  "image_id": 242709,
+  "sent_id": 52329,
+  "expression": "Broccoli is in a container next to cauliflower and cucumbers.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000242709.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "d662cb0ec9d3a8c0b805945a745434c64c47edd8f89ebbe4f5d2f544a7e3c578",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.04039282334173001,
+      "density_outside": 0.01073103862692576,
+      "density_ratio": 3.76411126101199,
+      "log_density_ratio": 1.325511780559693,
+      "coverage": 0.2653420299505723,
+      "area_fraction": 0.08755208333333334,
+      "sam_score": 0.8581345081329346,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6891894726040005,
+      "agreement_min": 0.5560132101376675,
+      "agreement_max": 0.8223657350703336,
+      "spread_mean": 0.10844746464530976,
+      "spread_max": 0.12269116057607805,
+      "entropy": 0.9572350280811566,
+      "top10_mass": 0.38079017117286384,
+      "score_margin": 0.06416493654251099
+    },
+    {
+      "density_inside": 0.04814629393129003,
+      "density_outside": 0.01061530027590073,
+      "density_ratio": 4.535556477479782,
+      "log_density_ratio": 1.5119477833322266,
+      "coverage": 0.26110081207610464,
+      "area_fraction": 0.07227864583333334,
+      "sam_score": 0.9413219094276428,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7469324187021327,
+      "agreement_min": 0.6714991023339317,
+      "agreement_max": 0.8223657350703336,
+      "spread_mean": 0.10844746464530976,
+      "spread_max": 0.12269116057607805,
+      "entropy": 0.9572350280811566,
+      "top10_mass": 0.38079017117286384,
+      "score_margin": 0.06416493654251099
+    },
+    {
+      "density_inside": 0.06452525888846566,
+      "density_outside": 0.01069297655752135,
+      "density_ratio": 6.034358958455284,
+      "log_density_ratio": 1.7974696282861116,
+      "coverage": 0.23697639935446946,
+      "area_fraction": 0.048948567708333335,
+      "sam_score": 0.8771569728851318,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6137561562357996,
+      "agreement_min": 0.5560132101376675,
+      "agreement_max": 0.6714991023339317,
+      "spread_mean": 0.10844746464530976,
+      "spread_max": 0.12269116057607805,
+      "entropy": 0.9572350280811566,
+      "top10_mass": 0.38079017117286384,
+      "score_margin": 0.06416493654251099
+    }
+  ],
+  "rank_scores": [
+    -0.46094637639744207,
+    0.09113469855964659,
+    0.03428743178354136
+  ],
+  "points": [
+    [
+      135.8758389261745,
+      232.0
+    ],
+    [
+      215.33892617449663,
+      182.71428571428572
+    ],
+    [
+      118.69463087248322,
+      165.57142857142856
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        26.0,
+        108.0
+      ],
+      [
+        63.0,
+        85.0
+      ],
+      [
+        18.0,
+        77.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      6,
+      85,
+      150
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000242709\\52329.map.npz": "cf48bb30023e0433227d9b9951189634946ad706dc4bbac06bfaddbdc9f9a48b",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000242709\\52329.map.json": "7c364b9493392a17ca353126a82ad389b620813feda4114b520ccb5dd47ec6d8",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000242709\\52329.npz": "aeec62921886f5a2abe6040ea2798c825eddeb9e142788e782309355d5f160da"
+  }
+}

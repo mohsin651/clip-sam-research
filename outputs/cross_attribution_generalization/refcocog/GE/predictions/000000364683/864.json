@@ -1,0 +1,139 @@
+{
+  "image_id": 364683,
+  "sent_id": 864,
+  "expression": "An elephant facing towards a red wall to the right of another elephant facing away from the wall.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000364683.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "e5c2c8ce6cfac98f39627ccb031e120050e7df8e259a58346dc498ea79e887d9",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.03573279875607843,
+      "density_outside": 0.005983415001285073,
+      "density_ratio": 5.971973988505232,
+      "log_density_ratio": 1.7870775241202985,
+      "coverage": 0.6978137954169169,
+      "area_fraction": 0.27885091145833335,
+      "sam_score": 0.9552005529403687,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5069051128135915,
+      "agreement_min": 0.33195286980867944,
+      "agreement_max": 0.6818573558185037,
+      "spread_mean": 0.14323839879499678,
+      "spread_max": 0.20221344409391048,
+      "entropy": 0.9548141875259768,
+      "top10_mass": 0.32721218585975387,
+      "score_margin": 0.015748918056488037
+    },
+    {
+      "density_inside": 0.03447395174449795,
+      "density_outside": 0.009503851174053226,
+      "density_ratio": 3.6273665390498797,
+      "log_density_ratio": 1.2885069136879725,
+      "coverage": 0.46170374086894506,
+      "area_fraction": 0.19123697916666665,
+      "sam_score": 0.9394516348838806,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.45298748493467134,
+      "agreement_min": 0.2241176140508389,
+      "agreement_max": 0.6818573558185037,
+      "spread_mean": 0.14323839879499678,
+      "spread_max": 0.20221344409391048,
+      "entropy": 0.9548141875259768,
+      "top10_mass": 0.32721218585975387,
+      "score_margin": 0.015748918056488037
+    },
+    {
+      "density_inside": 0.045969771263510865,
+      "density_outside": 0.011036845614868297,
+      "density_ratio": 4.165118627501459,
+      "log_density_ratio": 1.4267447572281027,
+      "coverage": 0.29879908479512285,
+      "area_fraction": 0.0928125,
+      "sam_score": 0.7612936496734619,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.27803524192975915,
+      "agreement_min": 0.2241176140508389,
+      "agreement_max": 0.33195286980867944,
+      "spread_mean": 0.14323839879499678,
+      "spread_max": 0.20221344409391048,
+      "entropy": 0.9548141875259768,
+      "top10_mass": 0.32721218585975387,
+      "score_margin": 0.015748918056488037
+    }
+  ],
+  "rank_scores": [
+    2.1376119187098057,
+    0.12673563049244757,
+    -0.9692416844078453
+  ],
+  "points": [
+    [
+      279.7684563758389,
+      249.14285714285714
+    ],
+    [
+      440.8422818791946,
+      264.1428571428571
+    ],
+    [
+      342.0503355704698,
+      296.2857142857143
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        93.0,
+        116.0
+      ],
+      [
+        168.0,
+        123.0
+      ],
+      [
+        122.0,
+        138.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      72,
+      224,
+      202
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000364683\\864.map.npz": "acc823d9e0a397e28ec788f7fc657142259c074f691f2d0a0fecb074d6e48ca8",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000364683\\864.map.json": "137d89d7dab46a48df1f022270079724cb58459079d1c1f5c15ee6cf463a5836",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000364683\\864.npz": "327bbe38116d546789776b95814b2fb5c3f1d148b34022287301e68a0be5169e"
+  }
+}

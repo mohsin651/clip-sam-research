@@ -1,0 +1,139 @@
+{
+  "image_id": 195027,
+  "sent_id": 71302,
+  "expression": "the chair the little boy is sitting on",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000195027.jpg",
+  "geometry": {
+    "width": 426,
+    "height": 640,
+    "rw": 224,
+    "rh": 336,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "fa563d02ad31eae671b5cf8b6ae15dad1899ea7dd2666002203bc880e32cd1e7",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.2353126101103094,
+      "density_outside": 0.2131788333603053,
+      "density_ratio": 1.1038272721545987,
+      "log_density_ratio": 0.09878347923687276,
+      "coverage": 0.2045305228744607,
+      "area_fraction": 0.1889267899061033,
+      "sam_score": 0.901523232460022,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.2837590097168226,
+      "agreement_min": 0.023732088230558685,
+      "agreement_max": 0.5437859312030865,
+      "spread_mean": 0.18994401555493104,
+      "spread_max": 0.2849160233323966,
+      "entropy": 0.9845512863208475,
+      "top10_mass": 0.25138856239742763,
+      "score_margin": 0.02883732318878174
+    },
+    {
+      "density_inside": 0.29269868070422644,
+      "density_outside": 0.20828261109564067,
+      "density_ratio": 1.4052958101644775,
+      "log_density_ratio": 0.34024782167080336,
+      "coverage": 0.1448103914055647,
+      "area_fraction": 0.10753741197183099,
+      "sam_score": 0.9303605556488037,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.2926770227702816,
+      "agreement_min": 0.04156811433747672,
+      "agreement_max": 0.5437859312030865,
+      "spread_mean": 0.18994401555493104,
+      "spread_max": 0.2849160233323966,
+      "entropy": 0.9845512863208475,
+      "top10_mass": 0.25138856239742763,
+      "score_margin": 0.02883732318878174
+    },
+    {
+      "density_inside": 0.7851040731860984,
+      "density_outside": 0.1910503488582406,
+      "density_ratio": 4.109409262395728,
+      "log_density_ratio": 1.41327928640182,
+      "coverage": 0.15997207530952676,
+      "area_fraction": 0.044289172535211266,
+      "sam_score": 0.5582128763198853,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.032650101284017706,
+      "agreement_min": 0.023732088230558685,
+      "agreement_max": 0.04156811433747672,
+      "spread_mean": 0.18994401555493104,
+      "spread_max": 0.2849160233323966,
+      "entropy": 0.9845512863208475,
+      "top10_mass": 0.25138856239742763,
+      "score_margin": 0.02883732318878174
+    }
+  ],
+  "rank_scores": [
+    -3.732396769827461,
+    -3.4286372340377045,
+    -2.4847484583861545
+  ],
+  "points": [
+    [
+      352.28125,
+      469.0238095238095
+    ],
+    [
+      352.28125,
+      249.97619047619045
+    ],
+    [
+      352.28125,
+      349.0238095238095
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 426,
+      "height": 640,
+      "rw": 224,
+      "rh": 336,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        185.0,
+        190.0
+      ],
+      [
+        185.0,
+        75.0
+      ],
+      [
+        185.0,
+        127.0
+      ]
+    ],
+    "crop_box": [
+      84,
+      0,
+      219,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000195027\\71302.map.npz": "e951ad0f4575d5b6cc19b36e0eb003282964b790f231665e5553cda1dbc9d999",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000195027\\71302.map.json": "0856f01d1cd7b7f24e933eefd7ef4a1f717ab51997bd83c775ed35baa60a6cd9",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000195027\\71302.npz": "d09b0505c34fa5757ca5b28b50db6a4b03ea4c258aa2c3c66203f494535d132a"
+  }
+}

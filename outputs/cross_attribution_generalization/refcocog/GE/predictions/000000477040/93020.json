@@ -1,0 +1,139 @@
+{
+  "image_id": 477040,
+  "sent_id": 93020,
+  "expression": "Brown chair to the left of another chair.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000477040.jpg",
+  "geometry": {
+    "width": 488,
+    "height": 640,
+    "rw": 224,
+    "rh": 293,
+    "left": 0,
+    "top": 34
+  },
+  "image_sha256": "d1fd24551b2b226f90c28c8328204c84c47adbcfdc1d385a2e3f1ab117465f1f",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.010216284383933714,
+      "density_outside": 0.0030611223319788336,
+      "density_ratio": 3.3374309395835424,
+      "log_density_ratio": 1.2052013313505505,
+      "coverage": 0.41558534107117473,
+      "area_fraction": 0.1756467725409836,
+      "sam_score": 0.8073498010635376,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2584146577530819,
+      "agreement_min": 0.24850084383640347,
+      "agreement_max": 0.2683284716697604,
+      "spread_mean": 0.18401559138469584,
+      "spread_max": 0.27602326131159993,
+      "entropy": 0.9322881996249088,
+      "top10_mass": 0.46435242931460524,
+      "score_margin": 0.018746793270111084
+    },
+    {
+      "density_inside": 0.024250024424274257,
+      "density_outside": 0.0031787227111408577,
+      "density_ratio": 7.628858072977985,
+      "log_density_ratio": 2.0319381713556197,
+      "coverage": 0.3036270932277408,
+      "area_fraction": 0.05406314036885246,
+      "sam_score": 0.9522001147270203,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5686224951599246,
+      "agreement_min": 0.2683284716697604,
+      "agreement_max": 0.8689165186500888,
+      "spread_mean": 0.18401559138469584,
+      "spread_max": 0.27602326131159993,
+      "entropy": 0.9322881996249088,
+      "top10_mass": 0.46435242931460524,
+      "score_margin": 0.018746793270111084
+    },
+    {
+      "density_inside": 0.025303477391079916,
+      "density_outside": 0.003282793098321543,
+      "density_ratio": 7.7079111066455575,
+      "log_density_ratio": 2.0422472179155853,
+      "coverage": 0.2754629058036959,
+      "area_fraction": 0.047006275614754095,
+      "sam_score": 0.9334533214569092,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5587086812432461,
+      "agreement_min": 0.24850084383640347,
+      "agreement_max": 0.8689165186500888,
+      "spread_mean": 0.18401559138469584,
+      "spread_max": 0.27602326131159993,
+      "entropy": 0.9322881996249088,
+      "top10_mass": 0.46435242931460524,
+      "score_margin": 0.018746793270111084
+    }
+  ],
+  "rank_scores": [
+    -0.7037470427509108,
+    0.6694891679443937,
+    0.45735292258234966
+  ],
+  "points": [
+    [
+      196.66071428571428,
+      472.401023890785
+    ],
+    [
+      305.58928571428567,
+      487.6911262798635
+    ],
+    [
+      416.69642857142856,
+      502.981228668942
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 488,
+      "height": 640,
+      "rw": 224,
+      "rh": 293,
+      "left": 0,
+      "top": 34
+    },
+    "crop_points": [
+      [
+        90.0,
+        182.0
+      ],
+      [
+        140.0,
+        189.0
+      ],
+      [
+        191.0,
+        196.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      155,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000477040\\93020.map.npz": "20d83da1853b6f783fb765622483b6b6d73caccf9ad1db599e59553e773a017f",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000477040\\93020.map.json": "0a9c533d9f87c9ae0e9dc008879a416e8c349f966fa8faede39afab6685c72f3",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000477040\\93020.npz": "7f00c9a1dbb302f8c8f90753987e9f7318c52be1e298543302fa922891ea9008"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 77408,
+  "sent_id": 74558,
+  "expression": "The cow that is in the middle on the pasture.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000077408.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "5171cc353b91194f365863174e56ae5a04c5cb17b675fa8d85b5c5f4ee8abe3d",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.02402273947547363,
+      "density_outside": 0.0048140283539163786,
+      "density_ratio": 4.990153298731642,
+      "log_density_ratio": 1.6074666305218743,
+      "coverage": 0.6613918479254065,
+      "area_fraction": 0.28131184895833333,
+      "sam_score": 0.8412665128707886,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3257062057514788,
+      "agreement_min": 0.29188759278897136,
+      "agreement_max": 0.3595248187139862,
+      "spread_mean": 0.10222260806166561,
+      "spread_max": 0.13007134410382004,
+      "entropy": 0.9580261489892398,
+      "top10_mass": 0.31399939555115464,
+      "score_margin": 0.021081268787384033
+    },
+    {
+      "density_inside": 0.031337507933984335,
+      "density_outside": 0.007739747967944151,
+      "density_ratio": 4.048905475956908,
+      "log_density_ratio": 1.39844659177533,
+      "coverage": 0.3220541976894326,
+      "area_fraction": 0.10500651041666667,
+      "sam_score": 0.8999555706977844,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5761316172685913,
+      "agreement_min": 0.3595248187139862,
+      "agreement_max": 0.7927384158231963,
+      "spread_mean": 0.10222260806166561,
+      "spread_max": 0.13007134410382004,
+      "entropy": 0.9580261489892398,
+      "top10_mass": 0.31399939555115464,
+      "score_margin": 0.021081268787384033
+    },
+    {
+      "density_inside": 0.035488522801751854,
+      "density_outside": 0.007914440653704677,
+      "density_ratio": 4.484021594205268,
+      "log_density_ratio": 1.500520321061747,
+      "coverage": 0.29011597535852696,
+      "area_fraction": 0.08352864583333333,
+      "sam_score": 0.8788743019104004,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5423130043060838,
+      "agreement_min": 0.29188759278897136,
+      "agreement_max": 0.7927384158231963,
+      "spread_mean": 0.10222260806166561,
+      "spread_max": 0.13007134410382004,
+      "entropy": 0.9580261489892398,
+      "top10_mass": 0.31399939555115464,
+      "score_margin": 0.021081268787384033
+    }
+  ],
+  "rank_scores": [
+    1.2182391324763697,
+    -0.22475566075843836,
+    -0.34958584121522507
+  ],
+  "points": [
+    [
+      406.47986577181206,
+      88.42857142857143
+    ],
+    [
+      438.69463087248323,
+      152.71428571428572
+    ],
+    [
+      342.0503355704698,
+      114.14285714285714
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        152.0,
+        41.0
+      ],
+      [
+        167.0,
+        71.0
+      ],
+      [
+        122.0,
+        53.0
+      ]
+    ],
+    "crop_box": [
+      16,
+      14,
+      224,
+      199
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000077408\\74558.map.npz": "4990c5d9fc7c51f716811687c134605719d1aa39f0e971be10b981a88764684e",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000077408\\74558.map.json": "c0285958a6f1cf7eff91a846655debf04e0b648decb7ff3c92efb37f2558fd15",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000077408\\74558.npz": "d88655a9228f1a7ee38c864480c7dbe3151f49f537fe048c68249a149395e9fc"
+  }
+}

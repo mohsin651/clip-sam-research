@@ -1,0 +1,139 @@
+{
+  "image_id": 524369,
+  "sent_id": 88008,
+  "expression": "The giraffe with his head lower.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000524369.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "ce09a9d2133494ac9a0e7ecfe762daa892c43385cd36c74602db5ba991ad15cc",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.6788064379115789,
+      "density_outside": 0.23589315256192636,
+      "density_ratio": 2.8776012806497295,
+      "log_density_ratio": 1.0569570584415635,
+      "coverage": 0.4242574420294482,
+      "area_fraction": 0.20387044270833332,
+      "sam_score": 0.9600347280502319,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.880791154109633,
+      "agreement_min": 0.8281426908418249,
+      "agreement_max": 0.9334396173774412,
+      "spread_mean": 0.1385352225322789,
+      "spread_max": 0.17087203035396317,
+      "entropy": 0.9879833961439544,
+      "top10_mass": 0.20987201034888292,
+      "score_margin": 0.00848764181137085
+    },
+    {
+      "density_inside": 0.6923279083493571,
+      "density_outside": 0.23980032549116398,
+      "density_ratio": 2.8871016206021807,
+      "log_density_ratio": 1.0602530994400297,
+      "coverage": 0.40518958526575005,
+      "area_fraction": 0.19090494791666668,
+      "sam_score": 0.9515470862388611,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.9098545568349747,
+      "agreement_min": 0.8862694962925083,
+      "agreement_max": 0.9334396173774412,
+      "spread_mean": 0.1385352225322789,
+      "spread_max": 0.17087203035396317,
+      "entropy": 0.9879833961439544,
+      "top10_mass": 0.20987201034888292,
+      "score_margin": 0.00848764181137085
+    },
+    {
+      "density_inside": 0.7130581215158647,
+      "density_outside": 0.24733926986732924,
+      "density_ratio": 2.8829151225984466,
+      "log_density_ratio": 1.0588019775716457,
+      "coverage": 0.3701148613402059,
+      "area_fraction": 0.16930989583333333,
+      "sam_score": 0.9274885654449463,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.8572060935671666,
+      "agreement_min": 0.8281426908418249,
+      "agreement_max": 0.8862694962925083,
+      "spread_mean": 0.1385352225322789,
+      "spread_max": 0.17087203035396317,
+      "entropy": 0.9879833961439544,
+      "top10_mass": 0.20987201034888292,
+      "score_margin": 0.00848764181137085
+    }
+  ],
+  "rank_scores": [
+    0.39075548343434346,
+    0.3713520681444708,
+    0.0782503071279605
+  ],
+  "points": [
+    [
+      172.0,
+      329.16442953020135
+    ],
+    [
+      232.0,
+      269.0302013422819
+    ],
+    [
+      307.0,
+      350.6409395973154
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        80.0,
+        116.0
+      ],
+      [
+        108.0,
+        88.0
+      ],
+      [
+        143.0,
+        126.0
+      ]
+    ],
+    "crop_box": [
+      47,
+      0,
+      196,
+      200
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000524369\\88008.map.npz": "9927cbdaf5a512dd4099021d095ee6666f249c5ad803cf00554453afe592c63f",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000524369\\88008.map.json": "31562d0c54a3165aec30857e4554abdaf806b776be043dc6a507bd825f41acc2",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000524369\\88008.npz": "628b9ed08b16136df2f4496e6262b659eec8005340b7ed7362f89a49ec0b6b15"
+  }
+}

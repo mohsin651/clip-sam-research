@@ -1,0 +1,139 @@
+{
+  "image_id": 425141,
+  "sent_id": 17551,
+  "expression": "the jug in the fridge",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000425141.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "cc1e22d7b65952e13a0275084c363f1dd1c0de9f777a2680659679d28886e253",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": false,
+  "features": [
+    {
+      "density_inside": 0.4617364493970174,
+      "density_outside": 0.34388655858970585,
+      "density_ratio": 1.3426999045536312,
+      "log_density_ratio": 0.2946824410132869,
+      "coverage": 0.18346273530544557,
+      "area_fraction": 0.143349609375,
+      "sam_score": 0.8072446584701538,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6633044964531645,
+      "agreement_min": 0.3539088167784329,
+      "agreement_max": 0.9727001761278959,
+      "spread_mean": 0.17135412626551294,
+      "spread_max": 0.2524650022728712,
+      "entropy": 0.9788282168990934,
+      "top10_mass": 0.19350058643101503,
+      "score_margin": 0.013393163681030273
+    },
+    {
+      "density_inside": 0.47090481120095806,
+      "density_outside": 0.34269872965940756,
+      "density_ratio": 1.3741072564453172,
+      "log_density_ratio": 0.3178042522151178,
+      "coverage": 0.18408470378549802,
+      "area_fraction": 0.14103515625,
+      "sam_score": 0.9408154487609863,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6684123127335515,
+      "agreement_min": 0.36412444933920707,
+      "agreement_max": 0.9727001761278959,
+      "spread_mean": 0.17135412626551294,
+      "spread_max": 0.2524650022728712,
+      "entropy": 0.9788282168990934,
+      "top10_mass": 0.19350058643101503,
+      "score_margin": 0.013393163681030273
+    },
+    {
+      "density_inside": 0.609882997437602,
+      "density_outside": 0.3469777699592045,
+      "density_ratio": 1.7577004933415492,
+      "log_density_ratio": 0.5640064169128048,
+      "coverage": 0.08874890858039211,
+      "area_fraction": 0.0525,
+      "sam_score": 0.927422285079956,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.35901663305882,
+      "agreement_min": 0.3539088167784329,
+      "agreement_max": 0.36412444933920707,
+      "spread_mean": 0.17135412626551294,
+      "spread_max": 0.2524650022728712,
+      "entropy": 0.9788282168990934,
+      "top10_mass": 0.19350058643101503,
+      "score_margin": 0.013393163681030273
+    }
+  ],
+  "rank_scores": [
+    -2.7878371745536232,
+    -2.492279237270229,
+    -2.8516336681030316
+  ],
+  "points": [
+    [
+      307.0,
+      348.49328859060404
+    ],
+    [
+      277.0,
+      148.76174496644296
+    ],
+    [
+      322.0,
+      269.0302013422819
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        143.0,
+        125.0
+      ],
+      [
+        129.0,
+        32.0
+      ],
+      [
+        150.0,
+        88.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000425141\\17551.map.npz": "f7b42aa2f8be458fd23e98864c5226e598f5fa08837a70b2303c52d77b249082",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000425141\\17551.map.json": "e901461b05bd3bee1bcdfa328f197b57dbf16c4c7d1b7adfd2b6863292c60da3",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000425141\\17551.npz": "aa4790c7c512c029778677b506c05d497f082cd9e5840df490d253dbc44d9cc4"
+  }
+}

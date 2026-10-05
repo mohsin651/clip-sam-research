@@ -1,0 +1,139 @@
+{
+  "image_id": 194726,
+  "sent_id": 95135,
+  "expression": "stoplight? on right",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000194726.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "2f362de2a9de0f56324dcf31480172c6dee8cdd71ae21325b0cf0d74238ab454",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5582319321666727,
+      "density_outside": 0.26553122907944815,
+      "density_ratio": 2.1023212000331037,
+      "log_density_ratio": 0.7430420676491378,
+      "coverage": 0.3678511134375988,
+      "area_fraction": 0.216787109375,
+      "sam_score": 0.7891839146614075,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6370954352657965,
+      "agreement_min": 0.43408702432002877,
+      "agreement_max": 0.8401038462115642,
+      "spread_mean": 0.16576406835827862,
+      "spread_max": 0.24594963354768662,
+      "entropy": 0.9905620003578997,
+      "top10_mass": 0.1900678965463801,
+      "score_margin": 0.038209736347198486
+    },
+    {
+      "density_inside": 0.6087972804788812,
+      "density_outside": 0.2665764559384918,
+      "density_ratio": 2.283762376288278,
+      "log_density_ratio": 0.825824247980356,
+      "coverage": 0.3374691257765154,
+      "area_fraction": 0.18236328125,
+      "sam_score": 0.8990493416786194,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6774280382034477,
+      "agreement_min": 0.5147522301953312,
+      "agreement_max": 0.8401038462115642,
+      "spread_mean": 0.16576406835827862,
+      "spread_max": 0.24594963354768662,
+      "entropy": 0.9905620003578997,
+      "top10_mass": 0.1900678965463801,
+      "score_margin": 0.038209736347198486
+    },
+    {
+      "density_inside": 0.7370983320451232,
+      "density_outside": 0.28636482911307354,
+      "density_ratio": 2.5739834543420828,
+      "log_density_ratio": 0.945454681160103,
+      "coverage": 0.2118577706035081,
+      "area_fraction": 0.09455729166666667,
+      "sam_score": 0.9372590780258179,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.47441962725768,
+      "agreement_min": 0.43408702432002877,
+      "agreement_max": 0.5147522301953312,
+      "spread_mean": 0.16576406835827862,
+      "spread_max": 0.24594963354768662,
+      "entropy": 0.9905620003578997,
+      "top10_mass": 0.1900678965463801,
+      "score_margin": 0.038209736347198486
+    }
+  ],
+  "rank_scores": [
+    -1.2755769560492636,
+    -0.9435957019237102,
+    -1.5064174467599896
+  ],
+  "points": [
+    [
+      391.4463087248322,
+      247.0
+    ],
+    [
+      408.6275167785235,
+      337.0
+    ],
+    [
+      329.16442953020135,
+      157.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        145.0,
+        115.0
+      ],
+      [
+        153.0,
+        157.0
+      ],
+      [
+        116.0,
+        73.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      0,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000194726\\95135.map.npz": "ae87f8dccabdb2dcaf732b4641c238cedca97d133ca562dc87fb7815b76ee6cd",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000194726\\95135.map.json": "f390d3be27470101f76f3b10309d7c7cf07837a9a8cc7d1cca235f6286800931",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000194726\\95135.npz": "daef5be25a89a7033d3bbf576fc85534bbbff03ec8864eb6a12e0dfe6c865084"
+  }
+}

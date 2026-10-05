@@ -1,0 +1,139 @@
+{
+  "image_id": 12440,
+  "sent_id": 6645,
+  "expression": "man in yellow coat",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000012440.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "4b709ccfe315aa74c4873432c15899f3dc3d0ed76b98ff133bdc10636da6718e",
+  "naive_candidate": 2,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5288957290714108,
+      "density_outside": 0.15521136923491738,
+      "density_ratio": 3.4075836820143155,
+      "log_density_ratio": 1.2260034424735793,
+      "coverage": 0.3075460068942518,
+      "area_fraction": 0.11530924479166667,
+      "sam_score": 0.8246420621871948,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.507718452517246,
+      "agreement_min": 0.47181293139878855,
+      "agreement_max": 0.5436239736357035,
+      "spread_mean": 0.13331750624851682,
+      "spread_max": 0.1995406010539343,
+      "entropy": 0.9779946249037877,
+      "top10_mass": 0.2884069865172669,
+      "score_margin": 0.04579591751098633
+    },
+    {
+      "density_inside": 0.7240481620817942,
+      "density_outside": 0.1619861556086447,
+      "density_ratio": 4.469815086090506,
+      "log_density_ratio": 1.4973470400062017,
+      "coverage": 0.2359059529480032,
+      "area_fraction": 0.064609375,
+      "sam_score": 0.9029210805892944,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6949954300929411,
+      "agreement_min": 0.5436239736357035,
+      "agreement_max": 0.8463668865501788,
+      "spread_mean": 0.13331750624851682,
+      "spread_max": 0.1995406010539343,
+      "entropy": 0.9779946249037877,
+      "top10_mass": 0.2884069865172669,
+      "score_margin": 0.04579591751098633
+    },
+    {
+      "density_inside": 0.7840603390980226,
+      "density_outside": 0.1643731609993942,
+      "density_ratio": 4.7700021969897035,
+      "log_density_ratio": 1.5623467654862628,
+      "coverage": 0.21647330615565136,
+      "area_fraction": 0.05474934895833333,
+      "sam_score": 0.9487169981002808,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6590899089744837,
+      "agreement_min": 0.47181293139878855,
+      "agreement_max": 0.8463668865501788,
+      "spread_mean": 0.13331750624851682,
+      "spread_max": 0.1995406010539343,
+      "entropy": 0.9779946249037877,
+      "top10_mass": 0.2884069865172669,
+      "score_margin": 0.04579591751098633
+    }
+  ],
+  "rank_scores": [
+    -0.7233392929960853,
+    -0.27866534382437136,
+    -0.29605544504486103
+  ],
+  "points": [
+    [
+      202.0,
+      449.43288590604027
+    ],
+    [
+      217.0,
+      290.50671140939596
+    ],
+    [
+      202.0,
+      369.9697986577181
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        94.0,
+        172.0
+      ],
+      [
+        101.0,
+        98.0
+      ],
+      [
+        94.0,
+        135.0
+      ]
+    ],
+    "crop_box": [
+      54,
+      0,
+      203,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000012440\\6645.map.npz": "569ae0509333d6b1d200bb75c1364b307c61e1fd974806047e18a06048e09e25",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000012440\\6645.map.json": "c9d3102fb6fcd8682780eb67dd54f64c00b0bd94526ed44a56d68a4182ef746f",
+    "outputs\\cross_attribution_generalization\\refcocog\\CS\\predictions\\000000012440\\6645.npz": "34b7d0c950e8172d45441884a24ae509cb9ac8b728ae46bc59b6e92945a7d214"
+  }
+}

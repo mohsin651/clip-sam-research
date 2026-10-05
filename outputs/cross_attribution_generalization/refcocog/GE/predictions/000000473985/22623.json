@@ -1,0 +1,139 @@
+{
+  "image_id": 473985,
+  "sent_id": 22623,
+  "expression": "A man leaping in the air to catch a frisbee.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000473985.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "39caa85c8a8d2ef9c649776dbba2c89bc8a063d68e72ffc5c5c1af6923f81b33",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.005221921927722117,
+      "density_outside": 0.01168503537526364,
+      "density_ratio": 0.44688969776930687,
+      "log_density_ratio": -0.8054434757700981,
+      "coverage": 0.3190495783998306,
+      "area_fraction": 0.5118229166666667,
+      "sam_score": 0.9197691679000854,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.239404041113584,
+      "agreement_min": 0.008659054267029776,
+      "agreement_max": 0.4701490279601382,
+      "spread_mean": 0.24043728710830967,
+      "spread_max": 0.35505086851917084,
+      "entropy": 0.9016025137910411,
+      "top10_mass": 0.575192205451361,
+      "score_margin": 0.021377146244049072
+    },
+    {
+      "density_inside": 0.04338551653508624,
+      "density_outside": 0.0072223640998028875,
+      "density_ratio": 6.007107358415121,
+      "log_density_ratio": 1.792943327949633,
+      "coverage": 0.16536986384948993,
+      "area_fraction": 0.031930338541666665,
+      "sam_score": 0.9411463141441345,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.011430533374758042,
+      "agreement_min": 0.008659054267029776,
+      "agreement_max": 0.014202012482486308,
+      "spread_mean": 0.24043728710830967,
+      "spread_max": 0.35505086851917084,
+      "entropy": 0.9016025137910411,
+      "top10_mass": 0.575192205451361,
+      "score_margin": 0.021377146244049072
+    },
+    {
+      "density_inside": 0.0077343027683558895,
+      "density_outside": 0.008625920644613852,
+      "density_ratio": 0.8966350475631448,
+      "log_density_ratio": -0.10910635848755054,
+      "coverage": 0.25768941248088995,
+      "area_fraction": 0.27910481770833334,
+      "sam_score": 0.8592709302902222,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.24217552022131225,
+      "agreement_min": 0.014202012482486308,
+      "agreement_max": 0.4701490279601382,
+      "spread_mean": 0.24043728710830967,
+      "spread_max": 0.35505086851917084,
+      "entropy": 0.9016025137910411,
+      "top10_mass": 0.575192205451361,
+      "score_margin": 0.021377146244049072
+    }
+  ],
+  "rank_scores": [
+    -5.278106120964444,
+    -1.2401541556791678,
+    -4.135208036465368
+  ],
+  "points": [
+    [
+      359.2315436241611,
+      120.57142857142857
+    ],
+    [
+      535.3389261744967,
+      343.42857142857144
+    ],
+    [
+      470.90939597315435,
+      311.2857142857143
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        130.0,
+        56.0
+      ],
+      [
+        212.0,
+        160.0
+      ],
+      [
+        182.0,
+        145.0
+      ]
+    ],
+    "crop_box": [
+      105,
+      43,
+      224,
+      182
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000473985\\22623.map.npz": "e912573de10998221378cee001d15ba33aed39defc065dd910138e0abbfed42b",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000473985\\22623.map.json": "1bef34adc6e6c9f10c7b9e703bc7f6c6fe2fdaae63827e6198417daa2601a433",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000473985\\22623.npz": "d958d46708a7f3a051a2f8daa8cf324a821899cfb562a1f6e518b2f010aea93a"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 431526,
+  "sent_id": 72101,
+  "expression": "A plane with a red tail.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000431526.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "daf4bd5de1629f3deeafc7e0082289e8bee556c8b2cd80e0c6bdf03df47ac36f",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.06784822578754429,
+      "density_outside": 0.005115455909363157,
+      "density_ratio": 13.26337807937975,
+      "log_density_ratio": 2.5850067094449996,
+      "coverage": 0.2219760299353945,
+      "area_fraction": 0.021057942708333333,
+      "sam_score": 0.887742280960083,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6443646135219498,
+      "agreement_min": 0.6192519926425506,
+      "agreement_max": 0.6694772344013491,
+      "spread_mean": 0.14835345336438213,
+      "spread_max": 0.2147651006711409,
+      "entropy": 0.8986323495772094,
+      "top10_mass": 0.6010176973716811,
+      "score_margin": 0.006789684295654297
+    },
+    {
+      "density_inside": 0.07896277562771359,
+      "density_outside": 0.005377492866573288,
+      "density_ratio": 14.683938700107895,
+      "log_density_ratio": 2.686754291034064,
+      "coverage": 0.17655228953697,
+      "area_fraction": 0.014391276041666666,
+      "sam_score": 0.9505659341812134,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7959124320990945,
+      "agreement_min": 0.6694772344013491,
+      "agreement_max": 0.9223476297968397,
+      "spread_mean": 0.14835345336438213,
+      "spread_max": 0.2147651006711409,
+      "entropy": 0.8986323495772094,
+      "top10_mass": 0.6010176973716811,
+      "score_margin": 0.006789684295654297
+    },
+    {
+      "density_inside": 0.0802930280220523,
+      "density_outside": 0.00543866446923677,
+      "density_ratio": 14.763372232550461,
+      "log_density_ratio": 2.6921492641292515,
+      "coverage": 0.16628848461842755,
+      "area_fraction": 0.013330078125,
+      "sam_score": 0.9437762498855591,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7707998112196952,
+      "agreement_min": 0.6192519926425506,
+      "agreement_max": 0.9223476297968397,
+      "spread_mean": 0.14835345336438213,
+      "spread_max": 0.2147651006711409,
+      "entropy": 0.8986323495772094,
+      "top10_mass": 0.6010176973716811,
+      "score_margin": 0.006789684295654297
+    }
+  ],
+  "rank_scores": [
+    1.105177784954896,
+    1.2858030747224536,
+    1.1526887412689923
+  ],
+  "points": [
+    [
+      296.94966442953023,
+      199.85714285714286
+    ],
+    [
+      406.47986577181206,
+      232.0
+    ],
+    [
+      234.66778523489933,
+      232.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        101.0,
+        93.0
+      ],
+      [
+        152.0,
+        108.0
+      ],
+      [
+        72.0,
+        108.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      70,
+      211,
+      157
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000431526\\72101.map.npz": "3ae1c97c6ad3789b98380cbd601e83609633bc62cb6534c60b3f031c490f3780",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000431526\\72101.map.json": "3e62fdfbf2bbda26d6dc17e13402ff2d90d15f7dd105b55d8ba8fb439cf38bca",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000431526\\72101.npz": "bb89d21262e7da17e4c92bdd3bd0c565d500bf6a345e984163d7d77eda57efc2"
+  }
+}

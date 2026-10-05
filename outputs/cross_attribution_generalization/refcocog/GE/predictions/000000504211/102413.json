@@ -1,0 +1,139 @@
+{
+  "image_id": 504211,
+  "sent_id": 102413,
+  "expression": "the batter leaning forward at home plate",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000504211.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "c59b49127b4c2912665f50e0413ef59c2a23e41e166e11f766209cecd7d8eab0",
+  "naive_candidate": 1,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.059863235883933746,
+      "density_outside": 0.010841391962596154,
+      "density_ratio": 5.521729689780237,
+      "log_density_ratio": 1.7086911608198456,
+      "coverage": 0.248484116561928,
+      "area_fraction": 0.05649739583333333,
+      "sam_score": 0.8420445919036865,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.4529922686508519,
+      "agreement_min": 0.3260108425570364,
+      "agreement_max": 0.5799736947446674,
+      "spread_mean": 0.2005991531596524,
+      "spread_max": 0.2574931403228169,
+      "entropy": 0.9572815746455685,
+      "top10_mass": 0.34869943509088797,
+      "score_margin": 0.034570395946502686
+    },
+    {
+      "density_inside": 0.06544185700177649,
+      "density_outside": 0.011817768465073989,
+      "density_ratio": 5.537581582313492,
+      "log_density_ratio": 1.7115578679757057,
+      "coverage": 0.1607835841795463,
+      "area_fraction": 0.03344075520833333,
+      "sam_score": 0.8766149878501892,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.48872555540028667,
+      "agreement_min": 0.3974774160559059,
+      "agreement_max": 0.5799736947446674,
+      "spread_mean": 0.2005991531596524,
+      "spread_max": 0.2574931403228169,
+      "entropy": 0.9572815746455685,
+      "top10_mass": 0.34869943509088797,
+      "score_margin": 0.034570395946502686
+    },
+    {
+      "density_inside": 0.07233301568821984,
+      "density_outside": 0.012416371378951848,
+      "density_ratio": 5.825616315328058,
+      "log_density_ratio": 1.7622647990751468,
+      "coverage": 0.10595744271676089,
+      "area_fraction": 0.019938151041666668,
+      "sam_score": 0.7867122888565063,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.36174412930647115,
+      "agreement_min": 0.3260108425570364,
+      "agreement_max": 0.3974774160559059,
+      "spread_mean": 0.2005991531596524,
+      "spread_max": 0.2574931403228169,
+      "entropy": 0.9572815746455685,
+      "top10_mass": 0.34869943509088797,
+      "score_margin": 0.034570395946502686
+    }
+  ],
+  "rank_scores": [
+    -0.6056199447429568,
+    -0.9708324695002202,
+    -1.3614098472466705
+  ],
+  "points": [
+    [
+      247.55369127516778,
+      150.57142857142856
+    ],
+    [
+      247.55369127516778,
+      296.2857142857143
+    ],
+    [
+      376.4127516778523,
+      311.2857142857143
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        78.0,
+        70.0
+      ],
+      [
+        78.0,
+        138.0
+      ],
+      [
+        138.0,
+        145.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      50,
+      159,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000504211\\102413.map.npz": "905ef713ed46a8fef024d953f6af3845637d9c96b695ed4fd68e5de3d0d3807d",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000504211\\102413.map.json": "f3f7cff9619e20ae3ea73416a3798f5a18c1f4efdac2a6a70f6d1ef0326b1799",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000504211\\102413.npz": "fb48f28a20da1a86a2c797de369d81d3a54d697eea7e6e049b96306ac2280b5b"
+  }
+}

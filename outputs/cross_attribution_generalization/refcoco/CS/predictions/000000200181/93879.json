@@ -1,0 +1,139 @@
+{
+  "image_id": 200181,
+  "sent_id": 93879,
+  "expression": "pizza slice at 6 o'clock on plate",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000200181.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 640,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "c020dde36b2a2795c3604c1db5a11d81e2f31126d7b570e75db9b6e372e0f281",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": false,
+  "features": [
+    {
+      "density_inside": 0.7366340564718433,
+      "density_outside": 0.5645460318572808,
+      "density_ratio": 1.3048254967750126,
+      "log_density_ratio": 0.2660693128884883,
+      "coverage": 0.15584801135667448,
+      "area_fraction": 0.12395263671875,
+      "sam_score": 0.94602370262146,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.667778115584386,
+      "agreement_min": 0.3896129464109934,
+      "agreement_max": 0.9459432847577787,
+      "spread_mean": 0.17987562009292382,
+      "spread_max": 0.2660841619676,
+      "entropy": 0.9936847105611927,
+      "top10_mass": 0.15163186983324384,
+      "score_margin": 0.02358001470565796
+    },
+    {
+      "density_inside": 0.732725480719489,
+      "density_outside": 0.566363364875043,
+      "density_ratio": 1.2937374239943233,
+      "log_density_ratio": 0.25753525740156386,
+      "coverage": 0.14669462686701765,
+      "area_fraction": 0.117294921875,
+      "sam_score": 0.922443687915802,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6786833132402159,
+      "agreement_min": 0.41142334172265327,
+      "agreement_max": 0.9459432847577787,
+      "spread_mean": 0.17987562009292382,
+      "spread_max": 0.2660841619676,
+      "entropy": 0.9936847105611927,
+      "top10_mass": 0.15163186983324384,
+      "score_margin": 0.02358001470565796
+    },
+    {
+      "density_inside": 0.728874040688299,
+      "density_outside": 0.5786081998073074,
+      "density_ratio": 1.2597022318898603,
+      "log_density_ratio": 0.23087536913892986,
+      "coverage": 0.060177823520081115,
+      "area_fraction": 0.04837158203125,
+      "sam_score": 0.8940205574035645,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.40051814406682335,
+      "agreement_min": 0.3896129464109934,
+      "agreement_max": 0.41142334172265327,
+      "spread_mean": 0.17987562009292382,
+      "spread_max": 0.2660841619676,
+      "entropy": 0.9936847105611927,
+      "top10_mass": 0.15163186983324384,
+      "score_margin": 0.02358001470565796
+    }
+  ],
+  "rank_scores": [
+    -2.654533567649895,
+    -2.7167049402212924,
+    -3.4323228736431135
+  ],
+  "points": [
+    [
+      289.5,
+      589.5
+    ],
+    [
+      49.5,
+      609.5
+    ],
+    [
+      149.5,
+      629.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 640,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        101.0,
+        206.0
+      ],
+      [
+        17.0,
+        213.0
+      ],
+      [
+        52.0,
+        220.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      152,
+      120,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000200181\\93879.map.npz": "94a2703d4dd2ea964025a87b0a89fbed8875dc9bb525f932e1f5a34113d135e9",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000200181\\93879.map.json": "de81ee565d36d2c73cf5941ac4d451836f98bd2afc770ec193852483a9c21d92",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000200181\\93879.npz": "2cfcaaf609e1461edcac5f537b731c9e2fd669872e8e0fea74820f036b8f2ce8"
+  }
+}

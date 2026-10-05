@@ -1,0 +1,139 @@
+{
+  "image_id": 120524,
+  "sent_id": 90258,
+  "expression": "A sheep being sniffed by a dog",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000120524.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "f2620ee4170ef6637376b9b1ac24efe89f01bf524abc9722001cd7a7af554489",
+  "naive_candidate": 0,
+  "smart_candidate": 0,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.035524338071766665,
+      "density_outside": 0.00632768410091443,
+      "density_ratio": 5.614113710420347,
+      "log_density_ratio": 1.7252837325579315,
+      "coverage": 0.6949661899855232,
+      "area_fraction": 0.288671875,
+      "sam_score": 0.9738320112228394,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3453126286911148,
+      "agreement_min": 0.15779506028956924,
+      "agreement_max": 0.5328301970926603,
+      "spread_mean": 0.22467301927403197,
+      "spread_max": 0.3030510650541772,
+      "entropy": 0.9388922118977158,
+      "top10_mass": 0.399646654801064,
+      "score_margin": 0.08217072486877441
+    },
+    {
+      "density_inside": 0.039064259628875664,
+      "density_outside": 0.01016285228518862,
+      "density_ratio": 3.843828339605431,
+      "log_density_ratio": 1.3464688334261588,
+      "coverage": 0.4207249489284568,
+      "area_fraction": 0.15892252604166668,
+      "sam_score": 0.8916612863540649,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.37909781814777455,
+      "agreement_min": 0.22536543920288876,
+      "agreement_max": 0.5328301970926603,
+      "spread_mean": 0.22467301927403197,
+      "spread_max": 0.3030510650541772,
+      "entropy": 0.9388922118977158,
+      "top10_mass": 0.399646654801064,
+      "score_margin": 0.08217072486877441
+    },
+    {
+      "density_inside": 0.0733654221536753,
+      "density_outside": 0.011823689755275766,
+      "density_ratio": 6.204951556237719,
+      "log_density_ratio": 1.8253476114258196,
+      "coverage": 0.23689478025057842,
+      "area_fraction": 0.047646484375,
+      "sam_score": 0.7828693389892578,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.191580249746229,
+      "agreement_min": 0.15779506028956924,
+      "agreement_max": 0.22536543920288876,
+      "spread_mean": 0.22467301927403197,
+      "spread_max": 0.3030510650541772,
+      "entropy": 0.9388922118977158,
+      "top10_mass": 0.399646654801064,
+      "score_margin": 0.08217072486877441
+    }
+  ],
+  "rank_scores": [
+    1.7418389306872402,
+    -0.08483300483557912,
+    -0.7554597642419048
+  ],
+  "points": [
+    [
+      391.4463087248322,
+      182.71428571428572
+    ],
+    [
+      168.09060402684563,
+      88.42857142857143
+    ],
+    [
+      311.9832214765101,
+      232.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        145.0,
+        85.0
+      ],
+      [
+        41.0,
+        41.0
+      ],
+      [
+        108.0,
+        108.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      37,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000120524\\90258.map.npz": "bc77d0ca1b68eca5bbacc390f23a4ca84bd562e2707b7ca465848b2be94b048e",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000120524\\90258.map.json": "1bda2ba45dd2f0a09d70b93288d762f3440972d80ca9e0d108c4e51944262369",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000120524\\90258.npz": "9bdaef1d97d30db40b3de40fbcbac4f6cb9b90b9290ae16e5013527ea533046e"
+  }
+}

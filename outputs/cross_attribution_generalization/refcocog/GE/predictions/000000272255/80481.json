@@ -1,0 +1,139 @@
+{
+  "image_id": 272255,
+  "sent_id": 80481,
+  "expression": "the man in the red striped shirt in the crosswalk",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000272255.jpg",
+  "geometry": {
+    "width": 523,
+    "height": 640,
+    "rw": 224,
+    "rh": 274,
+    "left": 0,
+    "top": 25
+  },
+  "image_sha256": "98a6624a0979ff507e7b6a27392631338fade2f803282117f26c93482fdacdbf",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": false,
+  "features": [
+    {
+      "density_inside": 0.005846345517710261,
+      "density_outside": 0.004414649771575355,
+      "density_ratio": 1.3243056230709107,
+      "log_density_ratio": 0.2808882641831237,
+      "coverage": 0.2841343352448789,
+      "area_fraction": 0.23059870936902485,
+      "sam_score": 0.8933079838752747,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3008664698852352,
+      "agreement_min": 0.16377082320427852,
+      "agreement_max": 0.4379621165661919,
+      "spread_mean": 0.34329469595392076,
+      "spread_max": 0.45019607080075336,
+      "entropy": 0.9507885771103831,
+      "top10_mass": 0.36065867781407857,
+      "score_margin": 0.09854793548583984
+    },
+    {
+      "density_inside": 0.00843490418838495,
+      "density_outside": 0.004140707449716791,
+      "density_ratio": 2.0370683726822567,
+      "log_density_ratio": 0.7115117021814883,
+      "coverage": 0.25008168078884946,
+      "area_fraction": 0.14067578871892925,
+      "sam_score": 0.7947600483894348,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3590630944631549,
+      "agreement_min": 0.2801640723601178,
+      "agreement_max": 0.4379621165661919,
+      "spread_mean": 0.34329469595392076,
+      "spread_max": 0.45019607080075336,
+      "entropy": 0.9507885771103831,
+      "top10_mass": 0.36065867781407857,
+      "score_margin": 0.09854793548583984
+    },
+    {
+      "density_inside": 0.01503920152600656,
+      "density_outside": 0.004303060171699806,
+      "density_ratio": 3.4950014460454852,
+      "log_density_ratio": 1.2513337894991008,
+      "coverage": 0.13041348394959693,
+      "area_fraction": 0.04114483747609943,
+      "sam_score": 0.5931352376937866,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.22196744778219818,
+      "agreement_min": 0.16377082320427852,
+      "agreement_max": 0.2801640723601178,
+      "spread_mean": 0.34329469595392076,
+      "spread_max": 0.45019607080075336,
+      "entropy": 0.9507885771103831,
+      "top10_mass": 0.36065867781407857,
+      "score_margin": 0.09854793548583984
+    }
+  ],
+  "rank_scores": [
+    -2.848448574158781,
+    -2.2079059989172993,
+    -2.5459383833362565
+  ],
+  "points": [
+    [
+      357.8950892857143,
+      456.14233576642334
+    ],
+    [
+      245.8236607142857,
+      519.2080291970802
+    ],
+    [
+      182.78348214285714,
+      152.492700729927
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 523,
+      "height": 640,
+      "rw": 224,
+      "rh": 274,
+      "left": 0,
+      "top": 25
+    },
+    "crop_points": [
+      [
+        153.0,
+        170.0
+      ],
+      [
+        105.0,
+        197.0
+      ],
+      [
+        78.0,
+        40.0
+      ]
+    ],
+    "crop_box": [
+      99,
+      76,
+      212,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000272255\\80481.map.npz": "87fb2b6133d1b7ee86318a890873cca62c52ae902acbe8079cb7aa39c9022959",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000272255\\80481.map.json": "17ab10d86714a473148cd6ba069f665a6bc1adfd0b0bceb136af4e420e7532c5",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000272255\\80481.npz": "3df9c9d4a3b0c2ce05ea792b1d655148b2825b2ea11ea84e92e0fd058196b954"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 65841,
+  "sent_id": 125753,
+  "expression": "left bed",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000065841.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "036bbf3dd536a040f00d59a85e3c652516bbf040ce755ab84daf46a88d95a0a8",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.7536144030405896,
+      "density_outside": 0.3020728960841717,
+      "density_ratio": 2.4948097389979087,
+      "log_density_ratio": 0.9142124693824366,
+      "coverage": 0.3245709228801383,
+      "area_fraction": 0.16150716145833333,
+      "sam_score": 0.8752676248550415,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5419707001330601,
+      "agreement_min": 0.2706188163701211,
+      "agreement_max": 0.8133225838959992,
+      "spread_mean": 0.16316845960398613,
+      "spread_max": 0.23892617449664427,
+      "entropy": 0.9888000471097032,
+      "top10_mass": 0.1775897056448086,
+      "score_margin": 0.08174550533294678
+    },
+    {
+      "density_inside": 0.7843606864509005,
+      "density_outside": 0.31309596422049724,
+      "density_ratio": 2.5051766106317834,
+      "log_density_ratio": 0.9183592352990869,
+      "coverage": 0.27475086598892956,
+      "area_fraction": 0.131357421875,
+      "sam_score": 0.9570131301879883,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5720621775824156,
+      "agreement_min": 0.3308017712688321,
+      "agreement_max": 0.8133225838959992,
+      "spread_mean": 0.16316845960398613,
+      "spread_max": 0.23892617449664427,
+      "entropy": 0.9888000471097032,
+      "top10_mass": 0.1775897056448086,
+      "score_margin": 0.08174550533294678
+    },
+    {
+      "density_inside": 0.8206310648913984,
+      "density_outside": 0.3546085647724659,
+      "density_ratio": 2.3141885064610355,
+      "log_density_ratio": 0.8390590889210429,
+      "coverage": 0.0957545167382791,
+      "area_fraction": 0.043756510416666665,
+      "sam_score": 0.6541939973831177,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.30071029381947656,
+      "agreement_min": 0.2706188163701211,
+      "agreement_max": 0.3308017712688321,
+      "spread_mean": 0.16316845960398613,
+      "spread_max": 0.23892617449664427,
+      "entropy": 0.9888000471097032,
+      "top10_mass": 0.1775897056448086,
+      "score_margin": 0.08174550533294678
+    }
+  ],
+  "rank_scores": [
+    -1.1841590200458103,
+    -1.178698233518687,
+    -3.038644171072218
+  ],
+  "points": [
+    [
+      187.41946308724832,
+      292.0
+    ],
+    [
+      271.17785234899327,
+      322.0
+    ],
+    [
+      80.03691275167785,
+      322.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        50.0,
+        136.0
+      ],
+      [
+        89.0,
+        150.0
+      ],
+      [
+        0.0,
+        150.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      60,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000065841\\125753.map.npz": "1f9c59436ac7b29156ed314d3554e9f11d317ccb0fd3811873a74a866b03b7b4",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000065841\\125753.map.json": "f19b5bf0459892ce6cf4741c039d913681f448c010ee2139933713904636b835",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000065841\\125753.npz": "5c46142749d6701183195635971d85fc98b89585a6a5317e85cb2e9ec345dbc4"
+  }
+}

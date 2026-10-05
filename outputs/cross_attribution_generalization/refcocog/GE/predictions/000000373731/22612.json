@@ -1,0 +1,139 @@
+{
+  "image_id": 373731,
+  "sent_id": 22612,
+  "expression": "black truck coming behind the white car in same lane",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000373731.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 360,
+    "rw": 398,
+    "rh": 224,
+    "left": 87,
+    "top": 0
+  },
+  "image_sha256": "7ca92cefbbf191783df39280830623fec8a53dea75b472a4daca792894d10212",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.012118661278028006,
+      "density_outside": 0.0035073276787558724,
+      "density_ratio": 3.455240680241068,
+      "log_density_ratio": 1.2398921163060268,
+      "coverage": 0.6298354010189845,
+      "area_fraction": 0.3299565972222222,
+      "sam_score": 0.8746547698974609,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.4833093768336742,
+      "agreement_min": 0.2767188877050366,
+      "agreement_max": 0.6898998659623118,
+      "spread_mean": 0.3058515705031348,
+      "spread_max": 0.4581103381606218,
+      "entropy": 0.9629660285920622,
+      "top10_mass": 0.31019802898337623,
+      "score_margin": 0.032811105251312256
+    },
+    {
+      "density_inside": 0.0163803994224626,
+      "density_outside": 0.0033826886136507192,
+      "density_ratio": 4.84242012448845,
+      "log_density_ratio": 1.5774146215391398,
+      "coverage": 0.5887693027380204,
+      "area_fraction": 0.22819444444444445,
+      "sam_score": 0.9074658751487732,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5449822652811236,
+      "agreement_min": 0.40006466459993534,
+      "agreement_max": 0.6898998659623118,
+      "spread_mean": 0.3058515705031348,
+      "spread_max": 0.4581103381606218,
+      "entropy": 0.9629660285920622,
+      "top10_mass": 0.31019802898337623,
+      "score_margin": 0.032811105251312256
+    },
+    {
+      "density_inside": 0.01783677754521831,
+      "density_outside": 0.005194299701344639,
+      "density_ratio": 3.4339138223323964,
+      "log_density_ratio": 1.233700666797814,
+      "coverage": 0.2565393418269501,
+      "area_fraction": 0.09131076388888888,
+      "sam_score": 0.6859085559844971,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.33839177615248595,
+      "agreement_min": 0.2767188877050366,
+      "agreement_max": 0.40006466459993534,
+      "spread_mean": 0.3058515705031348,
+      "spread_max": 0.4581103381606218,
+      "entropy": 0.9629660285920622,
+      "top10_mass": 0.31019802898337623,
+      "score_margin": 0.032811105251312256
+    }
+  ],
+  "rank_scores": [
+    0.5614682998805417,
+    1.3358058487933235,
+    -1.4981070004254065
+  ],
+  "points": [
+    [
+      231.86180904522615,
+      257.44642857142856
+    ],
+    [
+      487.54020100502515,
+      257.44642857142856
+    ],
+    [
+      151.45979899497488,
+      242.98214285714286
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 360,
+      "rw": 398,
+      "rh": 224,
+      "left": 87,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        57.0,
+        160.0
+      ],
+      [
+        216.0,
+        160.0
+      ],
+      [
+        7.0,
+        151.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      90,
+      85,
+      192
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000373731\\22612.map.npz": "f8332b2fa8ca96b75c5f9d577bda7b5ff8b23b7b4380682f54ad94a3cdcc4c13",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000373731\\22612.map.json": "77ab17aa89dcc89ce952f65e64e6264c7723c5549b63e1d3ff4b1e96e28ff260",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000373731\\22612.npz": "7331a2fe546527ecb51068e56fb1fb9e9373596336b25c8cb4bd53c0fbfd808b"
+  }
+}

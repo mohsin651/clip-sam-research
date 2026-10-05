@@ -1,0 +1,139 @@
+{
+  "image_id": 53729,
+  "sent_id": 128499,
+  "expression": "person in white shirt",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000053729.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "e929d607d6a99b548d15d8a2a9a6a1aab5ce1ea5a851f60f4a56e6f213e65909",
+  "naive_candidate": 2,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.0021017778599772153,
+      "density_outside": 0.0005511074689258026,
+      "density_ratio": 3.813735023878708,
+      "log_density_ratio": 1.3386090306413583,
+      "coverage": 0.0705286756216764,
+      "area_fraction": 0.019508463541666667,
+      "sam_score": 0.725609540939331,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.3121777046809451,
+      "agreement_min": 0.11815734370326055,
+      "agreement_max": 0.5061980656586296,
+      "spread_mean": 0.1623004079246064,
+      "spread_max": 0.24141521117194975,
+      "entropy": 0.8610293374264791,
+      "top10_mass": 0.6823226659573877,
+      "score_margin": 0.024867355823516846
+    },
+    {
+      "density_inside": 0.0035355600277154962,
+      "density_outside": 0.000531844289085797,
+      "density_ratio": 6.647735236839979,
+      "log_density_ratio": 1.8942762310561458,
+      "coverage": 0.10025050071321545,
+      "area_fraction": 0.016484375,
+      "sam_score": 0.8322364687919617,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.3903386668569574,
+      "agreement_min": 0.27447926805528516,
+      "agreement_max": 0.5061980656586296,
+      "spread_mean": 0.1623004079246064,
+      "spread_max": 0.24141521117194975,
+      "entropy": 0.8610293374264791,
+      "top10_mass": 0.6823226659573877,
+      "score_margin": 0.024867355823516846
+    },
+    {
+      "density_inside": 0.008551001270014017,
+      "density_outside": 0.0005426987940616546,
+      "density_ratio": 15.756440493004153,
+      "log_density_ratio": 2.757249201994252,
+      "coverage": 0.07100562592958887,
+      "area_fraction": 0.004827473958333333,
+      "sam_score": 0.8571038246154785,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.19631830587927285,
+      "agreement_min": 0.11815734370326055,
+      "agreement_max": 0.27447926805528516,
+      "spread_mean": 0.1623004079246064,
+      "spread_max": 0.24141521117194975,
+      "entropy": 0.8610293374264791,
+      "top10_mass": 0.6823226659573877,
+      "score_margin": 0.024867355823516846
+    }
+  ],
+  "rank_scores": [
+    -2.6464175378061743,
+    -1.1765794551103155,
+    -0.5167436328278812
+  ],
+  "points": [
+    [
+      118.69463087248322,
+      279.1428571428571
+    ],
+    [
+      294.8020134228188,
+      199.85714285714286
+    ],
+    [
+      232.5201342281879,
+      247.0
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        18.0,
+        130.0
+      ],
+      [
+        100.0,
+        93.0
+      ],
+      [
+        71.0,
+        115.0
+      ]
+    ],
+    "crop_box": [
+      4,
+      119,
+      26,
+      138
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000053729\\128499.map.npz": "8552c94c881e489f907906c16ba3942be305cb924054caf2f3f93190a7334ec2",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000053729\\128499.map.json": "f3bcfd31ae0d36c259085f5ba71179783a974d8ca587ffd4f850afbfdbefc708",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\GE\\predictions\\000000053729\\128499.npz": "7841063fce8f44a973000965b691696e43f9f1d5be6de1f2e02d6e6004f41040"
+  }
+}

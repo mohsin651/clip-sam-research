@@ -1,0 +1,139 @@
+{
+  "image_id": 29116,
+  "sent_id": 55886,
+  "expression": "A boy wearing orange and doing a skateboard trick.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000029116.jpg",
+  "geometry": {
+    "width": 426,
+    "height": 640,
+    "rw": 224,
+    "rh": 336,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "0c7cc545ccc409060ee6d979f33c068af7228f7f4a62689d8c9304f2ca9a68ff",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.03393421119143394,
+      "density_outside": 0.008832607299318776,
+      "density_ratio": 3.8419245911916886,
+      "log_density_ratio": 1.3459734366953642,
+      "coverage": 0.32004179552317985,
+      "area_fraction": 0.10914025821596245,
+      "sam_score": 0.814861536026001,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.46530464606611105,
+      "agreement_min": 0.41262607646684313,
+      "agreement_max": 0.517983215665379,
+      "spread_mean": 0.2504039352208406,
+      "spread_max": 0.3572032876362042,
+      "entropy": 0.9499211115588791,
+      "top10_mass": 0.3473299199475911,
+      "score_margin": 0.0016824603080749512
+    },
+    {
+      "density_inside": 0.047656339476591945,
+      "density_outside": 0.009348540776373194,
+      "density_ratio": 5.097730288767345,
+      "log_density_ratio": 1.6287953992727722,
+      "coverage": 0.23904861510298042,
+      "area_fraction": 0.058047241784037557,
+      "sam_score": 0.8300870060920715,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6475831837314492,
+      "agreement_min": 0.517983215665379,
+      "agreement_max": 0.7771831517975194,
+      "spread_mean": 0.2504039352208406,
+      "spread_max": 0.3572032876362042,
+      "entropy": 0.9499211115588791,
+      "top10_mass": 0.3473299199475911,
+      "score_margin": 0.0016824603080749512
+    },
+    {
+      "density_inside": 0.052664446344007486,
+      "density_outside": 0.009614060845561243,
+      "density_ratio": 5.477856567013979,
+      "log_density_ratio": 1.7007138870585166,
+      "coverage": 0.20699917768394385,
+      "area_fraction": 0.04548488849765258,
+      "sam_score": 0.8284045457839966,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5949046141321812,
+      "agreement_min": 0.41262607646684313,
+      "agreement_max": 0.7771831517975194,
+      "spread_mean": 0.2504039352208406,
+      "spread_max": 0.3572032876362042,
+      "entropy": 0.9499211115588791,
+      "top10_mass": 0.3473299199475911,
+      "score_margin": 0.0016824603080749512
+    }
+  ],
+  "rank_scores": [
+    -0.5645436672402583,
+    -0.2678863106219682,
+    -0.47932938855840795
+  ],
+  "points": [
+    [
+      259.09375,
+      360.4523809523809
+    ],
+    [
+      196.33482142857142,
+      406.16666666666663
+    ],
+    [
+      243.87946428571428,
+      135.69047619047618
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 426,
+      "height": 640,
+      "rw": 224,
+      "rh": 336,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        136.0,
+        133.0
+      ],
+      [
+        103.0,
+        157.0
+      ],
+      [
+        128.0,
+        15.0
+      ]
+    ],
+    "crop_box": [
+      57,
+      1,
+      224,
+      210
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000029116\\55886.map.npz": "108807347d4c43e91b392944e342dea506f3c17d360ae20bd9bb97905c428f95",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000029116\\55886.map.json": "da254887944d9789e328ec34623217ea3623a58c91bfa376898e23db563c19f2",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000029116\\55886.npz": "a939ef21b764ad8379810382a36c2f0f5174b3c8e80d42424937f8e29193acd4"
+  }
+}

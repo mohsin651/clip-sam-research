@@ -1,0 +1,139 @@
+{
+  "image_id": 73174,
+  "sent_id": 123647,
+  "expression": "dog groomer",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000073174.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 640,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "0c565f1bc6f0a210287e1771ae0a69a85bfaf0d63f73e7e893c6623a14593825",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.6202392853280596,
+      "density_outside": 0.2778178775222348,
+      "density_ratio": 2.23253913987658,
+      "log_density_ratio": 0.8031395654760584,
+      "coverage": 0.28898427806597865,
+      "area_fraction": 0.154013671875,
+      "sam_score": 0.9726294875144958,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.5899731205353277,
+      "agreement_min": 0.5329540996469203,
+      "agreement_max": 0.6469921414237351,
+      "spread_mean": 0.30340705855216515,
+      "spread_max": 0.4550068680800324,
+      "entropy": 0.9837437266709911,
+      "top10_mass": 0.24672593027905473,
+      "score_margin": 0.013702392578125
+    },
+    {
+      "density_inside": 0.7498059942365873,
+      "density_outside": 0.2795455114034517,
+      "density_ratio": 2.682232279350585,
+      "log_density_ratio": 0.9866493878782268,
+      "coverage": 0.24604862570266858,
+      "area_fraction": 0.1084716796875,
+      "sam_score": 0.9589270949363708,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.7304308561730931,
+      "agreement_min": 0.6469921414237351,
+      "agreement_max": 0.8138695709224512,
+      "spread_mean": 0.30340705855216515,
+      "spread_max": 0.4550068680800324,
+      "entropy": 0.9837437266709911,
+      "top10_mass": 0.24672593027905473,
+      "score_margin": 0.013702392578125
+    },
+    {
+      "density_inside": 0.7520428740627835,
+      "density_outside": 0.28681419174402417,
+      "density_ratio": 2.622056005971087,
+      "log_density_ratio": 0.9639587451341998,
+      "coverage": 0.21390607497047462,
+      "area_fraction": 0.09402099609375,
+      "sam_score": 0.8086261749267578,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.6734118352846857,
+      "agreement_min": 0.5329540996469203,
+      "agreement_max": 0.8138695709224512,
+      "spread_mean": 0.30340705855216515,
+      "spread_max": 0.4550068680800324,
+      "entropy": 0.9837437266709911,
+      "top10_mass": 0.24672593027905473,
+      "score_margin": 0.013702392578125
+    }
+  ],
+  "rank_scores": [
+    -1.3003379595314404,
+    -1.0072725834332301,
+    -1.604686880738544
+  ],
+  "points": [
+    [
+      309.5,
+      209.5
+    ],
+    [
+      249.5,
+      329.5
+    ],
+    [
+      109.5,
+      569.5
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 640,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        108.0,
+        73.0
+      ],
+      [
+        87.0,
+        115.0
+      ],
+      [
+        38.0,
+        199.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      20,
+      151,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000073174\\123647.map.npz": "e1a56058d131992dd792131b8b9b9d44057e0ef3daea18c3b7174621dcc41129",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000073174\\123647.map.json": "612bacb5d1e11057fdda66c3e9625e611e550039794f3ce5f0f8acfa23fec5cb",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000073174\\123647.npz": "98953cd43ef5103fef2e5e0b677c85077159e326debd4821f6dc58e0dc43cad2"
+  }
+}

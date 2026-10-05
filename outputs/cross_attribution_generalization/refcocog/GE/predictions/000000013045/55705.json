@@ -1,0 +1,139 @@
+{
+  "image_id": 13045,
+  "sent_id": 55705,
+  "expression": "A bunch of cilantro on top of mash potato.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000013045.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "d3dbcb8c7262fca5e90ed15520770dbeec16f3146422e829ef3375ec72bea7cd",
+  "naive_candidate": 2,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.027335480273302244,
+      "density_outside": 0.008694631104826546,
+      "density_ratio": 3.1439494028658532,
+      "log_density_ratio": 1.1454797812379933,
+      "coverage": 0.38452861025718765,
+      "area_fraction": 0.16577799479166666,
+      "sam_score": 0.6752462983131409,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5573530167266831,
+      "agreement_min": 0.5335979917099656,
+      "agreement_max": 0.5811080417434008,
+      "spread_mean": 0.23802457776935645,
+      "spread_max": 0.3409395973154362,
+      "entropy": 0.9528105911807697,
+      "top10_mass": 0.34722631871067966,
+      "score_margin": 0.06705063581466675
+    },
+    {
+      "density_inside": 0.04170810365922705,
+      "density_outside": 0.008366852827333508,
+      "density_ratio": 4.9849213933806436,
+      "log_density_ratio": 1.606417634683691,
+      "coverage": 0.3628175894215893,
+      "area_fraction": 0.10251627604166667,
+      "sam_score": 0.8735947012901306,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7330125116174384,
+      "agreement_min": 0.5811080417434008,
+      "agreement_max": 0.8849169814914759,
+      "spread_mean": 0.23802457776935645,
+      "spread_max": 0.3409395973154362,
+      "entropy": 0.9528105911807697,
+      "top10_mass": 0.34722631871067966,
+      "score_margin": 0.06705063581466675
+    },
+    {
+      "density_inside": 0.04598861668181699,
+      "density_outside": 0.008370866990965986,
+      "density_ratio": 5.493889309907202,
+      "log_density_ratio": 1.7036364400414095,
+      "coverage": 0.35415793106875093,
+      "area_fraction": 0.09075520833333334,
+      "sam_score": 0.9406453371047974,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.7092574866007207,
+      "agreement_min": 0.5335979917099656,
+      "agreement_max": 0.8849169814914759,
+      "spread_mean": 0.23802457776935645,
+      "spread_max": 0.3409395973154362,
+      "entropy": 0.9528105911807697,
+      "top10_mass": 0.34722631871067966,
+      "score_margin": 0.06705063581466675
+    }
+  ],
+  "rank_scores": [
+    -0.6752870288072234,
+    0.5949808128253149,
+    0.7682995573930876
+  ],
+  "points": [
+    [
+      168.09060402684563,
+      199.85714285714286
+    ],
+    [
+      118.69463087248322,
+      150.57142857142856
+    ],
+    [
+      391.4463087248322,
+      150.57142857142856
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        41.0,
+        93.0
+      ],
+      [
+        18.0,
+        70.0
+      ],
+      [
+        145.0,
+        70.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      19,
+      224,
+      194
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000013045\\55705.map.npz": "a36091d54995388362a7190cab42b928c3312d4430dca278fa689079c3ffecaf",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000013045\\55705.map.json": "e6db2833ae6c5f637955c7e3932638e161790827f08a1b319d9b27bda9ce9d12",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000013045\\55705.npz": "e3825b6d8c07d530059905ed83bc3b2621e3f762104bc4c995a867e00f7c9559"
+  }
+}

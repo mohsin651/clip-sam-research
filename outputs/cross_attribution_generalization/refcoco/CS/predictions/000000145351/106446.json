@@ -1,0 +1,139 @@
+{
+  "image_id": 145351,
+  "sent_id": 106446,
+  "expression": "blue shirt",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000145351.jpg",
+  "geometry": {
+    "width": 612,
+    "height": 612,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "10bdc67633a31195eb49bc53cd09e28d75d635496f6d0f24c144ed6e85d48ba0",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.5230838462578395,
+      "density_outside": 0.22768006962750764,
+      "density_ratio": 2.2974511871474963,
+      "log_density_ratio": 0.8318003289510089,
+      "coverage": 0.5543426471858277,
+      "area_fraction": 0.3512457815370157,
+      "sam_score": 0.9682857990264893,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.521611125591336,
+      "agreement_min": 0.46583747171473266,
+      "agreement_max": 0.5773847794679394,
+      "spread_mean": 0.16986957128431146,
+      "spread_max": 0.22097086912079608,
+      "entropy": 0.9821285210353451,
+      "top10_mass": 0.24508653282642068,
+      "score_margin": 0.0097617506980896
+    },
+    {
+      "density_inside": 0.6572740434777192,
+      "density_outside": 0.2471485227542593,
+      "density_ratio": 2.6594293833938463,
+      "log_density_ratio": 0.9781115822618442,
+      "coverage": 0.4075736762770551,
+      "area_fraction": 0.20552458456149345,
+      "sam_score": 0.9585240483283997,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6870794027883934,
+      "agreement_min": 0.5773847794679394,
+      "agreement_max": 0.7967740261088474,
+      "spread_mean": 0.16986957128431146,
+      "spread_max": 0.22097086912079608,
+      "entropy": 0.9821285210353451,
+      "top10_mass": 0.24508653282642068,
+      "score_margin": 0.0097617506980896
+    },
+    {
+      "density_inside": 0.6857000138080148,
+      "density_outside": 0.261862375116946,
+      "density_ratio": 2.618551112962171,
+      "log_density_ratio": 0.9626211544880775,
+      "coverage": 0.33962242385309804,
+      "area_fraction": 0.16415961809560425,
+      "sam_score": 0.9156177043914795,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.63130574891179,
+      "agreement_min": 0.46583747171473266,
+      "agreement_max": 0.7967740261088474,
+      "spread_mean": 0.16986957128431146,
+      "spread_max": 0.22097086912079608,
+      "entropy": 0.9821285210353451,
+      "top10_mass": 0.24508653282642068,
+      "score_margin": 0.0097617506980896
+    }
+  ],
+  "rank_scores": [
+    -0.22953282822697327,
+    -0.2081745064528488,
+    -0.7345484548166289
+  ],
+  "points": [
+    [
+      487.1875,
+      410.6875
+    ],
+    [
+      295.9375,
+      410.6875
+    ],
+    [
+      353.3125,
+      334.1875
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 612,
+      "height": 612,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        178.0,
+        150.0
+      ],
+      [
+        108.0,
+        150.0
+      ],
+      [
+        129.0,
+        122.0
+      ]
+    ],
+    "crop_box": [
+      58,
+      68,
+      198,
+      169
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000145351\\106446.map.npz": "71f81de5f2e4049bbbf000bebb0afcfdf7ca0fe5526e91847a1cd4cb25128e3b",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000145351\\106446.map.json": "a138349f037d1a6a5cf7862b10ef5bedb3e4a5c6e262418b8341af4532130b6d",
+    "outputs\\cross_attribution_generalization\\refcoco\\CS\\predictions\\000000145351\\106446.npz": "8d251bd517168cc5ec6bba93b2440ee94bf627344fabc0d87c675e90828292d3"
+  }
+}

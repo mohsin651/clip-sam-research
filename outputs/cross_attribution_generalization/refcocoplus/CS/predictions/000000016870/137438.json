@@ -1,0 +1,139 @@
+{
+  "image_id": 16870,
+  "sent_id": 137438,
+  "expression": "taller thinner vase",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000016870.jpg",
+  "geometry": {
+    "width": 375,
+    "height": 500,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "d8b6e5ae01df15425890c639440cb4749e08082d529b68a4d289b3e3d8739273",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.42809615946654583,
+      "density_outside": 0.1756960416262384,
+      "density_ratio": 2.4365725915146488,
+      "log_density_ratio": 0.8905923762170771,
+      "coverage": 0.9661992938386813,
+      "area_fraction": 0.921456,
+      "sam_score": 0.9471244812011719,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.38124635587769035,
+      "agreement_min": 0.3007570583536875,
+      "agreement_max": 0.4617356534016932,
+      "spread_mean": 0.22269008594696107,
+      "spread_max": 0.3194726952098768,
+      "entropy": 0.9845402127529589,
+      "top10_mass": 0.17261978358734553,
+      "score_margin": 0.001613914966583252
+    },
+    {
+      "density_inside": 0.7163098249540805,
+      "density_outside": 0.17987725091376286,
+      "density_ratio": 3.98221465644654,
+      "log_density_ratio": 1.3818381108822348,
+      "coverage": 0.7470023828918534,
+      "area_fraction": 0.42576533333333333,
+      "sam_score": 0.9455105662345886,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 0.0,
+      "agreement_mean": 0.2332119340342816,
+      "agreement_min": 0.0046882146668699495,
+      "agreement_max": 0.4617356534016932,
+      "spread_mean": 0.22269008594696107,
+      "spread_max": 0.3194726952098768,
+      "entropy": 0.9845402127529589,
+      "top10_mass": 0.17261978358734553,
+      "score_margin": 0.001613914966583252
+    },
+    {
+      "density_inside": 0.2114277975346802,
+      "density_outside": 0.48374084592618205,
+      "density_ratio": 0.437068317291748,
+      "log_density_ratio": -0.8276657636250693,
+      "coverage": 0.1435205762779231,
+      "area_fraction": 0.27714133333333335,
+      "sam_score": 0.7139562368392944,
+      "points_inside": 1,
+      "points_fraction": 0.3333333333333333,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.15272263651027873,
+      "agreement_min": 0.0046882146668699495,
+      "agreement_max": 0.3007570583536875,
+      "spread_mean": 0.22269008594696107,
+      "spread_max": 0.3194726952098768,
+      "entropy": 0.9845402127529589,
+      "top10_mass": 0.17261978358734553,
+      "score_margin": 0.001613914966583252
+    }
+  ],
+  "rank_scores": [
+    -0.0540528369662193,
+    0.6249127267732615,
+    -5.9186923176976745
+  ],
+  "points": [
+    [
+      52.234375,
+      117.78859060402685
+    ],
+    [
+      251.453125,
+      131.21140939597316
+    ],
+    [
+      94.08705357142857,
+      84.23154362416108
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 375,
+      "height": 500,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        31.0,
+        33.0
+      ],
+      [
+        150.0,
+        41.0
+      ],
+      [
+        56.0,
+        13.0
+      ]
+    ],
+    "crop_box": [
+      13,
+      0,
+      210,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000016870\\137438.map.npz": "6ad45647ffd1e86fb394aac47f3ac9c726d89c9eaf42f41cf34c2ab31e2d1bc9",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000016870\\137438.map.json": "b916ee1723adbf8b6437221cd914034854bf31b54fe6ebc3d7bde65cfb688309",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000016870\\137438.npz": "aefab549ae75b72ed999959503bc8665cd3f30107f90abed2718d2aececc3b9e"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "image_id": 106072,
+  "sent_id": 55436,
+  "expression": "A shiny red Acura Integra with black rims",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000106072.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 427,
+    "rw": 335,
+    "rh": 224,
+    "left": 56,
+    "top": 0
+  },
+  "image_sha256": "dbe68cf2a4b09eb095343a9bb4d0c31cfb5d9989b5b397e072d53626c70a82a2",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.045968742698581824,
+      "density_outside": 0.0036519004914607454,
+      "density_ratio": 12.587621922744914,
+      "log_density_ratio": 2.5327139440369963,
+      "coverage": 0.7901620022397301,
+      "area_fraction": 0.23026566159250586,
+      "sam_score": 0.888506293296814,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.580646579310892,
+      "agreement_min": 0.4666984353903582,
+      "agreement_max": 0.6945947232314258,
+      "spread_mean": 0.1847073758907745,
+      "spread_max": 0.2622139636124871,
+      "entropy": 0.9118360966741056,
+      "top10_mass": 0.46697157342107837,
+      "score_margin": 0.07184237241744995
+    },
+    {
+      "density_inside": 0.06267457090356827,
+      "density_outside": 0.00396865560178211,
+      "density_ratio": 15.792393489531339,
+      "log_density_ratio": 2.759528399413586,
+      "coverage": 0.7513182880123133,
+      "area_fraction": 0.1605862119437939,
+      "sam_score": 0.9603486657142639,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.6822140909347387,
+      "agreement_min": 0.6698334586380517,
+      "agreement_max": 0.6945947232314258,
+      "spread_mean": 0.1847073758907745,
+      "spread_max": 0.2622139636124871,
+      "entropy": 0.9118360966741056,
+      "top10_mass": 0.46697157342107837,
+      "score_margin": 0.07184237241744995
+    },
+    {
+      "density_inside": 0.07140573083882366,
+      "density_outside": 0.00640048286854499,
+      "density_ratio": 11.156303718675508,
+      "log_density_ratio": 2.412004694101698,
+      "coverage": 0.5736273027746784,
+      "area_fraction": 0.10761490046838408,
+      "sam_score": 0.8241355419158936,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.568265947014205,
+      "agreement_min": 0.4666984353903582,
+      "agreement_max": 0.6698334586380517,
+      "spread_mean": 0.1847073758907745,
+      "spread_max": 0.2622139636124871,
+      "entropy": 0.9118360966741056,
+      "top10_mass": 0.46697157342107837,
+      "score_margin": 0.07184237241744995
+    }
+  ],
+  "rank_scores": [
+    3.9575140992099644,
+    4.637492055237586,
+    2.6933824837186697
+  ],
+  "points": [
+    [
+      246.90298507462686,
+      259.703125
+    ],
+    [
+      392.0970149253731,
+      259.703125
+    ],
+    [
+      437.94776119402985,
+      324.515625
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 427,
+      "rw": 335,
+      "rh": 224,
+      "left": 56,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        73.0,
+        136.0
+      ],
+      [
+        149.0,
+        136.0
+      ],
+      [
+        173.0,
+        170.0
+      ]
+    ],
+    "crop_box": [
+      43,
+      81,
+      224,
+      187
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000106072\\55436.map.npz": "8a872ae2878ee50777e38def417fa68a612f31561e953ddd13488e56e88c751a",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000106072\\55436.map.json": "0a94cd14c2bd920dca799a5457480fd010bc292f42aeca9ca786837cd11ec28b",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000106072\\55436.npz": "aa963c0892d008a25fce0f2096a2fc9c4f1226d6942cff16346fc956247b6bb6"
+  }
+}

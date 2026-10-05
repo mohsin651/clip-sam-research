@@ -1,0 +1,139 @@
+{
+  "image_id": 345781,
+  "sent_id": 59437,
+  "expression": "A kid watching a giraffe at the zoo",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000345781.jpg",
+  "geometry": {
+    "width": 612,
+    "height": 612,
+    "rw": 224,
+    "rh": 224,
+    "left": 0,
+    "top": 0
+  },
+  "image_sha256": "c8c6bd5230775760d54943e7c983f63f4d46ad129b8b369f766dd26e5163573d",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.02487149114858854,
+      "density_outside": 0.014385217851569258,
+      "density_ratio": 1.7289617302630136,
+      "log_density_ratio": 0.5475210724669098,
+      "coverage": 0.41258573727851827,
+      "area_fraction": 0.28888461702763896,
+      "sam_score": 0.8976478576660156,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.28293977586968827,
+      "agreement_min": 0.23774679817957264,
+      "agreement_max": 0.32813275355980387,
+      "spread_mean": 0.2386379855449402,
+      "spread_max": 0.34594613867963164,
+      "entropy": 0.9401699966816839,
+      "top10_mass": 0.47619572865313425,
+      "score_margin": 0.020975768566131592
+    },
+    {
+      "density_inside": 0.05124845661887941,
+      "density_outside": 0.01223674866394279,
+      "density_ratio": 4.188077897334097,
+      "log_density_ratio": 1.432241892982353,
+      "coverage": 0.39058756854082555,
+      "area_fraction": 0.1327240591225597,
+      "sam_score": 0.9186236262321472,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5433335706932065,
+      "agreement_min": 0.32813275355980387,
+      "agreement_max": 0.7585343878266093,
+      "spread_mean": 0.2386379855449402,
+      "spread_max": 0.34594613867963164,
+      "entropy": 0.9401699966816839,
+      "top10_mass": 0.47619572865313425,
+      "score_margin": 0.020975768566131592
+    },
+    {
+      "density_inside": 0.062094696858863915,
+      "density_outside": 0.012352007300802883,
+      "density_ratio": 5.027093600390008,
+      "log_density_ratio": 1.6148420040857272,
+      "coverage": 0.3628951269174548,
+      "area_fraction": 0.10177442436669656,
+      "sam_score": 0.8487116098403931,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.498140593003091,
+      "agreement_min": 0.23774679817957264,
+      "agreement_max": 0.7585343878266093,
+      "spread_mean": 0.2386379855449402,
+      "spread_max": 0.34594613867963164,
+      "entropy": 0.9401699966816839,
+      "top10_mass": 0.47619572865313425,
+      "score_margin": 0.020975768566131592
+    }
+  ],
+  "rank_scores": [
+    -1.8395749370816197,
+    0.15453668954593983,
+    0.0841840587844121
+  ],
+  "points": [
+    [
+      298.6696428571429,
+      331.45535714285717
+    ],
+    [
+      386.0982142857143,
+      345.11607142857144
+    ],
+    [
+      569.1517857142858,
+      203.04464285714286
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 612,
+      "height": 612,
+      "rw": 224,
+      "rh": 224,
+      "left": 0,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        109.0,
+        121.0
+      ],
+      [
+        141.0,
+        126.0
+      ],
+      [
+        208.0,
+        74.0
+      ]
+    ],
+    "crop_box": [
+      85,
+      110,
+      165,
+      150
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000345781\\59437.map.npz": "c5d31b6818ced5cf47b31328564fe906a772d33e9eb30723508396377cd106ad",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000345781\\59437.map.json": "eaecc5a07d87ec712987d3766ddbc491221d4caa3a3ab3ebedfe1784a7ad397d",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000345781\\59437.npz": "c07b0eeaa4c66feb1f0ad08d848e3f2d8201727882ef87b91d4de9512333a930"
+  }
+}

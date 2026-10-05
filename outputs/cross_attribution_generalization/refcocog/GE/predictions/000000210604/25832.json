@@ -1,0 +1,139 @@
+{
+  "image_id": 210604,
+  "sent_id": 25832,
+  "expression": "A man with a white shirt trying to catch a frisbee.",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000210604.jpg",
+  "geometry": {
+    "width": 427,
+    "height": 640,
+    "rw": 224,
+    "rh": 335,
+    "left": 0,
+    "top": 56
+  },
+  "image_sha256": "642bb2c69445c6090fb0ea46a6c01dcd56a52978903507daac0eeaf329eac847",
+  "naive_candidate": 0,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.011657868441081519,
+      "density_outside": 0.002615200224569809,
+      "density_ratio": 4.4577345654447775,
+      "log_density_ratio": 1.4946406921024669,
+      "coverage": 0.3186840402151307,
+      "area_fraction": 0.0949648711943794,
+      "sam_score": 0.9122148752212524,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.39766627324067516,
+      "agreement_min": 0.325280812432682,
+      "agreement_max": 0.47005173404866835,
+      "spread_mean": 0.19814245585071646,
+      "spread_max": 0.2514580653032169,
+      "entropy": 0.9448718187804134,
+      "top10_mass": 0.4082714747084526,
+      "score_margin": 0.04974567890167236
+    },
+    {
+      "density_inside": 0.01716228729502078,
+      "density_outside": 0.0028228144173995436,
+      "density_ratio": 6.079849664630562,
+      "log_density_ratio": 1.8049799695185664,
+      "coverage": 0.22432738005735015,
+      "area_fraction": 0.04540764051522248,
+      "sam_score": 0.8624691963195801,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5677220040215465,
+      "agreement_min": 0.47005173404866835,
+      "agreement_max": 0.6653922739944246,
+      "spread_mean": 0.19814245585071646,
+      "spread_max": 0.2514580653032169,
+      "entropy": 0.9448718187804134,
+      "top10_mass": 0.4082714747084526,
+      "score_margin": 0.04974567890167236
+    },
+    {
+      "density_inside": 0.020477092050317235,
+      "density_outside": 0.002928098649813629,
+      "density_ratio": 6.993306746897779,
+      "log_density_ratio": 1.9449535126587776,
+      "coverage": 0.1833401322049881,
+      "area_fraction": 0.031103629976580796,
+      "sam_score": 0.826129674911499,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.49533654321355325,
+      "agreement_min": 0.325280812432682,
+      "agreement_max": 0.6653922739944246,
+      "spread_mean": 0.19814245585071646,
+      "spread_max": 0.2514580653032169,
+      "entropy": 0.9448718187804134,
+      "top10_mass": 0.4082714747084526,
+      "score_margin": 0.04974567890167236
+    }
+  ],
+  "rank_scores": [
+    -0.28618154371277477,
+    -0.16243394422422527,
+    -0.45553504240284487
+  ],
+  "points": [
+    [
+      307.359375,
+      199.1417910447761
+    ],
+    [
+      212.046875,
+      246.90298507462686
+    ],
+    [
+      276.859375,
+      390.1865671641791
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 427,
+      "height": 640,
+      "rw": 224,
+      "rh": 335,
+      "left": 0,
+      "top": 56
+    },
+    "crop_points": [
+      [
+        161.0,
+        48.0
+      ],
+      [
+        111.0,
+        73.0
+      ],
+      [
+        145.0,
+        148.0
+      ]
+    ],
+    "crop_box": [
+      49,
+      32,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000210604\\25832.map.npz": "451704738e002575673402680c3475daf117fd9cc92e90f5ec872523a829297d",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000210604\\25832.map.json": "d85e0a079f3ad47f13e9fe5947178eaad0869e0c6e34f9a052ac9d9503c12ff3",
+    "outputs\\cross_attribution_generalization\\refcocog\\GE\\predictions\\000000210604\\25832.npz": "183cfd5bdff47045c5f4a744f1b7a051c413899ae69e08cbcf5bdc543d4d3acb"
+  }
+}

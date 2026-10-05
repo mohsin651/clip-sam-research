@@ -1,0 +1,139 @@
+{
+  "image_id": 111998,
+  "sent_id": 114204,
+  "expression": "person in trenchcoat",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000111998.jpg",
+  "geometry": {
+    "width": 480,
+    "height": 640,
+    "rw": 224,
+    "rh": 298,
+    "left": 0,
+    "top": 37
+  },
+  "image_sha256": "32fcb1ac322067f9e54ecef867ae7a874c392c481a758c341aa68357235950bb",
+  "naive_candidate": 1,
+  "smart_candidate": 2,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.2898552863482648,
+      "density_outside": 0.19583551709630848,
+      "density_ratio": 1.480095595755692,
+      "log_density_ratio": 0.3921066774203368,
+      "coverage": 0.23793675025267869,
+      "area_fraction": 0.17420247395833333,
+      "sam_score": 0.8419772386550903,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.2535536785283595,
+      "agreement_min": 0.2231816486385677,
+      "agreement_max": 0.28392570841815135,
+      "spread_mean": 0.15562348665269937,
+      "spread_max": 0.22895695903136987,
+      "entropy": 0.9898158140446406,
+      "top10_mass": 0.2306676180540399,
+      "score_margin": 0.016531169414520264
+    },
+    {
+      "density_inside": 0.4904617281552907,
+      "density_outside": 0.1951438103414175,
+      "density_ratio": 2.513334792913395,
+      "log_density_ratio": 0.9216104740883978,
+      "coverage": 0.13359170394920894,
+      "area_fraction": 0.057802734375,
+      "sam_score": 0.9203494191169739,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.48122344731019545,
+      "agreement_min": 0.28392570841815135,
+      "agreement_max": 0.6785211862022396,
+      "spread_mean": 0.15562348665269937,
+      "spread_max": 0.22895695903136987,
+      "entropy": 0.9898158140446406,
+      "top10_mass": 0.2306676180540399,
+      "score_margin": 0.016531169414520264
+    },
+    {
+      "density_inside": 0.5847387518239997,
+      "density_outside": 0.1969761343941784,
+      "density_ratio": 2.968576643152527,
+      "log_density_ratio": 1.0880825932120703,
+      "coverage": 0.10827940824730035,
+      "area_fraction": 0.039296875,
+      "sam_score": 0.9038182497024536,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.45085141742040363,
+      "agreement_min": 0.2231816486385677,
+      "agreement_max": 0.6785211862022396,
+      "spread_mean": 0.15562348665269937,
+      "spread_max": 0.22895695903136987,
+      "entropy": 0.9898158140446406,
+      "top10_mass": 0.2306676180540399,
+      "score_margin": 0.016531169414520264
+    }
+  ],
+  "rank_scores": [
+    -2.8987584505215276,
+    -2.0434383398116713,
+    -2.039642995018404
+  ],
+  "points": [
+    [
+      472.0,
+      468.76174496644296
+    ],
+    [
+      442.0,
+      531.0436241610738
+    ],
+    [
+      457.0,
+      348.49328859060404
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 480,
+      "height": 640,
+      "rw": 224,
+      "rh": 298,
+      "left": 0,
+      "top": 37
+    },
+    "crop_points": [
+      [
+        220.0,
+        181.0
+      ],
+      [
+        206.0,
+        210.0
+      ],
+      [
+        213.0,
+        125.0
+      ]
+    ],
+    "crop_box": [
+      4,
+      73,
+      224,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000111998\\114204.map.npz": "072639c15642892b15f8143aab783768731fe0110a0738dadd2d85399f3de240",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000111998\\114204.map.json": "ded592a5cccb40ed892cde8ccc193e5cb0c6de3a5eeba874063700bdd84a18d8",
+    "outputs\\cross_attribution_generalization\\refcocoplus\\CS\\predictions\\000000111998\\114204.npz": "d88577cac289ef8d1debf88aca2328c84b3beee1dc83c2e5314640e29d409f97"
+  }
+}

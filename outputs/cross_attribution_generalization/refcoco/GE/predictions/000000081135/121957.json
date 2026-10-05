@@ -1,0 +1,139 @@
+{
+  "image_id": 81135,
+  "sent_id": 121957,
+  "expression": "person in black jacket holding red umbrella",
+  "image_path": "data\\refcoco\\images\\COCO_train2014_000000081135.jpg",
+  "geometry": {
+    "width": 640,
+    "height": 480,
+    "rw": 298,
+    "rh": 224,
+    "left": 37,
+    "top": 0
+  },
+  "image_sha256": "ebb847796f4b25685aeae995b08eafa6fa9c9c58ff6d07684b2f4ea7aa9c209f",
+  "naive_candidate": 1,
+  "smart_candidate": 1,
+  "final_use_sam": true,
+  "features": [
+    {
+      "density_inside": 0.025116235723258228,
+      "density_outside": 0.0038694937899236333,
+      "density_ratio": 6.490832413834441,
+      "log_density_ratio": 1.870390783522515,
+      "coverage": 0.6443114663189267,
+      "area_fraction": 0.21818684895833335,
+      "sam_score": 0.9112958908081055,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.277848467611872,
+      "agreement_min": 0.25219459205543,
+      "agreement_max": 0.3035023431683139,
+      "spread_mean": 0.3246220436273212,
+      "spread_max": 0.44026845637583906,
+      "entropy": 0.9163475400755436,
+      "top10_mass": 0.5164901867292443,
+      "score_margin": 0.0459098219871521
+    },
+    {
+      "density_inside": 0.05268458963072321,
+      "density_outside": 0.005054055342123072,
+      "density_ratio": 10.424220958009457,
+      "log_density_ratio": 2.344132036663058,
+      "coverage": 0.4488288648588164,
+      "area_fraction": 0.07245768229166667,
+      "sam_score": 0.9734216332435608,
+      "points_inside": 3,
+      "points_fraction": 1.0,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5579844035641248,
+      "agreement_min": 0.3035023431683139,
+      "agreement_max": 0.8124664639599356,
+      "spread_mean": 0.3246220436273212,
+      "spread_max": 0.44026845637583906,
+      "entropy": 0.9163475400755436,
+      "top10_mass": 0.5164901867292443,
+      "score_margin": 0.0459098219871521
+    },
+    {
+      "density_inside": 0.05558391215571453,
+      "density_outside": 0.005527447846965389,
+      "density_ratio": 10.05598129273613,
+      "log_density_ratio": 2.308167610995548,
+      "coverage": 0.38877472624728593,
+      "area_fraction": 0.059488932291666664,
+      "sam_score": 0.9275118112564087,
+      "points_inside": 2,
+      "points_fraction": 0.6666666666666666,
+      "top1_inside": 1.0,
+      "agreement_mean": 0.5323305280076828,
+      "agreement_min": 0.25219459205543,
+      "agreement_max": 0.8124664639599356,
+      "spread_mean": 0.3246220436273212,
+      "spread_max": 0.44026845637583906,
+      "entropy": 0.9163475400755436,
+      "top10_mass": 0.5164901867292443,
+      "score_margin": 0.0459098219871521
+    }
+  ],
+  "rank_scores": [
+    1.7426257232568414,
+    2.040316775392717,
+    1.5192545715914278
+  ],
+  "points": [
+    [
+      183.1241610738255,
+      311.2857142857143
+    ],
+    [
+      535.3389261744967,
+      311.2857142857143
+    ],
+    [
+      440.8422818791946,
+      199.85714285714286
+    ]
+  ],
+  "positive_info": {
+    "geometry": {
+      "width": 640,
+      "height": 480,
+      "rw": 298,
+      "rh": 224,
+      "left": 37,
+      "top": 0
+    },
+    "crop_points": [
+      [
+        48.0,
+        145.0
+      ],
+      [
+        212.0,
+        145.0
+      ],
+      [
+        168.0,
+        93.0
+      ]
+    ],
+    "crop_box": [
+      0,
+      66,
+      189,
+      224
+    ],
+    "degenerate_attribution": false,
+    "positive_point_count": 3
+  },
+  "zero_map": false,
+  "constant_map": false,
+  "empty_candidates": 0,
+  "array_hashes": {
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000081135\\121957.map.npz": "f71cc41c3bedfa8b569d5b74609a4dab12a663fbc871820746cd9f5a320ff93b",
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000081135\\121957.map.json": "4e21d41c612af17a779885f7cc67c4cd37b134c236fcec09cb3de12af0be1bf4",
+    "outputs\\cross_attribution_generalization\\refcoco\\GE\\predictions\\000000081135\\121957.npz": "7a9870db55ffbddaafebf6e347fa2b0682e1aa19b99b01599623c623ad125efa"
+  }
+}
