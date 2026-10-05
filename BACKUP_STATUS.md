@@ -1,6 +1,8 @@
-# Research backup status
+﻿# Research backup status
 
 ## October 5, 2026 update
+
+The new backup is now COMPLETE: all seven archives passed full per-file SHA256 readback verification. Their manifests cover 247,828 archived files. Archive hashes and sizes are retained in backup_manifests/cross_attribution_2026-10-05.json; the older archive inventory is in backup_manifests/outputs_2026-10-01.json. Raw archives remain local at the two directories described below. A subsequent authenticated-upload attempt still returned GitHub CLI HTTP 401 and missing Git HTTPS credentials; no upload is confirmed.
 
 All six CS/GE RefCOCO, RefCOCO+ and RefCOCOg inference cells and their saved-prediction evaluations are complete. New full-precision metrics, prediction metadata, evaluation audits, scripts and continuity notes are being committed locally for the explicitly requested GitHub backup.
 
