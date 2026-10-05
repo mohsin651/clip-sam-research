@@ -2,6 +2,8 @@
 
 ## October 5, 2026 update
 
+GitHub authentication was subsequently restored. main was successfully pushed and verified at 45be53695ebeee535fc0f414262791fcbae6e73b. All research records from the earlier b418a6a4 snapshot and the six completed cross-attribution cells are now on the remote. Raw archive upload is in progress in a background job, not yet confirmed complete. Release tags are research-output-backup-2026-10-01 and research-output-backup-2026-10-05 in mohsin651/clip-sam-research. Local progress is in C:/CREMI/trdp/research-backup-upload.log; each archive directory receives UPLOAD_STATUS.json with uploaded asset sizes and complete/failed status. The uploader verifies remote asset byte counts; the local backup manifests retain SHA256 hashes for restoration verification. The earlier authentication failures below are historical.
+
 The new backup is now COMPLETE: all seven archives passed full per-file SHA256 readback verification. Their manifests cover 247,828 archived files. Archive hashes and sizes are retained in backup_manifests/cross_attribution_2026-10-05.json; the older archive inventory is in backup_manifests/outputs_2026-10-01.json. Raw archives remain local at the two directories described below. A subsequent authenticated-upload attempt still returned GitHub CLI HTTP 401 and missing Git HTTPS credentials; no upload is confirmed.
 
 All six CS/GE RefCOCO, RefCOCO+ and RefCOCOg inference cells and their saved-prediction evaluations are complete. New full-precision metrics, prediction metadata, evaluation audits, scripts and continuity notes are being committed locally for the explicitly requested GitHub backup.
